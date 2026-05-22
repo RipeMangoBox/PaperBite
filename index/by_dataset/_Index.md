@@ -1,0 +1,71 @@
+---
+title: "Dataset Index"
+type: paper-index
+dimension: dataset
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Dataset Index
+
+Only values linked to at least 2 papers are listed here.
+
+- [[obsidian-vault/index/by_dataset/ADE20k.md|ADE20k]] (2)
+- [[obsidian-vault/index/by_dataset/AIME 2024.md|AIME 2024]] (4)
+- [[obsidian-vault/index/by_dataset/AIME 2025.md|AIME 2025]] (4)
+- [[obsidian-vault/index/by_dataset/AIME24.md|AIME24]] (5)
+- [[obsidian-vault/index/by_dataset/AIME25.md|AIME25]] (3)
+- [[obsidian-vault/index/by_dataset/Amazon.md|Amazon]] (2)
+- [[obsidian-vault/index/by_dataset/ARC.md|ARC]] (2)
+- [[obsidian-vault/index/by_dataset/CelebA-HQ.md|CelebA-HQ]] (3)
+- [[obsidian-vault/index/by_dataset/CIFAR-10.md|CIFAR-10]] (14)
+- [[obsidian-vault/index/by_dataset/CIFAR-100.md|CIFAR-100]] (9)
+- [[obsidian-vault/index/by_dataset/Cora.md|Cora]] (3)
+- [[obsidian-vault/index/by_dataset/ETTh1.md|ETTh1]] (2)
+- [[obsidian-vault/index/by_dataset/FMNIST.md|FMNIST]] (2)
+- [[obsidian-vault/index/by_dataset/GenEval.md|GenEval]] (3)
+- [[obsidian-vault/index/by_dataset/GPQA.md|GPQA]] (4)
+- [[obsidian-vault/index/by_dataset/GSM8K.md|GSM8K]] (15)
+- [[obsidian-vault/index/by_dataset/Hopper-v4.md|Hopper-v4]] (2)
+- [[obsidian-vault/index/by_dataset/HotpotQA.md|HotpotQA]] (4)
+- [[obsidian-vault/index/by_dataset/HPSv2.1.md|HPSv2.1]] (2)
+- [[obsidian-vault/index/by_dataset/HumanEval.md|HumanEval]] (3)
+- [[obsidian-vault/index/by_dataset/IHDP.md|IHDP]] (2)
+- [[obsidian-vault/index/by_dataset/ImageNet.md|ImageNet]] (8)
+- [[obsidian-vault/index/by_dataset/ImageNet 256×256.md|ImageNet 256×256]] (4)
+- [[obsidian-vault/index/by_dataset/ImageNet-1K.md|ImageNet-1K]] (3)
+- [[obsidian-vault/index/by_dataset/ImageNet-1K 256×256.md|ImageNet-1K 256×256]] (2)
+- [[obsidian-vault/index/by_dataset/LIBERO.md|LIBERO]] (3)
+- [[obsidian-vault/index/by_dataset/MATH.md|MATH]] (3)
+- [[obsidian-vault/index/by_dataset/MATH500.md|MATH500]] (3)
+- [[obsidian-vault/index/by_dataset/MME.md|MME]] (2)
+- [[obsidian-vault/index/by_dataset/MMLU.md|MMLU]] (2)
+- [[obsidian-vault/index/by_dataset/MMLU-pro.md|MMLU-pro]] (2)
+- [[obsidian-vault/index/by_dataset/MMMU.md|MMMU]] (2)
+- [[obsidian-vault/index/by_dataset/MMMU-Pro.md|MMMU-Pro]] (2)
+- [[obsidian-vault/index/by_dataset/MNIST.md|MNIST]] (4)
+- [[obsidian-vault/index/by_dataset/ModelNet40.md|ModelNet40]] (3)
+- [[obsidian-vault/index/by_dataset/MT-Bench.md|MT-Bench]] (3)
+- [[obsidian-vault/index/by_dataset/nuScenes.md|nuScenes]] (2)
+- [[obsidian-vault/index/by_dataset/NYUv2.md|NYUv2]] (3)
+- [[obsidian-vault/index/by_dataset/ogbn-arxiv.md|ogbn-arxiv]] (2)
+- [[obsidian-vault/index/by_dataset/Overall.md|Overall]] (2)
+- [[obsidian-vault/index/by_dataset/Planar.md|Planar]] (2)
+- [[obsidian-vault/index/by_dataset/POPE.md|POPE]] (2)
+- [[obsidian-vault/index/by_dataset/QM9.md|QM9]] (3)
+- [[obsidian-vault/index/by_dataset/RealEstate10K.md|RealEstate10K]] (3)
+- [[obsidian-vault/index/by_dataset/Reddit.md|Reddit]] (2)
+- [[obsidian-vault/index/by_dataset/S3DIS.md|S3DIS]] (2)
+- [[obsidian-vault/index/by_dataset/ScanNet++.md|ScanNet++]] (2)
+- [[obsidian-vault/index/by_dataset/ScanObjectNN.md|ScanObjectNN]] (2)
+- [[obsidian-vault/index/by_dataset/SST-2.md|SST-2]] (2)
+- [[obsidian-vault/index/by_dataset/SVHN.md|SVHN]] (2)
+- [[obsidian-vault/index/by_dataset/Tiny-ImageNet.md|Tiny-ImageNet]] (3)
+- [[obsidian-vault/index/by_dataset/TriviaQA.md|TriviaQA]] (4)
+- [[obsidian-vault/index/by_dataset/VideoMME.md|VideoMME]] (2)
+- [[obsidian-vault/index/by_dataset/WebArena.md|WebArena]] (3)
+- [[obsidian-vault/index/by_dataset/WikiText.md|WikiText]] (2)
+- [[obsidian-vault/index/by_dataset/WikiText-2.md|WikiText-2]] (2)
+- [[obsidian-vault/index/by_dataset/合成数据.md|合成数据]] (4)
+- [[obsidian-vault/index/by_dataset/合成数据集.md|合成数据集]] (2)

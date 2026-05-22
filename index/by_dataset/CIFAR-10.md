@@ -1,0 +1,95 @@
+---
+title: "Dataset: CIFAR-10"
+type: paper-index
+dimension: dataset
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Dataset: CIFAR-10
+
+- [[obsidian-vault/analysis/ICLR_2026/Noisier_Noise_Contrastive_Estimation_is_Almost_Maximum_Likelihood.md|``Noisier'’ Noise Contrastive Estimation is (Almost) Maximum Likelihood (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Noisier_Noise_Contrastive_Estimation_is_Almost_Maximum_Likelihood.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, Representation / Self-Supervised / Transfer
+	- methods: Noisier Noise Contrastive Estimation (N²CE)
+	- datasets: SVHN, CelebA, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/A_Convergence_Analysis_of_Adaptive_Optimizers_under_Floating-point_Quantization.md|A Convergence Analysis of Adaptive Optimizers under Floating-point Quantization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Convergence_Analysis_of_Adaptive_Optimizers_under_Floating-point_Quantization.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, Systems / Efficiency / Compression
+	- methods: 量化自适应优化器分析框架（Quantized Adam & Quantized Muon）
+	- datasets: Rosenbrock函数, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/A_Federated_Generalized_Expectation-Maximization_Algorithm_for_Mixture_Models_with_an_Unknown_Number_of_Components.md|A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Federated_Generalized_Expectation-Maximization_Algorithm_for_Mixture_Models_with_an_Unknown_Number_of_Components.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: FedGEM
+	- datasets: MNIST, FMNIST, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/A_Law_of_Data_Reconstruction_for_Random_Features_And_Beyond.md|A Law of Data Reconstruction for Random Features (And Beyond) (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Law_of_Data_Reconstruction_for_Random_Features_And_Beyond.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 基于子空间投影的数据重建算法
+	- datasets: CIFAR-10, 合成数据, Tiny-ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/A_Physics-Inspired_Optimizer_Velocity_Regularized_Adam.md|A Physics-Inspired Optimizer: Velocity Regularized Adam (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Physics-Inspired_Optimizer_Velocity_Regularized_Adam.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory
+	- methods: Velocity-Regularized Adam (VRAdam)
+	- datasets: WikiText-2, CIFAR-10, GridWorld Flow Matching
+- [[obsidian-vault/analysis/ICLR_2026/A_Unified_Total_Variation_Framework_for_Membrane_Potential_Perturbation_Dynamic.md|A Unified Total Variation Framework for Membrane Potential Perturbation Dynamic (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Unified_Total_Variation_Framework_for_Membrane_Potential_Perturbation_Dynamic.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: MPPD-TV-ℓ₁
+	- datasets: CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Conformal_Guidance_for_Learning_under_Uncertainty.md|Adaptive Conformal Guidance for Learning under Uncertainty (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Conformal_Guidance_for_Learning_under_Uncertainty.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: Adaptive Conformal Guidance (AdaConG)
+	- datasets: CIFAR-100, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.md|AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow
+	- methods: AlignFlow
+	- datasets: CIFAR-10, ImageNet256
+- [[obsidian-vault/analysis/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.md|Antithetic Noise in Diffusion Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow
+	- methods: Antithetic Noise in Diffusion Models
+	- datasets: CIFAR-10, CelebA-HQ, DPS Inpainting
+- [[obsidian-vault/analysis/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.md|Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
+	- methods: Structured Temporal Orthogonal Decorrelation (STOD)
+	- datasets: CIFAR-10, CIFAR-100, ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.md|FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
+	- methods: FedDAG
+	- datasets: CIFAR-10, FMNIST
+- [[obsidian-vault/analysis/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.md|Light Differentiable Logic Gate Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Input-wise parametrization (IWP) of logic gate networks
+	- datasets: CIFAR-100, CIFAR-10, WMT'14 EN-DE
+- [[obsidian-vault/analysis/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.md|TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: TriQDef
+	- datasets: CIFAR-10, ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.md|When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: BAIT (Binding Artificial perturbations to Incorrect Targets)
+	- datasets: CIFAR-10, CIFAR-100, SVHN

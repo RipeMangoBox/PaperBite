@@ -1,0 +1,399 @@
+---
+title: "Method: Agent / RL / Planning"
+type: paper-index
+dimension: method
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Method: Agent / RL / Planning
+
+- [[obsidian-vault/analysis/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.md|$\\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Re² (Reinforcement Learning with Re-solving)
+	- datasets: AIME 2024, AIME 2025, AMC 2023
+- [[obsidian-vault/analysis/ICLR_2026/AutoDrivetext-P3_Unified_Chain_of_PerceptionPredictionPlanning_Thought_via_Reinforcement_Fine-Tuning.md|$AutoDrive\\text{-}P^3$: Unified Chain of Perception–Prediction–Planning Thought via Reinforcement Fine-Tuning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AutoDrivetext-P3_Unified_Chain_of_PerceptionPredictionPlanning_Thought_via_Reinforcement_Fine-Tuning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: AutoDrive-P³
+	- datasets: nuScenes, NAVSIMv1, NAVSIMv2
+- [[obsidian-vault/analysis/ICLR_2026/3D-aware_Disentangled_Representation_for_Compositional_Reinforcement_Learning.md|3D-aware Disentangled Representation for Compositional Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/3D-aware_Disentangled_Representation_for_Compositional_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: 3D block-slot representation with block transformer policy
+	- datasets: Clevr3D, IsaacGym3D
+- [[obsidian-vault/analysis/ICLR_2026/A_New_Approach_to_Controlling_Linear_Dynamical_Systems.md|A New Approach to Controlling Linear Dynamical Systems (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_New_Approach_to_Controlling_Linear_Dynamical_Systems.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: Online Spectral Control (OSC)
+	- datasets: 线性动力系统, 非线性动力系统
+- [[obsidian-vault/analysis/ICLR_2026/A_Primer_on_SO3_Action_Representations_in_Deep_Reinforcement_Learning.md|A Primer on SO(3) Action Representations in Deep Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Primer_on_SO3_Action_Representations_in_Deep_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
+	- methods: 局部切空间增量动作表示（Local Tangent Vector Delta Action Representation）
+	- datasets: Idealized Rotation Environment
+- [[obsidian-vault/analysis/ICLR_2026/A_Reward-Free_Viewpoint_on_Multi-Objective_Reinforcement_Learning.md|A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Reward-Free_Viewpoint_on_Multi-Objective_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: MORL-FB (Forward-Backward Multi-Objective Reinforcement Learning)
+	- datasets: HalfCheetah2d, Hopper3d, Ant3d
+- [[obsidian-vault/analysis/ICLR_2026/A_Simple_Motivation_Can_Enhance_Reinforcement_Finetuning_of_Large_Reasoning_Models.md|A Simple "Motivation" Can Enhance Reinforcement Finetuning of Large Reasoning Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Simple_Motivation_Can_Enhance_Reinforcement_Finetuning_of_Large_Reasoning_Models.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Motivation-enhanced Reinforcement Finetuning (MeRF)
+	- datasets: K&K Logic Puzzles
+- [[obsidian-vault/analysis/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.md|A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
+	- methods: ProActive Self-Refinement (PASR)
+	- datasets: GSM8K, MATH, AIME24
+- [[obsidian-vault/analysis/ICLR_2026/A_Unifying_View_of_Coverage_in_Linear_Off-policy_Evaluation.md|A Unifying View of Coverage in Linear Off-policy Evaluation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Unifying_View_of_Coverage_in_Linear_Off-policy_Evaluation.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: 基于特征动态覆盖率的LSTDQ分析
+- [[obsidian-vault/analysis/ICLR_2026/A2FM_An_Adaptive_Agent_Foundation_Model_for_Tool-Aware_Hybrid_Reasoning.md|A$^2$FM: An Adaptive Agent Foundation Model for Tool-Aware Hybrid Reasoning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A2FM_An_Adaptive_Agent_Foundation_Model_for_Tool-Aware_Hybrid_Reasoning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: Adaptive Agent Foundation Model (A²FM)
+- [[obsidian-vault/analysis/ICLR_2026/A2Search_Ambiguity-Aware_Question_Answering_with_Reinforcement_Learning.md|A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A2Search_Ambiguity-Aware_Question_Answering_with_Reinforcement_Learning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: A2SEARCH
+	- datasets: Macro Avg, HotpotQA, NQ
+- [[obsidian-vault/analysis/ICLR_2026/A2ASecBench_A_Protocol-Aware_Security_Benchmark_for_Agent-to-Agent_Multi-Agent_Systems.md|A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A2ASecBench_A_Protocol-Aware_Security_Benchmark_for_Agent-to-Agent_Multi-Agent_Systems.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, Agent / RL / Planning
+	- methods: A2ASecBench
+	- datasets: A2A-MAS
+- [[obsidian-vault/analysis/ICLR_2026/Abstracting_Robot_Manipulation_Skills_via_Mixture-of-Experts_Diffusion_Policies.md|Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Abstracting_Robot_Manipulation_Skills_via_Mixture-of-Experts_Diffusion_Policies.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: SMP (Skill Mixture-of-Experts Policy)
+	- datasets: RoboTwin-2, RLBench-2, Few-shot transfer learning
+- [[obsidian-vault/analysis/ICLR_2026/AbstRaL_Augmenting_LLMs_Reasoning_by_Reinforcing_Abstract_Thinking.md|AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AbstRaL_Augmenting_LLMs_Reasoning_by_Reinforcing_Abstract_Thinking.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: AbstRaL
+	- datasets: GSM-Symbolic, GSM-Plus, MATH
+- [[obsidian-vault/analysis/ICLR_2026/Accelerated_Learning_with_Linear_Temporal_Logic_using_Differentiable_Simulation.md|Accelerated Learning with Linear Temporal Logic using Differentiable Simulation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Accelerated_Learning_with_Linear_Temporal_Logic_using_Differentiable_Simulation.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: Differentiable Reinforcement Learning with LTL (∂RLs)
+	- datasets: Hopper, Cheetah
+- [[obsidian-vault/analysis/ICLR_2026/Accelerating_Diffusion_Planners_in_Offline_RL_via_Reward-Aware_Consistency_Trajectory_Distillation.md|Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Accelerating_Diffusion_Planners_in_Offline_RL_via_Reward-Aware_Consistency_Trajectory_Distillation.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: Reward-Aware Consistency Trajectory Distillation (RACTD)
+	- datasets: D4RL Gym-MuJoCo, D4RL FrankaKitchen, Maze2d
+- [[obsidian-vault/analysis/ICLR_2026/AceReason-Nemotron_1.1_Advancing_Math_and_Code_Reasoning_through_SFT_and_RL_Synergy.md|AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AceReason-Nemotron_1.1_Advancing_Math_and_Code_Reasoning_through_SFT_and_RL_Synergy.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: AceReason-Nemotron-1.1 训练方案
+	- datasets: AIME 2024, AIME 2025, LiveCodeBench v5
+- [[obsidian-vault/analysis/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.md|Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: InternGeometry
+	- datasets: IMO 50
+- [[obsidian-vault/analysis/ICLR_2026/ACPBench_Hard_Unrestrained_Reasoning_about_Action_Change_and_Planning.md|ACPBench Hard: Unrestrained Reasoning about Action, Change, and Planning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ACPBench_Hard_Unrestrained_Reasoning_about_Action_Change_and_Planning.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: ACPBench Hard 基准测试
+	- datasets: ACPBench Hard
+- [[obsidian-vault/analysis/ICLR_2026/Action_Chunking_and_Data_Augmentation_Yield_Exponential_Improvements_in_Behavior_Cloning_for_Continuous_Spaces.md|Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Action_Chunking_and_Data_Augmentation_Yield_Exponential_Improvements_in_Behavior_Cloning_for_Continuous_Spaces.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: 动作分块与探索性噪声注入（Action-Chunking & Noise-Injected Data Collection）
+	- datasets: Synthetic EISS dynamics, HalfCheetah-v5, Humanoid-v5
+- [[obsidian-vault/analysis/ICLR_2026/Action-Free_Offline-To-Online_RL_via_Discretised_State_Policies.md|Action-Free Offline-To-Online RL via Discretised State Policies (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Action-Free_Offline-To-Online_RL_via_Discretised_State_Policies.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: OSO-DecQN (Offline State-Only Decoupled Q-Network)
+	- datasets: Hopper-medium-replay, Walker2D-medium
+- [[obsidian-vault/analysis/ICLR_2026/Actions_as_Language_Fine-Tuning_VLMs_into_VLAs_Without_Catastrophic_Forgetting.md|Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Actions_as_Language_Fine-Tuning_VLMs_into_VLAs_Without_Catastrophic_Forgetting.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: VLM2VLA
+	- datasets: MMB-en, MMMU, Pick Up the Item Above Ash Ketchum
+- [[obsidian-vault/analysis/ICLR_2026/ActiveDPO_Active_Direct_Preference_Optimization_for_Sample-Efficient_Alignment.md|ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ActiveDPO_Active_Direct_Preference_Optimization_for_Sample-Efficient_Alignment.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: ActiveDPO
+	- datasets: TLDR summarization, WebGPT long-form QA
+- [[obsidian-vault/analysis/ICLR_2026/Ada-Diffuser_Latent-Aware_Adaptive_Diffusion_for_Decision-Making.md|Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Ada-Diffuser_Latent-Aware_Adaptive_Diffusion_for_Decision-Making.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: Ada-Diffuser
+	- datasets: Cheetah-Wind-E, Cheetah-Vel-E, Maze2D-Large
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Rollout_Allocation_for_Online_Reinforcement_Learning_with_Verifiable_Rewards.md|Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Rollout_Allocation_for_Online_Reinforcement_Learning_with_Verifiable_Rewards.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: VIP (Variance-Informed Predictive allocation strategy)
+	- datasets: AIME 2024, AIME 2025
+- [[obsidian-vault/analysis/ICLR_2026/Agentic_Reinforced_Policy_Optimization.md|Agentic Reinforced Policy Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Agentic_Reinforced_Policy_Optimization.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Agentic Reinforced Policy Optimization (ARPO)
+	- datasets: AIME24, AIME25, HLE
+- [[obsidian-vault/analysis/ICLR_2026/Agentic_Reinforcement_Learning_with_Implicit_Step_Rewards.md|Agentic Reinforcement Learning with Implicit Step Rewards (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Agentic_Reinforcement_Learning_with_Implicit_Step_Rewards.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: iStar (implicit step rewards for agentic RL)
+	- datasets: WebShop, VisualSokoban, SOTOPIA
+- [[obsidian-vault/analysis/ICLR_2026/AgentMath_Empowering_Mathematical_Reasoning_for_Large_Language_Models_via_Tool-Augmented_Agent.md|AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AgentMath_Empowering_Mathematical_Reasoning_for_Large_Language_Models_via_Tool-Augmented_Agent.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: AgentMath
+	- datasets: AIME24, AIME25, HMMT25
+- [[obsidian-vault/analysis/ICLR_2026/AMemGym_Interactive_Memory_Benchmarking_for_Assistants_in_Long-Horizon_Conversations.md|AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AMemGym_Interactive_Memory_Benchmarking_for_Assistants_in_Long-Horizon_Conversations.pdf|PDF]]
+	- topics: Benchmarks / Datasets / Evaluation
+	- method groups: Benchmark / Evaluation, Agent / RL / Planning
+	- methods: AMemGym
+	- datasets: AMemGym
+- [[obsidian-vault/analysis/ICLR_2026/AMPED_Adaptive_Multi-objective_Projection_for_balancing_Exploration_and_skill_Diversification.md|AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AMPED_Adaptive_Multi-objective_Projection_for_balancing_Exploration_and_skill_Diversification.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: AMPED (Adaptive Multi-objective Projection for balancing Exploration and skill Diversification)
+	- datasets: URLB
+- [[obsidian-vault/analysis/ICLR_2026/APPLE_Toward_General_Active_Perception_via_Reinforcement_Learning.md|APPLE: Toward General Active Perception via Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/APPLE_Toward_General_Active_Perception_via_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: APPLE (Active Perception Policy Learning)
+	- datasets: MHSB, CircleSquare, TactileMNIST
+- [[obsidian-vault/analysis/ICLR_2026/ARM-FM_Automated_Reward_Machines_via_Foundation_Models_for_Compositional_Reinforcement_Learning.md|ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ARM-FM_Automated_Reward_Machines_via_Foundation_Models_for_Compositional_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: ARM-FM (Automated Reward Machines via Foundation Models)
+	- datasets: MiniGrid-DoorKey, MiniGrid-UnlockToUnlock, MiniGrid-BlockedUnlockPickup
+- [[obsidian-vault/analysis/ICLR_2026/Asynchronous_Policy_Gradient_Aggregation_for_Efficient_Distributed_Reinforcement_Learning.md|Asynchronous Policy Gradient Aggregation for Efficient Distributed Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Asynchronous_Policy_Gradient_Aggregation_for_Efficient_Distributed_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: Rennala NIGT and Malenia NIGT
+	- datasets: Humanoid-v4, Reacher-v4, Walker2d-v4
+- [[obsidian-vault/analysis/ICLR_2026/ATLAS_Constraints-Aware_Multi-Agent_Collaboration_for_Real-World_Travel_Planning.md|ATLAS: Constraints-Aware Multi-Agent Collaboration for Real-World Travel Planning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ATLAS_Constraints-Aware_Multi-Agent_Collaboration_for_Real-World_Travel_Planning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: ATLAS (Agent-based Travel planning with Live Adaptive Search)
+	- datasets: TravelPlanner, Live Travel Planning, Flex-TravelPlanner
+- [[obsidian-vault/analysis/ICLR_2026/AutoQD_Automatic_Discovery_of_Diverse_Behaviors_with_Quality-Diversity_Optimization.md|AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AutoQD_Automatic_Discovery_of_Diverse_Behaviors_with_Quality-Diversity_Optimization.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: AutoQD
+	- datasets: Ant-v4, HalfCheetah-v4, Hopper-v4
+- [[obsidian-vault/analysis/ICLR_2026/BAPO_Stabilizing_Off-Policy_Reinforcement_Learning_for_LLMs_via_Balanced_Policy_Optimization_with_Adaptive_Clipping.md|BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/BAPO_Stabilizing_Off-Policy_Reinforcement_Learning_for_LLMs_via_Balanced_Policy_Optimization_with_Adaptive_Clipping.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: BAPO (Balanced Policy Optimization with Adaptive Clipping)
+	- datasets: AIME 2024, AIME 2025
+- [[obsidian-vault/analysis/ICLR_2026/Bayesian_Ensemble_for_Sequential_Decision-Making.md|Bayesian Ensemble for Sequential Decision-Making (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Bayesian_Ensemble_for_Sequential_Decision-Making.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: Bayesian Ensemble (BE)
+	- datasets: Neural Testbed d=2, Neural Testbed d=10, Neural Testbed d=50
+- [[obsidian-vault/analysis/ICLR_2026/Breaking_Safety_Paradox_with_Feasible_Dual_Policy_Iteration.md|Breaking Safety Paradox with Feasible Dual Policy Iteration (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Breaking_Safety_Paradox_with_Feasible_Dual_Policy_Iteration.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Safety / Privacy / Robustness
+	- methods: Feasible Dual Policy Iteration (FDPI)
+	- datasets: Safety-Gymnasium
+- [[obsidian-vault/analysis/ICLR_2026/Dynamic_Multi-sample_Mixup_with_Gradient_Exploration_for_Open-set_Graph_Anomaly_Detection.md|Dynamic Multi-sample Mixup with Gradient Exploration for Open-set Graph Anomaly Detection (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Dynamic_Multi-sample_Mixup_with_Gradient_Exploration_for_Open-set_Graph_Anomaly_Detection.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Agent / RL / Planning
+	- methods: DEMO
+	- datasets: Photo, Yelp, ogbn-arxiv
+- [[obsidian-vault/analysis/ICLR_2026/EUBRL_Epistemic_Uncertainty_Directed_Bayesian_Reinforcement_Learning.md|EUBRL: Epistemic Uncertainty Directed Bayesian Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/EUBRL_Epistemic_Uncertainty_Directed_Bayesian_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Safety / Privacy / Robustness
+	- methods: EUBRL
+	- datasets: Chain, Loop
+- [[obsidian-vault/analysis/ICLR_2026/Hybrid_Training_for_Vision-Language-Action_Models.md|Hybrid Training for Vision-Language-Action Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Hybrid_Training_for_Vision-Language-Action_Models.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: Hybrid Training (HyT)
+	- datasets: ClevrSkills, LIBERO, Real-world
+- [[obsidian-vault/analysis/ICLR_2026/In-the-Flow_Agentic_System_Optimization_for_Effective_Planning_and_Tool_Use.md|In-the-Flow Agentic System Optimization for Effective Planning and Tool Use (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/In-the-Flow_Agentic_System_Optimization_for_Effective_Planning_and_Tool_Use.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: AGENTFLOW
+	- datasets: Search-intensive avg., Agentic, Math Reasoning avg.
+- [[obsidian-vault/analysis/ICLR_2026/Keep_the_Best_Forget_the_Rest_Reliable_Alignment_with_Order-Aware_Preference_Optimization.md|Keep the Best, Forget the Rest: Reliable Alignment with Order-Aware Preference Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Keep_the_Best_Forget_the_Rest_Reliable_Alignment_with_Order-Aware_Preference_Optimization.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: RAPPO
+	- datasets: IMDB Sentiment Control, Real-Toxicity-Prompts, Text Summarization
+- [[obsidian-vault/analysis/ICLR_2026/MATH-Beyond_A_Benchmark_for_RL_to_Expand_Beyond_the_Base_Model.md|MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/MATH-Beyond_A_Benchmark_for_RL_to_Expand_Beyond_the_Base_Model.pdf|PDF]]
+	- topics: Benchmarks / Datasets / Evaluation
+	- method groups: Benchmark / Evaluation, Agent / RL / Planning
+	- methods: MATH-Beyond（MATH-B）基准构建与评估框架
+	- datasets: MATH-B-U
+- [[obsidian-vault/analysis/ICLR_2026/Multi-objective_Large_Language_Model_Alignment_with_Hierarchical_Experts.md|Multi-objective Large Language Model Alignment with Hierarchical Experts (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Multi-objective_Large_Language_Model_Alignment_with_Hierarchical_Experts.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: HoE (Hierarchical Mixture-of-Experts)
+	- datasets: HelpAssistant / Reddit Summary / BeaverTails, Psoups & HelpSteer2, HelpSteer
+- [[obsidian-vault/analysis/ICLR_2026/OpenFly_A_COMPREHENSIVE_PLATFORM_FOR_AERIAL_VISION-LANGUAGE_NAVIGATION.md|OpenFly: A COMPREHENSIVE PLATFORM FOR AERIAL VISION-LANGUAGE NAVIGATION (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/OpenFly_A_COMPREHENSIVE_PLATFORM_FOR_AERIAL_VISION-LANGUAGE_NAVIGATION.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: OpenFly-Agent
+	- datasets: OpenFly Test Seen, OpenFly Test Unseen
+- [[obsidian-vault/analysis/ICLR_2026/Opponent_Shaping_in_LLM_Agents.md|Opponent Shaping in LLM Agents (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Opponent_Shaping_in_LLM_Agents.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: ShapeLLM
+	- datasets: IPD, IMP, ICG
+- [[obsidian-vault/analysis/ICLR_2026/PixelVLA_Advancing_Pixel-level_Understanding_in_Vision-Language-Action_Model.md|PixelVLA: Advancing Pixel-level Understanding in Vision-Language-Action Model (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PixelVLA_Advancing_Pixel-level_Understanding_in_Vision-Language-Action_Model.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: PixelVLA
+	- datasets: SimplerEnv Google Robot, SimplerEnv WidowX
+- [[obsidian-vault/analysis/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.md|Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: ExGRPO (Explanatory GRPO)
+	- datasets: 同上数据集
+- [[obsidian-vault/analysis/ICLR_2026/ProofOptimizer_Training_Language_Models_to_Simplify_Proofs_without_Human_Demonstrations.md|ProofOptimizer: Training Language Models to Simplify Proofs without Human Demonstrations (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ProofOptimizer_Training_Language_Models_to_Simplify_Proofs_without_Human_Demonstrations.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: ProofOptimizer
+	- datasets: miniF2F, PutnamBench
+- [[obsidian-vault/analysis/ICLR_2026/Q-RAG_Long_Context_MultiStep_Retrieval_via_ValueBased_Embedder_Training.md|Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Q-RAG_Long_Context_MultiStep_Retrieval_via_ValueBased_Embedder_Training.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: Q‑RAG
+	- datasets: BabiLong QA3, RULER NIAH Avg, HotPotQA
+- [[obsidian-vault/analysis/ICLR_2026/QeRL_Beyond_Efficiency_-_Quantization-enhanced_Reinforcement_Learning_for_LLMs.md|QeRL: Beyond Efficiency - Quantization-enhanced Reinforcement Learning for LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/QeRL_Beyond_Efficiency_-_Quantization-enhanced_Reinforcement_Learning_for_LLMs.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
+	- methods: QeRL
+	- datasets: GSM8K, MATH500, Average over 4 math benchmarks on Qwen2.5-7B
+- [[obsidian-vault/analysis/ICLR_2026/Reevaluating_Policy_Gradient_Methods_for_Imperfect-Information_Games.md|Reevaluating Policy Gradient Methods for Imperfect-Information Games (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Reevaluating_Policy_Gradient_Methods_for_Imperfect-Information_Games.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: Properly Tuned Generic Policy Gradient Methods (PPO, PPG, MMD)
+	- datasets: Phantom Tic-Tac-Toe, Abrupt Dark Hex 3, Head-to-head across all five games
+- [[obsidian-vault/analysis/ICLR_2026/Relative_Value_Learning.md|Relative Value Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Relative_Value_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning
+	- methods: Relative Value Learning (RV)
+	- datasets: Atari 49 ALE games, Atari 49 ALE aggregate metrics
+- [[obsidian-vault/analysis/ICLR_2026/Revisual-R1_Advancing_Multimodal_Reasoning_From_Optimized_Cold_Start_to_Staged_Reinforcement_Learning.md|Revisual-R1: Advancing Multimodal Reasoning From Optimized Cold Start to Staged Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Revisual-R1_Advancing_Multimodal_Reasoning_From_Optimized_Cold_Start_to_Staged_Reinforcement_Learning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
+	- methods: ReVisual-R1
+	- datasets: AIME24, 综合平均, 通用文本与多模态基准平均
+- [[obsidian-vault/analysis/ICLR_2026/Riemannian_Federated_Learning_via_Averaging_Gradient_Streams.md|Riemannian Federated Learning via Averaging Gradient Streams (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Riemannian_Federated_Learning_via_Averaging_Gradient_Streams.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, Agent / RL / Planning
+	- methods: RFedAGS
+	- datasets: PCA, HSP, FMC
+- [[obsidian-vault/analysis/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.md|RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, Graph / Geometric / Structured Data
+	- methods: ZeroRepo
+	- datasets: RepoCraft
+- [[obsidian-vault/analysis/ICLR_2026/SciNav_A_General_Agent_Framework_for_Scientific_Coding_Tasks.md|SciNav: A General Agent Framework for Scientific Coding Tasks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/SciNav_A_General_Agent_Framework_for_Scientific_Coding_Tasks.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: SciNav (Scientific Navigator)
+	- datasets: ScienceAgentBench, DA-Code
+- [[obsidian-vault/analysis/ICLR_2026/Sparsity_Forcing_Reinforcing_Token_Sparsity_of_MLLMs.md|Sparsity Forcing: Reinforcing Token Sparsity of MLLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Sparsity_Forcing_Reinforcing_Token_Sparsity_of_MLLMs.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Systems / Efficiency / Compression, Agent / RL / Planning
+	- methods: Sparsity Forcing
+	- datasets: MME, VideoMME
+- [[obsidian-vault/analysis/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.md|T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
+	- methods: Tool-integrated Verification (T1)
+	- datasets: MATH500, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/Test-Time_Alignment_for_Large_Language_Models_via_Textual_Model_Predictive_Control.md|Test-Time Alignment for Large Language Models via Textual Model Predictive Control (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Test-Time_Alignment_for_Large_Language_Models_via_Textual_Model_Predictive_Control.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Textual Model Predictive Control (TMPC)
+	- datasets: WMT'24 Discourse-Level Literary Translation, MBPP Program Synthesis
+- [[obsidian-vault/analysis/ICLR_2026/Unified_Diffusion_VLA_Vision-Language-Action_Model_via_Joint_Discrete_Denosing_Diffusion_Process.md|Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denosing Diffusion Process (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Unified_Diffusion_VLA_Vision-Language-Action_Model_via_Joint_Discrete_Denosing_Diffusion_Process.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: UD-VLA (Unified Diffusion VLA)
+	- datasets: CALVIN ABCD→D, LIBERO, SimplerEnv-WidowX
+- [[obsidian-vault/analysis/ICLR_2026/Unsupervised_Learning_of_Efficient_Exploration_Pre-training_Adaptive_Policies_via_Self-Imposed_Goals.md|Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Unsupervised_Learning_of_Efficient_Exploration_Pre-training_Adaptive_Policies_via_Self-Imposed_Goals.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
+	- methods: ULEE (Unsupervised Learning of Efficient Exploration)
+	- datasets: XLand-MiniGrid 4Rooms-Small μ^eval, XLand-MiniGrid 4Rooms-Small
+- [[obsidian-vault/analysis/ICLR_2026/VLM4VLA_Revisiting_Vision-Language-Models_in_Vision-Language-Action_Models.md|VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/VLM4VLA_Revisiting_Vision-Language-Models_in_Vision-Language-Action_Models.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
+	- methods: VLM4VLA
+	- datasets: Calvin ABC-D, SimplerEnv-Bridge, Libero-10
+- [[obsidian-vault/analysis/ICLR_2026/WARC-Bench_Web_Archive_based_Benchmark_for_GUI_Subtask_Executions.md|WARC-Bench: Web Archive based Benchmark for GUI Subtask Executions (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/WARC-Bench_Web_Archive_based_Benchmark_for_GUI_Subtask_Executions.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Agent / RL / Planning, Benchmark / Evaluation
+	- methods: Subtask Vision Agent (SVA) with SFT+RLVR
+	- datasets: WARC-Bench Test, WARC-Bench Dev

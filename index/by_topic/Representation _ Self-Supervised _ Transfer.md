@@ -1,0 +1,269 @@
+---
+title: "Topic: Representation / Self-Supervised / Transfer"
+type: paper-index
+dimension: topic
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Topic: Representation / Self-Supervised / Transfer
+
+- [[obsidian-vault/analysis/ICLR_2026/boldsymbolpartialinfty-Grid_A_Neural_Differential_Equation_Solver_with_Differentiable_Feature_Grids.md|$\\boldsymbol{\\partial^\\infty}$-Grid: A Neural Differential Equation Solver with Differentiable Feature Grids (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/boldsymbolpartialinfty-Grid_A_Neural_Differential_Equation_Solver_with_Differentiable_Feature_Grids.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Optimization / Theory
+	- methods: ∂∞-Grid
+	- datasets: 泊松方程图像重建
+- [[obsidian-vault/analysis/ICLR_2026/ell_1_Latent_Distance_based_Continuous-time_Graph_Representation.md|$\ell_1$ Latent Distance based Continuous-time Graph Representation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ell_1_Latent_Distance_based_Continuous-time_Graph_Representation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Graph / Geometric / Structured Data
+	- methods: ℓ1LD-CTGR
+	- datasets: Synthetic-α, HyperText, Infectious
+- [[obsidian-vault/analysis/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.md|$p\\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: p-less sampling
+	- datasets: CSQA, GPQA, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/A_Federated_Generalized_Expectation-Maximization_Algorithm_for_Mixture_Models_with_an_Unknown_Number_of_Components.md|A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Federated_Generalized_Expectation-Maximization_Algorithm_for_Mixture_Models_with_an_Unknown_Number_of_Components.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: FedGEM
+	- datasets: MNIST, FMNIST, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/A_Generalized_Geometric_Theoretical_Framework_of_Centroid_Discriminant_Analysis_for_Linear_Classification_of_Multi-dimensional_Data.md|A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Generalized_Geometric_Theoretical_Framework_of_Centroid_Discriminant_Analysis_for_Linear_Classification_of_Multi-dimensional_Data.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Graph / Geometric / Structured Data
+	- methods: Centroid Discriminant Analysis (CDA)
+	- datasets: 大规模单细胞小鼠脑数据
+- [[obsidian-vault/analysis/ICLR_2026/A_Minimum_Variance_Path_Principle_for_Accurate_and_Stable_Score-Based_Density_Ratio_Estimation.md|A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Minimum_Variance_Path_Principle_for_Accurate_and_Stable_Score-Based_Density_Ratio_Estimation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Generative / Diffusion / Flow
+	- methods: MVP (Minimum Variance Path Principle for Score-Based Density Ratio Estimation)
+	- datasets: MI estimation, Density estimation on BSDS300 tabular data, Additive Noise MI estimation
+- [[obsidian-vault/analysis/ICLR_2026/A_Relative_Error-Based_Evaluation_Framework_of_Heterogeneous_Treatment_Effect_Estimators.md|A Relative Error-Based Evaluation Framework of Heterogeneous Treatment Effect Estimators (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Relative_Error-Based_Evaluation_Framework_of_Heterogeneous_Treatment_Effect_Estimators.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
+	- methods: 基于相对误差的鲁棒HTE评估框架（Robust Relative Error-based HTE Evaluation Framework）
+	- datasets: IHDP
+- [[obsidian-vault/analysis/ICLR_2026/A_Single_Architecture_for_Representing_Invariance_Under_Any_Space_Group.md|A Single Architecture for Representing Invariance Under Any Space Group (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Single_Architecture_for_Representing_Invariance_Under_Any_Space_Group.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Crystal Fourier Transformer (CFT)
+	- datasets: Materials Project
+- [[obsidian-vault/analysis/ICLR_2026/A_Statistical_Benchmark_for_Diffusion-Posterior-Sampling_Algorithms.md|A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Statistical_Benchmark_for_Diffusion-Posterior-Sampling_Algorithms.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
+	- methods: A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms
+	- datasets: Denoising, Deconvolution, Imputation
+- [[obsidian-vault/analysis/ICLR_2026/A_Study_on_PAVE_Specification_for_Learnware.md|A Study on PAVE Specification for Learnware (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Study_on_PAVE_Specification_for_Learnware.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Optimization / Theory
+	- methods: Parameter Vector (PAVE) Specification
+	- datasets: NLP Datasets, Computer Vision Datasets, Medical LLM Benchmarks
+- [[obsidian-vault/analysis/ICLR_2026/A_Unified_Federated_Framework_for_Trajectory_Data_Preparation_via_LLMs.md|A Unified Federated Framework for Trajectory Data Preparation via LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Unified_Federated_Framework_for_Trajectory_Data_Preparation_via_LLMs.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: FedTDP
+	- datasets: GeoLife 异常检测, GeoLife 轨迹补全, 多任务平均
+- [[obsidian-vault/analysis/ICLR_2026/ABBA-Adapters_Efficient_and_Expressive_Fine-Tuning_of_Foundation_Models.md|ABBA-Adapters: Efficient and Expressive Fine-Tuning of Foundation Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ABBA-Adapters_Efficient_and_Expressive_Fine-Tuning_of_Foundation_Models.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Systems / Efficiency / Compression
+	- methods: ABBA-Adapters
+	- datasets: COMMONSENSE170K, GSM8K, MATH
+- [[obsidian-vault/analysis/ICLR_2026/Accelerated_Parallel_Tempering_via_Neural_Transports.md|Accelerated Parallel Tempering via Neural Transports (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Accelerated_Parallel_Tempering_via_Neural_Transports.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Accelerated Parallel Tempering (APT)
+	- datasets: DW-4, ManyWell-32
+- [[obsidian-vault/analysis/ICLR_2026/Accessible_Realistic_and_Fair_Evaluation_of_Positive-Unlabeled_Learning_Algorithms.md|Accessible, Realistic, and Fair Evaluation of Positive-Unlabeled Learning Algorithms (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Accessible_Realistic_and_Fair_Evaluation_of_Positive-Unlabeled_Learning_Algorithms.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
+	- methods: PU Benchmark with Proxy Accuracy/PAUC Model Selection and ILS Calibration
+	- datasets: CIFAR-10 Case 1, ImageNette Case 1, CIFAR-10 Case 2
+- [[obsidian-vault/analysis/ICLR_2026/ActiveCQ_Active_Estimation_of_Causal_Quantities.md|ActiveCQ: Active Estimation of Causal Quantities (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ActiveCQ_Active_Estimation_of_Causal_Quantities.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: ActiveCQ (GP–CME 框架)
+	- datasets: LaLonde, Simulation, IHDP
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Conformal_Guidance_for_Learning_under_Uncertainty.md|Adaptive Conformal Guidance for Learning under Uncertainty (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Conformal_Guidance_for_Learning_under_Uncertainty.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: Adaptive Conformal Guidance (AdaConG)
+	- datasets: CIFAR-100, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.md|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- methods: Adaptive Debiasing Tsallis Entropy (ADTE)
+	- datasets: ImageNet, ImageNet-V2, ImageNet-K
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Width_Neural_Networks.md|Adaptive Width Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Width_Neural_Networks.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Adaptive Width Neural Networks (AWN)
+	- datasets: DoubleMoon, Spiral, SpiralHard
+- [[obsidian-vault/analysis/ICLR_2026/Addressing_divergent_representations_from_causal_interventions_on_neural_networks.md|Addressing divergent representations from causal interventions on neural networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Addressing_divergent_representations_from_causal_interventions_on_neural_networks.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Counterfactual Latent (CL) loss 及其针对因果子空间的改进版本
+	- datasets: Boundless DAS on 7B LLM, 合成数据集
+- [[obsidian-vault/analysis/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.md|Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: SRAL (Set Representation Auxiliary Learning)
+	- datasets: Friendster, LIVEJ, Youshu
+- [[obsidian-vault/analysis/ICLR_2026/Aligning_Collaborative_View_Recovery_and_Tensorial_Subspace_Learning_via_Latent_Representation_for_Incomplete_Multi-View_Clustering.md|Aligning Collaborative View Recovery and Tensorial Subspace Learning via Latent Representation for Incomplete Multi-View Clustering (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Aligning_Collaborative_View_Recovery_and_Tensorial_Subspace_Learning_via_Latent_Representation_for_Incomplete_Multi-View_Clustering.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: ARSL-IMVC
+	- datasets: BBCSport, HW
+- [[obsidian-vault/analysis/ICLR_2026/Ambig-SWE_Interactive_Agents_to_Overcome_Underspecificity_in_Software_Engineering.md|Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Ambig-SWE_Interactive_Agents_to_Overcome_Underspecificity_in_Software_Engineering.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Ambig-SWE
+	- datasets: Ambig-SWE
+- [[obsidian-vault/analysis/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.md|An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
+	- methods: SEINT (SE(p)-Invariant Transport)
+	- datasets: ModelNet40-SE, QM9
+- [[obsidian-vault/analysis/ICLR_2026/Anatomy-aware_Representation_Learning_for_Medical_Ultrasound.md|Anatomy-aware Representation Learning for Medical Ultrasound (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Anatomy-aware_Representation_Learning_for_Medical_Ultrasound.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- methods: Anatomy-aware Representation Learning (ARL)
+	- datasets: Breast Cancer, Thyroid Cancer
+- [[obsidian-vault/analysis/ICLR_2026/Beyond_Entity_Correlations_Disentangling_Event_Causal_Puzzles_in_Temporal_Knowledge_Graphs.md|Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Beyond_Entity_Correlations_Disentangling_Event_Causal_Puzzles_in_Temporal_Knowledge_Graphs.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: HEDRA (Heterogeneous Event causality Disentangling Representation learning Approach)
+	- datasets: ICEWS14
+- [[obsidian-vault/analysis/ICLR_2026/Binomial_Gradient-Based_Meta-Learning_for_Enhanced_Meta-Gradient_Estimation.md|Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Binomial_Gradient-Based_Meta-Learning_for_Enhanced_Meta-Gradient_Estimation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Optimization / Theory
+	- methods: BinomMAML (BinomGBML applied to MAML)
+	- datasets: Synthetic sinusoid regression, miniImageNet 5-way 1-shot, miniImageNet 5-way 5-shot
+- [[obsidian-vault/analysis/ICLR_2026/Causal_Discovery_in_the_Wild_A_Voting-Theoretic_Ensemble_Approach.md|Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Causal_Discovery_in_the_Wild_A_Voting-Theoretic_Ensemble_Approach.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Bayes Voting Ensemble with OT-based Competency Estimation
+	- datasets: GP-ER, MLP-SF, Sangiovese
+- [[obsidian-vault/analysis/ICLR_2026/Escaping_the_Homophily_Trap_A_Threshold-free_Graph_Outlier_Detection_Framework_via_Clustering-guided_Edge_Reweighting.md|Escaping the Homophily Trap: A Threshold-free Graph Outlier Detection Framework via Clustering-guided Edge Reweighting (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Escaping_the_Homophily_Trap_A_Threshold-free_Graph_Outlier_Detection_Framework_via_Clustering-guided_Edge_Reweighting.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- methods: CER-GOD
+	- datasets: Email, Amazon, Disney
+- [[obsidian-vault/analysis/ICLR_2026/Generalization_of_RLVR_Using_Causal_Reasoning_as_a_Testbed.md|Generalization of RLVR Using Causal Reasoning as a Testbed (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Generalization_of_RLVR_Using_Causal_Reasoning_as_a_Testbed.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: RLVR（基于总变差距离的准确性奖励的GRPO/DAPO）
+	- datasets: RLCausal, CLadder 确定性反事实子集
+- [[obsidian-vault/analysis/ICLR_2026/Graphon_Cross-Validation_Assessing_Models_on_Network_Data.md|Graphon Cross-Validation: Assessing Models on Network Data (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Graphon_Cross-Validation_Assessing_Models_on_Network_Data.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: CV-imputation (K‑fold random‑imputation graphon cross‑validation)
+	- datasets: Synthetic Graphon 1, Political Blogs network, Coauthorship network
+- [[obsidian-vault/analysis/ICLR_2026/HARP_Hallucination_Detection_via_Reasoning_Subspace_Projection.md|HARP: Hallucination Detection via Reasoning Subspace Projection (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/HARP_Hallucination_Detection_via_Reasoning_Subspace_Projection.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: HARP (HAllucination detection via Reasoning subspace Projection)
+	- datasets: TriviaQA, TruthfulQA, NQ Open
+- [[obsidian-vault/analysis/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.md|How NOT to benchmark your SITE metric Beyond Static Leaderboards and Towards Realistic Evaluation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
+	- methods: 静态排序启发式（Static Ranking Heuristic）
+	- datasets: Standard Benchmark, Meta-Album Benchmark
+- [[obsidian-vault/analysis/ICLR_2026/Independence_Test_for_Linear_Non-Gaussian_Data_and_Applications_in_Causal_Discovery.md|Independence Test for Linear Non-Gaussian Data and Applications in Causal Discovery (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Independence_Test_for_Linear_Non-Gaussian_Data_and_Applications_in_Causal_Discovery.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: LiNGIC (Linear Non-Gaussian Independence Criterion)
+	- datasets: 合成线性非高斯因果发现, 独立性检验功效
+- [[obsidian-vault/analysis/ICLR_2026/Modality_Alignment_across_Trees_on_Heterogeneous_Hyperbolic_Manifolds.md|Modality Alignment across Trees on Heterogeneous Hyperbolic Manifolds (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Modality_Alignment_across_Trees_on_Heterogeneous_Hyperbolic_Manifolds.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+- [[obsidian-vault/analysis/ICLR_2026/On_the_Alignment_Between_Supervised_and_Self-Supervised_Contrastive_Learning.md|On the Alignment Between Supervised and Self-Supervised Contrastive Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/On_the_Alignment_Between_Supervised_and_Self-Supervised_Contrastive_Learning.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: 相似性空间耦合分析框架（Similarity-Space Coupling Analysis Framework）
+	- datasets: Tiny-ImageNet, CIFAR-100, Multiple datasets
+- [[obsidian-vault/analysis/ICLR_2026/PHyCLIP_ell_1-Product_of_Hyperbolic_Factors_Unifies_Hierarchy_and_Compositionality_in_Vision-Language_Representation_Learning.md|PHyCLIP: $\\ell_1$-Product of Hyperbolic Factors Unifies Hierarchy and Compositionality in Vision-Language Representation Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PHyCLIP_ell_1-Product_of_Hyperbolic_Factors_Unifies_Hierarchy_and_Compositionality_in_Vision-Language_Representation_Learning.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- methods: PHyCLIP
+	- datasets: WordNet Hierarchical Classification, COCO Text→Image Retrieval, COCO Image→Text Retrieval
+- [[obsidian-vault/analysis/ICLR_2026/Relationship_Alignment_for_View-aware_Multi-view_Clustering.md|Relationship Alignment for View-aware Multi-view Clustering (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Relationship_Alignment_for_View-aware_Multi-view_Clustering.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: RAV (Relationship Alignment for View-aware Multi-view Clustering)
+	- datasets: NGs, ALOI, Cora
+- [[obsidian-vault/analysis/ICLR_2026/Revisiting_Weight_Regularization_for_Low-Rank_Continual_Learning.md|Revisiting Weight Regularization for Low-Rank Continual Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Revisiting_Weight_Regularization_for_Low-Rank_Continual_Learning.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: EWC-LoRA
+	- datasets: CIFAR-100, 标准语言CL基准
+- [[obsidian-vault/analysis/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.md|Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: Semi-supervised Neural Posterior Estimation with Self-Consistency Loss (NPE + SC)
+	- datasets: Multivariate normal means, Air passenger traffic forecasting, Hodgkin-Huxley neuron model
+- [[obsidian-vault/analysis/ICLR_2026/SurvHTE-Bench_A_Benchmark_for_Heterogeneous_Treatment_Effect_Estimation_in_Survival_Analysis.md|SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/SurvHTE-Bench_A_Benchmark_for_Heterogeneous_Treatment_Effect_Estimation_in_Survival_Analysis.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
+	- methods: SurvHTE-Bench
+	- datasets: ACTG Semi-synthetic, MIMIC-i Semi-synthetic
+- [[obsidian-vault/analysis/ICLR_2026/The_Hot_Mess_of_AI_How_Does_Misalignment_Scale_With_Model_Intelligence_and_Task_Complexity.md|The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity? (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/The_Hot_Mess_of_AI_How_Does_Misalignment_Scale_With_Model_Intelligence_and_Task_Complexity.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Error-Incoherence Analysis Framework (Bias-Variance Decomposition)
+	- datasets: GPQA, SWE-BENCH, MMLU
+- [[obsidian-vault/analysis/ICLR_2026/Theoretical_Guarantees_for_Causal_Discovery_on_Large_Random_Graphs.md|Theoretical Guarantees for Causal Discovery on Large Random Graphs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Theoretical_Guarantees_for_Causal_Discovery_on_Large_Random_Graphs.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+- [[obsidian-vault/analysis/ICLR_2026/UniCon_Unified_Framework_for_Efficient_Contrastive_Alignment_via_Kernels.md|UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/UniCon_Unified_Framework_for_Efficient_Contrastive_Alignment_via_Kernels.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+- [[obsidian-vault/analysis/ICLR_2026/Why_We_Need_New_Benchmarks_for_Local_Intrinsic_Dimension_Estimation.md|Why We Need New Benchmarks for Local Intrinsic Dimension Estimation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Why_We_Need_New_Benchmarks_for_Local_Intrinsic_Dimension_Estimation.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: 基于IDR、ME、ASE、ADI和MS的LID估计基准测试框架
+	- datasets: Gaussians - 非均匀密度, Spheres - 流形曲率, Spaghetti - 高维嵌入

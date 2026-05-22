@@ -1,0 +1,665 @@
+---
+title: "Method: LLM / Reasoning / Alignment"
+type: paper-index
+dimension: method
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Method: LLM / Reasoning / Alignment
+
+- [[obsidian-vault/analysis/ICLR_2026/alpha-DPO_Robust_Preference_Alignment_for_Diffusion_Models_via_alpha_Divergence.md|$\\alpha$-DPO: Robust Preference Alignment for Diffusion Models via $\\alpha$ Divergence (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/alpha-DPO_Robust_Preference_Alignment_for_Diffusion_Models_via_alpha_Divergence.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: α-DPO
+	- datasets: Pick-a-Pic Test
+- [[obsidian-vault/analysis/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.md|$\\nabla$-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: ∇-Reasoner
+	- datasets: MATH-500, AMC
+- [[obsidian-vault/analysis/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.md|$\\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Re² (Reinforcement Learning with Re-solving)
+	- datasets: AIME 2024, AIME 2025, AMC 2023
+- [[obsidian-vault/analysis/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.md|$p\\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: p-less sampling
+	- datasets: CSQA, GPQA, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/PhyWorldBench_A_Comprehensive_Evaluation_of_Physical_Realism_in_Text-to-Video_Models.md|$PhyWorldBench$: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PhyWorldBench_A_Comprehensive_Evaluation_of_Physical_Realism_in_Text-to-Video_Models.pdf|PDF]]
+	- topics: Benchmarks / Datasets / Evaluation
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: PhyWorldBench
+	- datasets: PhyWorldBench
+- [[obsidian-vault/analysis/ICLR_2026/3D_Aware_Region_Prompted_Vision_Language_Model.md|3D Aware Region Prompted Vision Language Model (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/3D_Aware_Region_Prompted_Vision_Language_Model.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: SR-3D (Spatial Region 3D)
+	- datasets: BLINK_Depth, COCO-2017 region-level classification, Scan2Cap
+- [[obsidian-vault/analysis/ICLR_2026/3DCS_Datasets_and_Benchmark_for_Evaluating_Conformational_Sensitivity_in_Molecular_Representations.md|3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/3DCS_Datasets_and_Benchmark_for_Evaluating_Conformational_Sensitivity_in_Molecular_Representations.pdf|PDF]]
+	- topics: Benchmarks / Datasets / Evaluation
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: 3DCS (3D Conformational Sensitivity) benchmark with GCE evaluation framework
+	- datasets: Geometry, Chirality
+- [[obsidian-vault/analysis/ICLR_2026/One_LLM_Token_for_Explicit_Graph_Structural_Understanding.md|: One LLM Token for Explicit Graph Structural Understanding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/One_LLM_Token_for_Explicit_Graph_Structural_Understanding.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: <SOGk> (Structure Of Graph token)
+	- datasets: BBBP, Tox21, ClinTox
+- [[obsidian-vault/analysis/ICLR_2026/A_Balanced_Neuro-Symbolic_Approach_for_Commonsense_Abductive_Logic.md|A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Balanced_Neuro-Symbolic_Approach_for_Commonsense_Abductive_Logic.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: ARGOS (Abductive Reasoning with Generalization Over Symbolics)
+	- datasets: FOLIO, CLUTRR, QUAIL
+- [[obsidian-vault/analysis/ICLR_2026/A_Bayesian_Nonparametric_Framework_for_Private_Fair_and_Balanced_Tabular_Data_Synthesis.md|A Bayesian Nonparametric Framework for Private, Fair, and Balanced Tabular Data Synthesis (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Bayesian_Nonparametric_Framework_for_Private_Fair_and_Balanced_Tabular_Data_Synthesis.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: CBNP-VAECGAN (Conditional Bayesian Nonparametric VAECGAN)
+	- datasets: Adult, COMPAS
+- [[obsidian-vault/analysis/ICLR_2026/A_Brain_Graph_Foundation_Model_Pre-Training_and_Prompt-Tuning_across_Broad_Atlases_and_Disorders.md|A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Brain_Graph_Foundation_Model_Pre-Training_and_Prompt-Tuning_across_Broad_Atlases_and_Disorders.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: BrainGFM
+	- datasets: ABIDE II, ADHD200, ADNI 2
+- [[obsidian-vault/analysis/ICLR_2026/A_Cognitive_Process-Inspired_Architecture_for_Subject-Agnostic_Brain_Visual_Decoding.md|A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Cognitive_Process-Inspired_Architecture_for_Subject-Agnostic_Brain_Visual_Decoding.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Visual Cortex Flow Architecture (VCFLOW)
+	- datasets: cc2017
+- [[obsidian-vault/analysis/ICLR_2026/A_cross-species_neural_foundation_model_for_end-to-end_speech_decoding.md|A cross-species neural foundation model for end-to-end speech decoding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_cross-species_neural_foundation_model_for_end-to-end_speech_decoding.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: BIT (BraIn-to-Text)
+	- datasets: Brain-to-Text '24, Brain-to-Text '25
+- [[obsidian-vault/analysis/ICLR_2026/A_Fair_Bayesian_Inference_through_Matched_Gibbs_Posterior.md|A Fair Bayesian Inference through Matched Gibbs Posterior (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Fair_Bayesian_Inference_through_Matched_Gibbs_Posterior.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Matched Gibbs Posterior
+	- datasets: CRIME
+- [[obsidian-vault/analysis/ICLR_2026/A_Fano-Style_Accuracy_Upper_Bound_for_LLM_Single-Pass_Reasoning_in_Multi-Hop_QA.md|A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Fano-Style_Accuracy_Upper_Bound_for_LLM_Single-Pass_Reasoning_in_Multi-Hop_QA.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: InfoQA
+	- datasets: 合成多跳QA基准
+- [[obsidian-vault/analysis/ICLR_2026/A_Framework_for_Studying_AI_Agent_Behavior_Evidence_from_Consumer_Choice_Experiments.md|A Framework for Studying AI Agent Behavior: Evidence from Consumer Choice Experiments (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Framework_for_Studying_AI_Agent_Behavior_Evidence_from_Consumer_Choice_Experiments.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: ABXLAB
+	- datasets: ABXLAB / OneStopMarket
+- [[obsidian-vault/analysis/ICLR_2026/A_General_Framework_for_Black-Box_Attacks_Under_Cost_Asymmetry.md|A General Framework for Black-Box Attacks Under Cost Asymmetry (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_General_Framework_for_Black-Box_Attacks_Under_Cost_Asymmetry.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Asymmetric Attacks
+	- datasets: ImageNet, ResNet-50, ViT-B/32
+- [[obsidian-vault/analysis/ICLR_2026/A_Guardrail_for_Safety_Preservation_When_Safety-Sensitive_Subspace_Meets_Harmful-Resistant_Null-Space.md|A Guardrail for Safety Preservation: When Safety-Sensitive Subspace Meets Harmful-Resistant Null-Space (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Guardrail_for_Safety_Preservation_When_Safety-Sensitive_Subspace_Meets_Harmful-Resistant_Null-Space.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: GuardSpace
+	- datasets: SST-2, AGNEWS
+- [[obsidian-vault/analysis/ICLR_2026/A_Law_of_Data_Reconstruction_for_Random_Features_And_Beyond.md|A Law of Data Reconstruction for Random Features (And Beyond) (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Law_of_Data_Reconstruction_for_Random_Features_And_Beyond.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 基于子空间投影的数据重建算法
+	- datasets: CIFAR-10, 合成数据, Tiny-ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/A_Simple_Motivation_Can_Enhance_Reinforcement_Finetuning_of_Large_Reasoning_Models.md|A Simple "Motivation" Can Enhance Reinforcement Finetuning of Large Reasoning Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Simple_Motivation_Can_Enhance_Reinforcement_Finetuning_of_Large_Reasoning_Models.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Motivation-enhanced Reinforcement Finetuning (MeRF)
+	- datasets: K&K Logic Puzzles
+- [[obsidian-vault/analysis/ICLR_2026/A_State-Transition_Framework_for_Efficient_LLM_Reasoning.md|A State-Transition Framework for Efficient LLM Reasoning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_State-Transition_Framework_for_Efficient_LLM_Reasoning.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: State-Transition Framework with Mixed Attention Module (MAM)
+	- datasets: AIME24
+- [[obsidian-vault/analysis/ICLR_2026/A_Structured_Tagged_and_Localized_Visual_Question_Answering_Dataset_with_Full_Sentence_Answers_and_Scene_Graphs_for_Chest_X-ray_Images.md|A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Structured_Tagged_and_Localized_Visual_Question_Answering_Dataset_with_Full_Sentence_Answers_and_Scene_Graphs_for_Chest_X-ray_Images.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: MIMIC-Ext-CXR-QBA (CXR-QBA) 数据集构建流水线
+	- datasets: MIMIC-CXR-JPG Test, CXR-LT 2024 Gold, MS-CXR
+- [[obsidian-vault/analysis/ICLR_2026/A_Unified_Total_Variation_Framework_for_Membrane_Potential_Perturbation_Dynamic.md|A Unified Total Variation Framework for Membrane Potential Perturbation Dynamic (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Unified_Total_Variation_Framework_for_Membrane_Potential_Perturbation_Dynamic.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: MPPD-TV-ℓ₁
+	- datasets: CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/A-TPT_Angular_Diversity_Calibration_Properties_for_Test-Time_Prompt_Tuning_of_Vision-Language_Models.md|A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A-TPT_Angular_Diversity_Calibration_Properties_for_Test-Time_Prompt_Tuning_of_Vision-Language_Models.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: A-TPT
+	- datasets: Fine-grained datasets, Fine-grained datasets (CLIP ViT-B/16, N>\
+- [[obsidian-vault/analysis/ICLR_2026/A.I.R._Enabling_Adaptive_Iterative_and_Reasoning-based_Frame_Selection_For_Video_Question_Answering.md|A.I.R.: Enabling Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A.I.R._Enabling_Adaptive_Iterative_and_Reasoning-based_Frame_Selection_For_Video_Question_Answering.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: A.I.R.
+	- datasets: Video-MME, LongVideoBench, NextQA
+- [[obsidian-vault/analysis/ICLR_2026/A2D_Any-Order_Any-Step_Safety_Alignment_for_Diffusion_Language_Models.md|A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A2D_Any-Order_Any-Step_Safety_Alignment_for_Diffusion_Language_Models.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: A2D (Any-Order, Any-Step Defense)
+	- datasets: 安全基准, DIJA 攻击
+- [[obsidian-vault/analysis/ICLR_2026/AbsTopK_Rethinking_Sparse_Autoencoders_For_Bidirectional_Features.md|AbsTopK: Rethinking Sparse Autoencoders For Bidirectional Features (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AbsTopK_Rethinking_Sparse_Autoencoders_For_Bidirectional_Features.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: AbsTopK SAE
+	- datasets: Qwen3-4B, Layer 18
+- [[obsidian-vault/analysis/ICLR_2026/AbstRaL_Augmenting_LLMs_Reasoning_by_Reinforcing_Abstract_Thinking.md|AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AbstRaL_Augmenting_LLMs_Reasoning_by_Reinforcing_Abstract_Thinking.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: AbstRaL
+	- datasets: GSM-Symbolic, GSM-Plus, MATH
+- [[obsidian-vault/analysis/ICLR_2026/ACADREASON_Exploring_the_Limits_of_Reasoning_Models_with_Academic_Research_Problems.md|ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ACADREASON_Exploring_the_Limits_of_Reasoning_Models_with_Academic_Research_Problems.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: ACADREASON Benchmark Construction and Evaluation Pipeline
+	- datasets: ACADREASON, ACADREASON domain evaluation
+- [[obsidian-vault/analysis/ICLR_2026/AceReason-Nemotron_1.1_Advancing_Math_and_Code_Reasoning_through_SFT_and_RL_Synergy.md|AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AceReason-Nemotron_1.1_Advancing_Math_and_Code_Reasoning_through_SFT_and_RL_Synergy.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: AceReason-Nemotron-1.1 训练方案
+	- datasets: AIME 2024, AIME 2025, LiveCodeBench v5
+- [[obsidian-vault/analysis/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.md|Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: InternGeometry
+	- datasets: IMO 50
+- [[obsidian-vault/analysis/ICLR_2026/ActivationReasoning_Logical_Reasoning_in_Latent_Activation_Spaces.md|ActivationReasoning: Logical Reasoning in Latent Activation Spaces (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ActivationReasoning_Logical_Reasoning_in_Latent_Activation_Spaces.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: ACTIVATIONREASONING (AR)
+	- datasets: PrOntoQA, Rail2Country Meta, ProverQA
+- [[obsidian-vault/analysis/ICLR_2026/ActiveDPO_Active_Direct_Preference_Optimization_for_Sample-Efficient_Alignment.md|ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ActiveDPO_Active_Direct_Preference_Optimization_for_Sample-Efficient_Alignment.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: ActiveDPO
+	- datasets: TLDR summarization, WebGPT long-form QA
+- [[obsidian-vault/analysis/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.md|AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: AdaBlock-dLLM
+	- datasets: GSM8K, Overall
+- [[obsidian-vault/analysis/ICLR_2026/AdaCache_Adaptive_Caching_and_Context_Augmentation_for_Efficient_LLM_Serving.md|AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdaCache_Adaptive_Caching_and_Context_Augmentation_for_Efficient_LLM_Serving.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, LLM / Reasoning / Alignment
+	- methods: AdaCache
+	- datasets: MMLU, MMLU-Pro, SuperGPQA
+- [[obsidian-vault/analysis/ICLR_2026/AdAEM_An_Adaptively_and_Automated_Extensible_Measurement_of_LLMs_Value_Difference.md|AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdAEM_An_Adaptively_and_Automated_Extensible_Measurement_of_LLMs_Value_Difference.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: AdAEM
+	- datasets: AdAEM Bench vs. MFQ & ValueBench, 控制价值启动实验
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Acquisition_Selection_for_Bayesian_Optimization_with_Large_Language_Models.md|Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Acquisition_Selection_for_Bayesian_Optimization_with_Large_Language_Models.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, LLM / Reasoning / Alignment
+	- methods: LMABO (Language Model-Assisted Adaptive Bayesian Optimization)
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Attacks_on_Trusted_Monitors_Subvert_AI_Control_Protocols.md|Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Attacks_on_Trusted_Monitors_Subvert_AI_Control_Protocols.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Adaptive Prompt Injection Attack（自适应提示注入攻击）
+	- datasets: APPS Backdooring, APPS, BashBench
+- [[obsidian-vault/analysis/ICLR_2026/AdaReasoner_Dynamic_Tool_Orchestration_for_Iterative_Visual_Reasoning.md|AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdaReasoner_Dynamic_Tool_Orchestration_for_Iterative_Visual_Reasoning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: AdaReasoner
+	- datasets: VSPO, VSP, Jigsaw
+- [[obsidian-vault/analysis/ICLR_2026/Agent_Data_Protocol_Unifying_Datasets_for_Diverse_Effective_Fine-tuning_of_LLM_Agents.md|Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Agent_Data_Protocol_Unifying_Datasets_for_Diverse_Effective_Fine-tuning_of_LLM_Agents.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Agent Data Protocol (ADP)
+	- datasets: SWE-Bench, WebArena
+- [[obsidian-vault/analysis/ICLR_2026/AgentGym-RL_An_Open-Source_Framework_to_Train_LLM_Agents_for_Long-Horizon_Decision_Making_via_Multi-Turn_RL.md|AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AgentGym-RL_An_Open-Source_Framework_to_Train_LLM_Agents_for_Long-Horizon_Decision_Making_via_Multi-Turn_RL.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: ScalingInter-RL
+	- datasets: Deep Search, WebArena, TextCraft
+- [[obsidian-vault/analysis/ICLR_2026/Agentic_Jigsaw_Interaction_Learning_for_Enhancing_Visual_Perception_and_Reasoning_in_Vision-Language_Models.md|Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Agentic_Jigsaw_Interaction_Learning_for_Enhancing_Visual_Perception_and_Reasoning_in_Vision-Language_Models.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: AGILE (Agentic jiGsaw Interaction Learning for Enhancing visual perception and reasoning in VLMs)
+	- datasets: MME-RealWorld-Lite, RealWorldQA
+- [[obsidian-vault/analysis/ICLR_2026/Agentic_Reinforced_Policy_Optimization.md|Agentic Reinforced Policy Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Agentic_Reinforced_Policy_Optimization.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Agentic Reinforced Policy Optimization (ARPO)
+	- datasets: AIME24, AIME25, HLE
+- [[obsidian-vault/analysis/ICLR_2026/Analytica_Soft_Propositional_Reasoning_for_Robust_and_Scalable_LLM-Driven_Analysis.md|Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Analytica_Soft_Propositional_Reasoning_for_Robust_and_Scalable_LLM-Driven_Analysis.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: Analytica
+	- datasets: 经济、金融、政治预测
+- [[obsidian-vault/analysis/ICLR_2026/AnesSuite_A_Comprehensive_Benchmark_and_Dataset_Suite_for_Anesthesiology_Reasoning_in_LLMs.md|AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning in LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AnesSuite_A_Comprehensive_Benchmark_and_Dataset_Suite_for_Anesthesiology_Reasoning_in_LLMs.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Benchmark / Evaluation
+	- methods: AnesSuite 数据集套件与 Morpheus 基线模型
+	- datasets: AnesBench-English, AnesBench-Chinese, AnesBench
+- [[obsidian-vault/analysis/ICLR_2026/AQuA_Toward_Strategic_Response_Generation_for_Ambiguous_Visual_Questions.md|AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AQuA_Toward_Strategic_Response_Generation_for_Ambiguous_Visual_Questions.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: AQUA (Ambiguous Visual Question Answering) + SFT + GRPO
+	- datasets: AQUA
+- [[obsidian-vault/analysis/ICLR_2026/ARES_Multimodal_Adaptive_Reasoning_via_Difficulty-Aware_Token-Level_Entropy_Shaping.md|ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ARES_Multimodal_Adaptive_Reasoning_via_Difficulty-Aware_Token-Level_Entropy_Shaping.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: ARES (multimodal Adaptive Reasoning via difficulty-aware token-level Entropy reward Shaping)
+	- datasets: MathVision, MMMU-Pro, AIME25
+- [[obsidian-vault/analysis/ICLR_2026/AssoMem_Scalable_Memory_QA_with_Multi-Signal_Associative_Retrieval.md|AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AssoMem_Scalable_Memory_QA_with_Multi-Signal_Associative_Retrieval.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: AssoMem
+	- datasets: LongMemEval medium
+- [[obsidian-vault/analysis/ICLR_2026/AVERE_Improving_Audiovisual_Emotion_Reasoning_with_Preference_Optimization.md|AVERE: Improving Audiovisual Emotion Reasoning with Preference Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AVERE_Improving_Audiovisual_Emotion_Reasoning_with_Preference_Optimization.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: AVEm-DPO
+	- datasets: DFEW, RAVDESS
+- [[obsidian-vault/analysis/ICLR_2026/Bayesian_Neural_Networks_for_Functional_ANOVA_Model.md|Bayesian Neural Networks for Functional ANOVA Model (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Bayesian_Neural_Networks_for_Functional_ANOVA_Model.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Bayesian-TPNN (Bayesian Tensor Product Neural Networks)
+	- datasets: SERVO, BOSTON, FICO
+- [[obsidian-vault/analysis/ICLR_2026/Bee_A_High-Quality_Corpus_and_Full-Stack_Suite_to_Unlock_Advanced_Fully_Open_MLLMs.md|Bee: A High-Quality Corpus and Full-Stack Suite to Unlock Advanced Fully Open MLLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Bee_A_High-Quality_Corpus_and_Full-Stack_Suite_to_Unlock_Advanced_Fully_Open_MLLMs.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: HoneyPipe (数据流水线) 和 DataStudio (数据策展框架)
+	- datasets: MMMU, MMStar, MMMU-Pro
+- [[obsidian-vault/analysis/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.md|Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Benchmarking framework for fairness-constrained DNN training
+	- datasets: ACSIncome
+- [[obsidian-vault/analysis/ICLR_2026/CLUE_Conflict-guided_Localization_for_LLM_Unlearning_Framework.md|CLUE: Conflict-guided Localization for LLM Unlearning Framework (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/CLUE_Conflict-guided_Localization_for_LLM_Unlearning_Framework.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, LLM / Reasoning / Alignment
+	- methods: CLUE
+	- datasets: WMDP Cyber + Winogrande, WMDP Bio + SST-2
+- [[obsidian-vault/analysis/ICLR_2026/Cross-Timestep_3D_Diffusion_Model_with_Trans-temporal_Memory_LSTM_and_Adaptive_Priori_Decoding_Strategy_for_Medical_Segmentation.md|Cross-Timestep: 3D Diffusion Model with Trans-temporal Memory LSTM and Adaptive Priori Decoding Strategy for Medical Segmentation (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Cross-Timestep_3D_Diffusion_Model_with_Trans-temporal_Memory_LSTM_and_Adaptive_Priori_Decoding_Strategy_for_Medical_Segmentation.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Cross-Timestep
+	- datasets: LNCTVSeg, OASeg
+- [[obsidian-vault/analysis/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.md|Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 负相关采样 (Negatively-correlated sampling)
+	- datasets: IGL维度引导评估
+- [[obsidian-vault/analysis/ICLR_2026/Diffusion_Negative_Preference_Optimization_Made_Simple.md|Diffusion Negative Preference Optimization Made Simple (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Diffusion_Negative_Preference_Optimization_Made_Simple.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Diff-SNPO (Diffusion Simple Negative Preference Optimization)
+	- datasets: Pick-a-Pic v2 / SD1.5, HPDv2 / SD1.5
+- [[obsidian-vault/analysis/ICLR_2026/Disentangling_Knowledge_Representations_for_Large_Language_Model_Editing.md|Disentangling Knowledge Representations for Large Language Model Editing (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Disentangling_Knowledge_Representations_for_Large_Language_Model_Editing.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: DiKE
+	- datasets: FINE-KED, COUNTERFACT
+- [[obsidian-vault/analysis/ICLR_2026/DistDF_Time-series_Forecasting_Needs_Joint-distribution_Wasserstein_Alignment.md|DistDF: Time-series Forecasting Needs Joint-distribution Wasserstein Alignment (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/DistDF_Time-series_Forecasting_Needs_Joint-distribution_Wasserstein_Alignment.pdf|PDF]]
+	- topics: Time Series / Dynamical Systems
+	- method groups: LLM / Reasoning / Alignment
+	- methods: DistDF (Distribution-aware Direct Forecast)
+	- datasets: ETTm1, ETTh1, ECL
+- [[obsidian-vault/analysis/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.md|Dual-Path Condition Alignment for Diffusion Transformers (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: DUPA (DUal-Path condition Alignment)
+	- datasets: ImageNet 256×256 class-conditional generation, ImageNet 256×256
+- [[obsidian-vault/analysis/ICLR_2026/Dual-Space_Smoothness_for_Robust_and_Balanced_LLM_Unlearning.md|Dual-Space Smoothness for Robust and Balanced LLM Unlearning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Dual-Space_Smoothness_for_Robust_and_Balanced_LLM_Unlearning.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: PRISM (Probe‑guided Iterative Smoothness Minimization)
+	- datasets: MUSE-Books, WMDP, WMDP_bio
+- [[obsidian-vault/analysis/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.md|Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: Think-as-Locals
+	- datasets: M-RewardBench, CARB, 综合
+- [[obsidian-vault/analysis/ICLR_2026/Evoking_User_Memory_Personalizing_LLM_via_Recollection-Familiarity_Adaptive_Retrieval.md|Evoking User Memory: Personalizing LLM via Recollection-Familiarity Adaptive Retrieval (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Evoking_User_Memory_Personalizing_LLM_via_Recollection-Familiarity_Adaptive_Retrieval.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: RF-Mem (Recollection–Familiarity Memory Retrieval)
+	- datasets: PersonaMem, PersonaBench, LongMemEval-S
+- [[obsidian-vault/analysis/ICLR_2026/ExpertLongBench_Benchmarking_Language_Models_on_Expert-Level_Long-Form_Generation_Tasks_with_Structured_Checklists.md|ExpertLongBench: Benchmarking Language Models on Expert-Level Long-Form Generation Tasks with Structured Checklists (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ExpertLongBench_Benchmarking_Language_Models_on_Expert-Level_Long-Form_Generation_Tasks_with_Structured_Checklists.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: CLEAR (CheckList-based Expert-level Assessment with Rubric)
+	- datasets: ExpertLongBench, T7 and T8 human evaluation subset
+- [[obsidian-vault/analysis/ICLR_2026/Exploring_the_Potential_of_Encoder-free_Architectures_in_3D_LMMs.md|Exploring the Potential of Encoder-free Architectures in 3D LMMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Exploring_the_Potential_of_Encoder-free_Architectures_in_3D_LMMs.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: ENEL
+	- datasets: Objaverse Captioning, Objaverse Classification, ModelNet40 分类
+- [[obsidian-vault/analysis/ICLR_2026/Full-Graph_vs._Mini-Batch_Training_Comprehensive_Analysis_from_a_Batch_Size_and_Fan-Out_Size_Perspective.md|Full-Graph vs. Mini-Batch Training: Comprehensive Analysis from a Batch Size and Fan-Out Size Perspective (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Full-Graph_vs._Mini-Batch_Training_Comprehensive_Analysis_from_a_Batch_Size_and_Fan-Out_Size_Perspective.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 全图与迷你批次训练系统分析框架 (Systematic Comparative Analysis Framework)
+	- datasets: Reddit, ogbn-arxiv, ogbn-products
+- [[obsidian-vault/analysis/ICLR_2026/Gaussian_certified_unlearning_in_high_dimensions_A_hypothesis_testing_approach.md|Gaussian certified unlearning in high dimensions: A hypothesis testing approach (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Gaussian_certified_unlearning_in_high_dimensions_A_hypothesis_testing_approach.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Noisy one-step Newton unlearning with Gaussian noise (GPAR)
+	- datasets: Simulated ridge logistic regression, Simulated data, varying ε
+- [[obsidian-vault/analysis/ICLR_2026/Generalization_of_RLVR_Using_Causal_Reasoning_as_a_Testbed.md|Generalization of RLVR Using Causal Reasoning as a Testbed (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Generalization_of_RLVR_Using_Causal_Reasoning_as_a_Testbed.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: RLVR（基于总变差距离的准确性奖励的GRPO/DAPO）
+	- datasets: RLCausal, CLadder 确定性反事实子集
+- [[obsidian-vault/analysis/ICLR_2026/Grounding-IQA_Grounding_Multimodal_Language_Model_for_Image_Quality_Assessment.md|Grounding-IQA: Grounding Multimodal Language Model for Image Quality Assessment (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Grounding-IQA_Grounding_Multimodal_Language_Model_for_Image_Quality_Assessment.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Grounding-IQA
+	- datasets: GIQA-Bench
+- [[obsidian-vault/analysis/ICLR_2026/HARP_Hallucination_Detection_via_Reasoning_Subspace_Projection.md|HARP: Hallucination Detection via Reasoning Subspace Projection (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/HARP_Hallucination_Detection_via_Reasoning_Subspace_Projection.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: HARP (HAllucination detection via Reasoning subspace Projection)
+	- datasets: TriviaQA, TruthfulQA, NQ Open
+- [[obsidian-vault/analysis/ICLR_2026/Human_Behavior_Atlas_Benchmarking_Unified_Psychological_And_Social_Behavior_Understanding.md|Human Behavior Atlas: Benchmarking Unified Psychological And Social Behavior Understanding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Human_Behavior_Atlas_Benchmarking_Unified_Psychological_And_Social_Behavior_Understanding.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: HUMAN BEHAVIOR ATLAS + OMNISAPIENS-7B (SFT / BAM / RL)
+	- datasets: CMU-MOSEI, MUStARD, MELD
+- [[obsidian-vault/analysis/ICLR_2026/Improving_Attributed_Long-form_Question_Answering_with_Intent_Awareness.md|Improving Attributed Long-form Question Answering with Intent Awareness (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Improving_Attributed_Long-form_Question_Answering_with_Intent_Awareness.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Intent-Aware Writing Framework（意图感知写作框架）
+	- datasets: SQA-CS-V2, DeepScholar Bench
+- [[obsidian-vault/analysis/ICLR_2026/Keep_the_Best_Forget_the_Rest_Reliable_Alignment_with_Order-Aware_Preference_Optimization.md|Keep the Best, Forget the Rest: Reliable Alignment with Order-Aware Preference Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Keep_the_Best_Forget_the_Rest_Reliable_Alignment_with_Order-Aware_Preference_Optimization.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: RAPPO
+	- datasets: IMDB Sentiment Control, Real-Toxicity-Prompts, Text Summarization
+- [[obsidian-vault/analysis/ICLR_2026/Latent_Visual_Reasoning.md|Latent Visual Reasoning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Latent_Visual_Reasoning.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: Latent Visual Reasoning (LVR)
+	- datasets: MMVP, V*, V*_D.A.
+- [[obsidian-vault/analysis/ICLR_2026/Learning_Dynamic_Causal_Graphs_Under_Parametric_Uncertainty_via_Polynomial_Chaos_Expansions.md|Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Learning_Dynamic_Causal_Graphs_Under_Parametric_Uncertainty_via_Polynomial_Chaos_Expansions.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: PCT-CD
+	- datasets: 化工过程数据集
+- [[obsidian-vault/analysis/ICLR_2026/Low-Pass_Filtering_Improves_Behavioral_Alignment_of_Vision_Models.md|Low-Pass Filtering Improves Behavioral Alignment of Vision Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Low-Pass_Filtering_Improves_Behavioral_Alignment_of_Vision_Models.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: 测试时低通滤波（高斯模糊 / 双三次插值缩放 / 可学习傅里叶滤波器）
+	- datasets: model-vs-human
+- [[obsidian-vault/analysis/ICLR_2026/MCP-Bench_Benchmarking_Tool-Using_LLM_Agents_with_Complex_Real-World_Tasks_via_MCP_Servers.md|MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/MCP-Bench_Benchmarking_Tool-Using_LLM_Agents_with_Complex_Real-World_Tasks_via_MCP_Servers.pdf|PDF]]
+	- topics: Benchmarks / Datasets / Evaluation
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: MCP-Bench
+	- datasets: MCP-BENCH
+- [[obsidian-vault/analysis/ICLR_2026/Modality_Alignment_across_Trees_on_Heterogeneous_Hyperbolic_Manifolds.md|Modality Alignment across Trees on Heterogeneous Hyperbolic Manifolds (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Modality_Alignment_across_Trees_on_Heterogeneous_Hyperbolic_Manifolds.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+- [[obsidian-vault/analysis/ICLR_2026/Multi-objective_Large_Language_Model_Alignment_with_Hierarchical_Experts.md|Multi-objective Large Language Model Alignment with Hierarchical Experts (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Multi-objective_Large_Language_Model_Alignment_with_Hierarchical_Experts.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: HoE (Hierarchical Mixture-of-Experts)
+	- datasets: HelpAssistant / Reddit Summary / BeaverTails, Psoups & HelpSteer2, HelpSteer
+- [[obsidian-vault/analysis/ICLR_2026/Obscure_but_Effective_Classical_Chinese_Jailbreak_Prompt_Optimization_via_Bio-Inspired_Search.md|Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Obscure_but_Effective_Classical_Chinese_Jailbreak_Prompt_Optimization_via_Bio-Inspired_Search.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: CC-BOS (Classical Chinese Black-box Optimization Search)
+	- datasets: AdvBench, CLAS, AdvBench Query Efficiency
+- [[obsidian-vault/analysis/ICLR_2026/On_the_Alignment_Between_Supervised_and_Self-Supervised_Contrastive_Learning.md|On the Alignment Between Supervised and Self-Supervised Contrastive Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/On_the_Alignment_Between_Supervised_and_Self-Supervised_Contrastive_Learning.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: 相似性空间耦合分析框架（Similarity-Space Coupling Analysis Framework）
+	- datasets: Tiny-ImageNet, CIFAR-100, Multiple datasets
+- [[obsidian-vault/analysis/ICLR_2026/Opponent_Shaping_in_LLM_Agents.md|Opponent Shaping in LLM Agents (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Opponent_Shaping_in_LLM_Agents.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: ShapeLLM
+	- datasets: IPD, IMP, ICG
+- [[obsidian-vault/analysis/ICLR_2026/Output_Supervision_Can_Obfuscate_the_Chain_of_Thought.md|Output Supervision Can Obfuscate the Chain of Thought (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Output_Supervision_Can_Obfuscate_the_Chain_of_Thought.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: Reward Targeting and Mind & Face separation (Spillover-Aware Training)
+	- datasets: Polynomial Derivative Factoring, Question Answering with Hints, Multi-Turn Terminal Interaction
+- [[obsidian-vault/analysis/ICLR_2026/P2-DPO_Grounding_Hallucination_in_Perceptual_Processing_via_Calibration_Direct_Preference_Optimization.md|P$^2$-DPO: Grounding Hallucination in Perceptual Processing via Calibration Direct Preference Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/P2-DPO_Grounding_Hallucination_in_Perceptual_Processing_via_Calibration_Direct_Preference_Optimization.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Perceptual Processing Direct Preference Optimization (P2-DPO)
+	- datasets: TextVQA, POPE under Gaussian noise, AMBER on Qwen2.5-VL-3B
+- [[obsidian-vault/analysis/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.md|PALC: Preference Alignment via Logit Calibration (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: PALC
+	- datasets: HH-RLHF, HH-RLHF vs DPO, MT-Bench
+- [[obsidian-vault/analysis/ICLR_2026/Perception-R1_Advancing_Multimodal_Reasoning_Capabilities_of_MLLMs_via_Visual_Perception_Reward.md|Perception-R1: Advancing Multimodal Reasoning Capabilities of MLLMs via Visual Perception Reward (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Perception-R1_Advancing_Multimodal_Reasoning_Capabilities_of_MLLMs_via_Visual_Perception_Reward.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: Perception-R1
+	- datasets: MathVista testmini, MathVerse testmini, MathVision test
+- [[obsidian-vault/analysis/ICLR_2026/PluriHarms_Benchmarking_the_Full_Spectrum_of_Human_Judgments_on_AI_Harm.md|PluriHarms: Benchmarking the Full Spectrum of Human Judgments on AI Harm (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PluriHarms_Benchmarking_the_Full_Spectrum_of_Human_Judgments_on_AI_Harm.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: PluriHarms多元有益性基准生成与评估框架
+	- datasets: PLURIHARMS
+- [[obsidian-vault/analysis/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.md|Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: ExGRPO (Explanatory GRPO)
+	- datasets: 同上数据集
+- [[obsidian-vault/analysis/ICLR_2026/Purifying_Generative_LLMs_from_Backdoors_without_Prior_Knowledge_or_Clean_Reference.md|Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Purifying_Generative_LLMs_from_Backdoors_without_Prior_Knowledge_or_Clean_Reference.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Immunization-Inspired Backdoor Signature Extraction and Purification
+	- datasets: LLaMA-2-7B-Chat Sentiment Steering, LLaMA-2-13B-Chat Targeted Refusal, CodeLLaMA-13B-Instruct Code Injection
+- [[obsidian-vault/analysis/ICLR_2026/Q-RAG_Long_Context_MultiStep_Retrieval_via_ValueBased_Embedder_Training.md|Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Q-RAG_Long_Context_MultiStep_Retrieval_via_ValueBased_Embedder_Training.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: Q‑RAG
+	- datasets: BabiLong QA3, RULER NIAH Avg, HotPotQA
+- [[obsidian-vault/analysis/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.md|Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Query-Aware Flow Diffusion RAG (QAFD-RAG)
+	- datasets: UltraDomain, Spider 2.0
+- [[obsidian-vault/analysis/ICLR_2026/RE-PO_Robust_Enhanced_Policy_Optimization_as_a_General_Framework_for_LLM_Alignment.md|RE-PO: Robust Enhanced Policy Optimization as a General Framework for LLM Alignment (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/RE-PO_Robust_Enhanced_Policy_Optimization_as_a_General_Framework_for_LLM_Alignment.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: RE-PO (Robust Enhanced Policy Optimization)
+	- datasets: AlpacaEval 2
+- [[obsidian-vault/analysis/ICLR_2026/Relationship_Alignment_for_View-aware_Multi-view_Clustering.md|Relationship Alignment for View-aware Multi-view Clustering (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Relationship_Alignment_for_View-aware_Multi-view_Clustering.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: RAV (Relationship Alignment for View-aware Multi-view Clustering)
+	- datasets: NGs, ALOI, Cora
+- [[obsidian-vault/analysis/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.md|Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data? (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: EssenceBench
+	- datasets: HellaSwag, ARC, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/Reversible_PrimitiveComposition_Alignment_for_Continual_VisionLanguage_Learning.md|Reversible Primitive–Composition Alignment for Continual Vision–Language Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Reversible_PrimitiveComposition_Alignment_for_Continual_VisionLanguage_Learning.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: COMPO-REALIGN
+	- datasets: 组合DIL + 多域MTIL
+- [[obsidian-vault/analysis/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.md|Risk Phase Transitions in Spiked Regression: Alignment Driven Benign and Catastrophic Overfitting (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: 最小范数插值（Minimum-Norm Interpolating OLS）
+	- datasets: 合成数据
+- [[obsidian-vault/analysis/ICLR_2026/Robust_Test-time_Video-Text_Retrieval_Benchmarking_and_Adapting_for_Query_Shifts.md|Robust Test-time Video-Text Retrieval: Benchmarking and Adapting for Query Shifts (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Robust_Test-time_Video-Text_Retrieval_Benchmarking_and_Adapting_for_Query_Shifts.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: HAT-VTR
+	- datasets: MSRVTT-1kA, v2t, 严重度 5
+- [[obsidian-vault/analysis/ICLR_2026/RouterArena_An_Open_Platform_for_Comprehensive_Comparison_of_LLM_Routers.md|RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/RouterArena_An_Open_Platform_for_Comprehensive_Comparison_of_LLM_Routers.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: ROUTERARENA
+	- datasets: ROUTERARENA数据集
+- [[obsidian-vault/analysis/ICLR_2026/Routing_Cascades_and_User_Choice_for_LLMs.md|Routing, Cascades, and User Choice for LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Routing_Cascades_and_User_Choice_for_LLMs.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Stackelberg Routing Game
+- [[obsidian-vault/analysis/ICLR_2026/SeedPrints_Fingerprints_Can_Even_Tell_Which_Seed_Your_Large_Language_Model_Was_Trained_From.md|SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/SeedPrints_Fingerprints_Can_Even_Tell_Which_Seed_Your_Large_Language_Model_Was_Trained_From.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: SeedPrints
+	- datasets: OLMo-2-7B Stage 1预训练检查点, LLaMA-2-7B微调变体, LeaFBench
+- [[obsidian-vault/analysis/ICLR_2026/Semi-Supervised_Preference_Optimization_with_Limited_Feedback.md|Semi-Supervised Preference Optimization with Limited Feedback (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Semi-Supervised_Preference_Optimization_with_Limited_Feedback.pdf|PDF]]
+	- topics: Optimization / Theory / Probabilistic ML
+	- method groups: Optimization / Theory, LLM / Reasoning / Alignment
+	- methods: Semi-Supervised Preference Optimization (SSPO)
+	- datasets: AlpacaEval2.0, MT-Bench
+- [[obsidian-vault/analysis/ICLR_2026/Spilled_Energy_in_Large_Language_Models.md|Spilled Energy in Large Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Spilled_Energy_in_Large_Language_Models.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Spilled Energy (Spilled ΔE)
+	- datasets: HotpotQA, HotpotQA-WC, MNLI
+- [[obsidian-vault/analysis/ICLR_2026/Test-Time_Alignment_for_Large_Language_Models_via_Textual_Model_Predictive_Control.md|Test-Time Alignment for Large Language Models via Textual Model Predictive Control (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Test-Time_Alignment_for_Large_Language_Models_via_Textual_Model_Predictive_Control.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Textual Model Predictive Control (TMPC)
+	- datasets: WMT'24 Discourse-Level Literary Translation, MBPP Program Synthesis
+- [[obsidian-vault/analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: LTPO
+	- datasets: GSM8K, MATH500, ASDiv-Aug
+- [[obsidian-vault/analysis/ICLR_2026/Training-free_Counterfactual_Explanation_for_Temporal_Graph_Model_Inference.md|Training-free Counterfactual Explanation for Temporal Graph Model Inference (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Training-free_Counterfactual_Explanation_for_Temporal_Graph_Model_Inference.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: TemGX (TEMporal Graph eXplainer)
+	- datasets: UCIM, METR-LA
+- [[obsidian-vault/analysis/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.md|TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: TriQDef
+	- datasets: CIFAR-10, ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/UniCon_Unified_Framework_for_Efficient_Contrastive_Alignment_via_Kernels.md|UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/UniCon_Unified_Framework_for_Efficient_Contrastive_Alignment_via_Kernels.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+- [[obsidian-vault/analysis/ICLR_2026/Vid-LLM_A_Compact_Video-based_3D_Multimodal_LLM_with_ReconstructionReasoning_Synergy.md|Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Vid-LLM_A_Compact_Video-based_3D_Multimodal_LLM_with_ReconstructionReasoning_Synergy.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Vid-LLM
+	- datasets: ScanRefer, Multi3DRefer, Nr3D
+- [[obsidian-vault/analysis/ICLR_2026/Webscale-RL_Automated_Data_Pipeline_for_Scaling_RL_Data_to_Pretraining_Levels.md|Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Webscale-RL_Automated_Data_Pipeline_for_Scaling_RL_Data_to_Pretraining_Levels.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Systems / Efficiency / Compression, LLM / Reasoning / Alignment
+	- methods: Webscale-RL
+	- datasets: Average across 7 benchmarks, Gap to Qwen2.5-7B, MMLU-pro
+- [[obsidian-vault/analysis/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.md|When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: BAIT (Binding Artificial perturbations to Incorrect Targets)
+	- datasets: CIFAR-10, CIFAR-100, SVHN
+- [[obsidian-vault/analysis/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.md|Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Systems / Efficiency / Compression, LLM / Reasoning / Alignment
+	- methods: Wide-In, Narrow-Out (WINO)
+	- datasets: GSM8K, ARC-E

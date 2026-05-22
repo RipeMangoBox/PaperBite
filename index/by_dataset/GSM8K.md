@@ -1,0 +1,101 @@
+---
+title: "Dataset: GSM8K"
+type: paper-index
+dimension: dataset
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Dataset: GSM8K
+
+- [[obsidian-vault/analysis/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.md|$\\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: Re² (Reinforcement Learning with Re-solving)
+	- datasets: AIME 2024, AIME 2025, AMC 2023
+- [[obsidian-vault/analysis/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.md|$p\\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
+	- methods: p-less sampling
+	- datasets: CSQA, GPQA, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.md|A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
+	- methods: ProActive Self-Refinement (PASR)
+	- datasets: GSM8K, MATH, AIME24
+- [[obsidian-vault/analysis/ICLR_2026/ABBA-Adapters_Efficient_and_Expressive_Fine-Tuning_of_Foundation_Models.md|ABBA-Adapters: Efficient and Expressive Fine-Tuning of Foundation Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/ABBA-Adapters_Efficient_and_Expressive_Fine-Tuning_of_Foundation_Models.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Systems / Efficiency / Compression
+	- methods: ABBA-Adapters
+	- datasets: COMMONSENSE170K, GSM8K, MATH
+- [[obsidian-vault/analysis/ICLR_2026/Accelerating_Diffusion_Large_Language_Models_with_SlowFast_Sampling_The_Three_Golden_Principles.md|Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Accelerating_Diffusion_Large_Language_Models_with_SlowFast_Sampling_The_Three_Golden_Principles.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
+	- methods: SlowFast Sampling
+	- datasets: GSM8K, GPQA, MMLU-pro
+- [[obsidian-vault/analysis/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.md|AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: AdaBlock-dLLM
+	- datasets: GSM8K, Overall
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md|Adaptive Thinking: Large Language Models Know When to Think in Latent Space (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Sonata (Self-Consistency-Guided Adapter for Thinking Allocation)
+	- datasets: Qwen3-8B, GSM8K, GPQA
+- [[obsidian-vault/analysis/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.md|Attention Is All You Need for KV Cache in Diffusion LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: Elastic-Cache
+	- datasets: GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.md|Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: Longest Stable Prefix (LSP) Scheduler
+	- datasets: GSM8K, HumanEval
+- [[obsidian-vault/analysis/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.md|Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: RaLoRA / RaLoRA-Pro
+	- datasets: GLUE, MT-Bench, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/QeRL_Beyond_Efficiency_-_Quantization-enhanced_Reinforcement_Learning_for_LLMs.md|QeRL: Beyond Efficiency - Quantization-enhanced Reinforcement Learning for LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/QeRL_Beyond_Efficiency_-_Quantization-enhanced_Reinforcement_Learning_for_LLMs.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
+	- methods: QeRL
+	- datasets: GSM8K, MATH500, Average over 4 math benchmarks on Qwen2.5-7B
+- [[obsidian-vault/analysis/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.md|Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data? (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: EssenceBench
+	- datasets: HellaSwag, ARC, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.md|T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
+	- methods: Tool-integrated Verification (T1)
+	- datasets: MATH500, GSM8K
+- [[obsidian-vault/analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: LTPO
+	- datasets: GSM8K, MATH500, ASDiv-Aug
+- [[obsidian-vault/analysis/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.md|Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.pdf|PDF]]
+	- topics: Other / Unclear
+	- method groups: Systems / Efficiency / Compression, LLM / Reasoning / Alignment
+	- methods: Wide-In, Narrow-Out (WINO)
+	- datasets: GSM8K, ARC-E

@@ -1,0 +1,238 @@
+---
+title: "Method: Safety / Privacy / Robustness"
+type: paper-index
+dimension: method
+tags:
+  - obsidian-vault/index
+generated: 2026-05-21T15:00
+---
+
+# Method: Safety / Privacy / Robustness
+
+- [[obsidian-vault/analysis/ICLR_2026/A_Bayesian_Nonparametric_Framework_for_Private_Fair_and_Balanced_Tabular_Data_Synthesis.md|A Bayesian Nonparametric Framework for Private, Fair, and Balanced Tabular Data Synthesis (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Bayesian_Nonparametric_Framework_for_Private_Fair_and_Balanced_Tabular_Data_Synthesis.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: CBNP-VAECGAN (Conditional Bayesian Nonparametric VAECGAN)
+	- datasets: Adult, COMPAS
+- [[obsidian-vault/analysis/ICLR_2026/A_Brain-Inspired_Gating_Mechanism_Unlocks_Robust_Computation_in_Spiking_Neural_Networks.md|A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Brain-Inspired_Gating_Mechanism_Unlocks_Robust_Computation_in_Spiking_Neural_Networks.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Safety / Privacy / Robustness
+	- methods: Dynamic Gated Neuron (DGN)
+	- datasets: TIDIGITS, SHD, SSC
+- [[obsidian-vault/analysis/ICLR_2026/A_Fair_Bayesian_Inference_through_Matched_Gibbs_Posterior.md|A Fair Bayesian Inference through Matched Gibbs Posterior (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Fair_Bayesian_Inference_through_Matched_Gibbs_Posterior.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Matched Gibbs Posterior
+	- datasets: CRIME
+- [[obsidian-vault/analysis/ICLR_2026/A_Framework_for_Studying_AI_Agent_Behavior_Evidence_from_Consumer_Choice_Experiments.md|A Framework for Studying AI Agent Behavior: Evidence from Consumer Choice Experiments (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Framework_for_Studying_AI_Agent_Behavior_Evidence_from_Consumer_Choice_Experiments.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: ABXLAB
+	- datasets: ABXLAB / OneStopMarket
+- [[obsidian-vault/analysis/ICLR_2026/A_General_Framework_for_Black-Box_Attacks_Under_Cost_Asymmetry.md|A General Framework for Black-Box Attacks Under Cost Asymmetry (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_General_Framework_for_Black-Box_Attacks_Under_Cost_Asymmetry.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Asymmetric Attacks
+	- datasets: ImageNet, ResNet-50, ViT-B/32
+- [[obsidian-vault/analysis/ICLR_2026/A_Guardrail_for_Safety_Preservation_When_Safety-Sensitive_Subspace_Meets_Harmful-Resistant_Null-Space.md|A Guardrail for Safety Preservation: When Safety-Sensitive Subspace Meets Harmful-Resistant Null-Space (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Guardrail_for_Safety_Preservation_When_Safety-Sensitive_Subspace_Meets_Harmful-Resistant_Null-Space.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: GuardSpace
+	- datasets: SST-2, AGNEWS
+- [[obsidian-vault/analysis/ICLR_2026/A_Law_of_Data_Reconstruction_for_Random_Features_And_Beyond.md|A Law of Data Reconstruction for Random Features (And Beyond) (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Law_of_Data_Reconstruction_for_Random_Features_And_Beyond.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 基于子空间投影的数据重建算法
+	- datasets: CIFAR-10, 合成数据, Tiny-ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/A_Rich_Knowledge_Space_for_Scalable_Deepfake_Detection.md|A Rich Knowledge Space for Scalable Deepfake Detection (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Rich_Knowledge_Space_for_Scalable_Deepfake_Detection.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, Vision / Multimodal / 3D
+	- methods: SD² (Scalable Deepfake Detection)
+	- datasets: GenImage
+- [[obsidian-vault/analysis/ICLR_2026/A_Unified_Total_Variation_Framework_for_Membrane_Potential_Perturbation_Dynamic.md|A Unified Total Variation Framework for Membrane Potential Perturbation Dynamic (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Unified_Total_Variation_Framework_for_Membrane_Potential_Perturbation_Dynamic.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: MPPD-TV-ℓ₁
+	- datasets: CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/A-TPT_Angular_Diversity_Calibration_Properties_for_Test-Time_Prompt_Tuning_of_Vision-Language_Models.md|A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A-TPT_Angular_Diversity_Calibration_Properties_for_Test-Time_Prompt_Tuning_of_Vision-Language_Models.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: A-TPT
+	- datasets: Fine-grained datasets, Fine-grained datasets (CLIP ViT-B/16, N>\
+- [[obsidian-vault/analysis/ICLR_2026/A2ASecBench_A_Protocol-Aware_Security_Benchmark_for_Agent-to-Agent_Multi-Agent_Systems.md|A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A2ASecBench_A_Protocol-Aware_Security_Benchmark_for_Agent-to-Agent_Multi-Agent_Systems.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, Agent / RL / Planning
+	- methods: A2ASecBench
+	- datasets: A2A-MAS
+- [[obsidian-vault/analysis/ICLR_2026/A2D_Any-Order_Any-Step_Safety_Alignment_for_Diffusion_Language_Models.md|A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/A2D_Any-Order_Any-Step_Safety_Alignment_for_Diffusion_Language_Models.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: A2D (Any-Order, Any-Step Defense)
+	- datasets: 安全基准, DIJA 攻击
+- [[obsidian-vault/analysis/ICLR_2026/AbsTopK_Rethinking_Sparse_Autoencoders_For_Bidirectional_Features.md|AbsTopK: Rethinking Sparse Autoencoders For Bidirectional Features (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AbsTopK_Rethinking_Sparse_Autoencoders_For_Bidirectional_Features.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: AbsTopK SAE
+	- datasets: Qwen3-4B, Layer 18
+- [[obsidian-vault/analysis/ICLR_2026/AdAEM_An_Adaptively_and_Automated_Extensible_Measurement_of_LLMs_Value_Difference.md|AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdAEM_An_Adaptively_and_Automated_Extensible_Measurement_of_LLMs_Value_Difference.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: AdAEM
+	- datasets: AdAEM Bench vs. MFQ & ValueBench, 控制价值启动实验
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Attacks_on_Trusted_Monitors_Subvert_AI_Control_Protocols.md|Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Attacks_on_Trusted_Monitors_Subvert_AI_Control_Protocols.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Adaptive Prompt Injection Attack（自适应提示注入攻击）
+	- datasets: APPS Backdooring, APPS, BashBench
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Conformal_Guidance_for_Learning_under_Uncertainty.md|Adaptive Conformal Guidance for Learning under Uncertainty (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Conformal_Guidance_for_Learning_under_Uncertainty.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: Adaptive Conformal Guidance (AdaConG)
+	- datasets: CIFAR-100, CIFAR-10
+- [[obsidian-vault/analysis/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.md|Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: SRAL (Set Representation Auxiliary Learning)
+	- datasets: Friendster, LIVEJ, Youshu
+- [[obsidian-vault/analysis/ICLR_2026/Bayesian_Neural_Networks_for_Functional_ANOVA_Model.md|Bayesian Neural Networks for Functional ANOVA Model (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Bayesian_Neural_Networks_for_Functional_ANOVA_Model.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Bayesian-TPNN (Bayesian Tensor Product Neural Networks)
+	- datasets: SERVO, BOSTON, FICO
+- [[obsidian-vault/analysis/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.md|Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Benchmarking framework for fairness-constrained DNN training
+	- datasets: ACSIncome
+- [[obsidian-vault/analysis/ICLR_2026/Breaking_Safety_Paradox_with_Feasible_Dual_Policy_Iteration.md|Breaking Safety Paradox with Feasible Dual Policy Iteration (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Breaking_Safety_Paradox_with_Feasible_Dual_Policy_Iteration.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Safety / Privacy / Robustness
+	- methods: Feasible Dual Policy Iteration (FDPI)
+	- datasets: Safety-Gymnasium
+- [[obsidian-vault/analysis/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.md|Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 负相关采样 (Negatively-correlated sampling)
+	- datasets: IGL维度引导评估
+- [[obsidian-vault/analysis/ICLR_2026/Dual-Space_Smoothness_for_Robust_and_Balanced_LLM_Unlearning.md|Dual-Space Smoothness for Robust and Balanced LLM Unlearning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Dual-Space_Smoothness_for_Robust_and_Balanced_LLM_Unlearning.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: PRISM (Probe‑guided Iterative Smoothness Minimization)
+	- datasets: MUSE-Books, WMDP, WMDP_bio
+- [[obsidian-vault/analysis/ICLR_2026/EUBRL_Epistemic_Uncertainty_Directed_Bayesian_Reinforcement_Learning.md|EUBRL: Epistemic Uncertainty Directed Bayesian Reinforcement Learning (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/EUBRL_Epistemic_Uncertainty_Directed_Bayesian_Reinforcement_Learning.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Safety / Privacy / Robustness
+	- methods: EUBRL
+	- datasets: Chain, Loop
+- [[obsidian-vault/analysis/ICLR_2026/Full-Graph_vs._Mini-Batch_Training_Comprehensive_Analysis_from_a_Batch_Size_and_Fan-Out_Size_Perspective.md|Full-Graph vs. Mini-Batch Training: Comprehensive Analysis from a Batch Size and Fan-Out Size Perspective (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Full-Graph_vs._Mini-Batch_Training_Comprehensive_Analysis_from_a_Batch_Size_and_Fan-Out_Size_Perspective.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: 全图与迷你批次训练系统分析框架 (Systematic Comparative Analysis Framework)
+	- datasets: Reddit, ogbn-arxiv, ogbn-products
+- [[obsidian-vault/analysis/ICLR_2026/Gaussian_certified_unlearning_in_high_dimensions_A_hypothesis_testing_approach.md|Gaussian certified unlearning in high dimensions: A hypothesis testing approach (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Gaussian_certified_unlearning_in_high_dimensions_A_hypothesis_testing_approach.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Noisy one-step Newton unlearning with Gaussian noise (GPAR)
+	- datasets: Simulated ridge logistic regression, Simulated data, varying ε
+- [[obsidian-vault/analysis/ICLR_2026/GUIDE_Gated_Uncertainty-Informed_Disentangled_Experts_for_Long-tailed_Recognition.md|GUIDE: Gated Uncertainty-Informed Disentangled Experts for Long-tailed Recognition (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/GUIDE_Gated_Uncertainty-Informed_Disentangled_Experts_for_Long-tailed_Recognition.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Safety / Privacy / Robustness
+	- methods: GUIDE
+	- datasets: CIFAR-100-LT, ImageNet-LT, iNaturalist 2018
+- [[obsidian-vault/analysis/ICLR_2026/Learning_Dynamic_Causal_Graphs_Under_Parametric_Uncertainty_via_Polynomial_Chaos_Expansions.md|Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Learning_Dynamic_Causal_Graphs_Under_Parametric_Uncertainty_via_Polynomial_Chaos_Expansions.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: PCT-CD
+	- datasets: 化工过程数据集
+- [[obsidian-vault/analysis/ICLR_2026/Output_Supervision_Can_Obfuscate_the_Chain_of_Thought.md|Output Supervision Can Obfuscate the Chain of Thought (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Output_Supervision_Can_Obfuscate_the_Chain_of_Thought.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: Reward Targeting and Mind & Face separation (Spillover-Aware Training)
+	- datasets: Polynomial Derivative Factoring, Question Answering with Hints, Multi-Turn Terminal Interaction
+- [[obsidian-vault/analysis/ICLR_2026/PluriHarms_Benchmarking_the_Full_Spectrum_of_Human_Judgments_on_AI_Harm.md|PluriHarms: Benchmarking the Full Spectrum of Human Judgments on AI Harm (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PluriHarms_Benchmarking_the_Full_Spectrum_of_Human_Judgments_on_AI_Harm.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: PluriHarms多元有益性基准生成与评估框架
+	- datasets: PLURIHARMS
+- [[obsidian-vault/analysis/ICLR_2026/PropensityBench_Evaluating_Latent_Safety_Risks_in_Large_Language_Models_via_an_Agentic_Approach.md|PropensityBench: Evaluating Latent Safety Risks in Large Language Models via an Agentic Approach (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/PropensityBench_Evaluating_Latent_Safety_Risks_in_Large_Language_Models_via_an_Agentic_Approach.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, Benchmark / Evaluation
+	- methods: PropensityBench
+	- datasets: PropensityBench
+- [[obsidian-vault/analysis/ICLR_2026/Purifying_Generative_LLMs_from_Backdoors_without_Prior_Knowledge_or_Clean_Reference.md|Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Purifying_Generative_LLMs_from_Backdoors_without_Prior_Knowledge_or_Clean_Reference.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Immunization-Inspired Backdoor Signature Extraction and Purification
+	- datasets: LLaMA-2-7B-Chat Sentiment Steering, LLaMA-2-13B-Chat Targeted Refusal, CodeLLaMA-13B-Instruct Code Injection
+- [[obsidian-vault/analysis/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.md|Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.pdf|PDF]]
+	- topics: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
+	- methods: Semi-supervised Neural Posterior Estimation with Self-Consistency Loss (NPE + SC)
+	- datasets: Multivariate normal means, Air passenger traffic forecasting, Hodgkin-Huxley neuron model
+- [[obsidian-vault/analysis/ICLR_2026/Routing_Cascades_and_User_Choice_for_LLMs.md|Routing, Cascades, and User Choice for LLMs (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Routing_Cascades_and_User_Choice_for_LLMs.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Stackelberg Routing Game
+- [[obsidian-vault/analysis/ICLR_2026/SeedPrints_Fingerprints_Can_Even_Tell_Which_Seed_Your_Large_Language_Model_Was_Trained_From.md|SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/SeedPrints_Fingerprints_Can_Even_Tell_Which_Seed_Your_Large_Language_Model_Was_Trained_From.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: SeedPrints
+	- datasets: OLMo-2-7B Stage 1预训练检查点, LLaMA-2-7B微调变体, LeaFBench
+- [[obsidian-vault/analysis/ICLR_2026/Spilled_Energy_in_Large_Language_Models.md|Spilled Energy in Large Language Models (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Spilled_Energy_in_Large_Language_Models.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: Spilled Energy (Spilled ΔE)
+	- datasets: HotpotQA, HotpotQA-WC, MNLI
+- [[obsidian-vault/analysis/ICLR_2026/Training-free_Counterfactual_Explanation_for_Temporal_Graph_Model_Inference.md|Training-free Counterfactual Explanation for Temporal Graph Model Inference (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/Training-free_Counterfactual_Explanation_for_Temporal_Graph_Model_Inference.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: TemGX (TEMporal Graph eXplainer)
+	- datasets: UCIM, METR-LA
+- [[obsidian-vault/analysis/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.md|TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: TriQDef
+	- datasets: CIFAR-10, ImageNet
+- [[obsidian-vault/analysis/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.md|When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining (ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.pdf|PDF]]
+	- topics: Safety / Alignment / Fairness / Privacy
+	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- methods: BAIT (Binding Artificial perturbations to Incorrect Targets)
+	- datasets: CIFAR-10, CIFAR-100, SVHN

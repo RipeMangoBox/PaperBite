@@ -1,0 +1,122 @@
+{
+  "checked_files": 418,
+  "issue_count": 0,
+  "issues_by_type": {},
+  "replaced_8": [
+    {
+      "file": "AdaRank_Adaptive_Rank_Pruning_for_Enhanced_Model_Merging.md",
+      "expected_title": "AdaRank: Adaptive Rank Pruning for Enhanced Model Merging",
+      "expected_openreview_forum_id": "fTygcJVOni",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "AdaReasoner_Dynamic_Tool_Orchestration_for_Iterative_Visual_Reasoning.md",
+      "expected_title": "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning",
+      "expected_openreview_forum_id": "nUGPEmQ2ut",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md",
+      "expected_title": "AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability",
+      "expected_openreview_forum_id": "eHhUYoZwWs",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "AdaViewPlanner_Adapting_Video_Diffusion_Models_for_Viewpoint_Planning_in_4D_Scenes.md",
+      "expected_title": "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes",
+      "expected_openreview_forum_id": "c2EfS9E5CJ",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.md",
+      "expected_title": "Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling",
+      "expected_openreview_forum_id": "qYDObsHldZ",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "Adaptive_Rollout_Allocation_for_Online_Reinforcement_Learning_with_Verifiable_Rewards.md",
+      "expected_title": "Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards",
+      "expected_openreview_forum_id": "Z5sWYACAop",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md",
+      "expected_title": "Adaptive Thinking: Large Language Models Know When to Think in Latent Space",
+      "expected_openreview_forum_id": "2i6Rp0gCq6",
+      "status": "ok",
+      "mismatches": []
+    },
+    {
+      "file": "AssetFormer_Modular_3D_Assets_Generation_with_Autoregressive_Transformer.md",
+      "expected_title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
+      "expected_openreview_forum_id": "ODB82HDp0V",
+      "status": "ok",
+      "mismatches": []
+    }
+  ],
+  "semantic_scholar": [
+    {
+      "file": "AdaRank_Adaptive_Rank_Pruning_for_Enhanced_Model_Merging.md",
+      "query_title": "AdaRank: Adaptive Rank Pruning for Enhanced Model Merging",
+      "openreview_forum_id": "fTygcJVOni",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "AdaReasoner_Dynamic_Tool_Orchestration_for_Iterative_Visual_Reasoning.md",
+      "query_title": "AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning",
+      "openreview_forum_id": "nUGPEmQ2ut",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md",
+      "query_title": "AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability",
+      "openreview_forum_id": "eHhUYoZwWs",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "AdaViewPlanner_Adapting_Video_Diffusion_Models_for_Viewpoint_Planning_in_4D_Scenes.md",
+      "query_title": "AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes",
+      "openreview_forum_id": "c2EfS9E5CJ",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.md",
+      "query_title": "Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling",
+      "openreview_forum_id": "qYDObsHldZ",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "Adaptive_Rollout_Allocation_for_Online_Reinforcement_Learning_with_Verifiable_Rewards.md",
+      "query_title": "Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards",
+      "openreview_forum_id": "Z5sWYACAop",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md",
+      "query_title": "Adaptive Thinking: Large Language Models Know When to Think in Latent Space",
+      "openreview_forum_id": "2i6Rp0gCq6",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    },
+    {
+      "file": "AssetFormer_Modular_3D_Assets_Generation_with_Autoregressive_Transformer.md",
+      "query_title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
+      "openreview_forum_id": "ODB82HDp0V",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 429: "
+    }
+  ],
+  "note": "Local ledger/OpenReview ids are treated as primary for ICLR 2026 acceptance; Semantic Scholar is only a cross-check and may lag new ICLR 2026 records."
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PaperBite icon</title>
+  <desc id="desc">A concise paper note with a small bite mark and bookmark accent.</desc>
+  <rect x="56" y="56" width="400" height="400" rx="92" fill="#17324D"/>
+  <path d="M154 104h170l72 72v204c0 20-16 36-36 36H154c-20 0-36-16-36-36V140c0-20 16-36 36-36z" fill="#F8FAF4"/>
+  <path d="M324 104v54c0 10 8 18 18 18h54z" fill="#DCE7DF"/>
+  <path d="M358 93c0 14 11 25 25 25 5 0 10-1 14-4 3 17 18 30 36 30 8 0 15-2 21-6v118H334c-5-8-8-18-8-28 0-26 20-48 46-51-9-8-15-20-15-34 0-25 20-45 45-45 3 0 6 0 9 1-9-12-23-20-39-20-5 0-10 1-14 2z" fill="#17324D"/>
+  <path d="M164 177h112" stroke="#17324D" stroke-width="18" stroke-linecap="round"/>
+  <path d="M164 231h184" stroke="#17324D" stroke-width="18" stroke-linecap="round" opacity=".86"/>
+  <path d="M164 285h146" stroke="#17324D" stroke-width="18" stroke-linecap="round" opacity=".72"/>
+  <path d="M164 339h104" stroke="#17324D" stroke-width="18" stroke-linecap="round" opacity=".58"/>
+  <path d="M292 296h54v120l-27-21-27 21z" fill="#37C783"/>
+  <path d="M118 140c0-20 16-36 36-36h170l24 24H166c-14 0-24 11-24 24v228c0 20 16 36 36 36h-24c-20 0-36-16-36-36z" fill="#FFFFFF" opacity=".42"/>
+</svg>

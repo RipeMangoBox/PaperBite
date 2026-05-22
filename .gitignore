@@ -1,0 +1,17 @@
+assets/*
+!assets/icon/
+!assets/icon/**
+paperPDFs/
+.obsidian/
+.trash/
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.zst
+*.zst
+*.xz
+*.bz2
+*.gz
+*.DS_Store
