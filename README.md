@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/icon/paperbite_icon.svg" alt="PaperBite icon" width="128"/>
+  <img src="./assets/icon/paperbite_icon.png" alt="PaperBite icon" width="128"/>
 </p>
 
 <h1 align="center">PaperBite</h1>
@@ -53,14 +53,26 @@ rsync -a --delete ../obsidian-vault/analysis/ ./analysis/
 rsync -a --delete ../obsidian-vault/index/ ./index/
 ```
 
-Then refresh manifests from the synced Markdown files. Pull optional layers only for papers you plan to inspect visually:
+Then refresh manifests from the synced Markdown files. Keep `manifests/paperbite_manifest.jsonl` as the text-note manifest and add media manifests for optional payloads when publishing a larger snapshot:
+
+- `manifests/paperbite_assets_manifest.jsonl`: one row per exported figure or table under `assets/`, with path, size, checksum, and source note.
+- `manifests/paperbite_pdfs_manifest.jsonl`: one row per PDF under `paperPDFs/`, with path, size, checksum, source URL when available, and source note.
+
+For local maintenance, sync optional media only for papers you plan to inspect visually:
 
 ```bash
 rsync -a ../obsidian-vault/assets/ ./assets/
 rsync -a ../obsidian-vault/paperPDFs/ ./paperPDFs/
 ```
 
-Do not commit large PDFs or extracted figure folders unless a release explicitly needs a bundled offline snapshot.
+For public user updates, keep Git as the lightweight text channel and publish large media through a stable media mirror keyed by the two media manifests. The mirror should preserve repository-relative paths, for example:
+
+```text
+assets/figures/papers/<task_id>/...
+paperPDFs/<Venue_Year>/<Paper>.pdf
+```
+
+Maintainer flow: generate the media manifests, compare path plus checksum against the previous published manifests, upload only new or changed paths, then publish the new manifests with the text update. User flow: pull Git for Markdown/index changes, compare local media files against the latest manifests, and download only missing or changed paths from the mirror. Do not commit large PDFs or extracted figure folders unless a release explicitly needs a bundled offline snapshot.
 
 ## Current Snapshot
 
@@ -69,22 +81,26 @@ Do not commit large PDFs or extracted figure folders unless a release explicitly
 - Default format: Markdown plus generated indexes
 - Optional media: figures/tables and PDFs
 
+## Citation
+
+If PaperBite helps your research, please cite the repository directly:
+
+```bibtex
+@misc{lin2026paperbite,
+  title        = {{PaperBite}: Bite-Sized Paper Notes for Bibliographic Intelligence for Thought Emergence},
+  author       = {Jingzhong Lin and Ziheng Huang},
+  year         = {2026},
+  howpublished = {\url{https://github.com/RipeMangoBox/PaperBite}},
+  note         = {GitHub repository}
+}
+```
+
 ## License
 
 PaperBite is a knowledge-content repository, not a software framework. Its
 original Markdown notes, generated indexes, manifests, prompts, repository
 documentation, and other text artifacts are licensed under
 [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md).
-
-Preferred attribution:
-
-```text
-PaperBite: bite-sized paper notes for BITE
-(Bibliographic Intelligence for Thought Emergence),
-derived from ResearchFlow by ripemangobox.
-https://github.com/RipeMangoBox/PaperBite
-https://github.com/RipeMangoBox/ResearchFlow
-```
 
 The upstream ResearchFlow software remains MIT licensed. This split is
 intentional: ResearchFlow is the reusable workflow and tooling layer, while

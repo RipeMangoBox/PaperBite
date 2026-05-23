@@ -10,7 +10,8 @@ aliases:
 acceptance: accepted
 openreview_forum_id: c2EfS9E5CJ
 tags:
-- topic/iclr_2026
+- topic/vision_multimodal_applications
+- topic/vision_multimodal_applications/image_and_video_generation
 core_operator: 利用预训练视频扩散模型中蕴含的电影摄影先验，通过两阶段适配（先基于人体运动生成包含相机运动的视频，再从视频中提取相机姿态）实现符合文本指令的视点规划。
 primary_logic: 预训练文本到视频模型内部已经编码了丰富的电影摄影技能和场景知识，可通过注入4D场景表征（如人体运动）继承这些先验，从而在给定4D内容和文本指令时自动生成专业且多样的相机轨迹。
 claims:
@@ -32,7 +33,7 @@ paradigm: 预训练文本到视频模型内部已经编码了丰富的电影摄�
 | 英文题名 | AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=c2EfS9E5CJ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | AdaViewPlanner |
 | Dataset | E.T. Testset (SMPL-based), E.T. Testset, E.T. Testset, Ours Testset (curated, 240 samples) |
 

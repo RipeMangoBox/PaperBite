@@ -10,7 +10,8 @@ aliases:
 acceptance: accepted
 openreview_forum_id: nUGPEmQ2ut
 tags:
-- topic/iclr_2026
+- topic/vision_multimodal_applications
+- topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 引入多轮动态工具编排机制：将工具增强推理形式化为状态-动作-观察序列决策过程，并辅以专门设计的数据管线（包含反思与工具失败案例）和适配多轮工具调用的工具GRPO强化学习算法，使模型能够自适应地选择、组合、弃用工具。
 primary_logic: 通过冷启动阶段向模型植入正确的工具使用模式，再利用强化学习中的多轮奖励和自适应激励机制优化工具调用策略，模型能够自主发展出根据任务需求调整工具种类和使用频率的涌现行为，从而突破模型规模的限制，使小模型获得与大型专有模型匹敌甚至更优的性能。
 claims:
@@ -32,7 +33,7 @@ paradigm: 通过冷启动阶段向模型植入正确的工具使用模式，再�
 | 英文题名 | AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=nUGPEmQ2ut) |
-| Topic | #topic/iclr_2026 |
+| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AdaReasoner |
 | Dataset | VSP, Jigsaw, BLINK-J (Jigsaw from BLINK), GUIChat |
 

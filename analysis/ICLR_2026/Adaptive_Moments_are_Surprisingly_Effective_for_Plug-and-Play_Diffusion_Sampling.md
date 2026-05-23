@@ -11,7 +11,8 @@ aliases:
 acceptance: accepted
 openreview_forum_id: qYDObsHldZ
 tags:
-- topic/iclr_2026
+- topic/generative_models_diffusion
+- topic/generative_models_diffusion/diffusion_image_video
 core_operator: 在采样过程中对似然分数的梯度应用自适应矩估计（Adam风格的动量与自适应缩放），从而稳定梯度方向与尺度。
 primary_logic: 将随机优化中成熟的Adam自适应矩思想注入到扩散模型的引导采样中，通过跨时间步维持梯度的一阶与二阶指数移动平均，有效抑制引导信号中的噪声，使采样轨迹更一致地朝目标条件收敛，且几乎不增加计算开销。
 claims:
@@ -33,7 +34,7 @@ paradigm: 将随机优化中成熟的Adam自适应矩思想注入到扩散模型
 | 英文题名    | Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling                                                           |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qYDObsHldZ) |
-| Topic   | #topic/iclr_2026                                                                                                                           |
+| Topic   | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video                                                |
 | Method  | Adaptive Moment Guidance (AdamDPS / AdamCG)                                                                                                |
 | Dataset | ImageNet Super Resolution 16×, ImageNet Gaussian Deblur 12, ImageNet Inpainting 90% mask, CIFAR-10 Class-Conditional (standard classifier) |
 

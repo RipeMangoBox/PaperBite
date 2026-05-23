@@ -4,416 +4,422 @@ type: paper-index
 dimension: topic
 tags:
   - obsidian-vault/index
-generated: 2026-05-21T15:00
+generated: 2026-05-23T00:00
 ---
 
 # Topic: Generative Models / Diffusion
 
-- [[obsidian-vault/analysis/ICLR_2026/mathbfLi_2_A_Framework_on_Dynamics_of_Feature_Emergence_and_Delayed_Generalization.md|$\\mathbf{Li_2}$: A Framework on Dynamics of Feature Emergence and Delayed Generalization (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/mathbfLi_2_A_Framework_on_Dynamics_of_Feature_Emergence_and_Delayed_Generalization.md|$\\mathbf{Li_2}$: A Framework on Dynamics of Feature Emergence and Delayed Generalization(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/mathbfLi_2_A_Framework_on_Dynamics_of_Feature_Emergence_and_Delayed_Generalization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Li2 框架
 	- datasets: 模加法任务, 多层网络模加法任务
-- [[obsidian-vault/analysis/ICLR_2026/UNFV_UnSupervised_Neural_Finite_Volume_Methods_for_Solving_Hyperbolic_PDEs.md|(U)NFV: (Un)Supervised Neural Finite Volume Methods for Solving Hyperbolic PDEs (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/UNFV_UnSupervised_Neural_Finite_Volume_Methods_for_Solving_Hyperbolic_PDEs.md|(U)NFV: (Un)Supervised Neural Finite Volume Methods for Solving Hyperbolic PDEs(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/UNFV_UnSupervised_Neural_Finite_Volume_Methods_for_Solving_Hyperbolic_PDEs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: (U)NFV (Neural Finite Volume)
 	- datasets: Greenshields LWR, Triangular 1 LWR, Burgers
-- [[obsidian-vault/analysis/ICLR_2026/One_LLM_Token_for_Explicit_Graph_Structural_Understanding.md|: One LLM Token for Explicit Graph Structural Understanding (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/One_LLM_Token_for_Explicit_Graph_Structural_Understanding.md|: One LLM Token for Explicit Graph Structural Understanding(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/One_LLM_Token_for_Explicit_Graph_Structural_Understanding.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: <SOGk> (Structure Of Graph token)
 	- datasets: BBBP, Tox21, ClinTox
-- [[obsidian-vault/analysis/ICLR_2026/A_Bayesian_Nonparametric_Framework_For_Learning_Disentangled_Representations.md|A Bayesian Nonparametric Framework For Learning Disentangled Representations (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Bayesian_Nonparametric_Framework_For_Learning_Disentangled_Representations.md|A Bayesian Nonparametric Framework For Learning Disentangled Representations(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Bayesian_Nonparametric_Framework_For_Learning_Disentangled_Representations.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
 	- methods: Bayes-QLAE (Bayesian Quantized Latent Autoencoder)
 	- datasets: MPI3D
-- [[obsidian-vault/analysis/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.md|A Benchmark for Deep Information Synthesis (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.md|A Benchmark for Deep Information Synthesis(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Benchmark / Evaluation
 	- methods: DEEPSYNTH
 	- datasets: DEEPSYNTH, DEEPSYNTH-Dev
-- [[obsidian-vault/analysis/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.md|A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.md|A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: WS-KAN
 	- datasets: INR分类
-- [[obsidian-vault/analysis/ICLR_2026/A_New_Initialization_to_Control_Gradients_in_Sinusoidal_Neural_Networks.md|A New Initialization to Control Gradients in Sinusoidal Neural Networks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_New_Initialization_to_Control_Gradients_in_Sinusoidal_Neural_Networks.md|A New Initialization to Control Gradients in Sinusoidal Neural Networks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_New_Initialization_to_Control_Gradients_in_Sinusoidal_Neural_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: SIREN Proposed (σ_a=0 initialization)
 	- datasets: 图像拟合
-- [[obsidian-vault/analysis/ICLR_2026/A_Noise_is_Worth_Diffusion_Guidance.md|A Noise is Worth Diffusion Guidance (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Noise_is_Worth_Diffusion_Guidance.md|A Noise is Worth Diffusion Guidance(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Noise_is_Worth_Diffusion_Guidance.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: NoiseRefine
 	- datasets: MS-COCO 2014 validation, ImageNet, MS-COCO validation
-- [[obsidian-vault/analysis/ICLR_2026/A_Probabilistic_Hard_Concept_Bottleneck_for_Steerable_Generative_Models.md|A Probabilistic Hard Concept Bottleneck for Steerable Generative Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Probabilistic_Hard_Concept_Bottleneck_for_Steerable_Generative_Models.md|A Probabilistic Hard Concept Bottleneck for Steerable Generative Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Probabilistic_Hard_Concept_Bottleneck_for_Steerable_Generative_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: Variational Hard Concept Bottleneck (VHCB)
 	- datasets: CelebA-HQ
-- [[obsidian-vault/analysis/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.md|A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.md|A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: CopulaLSP (CopulaGNN for Link Sign Prediction)
 	- datasets: BitcoinAlpha, BitcoinOTC
-- [[obsidian-vault/analysis/ICLR_2026/A_State-Transition_Framework_for_Efficient_LLM_Reasoning.md|A State-Transition Framework for Efficient LLM Reasoning (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_State-Transition_Framework_for_Efficient_LLM_Reasoning.md|A State-Transition Framework for Efficient LLM Reasoning(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_State-Transition_Framework_for_Efficient_LLM_Reasoning.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: State-Transition Framework with Mixed Attention Module (MAM)
 	- datasets: AIME24
-- [[obsidian-vault/analysis/ICLR_2026/A_Statistical_Learning_Perspective_on_Semi-dual_Adversarial_Neural_Optimal_Transport_Solvers.md|A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Statistical_Learning_Perspective_on_Semi-dual_Adversarial_Neural_Optimal_Transport_Solvers.md|A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Statistical_Learning_Perspective_on_Semi-dual_Adversarial_Neural_Optimal_Transport_Solvers.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Minimax Quadratic OT Solver (半对偶对抗神经最优传输求解器)
 	- datasets: 合成高斯分布
-- [[obsidian-vault/analysis/ICLR_2026/A_Study_of_Posterior_Stability_in_Time-Series_Latent_Diffusion.md|A Study of Posterior Stability in Time-Series Latent Diffusion (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Study_of_Posterior_Stability_in_Time-Series_Latent_Diffusion.md|A Study of Posterior Stability in Time-Series Latent Diffusion(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Study_of_Posterior_Stability_in_Time-Series_Latent_Diffusion.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
 	- methods: Posterior-Stable Latent Diffusion (PSLD，后验稳定潜在扩散)
 	- datasets: MIMIC, WARDS, Earthquakes
-- [[obsidian-vault/analysis/ICLR_2026/A_Unification_of_Discrete_Gaussian_and_Simplicial_Diffusion.md|A Unification of Discrete, Gaussian, and Simplicial Diffusion (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_Unification_of_Discrete_Gaussian_and_Simplicial_Diffusion.md|A Unification of Discrete, Gaussian, and Simplicial Diffusion(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Unification_of_Discrete_Gaussian_and_Simplicial_Diffusion.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: 基于 Wright‑Fisher 扩散的统一框架与 sufficient‑statistic 参数化 (SSP)
 	- datasets: FlyBrain 增强子数据, UniRef50, LM1B
-- [[obsidian-vault/analysis/ICLR_2026/A_universal_compression_theory_for_lottery_ticket_hypothesis_and_neural_scaling_laws.md|A universal compression theory for lottery ticket hypothesis and neural scaling laws (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/A_universal_compression_theory_for_lottery_ticket_hypothesis_and_neural_scaling_laws.md|A universal compression theory for lottery ticket hypothesis and neural scaling laws(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/A_universal_compression_theory_for_lottery_ticket_hypothesis_and_neural_scaling_laws.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Universal Compression via Moment Matching and Clustering
 	- datasets: teacher-student function fitting, cylindrical harmonic function learning, teacher-student
-- [[obsidian-vault/analysis/ICLR_2026/AC-Sampler_Accelerate_and_Correct_Diffusion_Sampling_with_Metropolis-Hastings_Algorithm.md|AC-Sampler: Accelerate and Correct Diffusion Sampling with Metropolis-Hastings Algorithm (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/AC-Sampler_Accelerate_and_Correct_Diffusion_Sampling_with_Metropolis-Hastings_Algorithm.md|AC-Sampler: Accelerate and Correct Diffusion Sampling with Metropolis-Hastings Algorithm(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/AC-Sampler_Accelerate_and_Correct_Diffusion_Sampling_with_Metropolis-Hastings_Algorithm.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: AC‑Sampler
 	- datasets: unconditional CIFAR-10
-- [[obsidian-vault/analysis/ICLR_2026/Achieving_low-bit_Muon_through_subspace_preservation_and_grid_quantization.md|Achieving low-bit Muon through subspace preservation and grid quantization (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Achieving_low-bit_Muon_through_subspace_preservation_and_grid_quantization.md|Achieving low-bit Muon through subspace preservation and grid quantization(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Achieving_low-bit_Muon_through_subspace_preservation_and_grid_quantization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: 4-bit-Muon-GRASP (GRid And Subspace Preserving)
 	- datasets: LLaMA-350M 预训练下游任务平均准确率, LLaMA-1.1B 预训练验证困惑度, Qwen2.5-7B-Math 微调数学推理任务
-- [[obsidian-vault/analysis/ICLR_2026/Actions_Speak_Louder_than_Prompts_A_Large-Scale_Study_of_LLMs_for_Graph_Inference.md|Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Actions_Speak_Louder_than_Prompts_A_Large-Scale_Study_of_LLMs_for_Graph_Inference.md|Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Actions_Speak_Louder_than_Prompts_A_Large-Scale_Study_of_LLMs_for_Graph_Inference.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Graph-as-Code
 	- datasets: cora, pubmed, cornell
-- [[obsidian-vault/analysis/ICLR_2026/ActivationReasoning_Logical_Reasoning_in_Latent_Activation_Spaces.md|ActivationReasoning: Logical Reasoning in Latent Activation Spaces (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/ActivationReasoning_Logical_Reasoning_in_Latent_Activation_Spaces.md|ActivationReasoning: Logical Reasoning in Latent Activation Spaces(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/ActivationReasoning_Logical_Reasoning_in_Latent_Activation_Spaces.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: ACTIVATIONREASONING (AR)
 	- datasets: PrOntoQA, Rail2Country Meta, ProverQA
-- [[obsidian-vault/analysis/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.md|AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.md|AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/AdaBlock-dLLM_Semantic-Aware_Diffusion_LLM_Inference_via_Adaptive_Block_Size.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: AdaBlock-dLLM
 	- datasets: GSM8K, Overall
-- [[obsidian-vault/analysis/ICLR_2026/Adapting_Self-Supervised_Representations_as_a_Latent_Space_for_Efficient_Generation.md|Adapting Self-Supervised Representations as a Latent Space for Efficient Generation (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Adapting_Self-Supervised_Representations_as_a_Latent_Space_for_Efficient_Generation.md|Adapting Self-Supervised Representations as a Latent Space for Efficient Generation(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Adapting_Self-Supervised_Representations_as_a_Latent_Space_for_Efficient_Generation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Representation / Self-Supervised / Transfer, Generative / Diffusion / Flow
 	- methods: Representation Tokenizer (RepTok)
 	- datasets: ImageNet 256×256, ImageNet 256×256 类别条件生成, MS-COCO zero-shot
-- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.md|Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.md|Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: AdamDPS / AdamCG
 	- datasets: ImageNet
-- [[obsidian-vault/analysis/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.md|AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.md|AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: AlignFlow
 	- datasets: CIFAR-10, ImageNet256
-- [[obsidian-vault/analysis/ICLR_2026/Aligning_Visual_Foundation_Encoders_to_Tokenizers_for_Diffusion_Models.md|Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Aligning_Visual_Foundation_Encoders_to_Tokenizers_for_Diffusion_Models.md|Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Aligning_Visual_Foundation_Encoders_to_Tokenizers_for_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: AlignTok
 	- datasets: ImageNet 256×256, COCO Prompt 6K
-- [[obsidian-vault/analysis/ICLR_2026/AlphaFlow_Understanding_and_Improving_MeanFlow_Models.md|AlphaFlow: Understanding and Improving MeanFlow Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/AlphaFlow_Understanding_and_Improving_MeanFlow_Models.md|AlphaFlow: Understanding and Improving MeanFlow Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/AlphaFlow_Understanding_and_Improving_MeanFlow_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: α-Flow
 	- datasets: ImageNet-1K 256×256
-- [[obsidian-vault/analysis/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.md|Antithetic Noise in Diffusion Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.md|Antithetic Noise in Diffusion Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: Antithetic Noise in Diffusion Models
 	- datasets: CIFAR-10, CelebA-HQ, DPS Inpainting
-- [[obsidian-vault/analysis/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.md|Attention Is All You Need for KV Cache in Diffusion LLMs (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.md|Attention Is All You Need for KV Cache in Diffusion LLMs(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Elastic-Cache
 	- datasets: GSM8K
-- [[obsidian-vault/analysis/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.md|Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.md|Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: AutoRegressive-based Progressive Coding (ARPC)
 	- datasets: CLIC2020
-- [[obsidian-vault/analysis/ICLR_2026/Avey-B.md|Avey-B (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Avey-B.md|Avey-B(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Avey-B.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: Avey-B
 	- datasets: SC, TC, QA
-- [[obsidian-vault/analysis/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.md|Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.md|Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Rank-1 EWC with Generative Distillation
 	- datasets: MNIST, FashionMNIST
-- [[obsidian-vault/analysis/ICLR_2026/Beyond_Masks_Efficient_Flexible_Diffusion_Language_Models_via_Deletion-Insertion_Processes.md|Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Beyond_Masks_Efficient_Flexible_Diffusion_Language_Models_via_Deletion-Insertion_Processes.md|Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Beyond_Masks_Efficient_Flexible_Diffusion_Language_Models_via_Deletion-Insertion_Processes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Deletion-Insertion Diffusion language models (DID)
 	- datasets: WikiText, Lambada, OpenWebText
-- [[obsidian-vault/analysis/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.md|Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.md|Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Longest Stable Prefix (LSP) Scheduler
 	- datasets: GSM8K, HumanEval
-- [[obsidian-vault/analysis/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.md|Boomerang Distillation Enables Zero-Shot Model Size Interpolation (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.md|Boomerang Distillation Enables Zero-Shot Model Size Interpolation(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Boomerang Distillation
 	- datasets: WikiText, Qwen3-4B-Base 教师模型
-- [[obsidian-vault/analysis/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.md|Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.md|Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Structured Temporal Orthogonal Decorrelation (STOD)
 	- datasets: CIFAR-10, CIFAR-100, ImageNet
-- [[obsidian-vault/analysis/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.md|Bures-Wasserstein Flow Matching for Graph Generation (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.md|Bures-Wasserstein Flow Matching for Graph Generation(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: BWFlow
 	- datasets: Planar, QM9, Guacamol
-- [[obsidian-vault/analysis/ICLR_2026/Capacity-Aware_Inference_Mitigating_the_Straggler_Effect_in_Mixture_of_Experts.md|Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Capacity-Aware_Inference_Mitigating_the_Straggler_Effect_in_Mixture_of_Experts.md|Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Capacity-Aware_Inference_Mitigating_the_Straggler_Effect_in_Mixture_of_Experts.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Capacity-Aware Token Drop and Expanded Drop
 	- datasets: Average across 9 LM benchmarks, Mixtral-8×7B-Instruct end-to-end inference, OLMoE MoE layer inference
-- [[obsidian-vault/analysis/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.md|DiffusionBlocks Block-wise Neural Network Training via Diffusion Interpretation (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.md|DiffusionBlocks Block-wise Neural Network Training via Diffusion Interpretation(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: DiffusionBlocks：将残差网络划分为块, 为每个块分配噪声尺度, 并使用扩散式去噪损失独立训练每个块
 	- datasets: ImageNet-1K, CIFAR-100, Tiny-ImageNet
-- [[obsidian-vault/analysis/ICLR_2026/DiffusionNFT_Online_Diffusion_Reinforcement_with_Forward_Process.md|DiffusionNFT: Online Diffusion Reinforcement with Forward Process (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/DiffusionNFT_Online_Diffusion_Reinforcement_with_Forward_Process.md|DiffusionNFT: Online Diffusion Reinforcement with Forward Process(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/DiffusionNFT_Online_Diffusion_Reinforcement_with_Forward_Process.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: Diffusion Negative-aware Fine-Tuning (DiffusionNFT)
 	- datasets: GenEval, PickScore, HPSv2.1
-- [[obsidian-vault/analysis/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.md|Dual-Path Condition Alignment for Diffusion Transformers (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.md|Dual-Path Condition Alignment for Diffusion Transformers(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: DUPA (DUal-Path condition Alignment)
 	- datasets: ImageNet 256×256 class-conditional generation, ImageNet 256×256
-- [[obsidian-vault/analysis/ICLR_2026/Dynamic_Multi-sample_Mixup_with_Gradient_Exploration_for_Open-set_Graph_Anomaly_Detection.md|Dynamic Multi-sample Mixup with Gradient Exploration for Open-set Graph Anomaly Detection (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Dynamic_Multi-sample_Mixup_with_Gradient_Exploration_for_Open-set_Graph_Anomaly_Detection.md|Dynamic Multi-sample Mixup with Gradient Exploration for Open-set Graph Anomaly Detection(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Dynamic_Multi-sample_Mixup_with_Gradient_Exploration_for_Open-set_Graph_Anomaly_Detection.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Agent / RL / Planning
 	- methods: DEMO
 	- datasets: Photo, Yelp, ogbn-arxiv
-- [[obsidian-vault/analysis/ICLR_2026/Equivariant_Splitting_Self-supervised_learning_from_incomplete_data.md|Equivariant Splitting: Self-supervised learning from incomplete data (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Equivariant_Splitting_Self-supervised_learning_from_incomplete_data.md|Equivariant Splitting: Self-supervised learning from incomplete data(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Equivariant_Splitting_Self-supervised_learning_from_incomplete_data.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
 	- methods: Equivariant Splitting (ES)
 	- datasets: DIV2K 图像修复, FastMRI 加速磁共振成像
-- [[obsidian-vault/analysis/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.md|EvA: Evolutionary Attacks on Graphs (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.md|EvA: Evolutionary Attacks on Graphs(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: EvA (Evolutionary Attack)
 	- datasets: CoraML, CoraML with GCNSVD defense, Amazon-Photo
-- [[obsidian-vault/analysis/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.md|FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.md|FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: FedDAG
 	- datasets: CIFAR-10, FMNIST
-- [[obsidian-vault/analysis/ICLR_2026/FlexHiNM-GP_Flexible_Hierarchical_Pruning_via_Region_Allocation_and_Channel_Permutation.md|FlexHiNM-GP: Flexible Hierarchical Pruning via Region Allocation and Channel Permutation (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/FlexHiNM-GP_Flexible_Hierarchical_Pruning_via_Region_Allocation_and_Channel_Permutation.md|FlexHiNM-GP: Flexible Hierarchical Pruning via Region Allocation and Channel Permutation(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/FlexHiNM-GP_Flexible_Hierarchical_Pruning_via_Region_Allocation_and_Channel_Permutation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: FlexHiNM‑GP
 	- datasets: ImageNet-1K, QQP, SST-2
-- [[obsidian-vault/analysis/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.md|Flock A Knowledge Graph Foundation Model via Learning on Random Walks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.md|Flock A Knowledge Graph Foundation Model via Learning on Random Walks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
 	- methods: 基于随机游走序列编码的概率性节点-关系等变模型
 	- datasets: PETALS
-- [[obsidian-vault/analysis/ICLR_2026/Foresight_Diffusion_Improving_Sampling_Consistency_in_Predictive_Diffusion_Models.md|Foresight Diffusion: Improving Sampling Consistency in Predictive Diffusion Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Foresight_Diffusion_Improving_Sampling_Consistency_in_Predictive_Diffusion_Models.md|Foresight Diffusion: Improving Sampling Consistency in Predictive Diffusion Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Foresight_Diffusion_Improving_Sampling_Consistency_in_Predictive_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: Foresight Diffusion (ForeDiff)
 	- datasets: RoboNet, RT-1
-- [[obsidian-vault/analysis/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.md|Forest-Based Graph Learning for Semi-Supervised Node Classification (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.md|Forest-Based Graph Learning for Semi-Supervised Node Classification(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: FGL (Forest-based Graph Learning)
 	- datasets: Cora, Pubmed, Cornell
-- [[obsidian-vault/analysis/ICLR_2026/Gelato_Graph_Edit_Distance_via_Autoregressive_Neural_Combinatorial_Optimization.md|Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Gelato_Graph_Edit_Distance_via_Autoregressive_Neural_Combinatorial_Optimization.md|Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Gelato_Graph_Edit_Distance_via_Autoregressive_Neural_Combinatorial_Optimization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: GELATO
 	- datasets: AIDS, LINUX
-- [[obsidian-vault/analysis/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.md|GGBall: Graph Generative Model on Poincaré Ball (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.md|GGBall: Graph Generative Model on Poincaré Ball(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: GGBall (HVQVAE + Poincaré Flow Matching)
 	- datasets: Community-small
-- [[obsidian-vault/analysis/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.md|Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.md|Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: RaLoRA / RaLoRA-Pro
 	- datasets: GLUE, MT-Bench, GSM8K
-- [[obsidian-vault/analysis/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.md|HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.md|HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: HGNet（包含 Z-NERD 零样本实体识别和 HGNet 层次关系抽取）
 	- datasets: SciERC, SciER, BioRED
-- [[obsidian-vault/analysis/ICLR_2026/HUME_Measuring_the_Human-Model_Performance_Gap_in_Text_Embedding_Tasks.md|HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/HUME_Measuring_the_Human-Model_Performance_Gap_in_Text_Embedding_Tasks.md|HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/HUME_Measuring_the_Human-Model_Performance_Gap_in_Text_Embedding_Tasks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: HUME (Human Evaluation Framework for Text Embeddings)
 	- datasets: Arabic Sentiment Analysis, ArXiv Clustering
-- [[obsidian-vault/analysis/ICLR_2026/Iterative_Training_of_Physics-Informed_Neural_Networks_with_Fourier-enhanced_Features.md|Iterative Training of Physics-Informed Neural Networks with Fourier-enhanced Features (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Iterative_Training_of_Physics-Informed_Neural_Networks_with_Fourier-enhanced_Features.md|Iterative Training of Physics-Informed Neural Networks with Fourier-enhanced Features(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Iterative_Training_of_Physics-Informed_Neural_Networks_with_Fourier-enhanced_Features.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: IFeF-PINN (Iterative training of PINNs with Fourier-enhanced Features)
 	- datasets: Low-frequency Helmholtz, Viscous Burgers, Low-frequency benchmarks
-- [[obsidian-vault/analysis/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.md|Learning to Interpret Weight Differences in Language Models (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.md|Learning to Interpret Weight Differences in Language Models(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: Diff Interpretation Tuning (DIT)
 	- datasets: Hidden Topic Identification, News Summarization
-- [[obsidian-vault/analysis/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.md|Light Differentiable Logic Gate Networks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.md|Light Differentiable Logic Gate Networks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: Input-wise parametrization (IWP) of logic gate networks
 	- datasets: CIFAR-100, CIFAR-10, WMT'14 EN-DE
-- [[obsidian-vault/analysis/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.md|LRIM: a Physics-Based Benchmark for Provably Evaluating Long-Range Capabilities in Graph Learning (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.md|LRIM: a Physics-Based Benchmark for Provably Evaluating Long-Range Capabilities in Graph Learning(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Benchmark / Evaluation, Generative / Diffusion / Flow
 	- methods: LRIM Graph Benchmark (Long-Range Ising Model Graph Benchmark)
 	- datasets: LRIM-16-hard, LRIM-32-hard, LRIM-16-easy
-- [[obsidian-vault/analysis/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.md|Minimax Sample Complexity of Graph Neural Networks: Lower Bounds and Structural Effects (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.md|Minimax Sample Complexity of Graph Neural Networks: Lower Bounds and Structural Effects(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: ReLU 消息传递 GNN 的极小极大分析框架
 	- datasets: ogbn_products_50k, ogbn_arxiv, Reddit_50k
-- [[obsidian-vault/analysis/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.md|PALC: Preference Alignment via Logit Calibration (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.md|PALC: Preference Alignment via Logit Calibration(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: PALC
 	- datasets: HH-RLHF, HH-RLHF vs DPO, MT-Bench
-- [[obsidian-vault/analysis/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.md|Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.md|Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: Query-Aware Flow Diffusion RAG (QAFD-RAG)
 	- datasets: UltraDomain, Spider 2.0
-- [[obsidian-vault/analysis/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.md|ReLaSH: Reconstructing Joint Latent Spaces for Efficient Generation of Synthetic Hypergraphs with Hyperlink Attributes (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.md|ReLaSH: Reconstructing Joint Latent Spaces for Efficient Generation of Synthetic Hypergraphs with Hyperlink Attributes(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
 	- methods: ReLaSH
 	- datasets: MIMIC-III ICU patient profiles, Co-citation hypergraph generation, Recipe hypergraph generation
-- [[obsidian-vault/analysis/ICLR_2026/Remaining-data-free_Machine_Unlearning_by_Suppressing_Sample_Contribution.md|Remaining-data-free Machine Unlearning by Suppressing Sample Contribution (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Remaining-data-free_Machine_Unlearning_by_Suppressing_Sample_Contribution.md|Remaining-data-free Machine Unlearning by Suppressing Sample Contribution(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Remaining-data-free_Machine_Unlearning_by_Suppressing_Sample_Contribution.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: MU-Mis (Machine Unlearning by Minimizing Input Sensitivity)
 	- datasets: CIFAR-100, Tiny ImageNet, PinsFaceRecognition
-- [[obsidian-vault/analysis/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.md|Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs? (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.md|Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs?(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: Weighted Augmented Forman-3 Curvature (WAF3) with MinHash Approximation
 	- datasets: 大规模图, SDRF 图重连, GNRF 端到端模型
-- [[obsidian-vault/analysis/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.md|Risk Phase Transitions in Spiked Regression: Alignment Driven Benign and Catastrophic Overfitting (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.md|Risk Phase Transitions in Spiked Regression: Alignment Driven Benign and Catastrophic Overfitting(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: 最小范数插值（Minimum-Norm Interpolating OLS）
 	- datasets: 合成数据
-- [[obsidian-vault/analysis/ICLR_2026/RouterArena_An_Open_Platform_for_Comprehensive_Comparison_of_LLM_Routers.md|RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/RouterArena_An_Open_Platform_for_Comprehensive_Comparison_of_LLM_Routers.md|RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/RouterArena_An_Open_Platform_for_Comprehensive_Comparison_of_LLM_Routers.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: ROUTERARENA
 	- datasets: ROUTERARENA数据集
-- [[obsidian-vault/analysis/ICLR_2026/Scaling_Laws_Meet_Model_Architecture_Toward_Inference-Efficient_LLMs.md|Scaling Laws Meet Model Architecture: Toward Inference-Efficient LLMs (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Scaling_Laws_Meet_Model_Architecture_Toward_Inference-Efficient_LLMs.md|Scaling Laws Meet Model Architecture: Toward Inference-Efficient LLMs(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Scaling_Laws_Meet_Model_Architecture_Toward_Inference-Efficient_LLMs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Systems / Efficiency / Compression, Generative / Diffusion / Flow
 	- methods: 条件缩放律（Conditional Scaling Law）
 	- datasets: 推理吞吐量
-- [[obsidian-vault/analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: LTPO
 	- datasets: GSM8K, MATH500, ASDiv-Aug
-- [[obsidian-vault/analysis/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.md|Training-Free Determination of Network Width via Neural Tangent Kernel (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.md|Training-Free Determination of Network Width via Neural Tangent Kernel(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: 基于NTK最小特征值的无训练基数宽度确定方法
 	- datasets: UCI Diabetes, California Housing, MNIST
-- [[obsidian-vault/analysis/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.md|WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks (ICLR 2026)]]
+- [[obsidian-vault/analysis/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.md|WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks(ICLR 2026)]]
 	- [[obsidian-vault/paperPDFs/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: WATS (Wavelet-Aware Temperature Scaling)
 	- datasets: Citeseer / GCN, Cora-full / GAT, Computers / GCN
+- [[obsidian-vault/analysis/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md|AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability(ICLR 2026)]]
+	- [[obsidian-vault/paperPDFs/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
+	- methods: AdaSpec
+	- datasets: Texas, Minesweeper, Roman_Empire

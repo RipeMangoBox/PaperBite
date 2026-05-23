@@ -10,7 +10,8 @@ aliases:
 acceptance: accepted
 openreview_forum_id: ODB82HDp0V
 tags:
-- topic/iclr_2026
+- topic/vision_multimodal_applications
+- topic/vision_multimodal_applications/3d_rendering_reconstruction
 core_operator: 采用自回归Transformer对模块基元序列进行建模，并通过基于图遍历的标记重排序（DFS/BFS）、标记集建模和SlowFast解码策略，显著提升了生成质量和推理速度。
 primary_logic: 将模块化3D资产表示为具有离散属性的基元序列，并利用深度优先搜索（DFS）排序来捕捉空间层次依赖，使得自回归模型能够有效学习并生成结构连贯的模块化资产。
 claims:
@@ -32,7 +33,7 @@ paradigm: 将模块化3D资产表示为具有离散属性的基元序列，并�
 | 英文题名 | AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ODB82HDp0V) |
-| Topic | #topic/iclr_2026 |
+| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | AssetFormer |
 | Dataset | Modular Building Generation (collected dataset) |
 

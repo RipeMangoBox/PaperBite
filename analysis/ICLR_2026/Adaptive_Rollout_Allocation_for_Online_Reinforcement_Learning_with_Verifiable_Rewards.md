@@ -11,7 +11,8 @@ aliases:
 acceptance: accepted
 openreview_forum_id: Z5sWYACAop
 tags:
-- topic/iclr_2026
+- topic/reinforcement_learning_planning_agents
+- topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 基于高斯过程预测每个提示的成功概率，动态计算和最小化梯度方差，从而自适应地分配推广次数，将计算预算集中在具有最大信息增益的提示上。
 primary_logic: 通过理论分析揭示梯度方差与提示成功概率 p 的函数关系，利用高斯过程在嵌入空间中对 p 进行在线预测，并将分配问题形式化为一个凸优化问题，可在总预算约束下精确求解并取整，从而显著提升采样效率和最终模型性能。
 claims:
@@ -33,7 +34,7 @@ paradigm: 通过理论分析揭示梯度方差与提示成功概率 p 的函数�
 | 英文题名 | Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Z5sWYACAop) |
-| Topic | #topic/iclr_2026 |
+| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | VIP (Variance-Informed Predictive allocation strategy) |
 | Dataset | AIME24, Bamboogle, MuSiQue, Bamboogle |
 

@@ -26,7 +26,7 @@ Preferred attribution:
 ```text
 PaperBite: bite-sized paper notes for BITE
 (Bibliographic Intelligence for Thought Emergence),
-derived from ResearchFlow by ripemangobox.
+derived from ResearchFlow by Jingzhong Lin and Ziheng Huang.
 https://github.com/RipeMangoBox/PaperBite
 https://github.com/RipeMangoBox/ResearchFlow
 ```
