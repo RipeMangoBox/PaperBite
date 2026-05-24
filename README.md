@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/icon/paperbite_icon.png" alt="PaperBite icon" width="128"/>
+  <img src="./assets/icon/paperbite_icon.png" alt="PaperBite icon" width="180"/>
 </p>
 
 <h1 align="center">PaperBite</h1>
 
-<p align="center"><strong>Bite-sized Paper Notes for Bibliographic Intelligence for Thought Emergence</strong></p>
+<p align="center"><strong>一口一篇论文 · Bite-sized paper notes</strong></p>
 
 <p align="center">
   <img alt="ResearchFlow derived" src="https://img.shields.io/badge/ResearchFlow-derived-1f6feb?style=flat-square"/>
@@ -12,19 +12,8 @@
   <img alt="License CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC--BY--NC--4.0-111827?style=flat-square"/>
 </p>
 
-PaperBite means "一口一篇论文": each paper is compressed into a readable Markdown bite with source anchors, structured metadata, and links back to the original paper.
-
-Full name:
-
-```text
-BITE = Bibliographic Intelligence for Thought Emergence
-PaperBite = bite-sized paper notes for BITE
-```
-
-PaperBite is the evidence-deposition layer of the broader BITE idea. It does
-not try to be the full idea-generation system by itself. Instead, it keeps
-paper-level evidence clean, compact, traceable, and ready for downstream
-ResearchFlow agents.
+PaperBite keeps each paper compressed into a readable Markdown bite with source
+anchors, structured metadata, and links back to the original paper.
 
 This repository is a lightweight local vault derived from
 [ResearchFlow](https://github.com/RipeMangoBox/ResearchFlow) outputs. The
@@ -87,7 +76,7 @@ If PaperBite helps your research, please cite the repository directly:
 
 ```bibtex
 @misc{lin2026paperbite,
-  title        = {{PaperBite}: Bite-Sized Paper Notes for Bibliographic Intelligence for Thought Emergence},
+  title        = {{PaperBite}: Bite-sized paper notes},
   author       = {Jingzhong Lin and Ziheng Huang},
   year         = {2026},
   howpublished = {\url{https://github.com/RipeMangoBox/PaperBite}},

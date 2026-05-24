@@ -3,176 +3,199 @@ title: "Method: Graph / Geometric / Structured Data"
 type: paper-index
 dimension: method
 tags:
-  - obsidian-vault/index
-generated: 2026-05-21T15:00
+  - index
+generated: 2026-05-23T23:39
 ---
 
 # Method: Graph / Geometric / Structured Data
 
-- [[obsidian-vault/analysis/ICLR_2026/ell_1_Latent_Distance_based_Continuous-time_Graph_Representation.md|$\ell_1$ Latent Distance based Continuous-time Graph Representation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/ell_1_Latent_Distance_based_Continuous-time_Graph_Representation.pdf|PDF]]
+- [[analysis/ICLR_2026/ell_1_Latent_Distance_based_Continuous-time_Graph_Representation.md|$\ell_1$ Latent Distance based Continuous-time Graph Representation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ell_1_Latent_Distance_based_Continuous-time_Graph_Representation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Graph / Geometric / Structured Data
 	- methods: ℓ1LD-CTGR
 	- datasets: Synthetic-α, HyperText, Infectious
-- [[obsidian-vault/analysis/ICLR_2026/A_Function-Centric_Graph_Neural_Network_Approach_for_Predicting_Electron_Densities.md|A Function-Centric Graph Neural Network Approach for Predicting Electron Densities (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Function-Centric_Graph_Neural_Network_Approach_for_Predicting_Electron_Densities.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Function-Centric_Graph_Neural_Network_Approach_for_Predicting_Electron_Densities.md|A Function-Centric Graph Neural Network Approach for Predicting Electron Densities (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Function-Centric_Graph_Neural_Network_Approach_for_Predicting_Electron_Densities.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: Basis Overlap Architecture (BOA)
 	- datasets: QM9 VASP, QM9 PySCF, MD - ethanol
-- [[obsidian-vault/analysis/ICLR_2026/A_Generalized_Geometric_Theoretical_Framework_of_Centroid_Discriminant_Analysis_for_Linear_Classification_of_Multi-dimensional_Data.md|A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Generalized_Geometric_Theoretical_Framework_of_Centroid_Discriminant_Analysis_for_Linear_Classification_of_Multi-dimensional_Data.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Generalized_Geometric_Theoretical_Framework_of_Centroid_Discriminant_Analysis_for_Linear_Classification_of_Multi-dimensional_Data.md|A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Generalized_Geometric_Theoretical_Framework_of_Centroid_Discriminant_Analysis_for_Linear_Classification_of_Multi-dimensional_Data.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Graph / Geometric / Structured Data
 	- methods: Centroid Discriminant Analysis (CDA)
 	- datasets: 大规模单细胞小鼠脑数据
-- [[obsidian-vault/analysis/ICLR_2026/A_Genetic_Algorithm_for_Navigating_Synthesizable_Molecular_Spaces.md|A Genetic Algorithm for Navigating Synthesizable Molecular Spaces (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Genetic_Algorithm_for_Navigating_Synthesizable_Molecular_Spaces.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Genetic_Algorithm_for_Navigating_Synthesizable_Molecular_Spaces.md|A Genetic Algorithm for Navigating Synthesizable Molecular Spaces (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Genetic_Algorithm_for_Navigating_Synthesizable_Molecular_Spaces.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: SynGA
 	- datasets: ChEMBL 类似物搜索, PMO 套件
-- [[obsidian-vault/analysis/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.md|A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.md|A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Graph_Meta-Network_for_Learning_on_KolmogorovArnold_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: WS-KAN
-	- datasets: INR分类
-- [[obsidian-vault/analysis/ICLR_2026/A_Resolution-Agnostic_Geometric_Transformer_for_Chromosome_Modeling_Using_Inertial_Frame.md|A Resolution-Agnostic Geometric Transformer for Chromosome Modeling Using Inertial Frame (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Resolution-Agnostic_Geometric_Transformer_for_Chromosome_Modeling_Using_Inertial_Frame.pdf|PDF]]
+	- datasets: MNIST INR, Fashion-MNIST INR, CIFAR-10 INR
+- [[analysis/ICLR_2026/A_Resolution-Agnostic_Geometric_Transformer_for_Chromosome_Modeling_Using_Inertial_Frame.md|A Resolution-Agnostic Geometric Transformer for Chromosome Modeling Using Inertial Frame (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Resolution-Agnostic_Geometric_Transformer_for_Chromosome_Modeling_Using_Inertial_Frame.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
 	- methods: InertialGenome
 	- datasets: Frontal cortex cell test set, B-Lymphocyte cell test set
-- [[obsidian-vault/analysis/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.md|A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.md|A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Scalable_Inter-edge_Correlation_Modeling_in_CopulaGNN_for_Link_Sign_Prediction.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: CopulaLSP (CopulaGNN for Link Sign Prediction)
 	- datasets: BitcoinAlpha, BitcoinOTC
-- [[obsidian-vault/analysis/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.md|Bures-Wasserstein Flow Matching for Graph Generation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.pdf|PDF]]
+- [[analysis/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md|AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Graph / Geometric / Structured Data
+	- methods: AdaSpec
+	- datasets: Texas, Minesweeper, Roman_Empire
+- [[analysis/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.md|Bures-Wasserstein Flow Matching for Graph Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Bures-Wasserstein_Flow_Matching_for_Graph_Generation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
-	- methods: BWFlow
-	- datasets: Planar, QM9, Guacamol
-- [[obsidian-vault/analysis/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.md|Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.pdf|PDF]]
+	- methods: BWFlow (Bures-Wasserstein Flow Matching)
+	- datasets: Plain Graph Generation, Small Sampling Steps
+- [[analysis/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.md|Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Graph / Geometric / Structured Data
 	- methods: CoCo
 	- datasets: Cora, AMAP, BAT
-- [[obsidian-vault/analysis/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.md|EvA: Evolutionary Attacks on Graphs (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.pdf|PDF]]
+- [[analysis/ICLR_2026/Embodied_Agents_Meet_Personalization_Investigating_Challenges_and_Solutions_Through_the_Lens_of_Memory_Utilization.md|Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Embodied_Agents_Meet_Personalization_Investigating_Challenges_and_Solutions_Through_the_Lens_of_Memory_Utilization.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Graph / Geometric / Structured Data, Systems / Efficiency / Compression
+	- methods: Hierarchical Knowledge Graph-based User Profile Memory
+	- datasets: MEMENTO
+- [[analysis/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.md|EvA: Evolutionary Attacks on Graphs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/EvA_Evolutionary_Attacks_on_Graphs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: EvA (Evolutionary Attack)
-	- datasets: CoraML, CoraML with GCNSVD defense, Amazon-Photo
-- [[obsidian-vault/analysis/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.md|Forest-Based Graph Learning for Semi-Supervised Node Classification (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.pdf|PDF]]
+	- datasets: CoraML, Pubmed, Ogbn-Arxiv
+- [[analysis/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.md|Forest-Based Graph Learning for Semi-Supervised Node Classification (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: FGL (Forest-based Graph Learning)
 	- datasets: Cora, Pubmed, Cornell
-- [[obsidian-vault/analysis/ICLR_2026/Geometric_Graph_Neural_Diffusion_for_Stable_Molecular_Dynamics_Simulations.md|Geometric Graph Neural Diffusion for Stable Molecular Dynamics Simulations (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Geometric_Graph_Neural_Diffusion_for_Stable_Molecular_Dynamics_Simulations.pdf|PDF]]
+- [[analysis/ICLR_2026/Geometric_Graph_Neural_Diffusion_for_Stable_Molecular_Dynamics_Simulations.md|Geometric Graph Neural Diffusion for Stable Molecular Dynamics Simulations (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Geometric_Graph_Neural_Diffusion_for_Stable_Molecular_Dynamics_Simulations.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: Geometric Graph Neural Diffusion (GGND)
-- [[obsidian-vault/analysis/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.md|GGBall: Graph Generative Model on Poincaré Ball (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.pdf|PDF]]
+	- datasets: SiN, HfO
+- [[analysis/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.md|GGBall: Graph Generative Model on Poincaré Ball (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/GGBall_Graph_Generative_Model_on_Poincaré_Ball.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
-	- methods: GGBall (HVQVAE + Poincaré Flow Matching)
-	- datasets: Community-small
-- [[obsidian-vault/analysis/ICLR_2026/Global_and_Local_Topology-Aware_Graph_Generation_via_Dual_Conditioning_Diffusion.md|Global and Local Topology-Aware Graph Generation via Dual Conditioning Diffusion (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Global_and_Local_Topology-Aware_Graph_Generation_via_Dual_Conditioning_Diffusion.pdf|PDF]]
+	- methods: GGBall (Hyperbolic Vector-Quantized Autoencoder + Poincaré Flow Matching)
+	- datasets: Community-small, Ego-small, QM9
+- [[analysis/ICLR_2026/Global_and_Local_Topology-Aware_Graph_Generation_via_Dual_Conditioning_Diffusion.md|Global and Local Topology-Aware Graph Generation via Dual Conditioning Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Global_and_Local_Topology-Aware_Graph_Generation_via_Dual_Conditioning_Diffusion.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: DualDiff
 	- datasets: Planar, SBM
-- [[obsidian-vault/analysis/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.md|HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.pdf|PDF]]
+- [[analysis/ICLR_2026/GRL-SNAM_Geometric_Reinforcement_Learning_with_Differential_Hamiltonians_for_Navigation_and_Mapping_in_Unknown_Environments.md|GRL-SNAM: Geometric Reinforcement Learning with Differential Hamiltonians for Navigation and Mapping in Unknown Environments (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/GRL-SNAM_Geometric_Reinforcement_Learning_with_Differential_Hamiltonians_for_Navigation_and_Mapping_in_Unknown_Environments.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Agent / RL / Planning, Graph / Geometric / Structured Data
+	- methods: GRL-SNAM
+	- datasets: Point-agent dungeon navigation
+- [[analysis/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.md|HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: HGNet（包含 Z-NERD 零样本实体识别和 HGNet 层次关系抽取）
 	- datasets: SciERC, SciER, BioRED
-- [[obsidian-vault/analysis/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.md|IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.pdf|PDF]]
+- [[analysis/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.md|IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
 	- methods: IR-Agent
 	- datasets: NIST IR spectra dataset
-- [[obsidian-vault/analysis/ICLR_2026/Learning_Flexible_Forward_Trajectories_for_Masked_Molecular_Diffusion.md|Learning Flexible Forward Trajectories for Masked Molecular Diffusion (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Learning_Flexible_Forward_Trajectories_for_Masked_Molecular_Diffusion.pdf|PDF]]
+- [[analysis/ICLR_2026/Learning_Flexible_Forward_Trajectories_for_Masked_Molecular_Diffusion.md|Learning Flexible Forward Trajectories for Masked Molecular Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Learning_Flexible_Forward_Trajectories_for_Masked_Molecular_Diffusion.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: MELD (Masked Element-wise Learnable Diffusion)
-	- datasets: ZINC250K, Polymers, QM9
-- [[obsidian-vault/analysis/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.md|Learning to Interpret Weight Differences in Language Models (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.pdf|PDF]]
+	- datasets: QM9, ZINC250K, Polymer
+- [[analysis/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.md|Learning to Interpret Weight Differences in Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: Diff Interpretation Tuning (DIT)
-	- datasets: Hidden Topic Identification, News Summarization
-- [[obsidian-vault/analysis/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.md|Minimax Sample Complexity of Graph Neural Networks: Lower Bounds and Structural Effects (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.pdf|PDF]]
+	- datasets: Hidden Topic Reporting, News Summarization
+- [[analysis/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.md|Minimax Sample Complexity of Graph Neural Networks: Lower Bounds and Structural Effects (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Minimax_Sample_Complexity_of_Graph_Neural_Networks_Lower_Bounds_and_Structural_Effects.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: ReLU 消息传递 GNN 的极小极大分析框架
 	- datasets: ogbn_products_50k, ogbn_arxiv, Reddit_50k
-- [[obsidian-vault/analysis/ICLR_2026/MolLangBench_A_Comprehensive_Benchmark_for_Language-Prompted_Molecular_Structure_Recognition_Editing_and_Generation.md|MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/MolLangBench_A_Comprehensive_Benchmark_for_Language-Prompted_Molecular_Structure_Recognition_Editing_and_Generation.pdf|PDF]]
+- [[analysis/ICLR_2026/MolLangBench_A_Comprehensive_Benchmark_for_Language-Prompted_Molecular_Structure_Recognition_Editing_and_Generation.md|MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MolLangBench_A_Comprehensive_Benchmark_for_Language-Prompted_Molecular_Structure_Recognition_Editing_and_Generation.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: MolLangBench 多任务基准
 	- datasets: MolLangBench 分子结构识别, MolLangBench 分子编辑, MolLangBench 分子生成
-- [[obsidian-vault/analysis/ICLR_2026/RankFlow_Property-aware_Transport_for_Protein_Optimization.md|RankFlow: Property-aware Transport for Protein Optimization (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/RankFlow_Property-aware_Transport_for_Protein_Optimization.pdf|PDF]]
+- [[analysis/ICLR_2026/RankFlow_Property-aware_Transport_for_Protein_Optimization.md|RankFlow: Property-aware Transport for Protein Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/RankFlow_Property-aware_Transport_for_Protein_Optimization.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: RankFlow
 	- datasets: ProteinGym Stability, ProteinGym Fitness, ProteinGym Expression
-- [[obsidian-vault/analysis/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.md|Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs? (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.pdf|PDF]]
+- [[analysis/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.md|Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs? (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
-	- methods: Weighted Augmented Forman-3 Curvature (WAF3) with MinHash Approximation
-	- datasets: 大规模图, SDRF 图重连, GNRF 端到端模型
-- [[obsidian-vault/analysis/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.md|RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.pdf|PDF]]
+	- methods: Weighted Augmented Forman-3 Curvature (WAF3)
+	- datasets: Cora, Average over 21 datasets, SDRF rewiring
+- [[analysis/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.md|RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Agent / RL / Planning, Graph / Geometric / Structured Data
 	- methods: ZeroRepo
 	- datasets: RepoCraft
-- [[obsidian-vault/analysis/ICLR_2026/Si-GT_Fast_Interconnect_Signal_Integrity_Analysis_for_Integrated_Circuit_Design_via_Graph_Transformers.md|Si-GT: Fast Interconnect Signal Integrity Analysis for Integrated Circuit Design via Graph Transformers (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Si-GT_Fast_Interconnect_Signal_Integrity_Analysis_for_Integrated_Circuit_Design_via_Graph_Transformers.pdf|PDF]]
+- [[analysis/ICLR_2026/Secondary_Motion-Aware_3D_Clothed_Gaussian_Avatars_from_Monocular_Videos.md|Secondary Motion-Aware 3D Clothed Gaussian Avatars from Monocular Videos (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Secondary_Motion-Aware_3D_Clothed_Gaussian_Avatars_from_Monocular_Videos.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
+	- methods: Secondary Motion-Aware Deformation (SMAD)
+	- datasets: ZJU-MoCap, LoCo-Human
+- [[analysis/ICLR_2026/Si-GT_Fast_Interconnect_Signal_Integrity_Analysis_for_Integrated_Circuit_Design_via_Graph_Transformers.md|Si-GT: Fast Interconnect Signal Integrity Analysis for Integrated Circuit Design via Graph Transformers (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Si-GT_Fast_Interconnect_Signal_Integrity_Analysis_for_Integrated_Circuit_Design_via_Graph_Transformers.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
 	- methods: Si-GT
-	- datasets: Self-built interconnect signal integrity dataset
-- [[obsidian-vault/analysis/ICLR_2026/SigmaDock_Untwisting_Molecular_Docking_with_Fragment-Based_SE3_Diffusion.md|SigmaDock: Untwisting Molecular Docking with Fragment-Based SE(3) Diffusion (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/SigmaDock_Untwisting_Molecular_Docking_with_Fragment-Based_SE3_Diffusion.pdf|PDF]]
+	- datasets: Crosstalk Delay Prediction, Crosstalk Glitch Prediction
+- [[analysis/ICLR_2026/SigmaDock_Untwisting_Molecular_Docking_with_Fragment-Based_SE3_Diffusion.md|SigmaDock: Untwisting Molecular Docking with Fragment-Based SE(3) Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SigmaDock_Untwisting_Molecular_Docking_with_Fragment-Based_SE3_Diffusion.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: SIGMADOCK
-	- datasets: PoseBusters set, Astex diverse set
-- [[obsidian-vault/analysis/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.md|Topological Anomaly Quantification for Semi-supervised Graph Anomaly Detection (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.pdf|PDF]]
+	- datasets: PoseBusters
+- [[analysis/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.md|Topological Anomaly Quantification for Semi-supervised Graph Anomaly Detection (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
 	- methods: TAQ-GAD
-	- datasets: Amazon, Reddit, T-finance
-- [[obsidian-vault/analysis/ICLR_2026/Triangle_Multiplication_is_All_You_Need_for_Biomolecular_Structure_Representations.md|Triangle Multiplication is All You Need for Biomolecular Structure Representations (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Triangle_Multiplication_is_All_You_Need_for_Biomolecular_Structure_Representations.pdf|PDF]]
+	- datasets: Amazon, T-Finance
+- [[analysis/ICLR_2026/Triangle_Multiplication_is_All_You_Need_for_Biomolecular_Structure_Representations.md|Triangle Multiplication is All You Need for Biomolecular Structure Representations (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Triangle_Multiplication_is_All_You_Need_for_Biomolecular_Structure_Representations.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
-	- methods: Pairmixer
-	- datasets: Boltz RCSB test set, CASP15 test set, Inference
-- [[obsidian-vault/analysis/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.md|WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.pdf|PDF]]
+- [[analysis/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.md|WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: WATS (Wavelet-Aware Temperature Scaling)
-	- datasets: Citeseer / GCN, Cora-full / GAT, Computers / GCN
+	- datasets: Photo

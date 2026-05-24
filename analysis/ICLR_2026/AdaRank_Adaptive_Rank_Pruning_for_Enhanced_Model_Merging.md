@@ -11,8 +11,7 @@ aliases:
 acceptance: accepted
 openreview_forum_id: fTygcJVOni
 tags:
-- topic/representation_self_supervised_transfer
-- topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning
+- topic/iclr_2026
 core_operator: 对每个任务向量的每个奇异成分是否保留进行自适应二值决策（即学习一组二值掩码B）。
 primary_logic: 通过测试时适应（TTA）和熵最小化作为无监督代理目标，学习一组二值掩码，动态选择那些在减少自身任务损失的同时最小化跨任务干扰的奇异成分，从而突破固定前k选择的局限性。
 claims:
@@ -34,7 +33,7 @@ paradigm: 通过测试时适应（TTA）和熵最小化作为无监督代理目�
 | 英文题名 | AdaRank: Adaptive Rank Pruning for Enhanced Model Merging |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fTygcJVOni) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
+| Topic | #topic/iclr_2026 |
 | Method | AdaRank (Adaptive Rank Pruning) |
 | Dataset | 8 Vision Tasks (ViT-B/32), 8 Vision Tasks (ViT-L/14), 7 NLP Tasks (RoBERTa) |
 

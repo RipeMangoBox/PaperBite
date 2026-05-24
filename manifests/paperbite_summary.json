@@ -1,16 +1,24 @@
 {
-  "name": "PaperBite",
-  "tagline": "一口一篇论文",
-  "generated_at": "2026-05-22T09:09:57.982001+00:00",
+  "analysis_root": "analysis/ICLR_2026",
   "default_layers": [
     "analysis markdown",
     "index",
     "manifests"
   ],
+  "generated_at": "2026-05-23T15:41:35.614063+00:00",
+  "index_records": 618,
+  "name": "PaperBite",
   "optional_layers": [
     "assets",
     "paperPDFs"
   ],
-  "paper_count": 418,
-  "analysis_root": "analysis/ICLR_2026"
+  "paper_count": 618,
+  "source": "ResearchFlow_Process/obsidian-vault",
+  "tagline": "一口一篇论文",
+  "venues": {
+    "ICLR": 618
+  },
+  "years": {
+    "2026": 618
+  }
 }

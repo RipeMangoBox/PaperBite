@@ -11,8 +11,7 @@ aliases:
 acceptance: accepted
 openreview_forum_id: 2i6Rp0gCq6
 tags:
-- topic/representation_self_supervised_transfer
-- topic/representation_self_supervised_transfer/representation_learning
+- topic/iclr_2026
 core_operator: 自一致性（self-consistency）作为推理必要性的代理信号，可从查询在最后一层的隐藏表示中预测，进而动态分配思考预算。
 primary_logic: 通过离线训练轻量级适配器，从查询的最后一层隐藏表示预测自一致性分数，在推理时根据预测分数自适应决定是否启用思考，实现计算最优推理，且适配器具有跨任务泛化能力。
 claims:
@@ -34,7 +33,7 @@ paradigm: 通过离线训练轻量级适配器，从查询的最后一层隐藏�
 | 英文题名 | Adaptive Thinking: Large Language Models Know When to Think in Latent Space |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2i6Rp0gCq6) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #topic/iclr_2026 |
 | Method | Sonata (Self-Consistency-Guided Adapter for Thinking Allocation) |
 | Dataset | AIME25, MATH-500, GSM8K, GPQA |
 

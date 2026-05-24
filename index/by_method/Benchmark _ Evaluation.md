@@ -3,231 +3,345 @@ title: "Method: Benchmark / Evaluation"
 type: paper-index
 dimension: method
 tags:
-  - obsidian-vault/index
-generated: 2026-05-21T15:00
+  - index
+generated: 2026-05-23T23:39
 ---
 
 # Method: Benchmark / Evaluation
 
-- [[obsidian-vault/analysis/ICLR_2026/PhyWorldBench_A_Comprehensive_Evaluation_of_Physical_Realism_in_Text-to-Video_Models.md|$PhyWorldBench$: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/PhyWorldBench_A_Comprehensive_Evaluation_of_Physical_Realism_in_Text-to-Video_Models.pdf|PDF]]
+- [[analysis/ICLR_2026/PhyWorldBench_A_Comprehensive_Evaluation_of_Physical_Realism_in_Text-to-Video_Models.md|$PhyWorldBench$: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/PhyWorldBench_A_Comprehensive_Evaluation_of_Physical_Realism_in_Text-to-Video_Models.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: PhyWorldBench
 	- datasets: PhyWorldBench
-- [[obsidian-vault/analysis/ICLR_2026/3DCS_Datasets_and_Benchmark_for_Evaluating_Conformational_Sensitivity_in_Molecular_Representations.md|3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/3DCS_Datasets_and_Benchmark_for_Evaluating_Conformational_Sensitivity_in_Molecular_Representations.pdf|PDF]]
+- [[analysis/ICLR_2026/3DCS_Datasets_and_Benchmark_for_Evaluating_Conformational_Sensitivity_in_Molecular_Representations.md|3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/3DCS_Datasets_and_Benchmark_for_Evaluating_Conformational_Sensitivity_in_Molecular_Representations.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: 3DCS (3D Conformational Sensitivity) benchmark with GCE evaluation framework
 	- datasets: Geometry, Chirality
-- [[obsidian-vault/analysis/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.md|A Benchmark for Deep Information Synthesis (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.md|A Benchmark for Deep Information Synthesis (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Benchmark_for_Deep_Information_Synthesis.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Benchmark / Evaluation
 	- methods: DEEPSYNTH
 	- datasets: DEEPSYNTH, DEEPSYNTH-Dev
-- [[obsidian-vault/analysis/ICLR_2026/A_High_Quality_Dataset_and_Reliable_Evaluation_for_Interleaved_Image-Text_Generation.md|A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_High_Quality_Dataset_and_Reliable_Evaluation_for_Interleaved_Image-Text_Generation.pdf|PDF]]
+- [[analysis/ICLR_2026/A_High_Quality_Dataset_and_Reliable_Evaluation_for_Interleaved_Image-Text_Generation.md|A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_High_Quality_Dataset_and_Reliable_Evaluation_for_Interleaved_Image-Text_Generation.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
 	- method groups: Benchmark / Evaluation, Vision / Multimodal / 3D
 	- methods: InterSyn + SEIR + SynJudge
 	- datasets: InterSyn Evaluation Benchmark
-- [[obsidian-vault/analysis/ICLR_2026/A_Relative_Error-Based_Evaluation_Framework_of_Heterogeneous_Treatment_Effect_Estimators.md|A Relative Error-Based Evaluation Framework of Heterogeneous Treatment Effect Estimators (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Relative_Error-Based_Evaluation_Framework_of_Heterogeneous_Treatment_Effect_Estimators.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Relative_Error-Based_Evaluation_Framework_of_Heterogeneous_Treatment_Effect_Estimators.md|A Relative Error-Based Evaluation Framework of Heterogeneous Treatment Effect Estimators (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Relative_Error-Based_Evaluation_Framework_of_Heterogeneous_Treatment_Effect_Estimators.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: 基于相对误差的鲁棒HTE评估框架（Robust Relative Error-based HTE Evaluation Framework）
 	- datasets: IHDP
-- [[obsidian-vault/analysis/ICLR_2026/A_Spectral-Grassmann_Wasserstein_metric_for_operator_representations_of_dynamical_systems.md|A Spectral-Grassmann Wasserstein metric for operator representations of dynamical systems (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Spectral-Grassmann_Wasserstein_metric_for_operator_representations_of_dynamical_systems.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Spectral-Grassmann_Wasserstein_metric_for_operator_representations_of_dynamical_systems.md|A Spectral-Grassmann Wasserstein metric for operator representations of dynamical systems (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Spectral-Grassmann_Wasserstein_metric_for_operator_representations_of_dynamical_systems.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: Spectral–Grassmann Optimal Transport (SGOT)
 	- datasets: UEA时间序列分类, BasicMotions
-- [[obsidian-vault/analysis/ICLR_2026/A_Statistical_Benchmark_for_Diffusion-Posterior-Sampling_Algorithms.md|A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Statistical_Benchmark_for_Diffusion-Posterior-Sampling_Algorithms.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Statistical_Benchmark_for_Diffusion-Posterior-Sampling_Algorithms.md|A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Statistical_Benchmark_for_Diffusion-Posterior-Sampling_Algorithms.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms
 	- datasets: Denoising, Deconvolution, Imputation
-- [[obsidian-vault/analysis/ICLR_2026/AbdCTBench_Learning_Clinical_Biomarker_Representations_from_Abdominal_Surface_Geometry.md|AbdCTBench: Learning Clinical Biomarker Representations from Abdominal Surface Geometry (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/AbdCTBench_Learning_Clinical_Biomarker_Representations_from_Abdominal_Surface_Geometry.pdf|PDF]]
+- [[analysis/ICLR_2026/AbdCTBench_Learning_Clinical_Biomarker_Representations_from_Abdominal_Surface_Geometry.md|AbdCTBench: Learning Clinical Biomarker Representations from Abdominal Surface Geometry (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AbdCTBench_Learning_Clinical_Biomarker_Representations_from_Abdominal_Surface_Geometry.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: AbdCTBench Benchmark (基于2D腹部表面网格的单目标生物标志物预测基准)
 	- datasets: Age prediction, Calcium Scoring Abdominal Agatston, Mortality prediction
-- [[obsidian-vault/analysis/ICLR_2026/ACADREASON_Exploring_the_Limits_of_Reasoning_Models_with_Academic_Research_Problems.md|ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/ACADREASON_Exploring_the_Limits_of_Reasoning_Models_with_Academic_Research_Problems.pdf|PDF]]
+- [[analysis/ICLR_2026/ACADREASON_Exploring_the_Limits_of_Reasoning_Models_with_Academic_Research_Problems.md|ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ACADREASON_Exploring_the_Limits_of_Reasoning_Models_with_Academic_Research_Problems.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: ACADREASON Benchmark Construction and Evaluation Pipeline
 	- datasets: ACADREASON, ACADREASON domain evaluation
-- [[obsidian-vault/analysis/ICLR_2026/Accelerating_Eigenvalue_Dataset_Generation_via_Chebyshev_Subspace_Filter.md|Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Accelerating_Eigenvalue_Dataset_Generation_via_Chebyshev_Subspace_Filter.pdf|PDF]]
+- [[analysis/ICLR_2026/Accelerating_Eigenvalue_Dataset_Generation_via_Chebyshev_Subspace_Filter.md|Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Accelerating_Eigenvalue_Dataset_Generation_via_Chebyshev_Subspace_Filter.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: Sorting Chebyshev Subspace Filter (SCSF)
 	- datasets: Helmholtz operator, dim=6400, L=200
-- [[obsidian-vault/analysis/ICLR_2026/Accessible_Realistic_and_Fair_Evaluation_of_Positive-Unlabeled_Learning_Algorithms.md|Accessible, Realistic, and Fair Evaluation of Positive-Unlabeled Learning Algorithms (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Accessible_Realistic_and_Fair_Evaluation_of_Positive-Unlabeled_Learning_Algorithms.pdf|PDF]]
+- [[analysis/ICLR_2026/Accessible_Realistic_and_Fair_Evaluation_of_Positive-Unlabeled_Learning_Algorithms.md|Accessible, Realistic, and Fair Evaluation of Positive-Unlabeled Learning Algorithms (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Accessible_Realistic_and_Fair_Evaluation_of_Positive-Unlabeled_Learning_Algorithms.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: PU Benchmark with Proxy Accuracy/PAUC Model Selection and ILS Calibration
 	- datasets: CIFAR-10 Case 1, ImageNette Case 1, CIFAR-10 Case 2
-- [[obsidian-vault/analysis/ICLR_2026/Agent-X_Evaluating_Deep_Multimodal_Reasoning_in_Vision-Centric_Agentic_Tasks.md|Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Agent-X_Evaluating_Deep_Multimodal_Reasoning_in_Vision-Centric_Agentic_Tasks.pdf|PDF]]
+- [[analysis/ICLR_2026/Agent-X_Evaluating_Deep_Multimodal_Reasoning_in_Vision-Centric_Agentic_Tasks.md|Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Agent-X_Evaluating_Deep_Multimodal_Reasoning_in_Vision-Centric_Agentic_Tasks.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: Agent-X
 	- datasets: Agent-X
-- [[obsidian-vault/analysis/ICLR_2026/AMemGym_Interactive_Memory_Benchmarking_for_Assistants_in_Long-Horizon_Conversations.md|AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/AMemGym_Interactive_Memory_Benchmarking_for_Assistants_in_Long-Horizon_Conversations.pdf|PDF]]
+- [[analysis/ICLR_2026/AMemGym_Interactive_Memory_Benchmarking_for_Assistants_in_Long-Horizon_Conversations.md|AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AMemGym_Interactive_Memory_Benchmarking_for_Assistants_in_Long-Horizon_Conversations.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
-	- method groups: Benchmark / Evaluation, Agent / RL / Planning
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: AMemGym
-	- datasets: AMemGym
-- [[obsidian-vault/analysis/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.md|An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.pdf|PDF]]
+	- datasets: AMemGym base
+- [[analysis/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.md|An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: SEINT (SE(p)-Invariant Transport)
 	- datasets: ModelNet40-SE, QM9
-- [[obsidian-vault/analysis/ICLR_2026/AnesSuite_A_Comprehensive_Benchmark_and_Dataset_Suite_for_Anesthesiology_Reasoning_in_LLMs.md|AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning in LLMs (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/AnesSuite_A_Comprehensive_Benchmark_and_Dataset_Suite_for_Anesthesiology_Reasoning_in_LLMs.pdf|PDF]]
+- [[analysis/ICLR_2026/AnesSuite_A_Comprehensive_Benchmark_and_Dataset_Suite_for_Anesthesiology_Reasoning_in_LLMs.md|AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning in LLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AnesSuite_A_Comprehensive_Benchmark_and_Dataset_Suite_for_Anesthesiology_Reasoning_in_LLMs.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: LLM / Reasoning / Alignment, Benchmark / Evaluation
-	- methods: AnesSuite 数据集套件与 Morpheus 基线模型
-	- datasets: AnesBench-English, AnesBench-Chinese, AnesBench
-- [[obsidian-vault/analysis/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.md|AutoLibra: Agent Metric Induction from Open-Ended Human Feedback (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.pdf|PDF]]
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: Morpheus
+	- datasets: AnesBench-English, AnesBench-English System2, MedQA
+- [[analysis/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.md|AutoLibra: Agent Metric Induction from Open-Ended Human Feedback (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: AutoLibra
 	- datasets: Sotopia, WebArena, WebVoyager
-- [[obsidian-vault/analysis/ICLR_2026/Benchmarking_Large_Vision-Language_Models_on_Fine-Grained_Image_Tasks_A_Comprehensive_Evaluation.md|Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Benchmarking_Large_Vision-Language_Models_on_Fine-Grained_Image_Tasks_A_Comprehensive_Evaluation.pdf|PDF]]
+- [[analysis/ICLR_2026/Benchmarking_Large_Vision-Language_Models_on_Fine-Grained_Image_Tasks_A_Comprehensive_Evaluation.md|Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Benchmarking_Large_Vision-Language_Models_on_Fine-Grained_Image_Tasks_A_Comprehensive_Evaluation.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: FG-BMK
 	- datasets: CUB-200-2011, Stanford Dogs, FGVC Aircraft
-- [[obsidian-vault/analysis/ICLR_2026/CAPSUL_A_Comprehensive_Human_Protein_Benchmark_for_Subcellular_Localization.md|CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/CAPSUL_A_Comprehensive_Human_Protein_Benchmark_for_Subcellular_Localization.pdf|PDF]]
+- [[analysis/ICLR_2026/BigMaQ_A_Big_Macaque_Motion_and_Animation_Dataset_Bridging_Image_and_3D_Pose_Representations.md|BigMaQ: A Big Macaque Motion and Animation Dataset Bridging Image and 3D Pose Representations (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/BigMaQ_A_Big_Macaque_Motion_and_Animation_Dataset_Bridging_Image_and_3D_Pose_Representations.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
+	- methods: BigMaQ — 面向猕猴的个性化三维表面跟踪与姿态‑动作识别融合框架
+	- datasets: BigMaQ 四段动作序列, 同上四段动作, BigMaQ500 动作识别
+- [[analysis/ICLR_2026/CAPSUL_A_Comprehensive_Human_Protein_Benchmark_for_Subcellular_Localization.md|CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/CAPSUL_A_Comprehensive_Human_Protein_Benchmark_for_Subcellular_Localization.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
-	- methods: CAPSUL (Comprehensive Human Protein Benchmark for Subcellular Localization)
+	- methods: CAPSUL 数据集与基准构建
 	- datasets: CAPSUL
-- [[obsidian-vault/analysis/ICLR_2026/CLARC_CC_Benchmark_for_Robust_Code_Search.md|CLARC: C/C++ Benchmark for Robust Code Search (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/CLARC_CC_Benchmark_for_Robust_Code_Search.pdf|PDF]]
+- [[analysis/ICLR_2026/Childrens_Intelligence_Tests_Pose_Challenges_for_MLLMs_KidGym_A_2D_Grid-Based_Reasoning_Benchmark_for_MLLMs.md|Children's Intelligence Tests Pose Challenges for MLLMs? KidGym: A 2D Grid-Based Reasoning Benchmark for MLLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Childrens_Intelligence_Tests_Pose_Challenges_for_MLLMs_KidGym_A_2D_Grid-Based_Reasoning_Benchmark_for_MLLMs.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: KIDGYM
+	- datasets: KIDGYM Counting L1, KIDGYM Puzzle L1, KIDGYM Classification L1
+- [[analysis/ICLR_2026/CLARC_CC_Benchmark_for_Robust_Code_Search.md|CLARC: C/C++ Benchmark for Robust Code Search (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/CLARC_CC_Benchmark_for_Robust_Code_Search.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: CLARC 基准数据集与自动化构建流水线
 	- datasets: CLARC Group1
-- [[obsidian-vault/analysis/ICLR_2026/DiscoX_Benchmarking_Discourse-Level_Translation_in_Expert_Domains.md|DiscoX: Benchmarking Discourse-Level Translation in Expert Domains (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/DiscoX_Benchmarking_Discourse-Level_Translation_in_Expert_Domains.pdf|PDF]]
+- [[analysis/ICLR_2026/CoNavBench_Collaborative_Long-Horizon_Vision-Language_Navigation_Benchmark.md|CoNavBench: Collaborative Long-Horizon Vision-Language Navigation Benchmark (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/CoNavBench_Collaborative_Long-Horizon_Vision-Language_Navigation_Benchmark.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, Vision / Multimodal / 3D
+	- methods: NavCraft
+	- datasets: CoNavBench Step-by-step Subtasks
+- [[analysis/ICLR_2026/DiscoX_Benchmarking_Discourse-Level_Translation_in_Expert_Domains.md|DiscoX: Benchmarking Discourse-Level Translation in Expert Domains (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DiscoX_Benchmarking_Discourse-Level_Translation_in_Expert_Domains.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: Metric-S
-	- datasets: DiscoX, DiscoX meta-evaluation, DiscoX bidirectional comparison
-- [[obsidian-vault/analysis/ICLR_2026/DRBench_A_Realistic_Benchmark_for_Enterprise_Deep_Research.md|DRBench: A Realistic Benchmark for Enterprise Deep Research (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/DRBench_A_Realistic_Benchmark_for_Enterprise_Deep_Research.pdf|PDF]]
+	- datasets: DiscoX
+- [[analysis/ICLR_2026/Do_3D_Large_Language_Models_Really_Understand_3D_Spatial_Relationships.md|Do 3D Large Language Models Really Understand 3D Spatial Relationships? (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Do_3D_Large_Language_Models_Really_Understand_3D_Spatial_Relationships.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: Real-3DQA Benchmark and 3D Reweighted Finetuning (3DR-FT)
+	- datasets: Real-3DQA, Real-ScanQA, SQA3D vs Real-3DQA
+- [[analysis/ICLR_2026/DRBench_A_Realistic_Benchmark_for_Enterprise_Deep_Research.md|DRBench: A Realistic Benchmark for Enterprise Deep Research (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DRBench_A_Realistic_Benchmark_for_Enterprise_Deep_Research.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Benchmark / Evaluation, Vision / Multimodal / 3D
 	- methods: DRBench Agent (DRBA) and DRBench evaluation framework
 	- datasets: DRBench FullBenchmark
-- [[obsidian-vault/analysis/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.md|Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.pdf|PDF]]
+- [[analysis/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.md|Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: Think-as-Locals
 	- datasets: M-RewardBench, CARB, 综合
-- [[obsidian-vault/analysis/ICLR_2026/FATE_A_Formal_Benchmark_Series_for_Frontier_Algebra_of_Multiple_Difficulty_Levels.md|FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/FATE_A_Formal_Benchmark_Series_for_Frontier_Algebra_of_Multiple_Difficulty_Levels.pdf|PDF]]
+- [[analysis/ICLR_2026/FATE_A_Formal_Benchmark_Series_for_Frontier_Algebra_of_Multiple_Difficulty_Levels.md|FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/FATE_A_Formal_Benchmark_Series_for_Frontier_Algebra_of_Multiple_Difficulty_Levels.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: FATE基准系列及双阶段解耦评估框架
 	- datasets: FATE系列, FATE-H 和 FATE-X, FATE-H
-- [[obsidian-vault/analysis/ICLR_2026/FormalML_A_Benchmark_for_Evaluating_Formal_Subgoal_Completion_in_Machine_Learning_Theory.md|FormalML: A Benchmark for Evaluating Formal Subgoal Completion in Machine Learning Theory (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/FormalML_A_Benchmark_for_Evaluating_Formal_Subgoal_Completion_in_Machine_Learning_Theory.pdf|PDF]]
+- [[analysis/ICLR_2026/FLUX-Reason-6M_PRISM-Bench_A_Million-Scale_Text-to-Image_Reasoning_Dataset_and_Comprehensive_Benchmark.md|FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/FLUX-Reason-6M_PRISM-Bench_A_Million-Scale_Text-to-Image_Reasoning_Dataset_and_Comprehensive_Benchmark.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, Vision / Multimodal / 3D
+	- methods: FLUX-Reason-6M (合成数据集) & PRISM-Bench (评估基准)
+	- datasets: PRISM-Bench, GenEval
+- [[analysis/ICLR_2026/FormalML_A_Benchmark_for_Evaluating_Formal_Subgoal_Completion_in_Machine_Learning_Theory.md|FormalML: A Benchmark for Evaluating Formal Subgoal Completion in Machine Learning Theory (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/FormalML_A_Benchmark_for_Evaluating_Formal_Subgoal_Completion_in_Machine_Learning_Theory.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
-	- method groups: Benchmark / Evaluation, Optimization / Theory
-	- methods: FormalML 子目标完成基准构建与评估框架
-	- datasets: FormalML
-- [[obsidian-vault/analysis/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.md|How NOT to benchmark your SITE metric Beyond Static Leaderboards and Towards Realistic Evaluation (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.pdf|PDF]]
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: FormalML基准构建（基于to_theorem策略的子目标提取）
+	- datasets: FormalML, FormalML premise utilization
+- [[analysis/ICLR_2026/From_Assumptions_to_Actions_Turning_LLM_Reasoning_into_Uncertainty-Aware_Planning_for_Embodied_Agents.md|From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning for Embodied Agents (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/From_Assumptions_to_Actions_Turning_LLM_Reasoning_into_Uncertainty-Aware_Planning_for_Embodied_Agents.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: LLM / Reasoning / Alignment, Benchmark / Evaluation
+	- methods: PCE (Planner-Composer-Evaluator)
+	- datasets: C-WAH, TDW-MAT
+- [[analysis/ICLR_2026/From_EduVisBench_to_EduVisAgent_A_Benchmark_and_Multi-Agent_Framework_for_Reasoning-Driven_Pedagogical_Visualization.md|From EduVisBench to EduVisAgent: A Benchmark and Multi-Agent Framework for Reasoning-Driven Pedagogical Visualization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/From_EduVisBench_to_EduVisAgent_A_Benchmark_and_Multi-Agent_Framework_for_Reasoning-Driven_Pedagogical_Visualization.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Agent / RL / Planning, Benchmark / Evaluation
+	- methods: EduVisAgent
+	- datasets: EduVisBench, 非STEM子集
+- [[analysis/ICLR_2026/From_Static_Benchmarks_to_Dynamic_Protocol_Agent-Centric_Text_Anomaly_Detection_for_Evaluating_LLM_Reasoning.md|From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/From_Static_Benchmarks_to_Dynamic_Protocol_Agent-Centric_Text_Anomaly_Detection_for_Evaluating_LLM_Reasoning.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: LLM / Reasoning / Alignment, Benchmark / Evaluation
+	- methods: Agent-Centric Text Anomaly Detection (ATAD)
+	- datasets: ATAD benchmark
+- [[analysis/ICLR_2026/HeuriGym_An_Agentic_Benchmark_for_LLM-Crafted_Heuristics_in_Combinatorial_Optimization.md|HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/HeuriGym_An_Agentic_Benchmark_for_LLM-Crafted_Heuristics_in_Combinatorial_Optimization.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Optimization / Theory, Benchmark / Evaluation
+	- methods: HeuriGym
+	- datasets: HeuriGym, 对比进化框架
+- [[analysis/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.md|How NOT to benchmark your SITE metric Beyond Static Leaderboards and Towards Realistic Evaluation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: 静态排序启发式（Static Ranking Heuristic）
 	- datasets: Standard Benchmark, Meta-Album Benchmark
-- [[obsidian-vault/analysis/ICLR_2026/Long-Context_Attention_Benchmark_From_Kernel_Efficiency_to_Distributed_Context_Parallelism.md|Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Long-Context_Attention_Benchmark_From_Kernel_Efficiency_to_Distributed_Context_Parallelism.pdf|PDF]]
+- [[analysis/ICLR_2026/Is_it_Thinking_or_Cheating_Detecting_Implicit_Reward_Hacking_by_Measuring_Reasoning_Effort.md|Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Is_it_Thinking_or_Cheating_Detecting_Implicit_Reward_Hacking_by_Measuring_Reasoning_Effort.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: LLM / Reasoning / Alignment, Benchmark / Evaluation
+	- methods: TRACE (Truncated Reasoning AUC Evaluation)
+	- datasets: Math reasoning, Coding
+- [[analysis/ICLR_2026/Long-Context_Attention_Benchmark_From_Kernel_Efficiency_to_Distributed_Context_Parallelism.md|Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Long-Context_Attention_Benchmark_From_Kernel_Efficiency_to_Distributed_Context_Parallelism.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
 	- method groups: Benchmark / Evaluation, Optimization / Theory
 	- methods: LongCA-bench
 	- datasets: Sparse Kernel Efficiency, Dense Kernel Efficiency, Context Parallelism
-- [[obsidian-vault/analysis/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.md|LRIM: a Physics-Based Benchmark for Provably Evaluating Long-Range Capabilities in Graph Learning (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.pdf|PDF]]
+- [[analysis/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.md|LRIM: a Physics-Based Benchmark for Provably Evaluating Long-Range Capabilities in Graph Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/LRIM_a_Physics-Based_Benchmark_for_Provably_Evaluating_Long-Range_Capabilities_in_Graph_Learning.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Benchmark / Evaluation, Generative / Diffusion / Flow
 	- methods: LRIM Graph Benchmark (Long-Range Ising Model Graph Benchmark)
 	- datasets: LRIM-16-hard, LRIM-32-hard, LRIM-16-easy
-- [[obsidian-vault/analysis/ICLR_2026/MATH-Beyond_A_Benchmark_for_RL_to_Expand_Beyond_the_Base_Model.md|MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/MATH-Beyond_A_Benchmark_for_RL_to_Expand_Beyond_the_Base_Model.pdf|PDF]]
+- [[analysis/ICLR_2026/ManipEvalAgent_Promptable_and_Efficient_Evaluation_Framework_for_Robotic_Manipulation_Policies.md|ManipEvalAgent: Promptable and Efficient Evaluation Framework for Robotic Manipulation Policies (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ManipEvalAgent_Promptable_and_Efficient_Evaluation_Framework_for_Robotic_Manipulation_Policies.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, Systems / Efficiency / Compression
+	- methods: ManipEvalAgent
+	- datasets: RoboTwin 2.0, LIBERO, Multi-task Setting
+- [[analysis/ICLR_2026/MATH-Beyond_A_Benchmark_for_RL_to_Expand_Beyond_the_Base_Model.md|MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MATH-Beyond_A_Benchmark_for_RL_to_Expand_Beyond_the_Base_Model.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
 	- method groups: Benchmark / Evaluation, Agent / RL / Planning
-	- methods: MATH-Beyond（MATH-B）基准构建与评估框架
-	- datasets: MATH-B-U
-- [[obsidian-vault/analysis/ICLR_2026/MCP-Bench_Benchmarking_Tool-Using_LLM_Agents_with_Complex_Real-World_Tasks_via_MCP_Servers.md|MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/MCP-Bench_Benchmarking_Tool-Using_LLM_Agents_with_Complex_Real-World_Tasks_via_MCP_Servers.pdf|PDF]]
+	- methods: MATH-Beyond Benchmark (MATH-B)
+	- datasets: MATH-B-U, MATH-B vs AIME24
+- [[analysis/ICLR_2026/MC-Search_Evaluating_and_Enhancing_Multimodal_Agentic_Search_with_Structured_Long_Reasoning_Chains.md|MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MC-Search_Evaluating_and_Enhancing_Multimodal_Agentic_Search_with_Structured_Long_Reasoning_Chains.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: SEARCH-ALIGN
+	- datasets: MC-SEARCH
+- [[analysis/ICLR_2026/MCP-Bench_Benchmarking_Tool-Using_LLM_Agents_with_Complex_Real-World_Tasks_via_MCP_Servers.md|MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MCP-Bench_Benchmarking_Tool-Using_LLM_Agents_with_Complex_Real-World_Tasks_via_MCP_Servers.pdf|PDF]]
 	- topics: Benchmarks / Datasets / Evaluation
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: MCP-Bench
 	- datasets: MCP-BENCH
-- [[obsidian-vault/analysis/ICLR_2026/MedLesionVQA_A_Multimodal_Benchmark_Emulating_Clinical_Visual_Diagnosis_for_Body_Surface_Health.md|MedLesionVQA: A Multimodal Benchmark Emulating Clinical Visual Diagnosis for Body Surface Health (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/MedLesionVQA_A_Multimodal_Benchmark_Emulating_Clinical_Visual_Diagnosis_for_Body_Surface_Health.pdf|PDF]]
+- [[analysis/ICLR_2026/MedLesionVQA_A_Multimodal_Benchmark_Emulating_Clinical_Visual_Diagnosis_for_Body_Surface_Health.md|MedLesionVQA: A Multimodal Benchmark Emulating Clinical Visual Diagnosis for Body Surface Health (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MedLesionVQA_A_Multimodal_Benchmark_Emulating_Clinical_Visual_Diagnosis_for_Body_Surface_Health.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: MedLesionVQA Benchmark and Evaluation Framework
 	- datasets: MedLesionVQA validation set, MedLesionVQA test set, Lesion Recognition
-- [[obsidian-vault/analysis/ICLR_2026/Plug_Play_and_Fortify_A_Low-Cost_Module_for_Robust_Multimodal_Image_Understanding_Models.md|Plug, Play, and Fortify: A Low-Cost Module for Robust Multimodal Image Understanding Models (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Plug_Play_and_Fortify_A_Low-Cost_Module_for_Robust_Multimodal_Image_Understanding_Models.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
+- [[analysis/ICLR_2026/Memory_Benchmark_Robots_A_Benchmark_for_Solving_Complex_Tasks_with_Reinforcement_Learning.md|Memory, Benchmark & Robots: A Benchmark for Solving Complex Tasks with Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Memory_Benchmark_Robots_A_Benchmark_for_Solving_Complex_Tasks_with_Reinforcement_Learning.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, Agent / RL / Planning
+	- methods: MIKASA (Memory-Intensive Skills Assessment Suite for Agents)
+	- datasets: MIKASA-Robo ShellGameTouch-v0, MIKASA-Robo RememberColor3-v0, MIKASA-Robo BunchOfColors7-v0
+- [[analysis/ICLR_2026/OmniWorld_A_Multi-Domain_and_Multi-Modal_Dataset_for_4D_World_Modeling.md|OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/OmniWorld_A_Multi-Domain_and_Multi-Modal_Dataset_for_4D_World_Modeling.pdf|PDF]]
+	- topics: Iclr 2026
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
-	- methods: Multimodal Weight Allocation Module (MWAM)
-	- datasets: CASIA-SURF, NYU-Depth V2, BRATS2020
-- [[obsidian-vault/analysis/ICLR_2026/PropensityBench_Evaluating_Latent_Safety_Risks_in_Large_Language_Models_via_an_Agentic_Approach.md|PropensityBench: Evaluating Latent Safety Risks in Large Language Models via an Agentic Approach (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/PropensityBench_Evaluating_Latent_Safety_Risks_in_Large_Language_Models_via_an_Agentic_Approach.pdf|PDF]]
-	- topics: Safety / Alignment / Fairness / Privacy
-	- method groups: Safety / Privacy / Robustness, Benchmark / Evaluation
-	- methods: PropensityBench
-	- datasets: PropensityBench
-- [[obsidian-vault/analysis/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.md|Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data? (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.pdf|PDF]]
+	- methods: OmniWorld多领域多模态数据集构建与标注流水线
+	- datasets: Sintel, OmniWorld-Game
+- [[analysis/ICLR_2026/Orak_A_Foundational_Benchmark_for_Training_and_Evaluating_LLM_Agents_on_Diverse_Video_Games.md|Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Orak_A_Foundational_Benchmark_for_Training_and_Evaluating_LLM_Agents_on_Diverse_Video_Games.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: Orak
+	- datasets: StarCraft II, Super Mario, Ace Attorney
+- [[analysis/ICLR_2026/REI-Bench_Can_Embodied_Agents_Understand_Vague_Human_Instructions_in_Task_Planning.md|REI-Bench: Can Embodied Agents Understand Vague Human Instructions in Task Planning? (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/REI-Bench_Can_Embodied_Agents_Understand_Vague_Human_Instructions_in_Task_Planning.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: LLM / Reasoning / Alignment, Benchmark / Evaluation
+	- methods: Task-Oriented Context Cognition (TOCC)
+	- datasets: REI-Bench
+- [[analysis/ICLR_2026/ResearchRubrics_A_Benchmark_of_Prompts_and_Rubrics_For_Evaluating_Deep_Research_Agents.md|ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ResearchRubrics_A_Benchmark_of_Prompts_and_Rubrics_For_Evaluating_Deep_Research_Agents.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation
+	- methods: RESEARCHRUBRICS基准与评估体系
+	- datasets: RESEARCHRUBRICS
+- [[analysis/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.md|Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data? (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: EssenceBench
 	- datasets: HellaSwag, ARC, GSM8K
-- [[obsidian-vault/analysis/ICLR_2026/SPARTA_Scalable_and_Principled_Benchmark_of_Tree-Structured_Multi-hop_QA_over_Text_and_Tables.md|SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/SPARTA_Scalable_and_Principled_Benchmark_of_Tree-Structured_Multi-hop_QA_over_Text_and_Tables.pdf|PDF]]
+- [[analysis/ICLR_2026/SimuHome_A_Temporal-_and_Environment-Aware_Benchmark_for_Smart_Home_LLM_Agents.md|SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SimuHome_A_Temporal-_and_Environment-Aware_Benchmark_for_Smart_Home_LLM_Agents.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: SimuHome（时态加速智能家居模拟器与基准）
+	- datasets: QT1-F, QT3-F, QT4-1-F
+- [[analysis/ICLR_2026/SPARTA_Scalable_and_Principled_Benchmark_of_Tree-Structured_Multi-hop_QA_over_Text_and_Tables.md|SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SPARTA_Scalable_and_Principled_Benchmark_of_Tree-Structured_Multi-hop_QA_over_Text_and_Tables.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: SPARTA
 	- datasets: SPARTA
-- [[obsidian-vault/analysis/ICLR_2026/SurvHTE-Bench_A_Benchmark_for_Heterogeneous_Treatment_Effect_Estimation_in_Survival_Analysis.md|SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/SurvHTE-Bench_A_Benchmark_for_Heterogeneous_Treatment_Effect_Estimation_in_Survival_Analysis.pdf|PDF]]
+- [[analysis/ICLR_2026/STAR-Bench_Probing_Deep_Spatio-Temporal_Reasoning_as_Audio_4D_Intelligence.md|STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/STAR-Bench_Probing_Deep_Spatio-Temporal_Reasoning_as_Audio_4D_Intelligence.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: STAR-BENCH
+	- datasets: STAR-BENCH, Foundational Perception, Temporal Reasoning
+- [[analysis/ICLR_2026/SurvHTE-Bench_A_Benchmark_for_Heterogeneous_Treatment_Effect_Estimation_in_Survival_Analysis.md|SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SurvHTE-Bench_A_Benchmark_for_Heterogeneous_Treatment_Effect_Estimation_in_Survival_Analysis.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: SurvHTE-Bench
 	- datasets: ACTG Semi-synthetic, MIMIC-i Semi-synthetic
-- [[obsidian-vault/analysis/ICLR_2026/TaCo_A_Benchmark_for_Lossless_and_Lossy_Codecs_of_Heterogeneous_Tactile_Data.md|TaCo: A Benchmark for Lossless and Lossy Codecs of Heterogeneous Tactile Data (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/TaCo_A_Benchmark_for_Lossless_and_Lossy_Codecs_of_Heterogeneous_Tactile_Data.pdf|PDF]]
+- [[analysis/ICLR_2026/TaCo_A_Benchmark_for_Lossless_and_Lossy_Codecs_of_Heterogeneous_Tactile_Data.md|TaCo: A Benchmark for Lossless and Lossy Codecs of Heterogeneous Tactile Data (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TaCo_A_Benchmark_for_Lossless_and_Lossy_Codecs_of_Heterogeneous_Tactile_Data.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
-	- methods: TaCo-LL (lossless) and TaCo-L (lossy)
-	- datasets: TouchandGo, Dexterous Grasping
-- [[obsidian-vault/analysis/ICLR_2026/WARC-Bench_Web_Archive_based_Benchmark_for_GUI_Subtask_Executions.md|WARC-Bench: Web Archive based Benchmark for GUI Subtask Executions (ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/WARC-Bench_Web_Archive_based_Benchmark_for_GUI_Subtask_Executions.pdf|PDF]]
+	- methods: TaCo-LL（无损压缩）和TaCo-L（有损压缩）
+	- datasets: TouchandGo, ObjTac, YCB-Slide
+- [[analysis/ICLR_2026/The_Intricate_Dance_of_Prompt_Complexity_Quality_Diversity_and_Consistency_in_T2I_Models.md|The Intricate Dance of Prompt Complexity, Quality, Diversity and Consistency in T2I Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/The_Intricate_Dance_of_Prompt_Complexity_Quality_Diversity_and_Consistency_in_T2I_Models.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: T2I合成数据提示复杂度评估框架 (Prompt Complexity Evaluation Framework)
+	- datasets: CC12M, ImageNet-1k
+- [[analysis/ICLR_2026/WARC-Bench_Web_Archive_based_Benchmark_for_GUI_Subtask_Executions.md|WARC-Bench: Web Archive based Benchmark for GUI Subtask Executions (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/WARC-Bench_Web_Archive_based_Benchmark_for_GUI_Subtask_Executions.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
 	- method groups: Agent / RL / Planning, Benchmark / Evaluation
-	- methods: Subtask Vision Agent (SVA) with SFT+RLVR
-	- datasets: WARC-Bench Test, WARC-Bench Dev
+	- methods: WARC-Bench + Subtask Vision Agent (SVA) with SFT+RLVR
+	- datasets: WARC-Bench, ScreenSpot V2, WebArena-Lite
+- [[analysis/ICLR_2026/WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.md|WorldGym: World Model as An Environment for Policy Evaluation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/WorldGym_World_Model_as_An_Environment_for_Policy_Evaluation.pdf|PDF]]
+	- topics: Iclr 2026
+	- method groups: Benchmark / Evaluation, Agent / RL / Planning
+	- methods: WorldGym
+	- datasets: OpenVLA Bridge evaluation 17项任务, Bridge OOD Language Tasks, Bridge OOD Image Distractors

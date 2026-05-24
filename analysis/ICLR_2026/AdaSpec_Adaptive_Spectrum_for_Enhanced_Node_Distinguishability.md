@@ -10,8 +10,7 @@ aliases:
 acceptance: accepted
 openreview_forum_id: eHhUYoZwWs
 tags:
-- topic/generative_models_diffusion
-- topic/generative_models_diffusion/graph_neural_networks
+- topic/iclr_2026
 core_operator: 引入一个可学习的对角偏置矩阵 B 和特征自适应的 Hadamard 积项，动态生成图矩阵 Ω(A,X) = Ω_D(A) + α₁ Ω_S(A) + α₂ Ω_F(X)，从而增加不同特征值数量 d_M、将零特征值移离零、并提高非零频率分量的数目 ∥X̃^(M)∥₀。这三个操作直接提升可区分节点的理论上界。
 primary_logic: 节点区分度的理论上界由 min(d_M, ∥X̃^(M)∥₀) 决定，其中 d_M 是图矩阵的不同特征值个数，∥X̃^(M)∥₀ 是节点特征在特征基上的非零频率分量的数量。通过优化图矩阵（而非仅仅改变多项式基底）来提升这两个量，可以显著提高谱 GNN 区分非同类节点的能力。
 claims:
@@ -33,7 +32,7 @@ paradigm: 节点区分度的理论上界由 min(d_M, ∥X̃^(M)∥₀) 决定，
 | 英文题名 | AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eHhUYoZwWs) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #topic/iclr_2026 |
 | Method | AdaSpec |
 | Dataset | Texas, Minesweeper, Roman_Empire, Cora |
 

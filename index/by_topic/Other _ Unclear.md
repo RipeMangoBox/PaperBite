@@ -3,159 +3,159 @@ title: "Topic: Other / Unclear"
 type: paper-index
 dimension: topic
 tags:
-  - obsidian-vault/index
-generated: 2026-05-23T00:00
+  - index
+generated: 2026-05-23T23:39
 ---
 
 # Topic: Other / Unclear
 
-- [[obsidian-vault/analysis/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.md|$\\nabla$-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.pdf|PDF]]
+- [[analysis/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.md|$\\nabla$-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
 	- methods: ∇-Reasoner
 	- datasets: MATH-500, AMC
-- [[obsidian-vault/analysis/ICLR_2026/A_Brain_Graph_Foundation_Model_Pre-Training_and_Prompt-Tuning_across_Broad_Atlases_and_Disorders.md|A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Brain_Graph_Foundation_Model_Pre-Training_and_Prompt-Tuning_across_Broad_Atlases_and_Disorders.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Brain_Graph_Foundation_Model_Pre-Training_and_Prompt-Tuning_across_Broad_Atlases_and_Disorders.md|A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Brain_Graph_Foundation_Model_Pre-Training_and_Prompt-Tuning_across_Broad_Atlases_and_Disorders.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
 	- methods: BrainGFM
 	- datasets: ABIDE II, ADHD200, ADNI 2
-- [[obsidian-vault/analysis/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.md|A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.md|A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Stitch_in_Time_Saves_Nine_Proactive_Self-Refinement_for_Language_Models.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
 	- methods: ProActive Self-Refinement (PASR)
 	- datasets: GSM8K, MATH, AIME24
-- [[obsidian-vault/analysis/ICLR_2026/A_Two-Phase_Deep_Learning_Framework_for_Adaptive_Time-Stepping_in_High-Speed_Flow_Modeling.md|A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/A_Two-Phase_Deep_Learning_Framework_for_Adaptive_Time-Stepping_in_High-Speed_Flow_Modeling.pdf|PDF]]
+- [[analysis/ICLR_2026/A_Two-Phase_Deep_Learning_Framework_for_Adaptive_Time-Stepping_in_High-Speed_Flow_Modeling.md|A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/A_Two-Phase_Deep_Learning_Framework_for_Adaptive_Time-Stepping_in_High-Speed_Flow_Modeling.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Other Method Family
 	- methods: ShockCast
 	- datasets: Circular Blast, Coal Dust Explosion
-- [[obsidian-vault/analysis/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.md|Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.pdf|PDF]]
+- [[analysis/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.md|Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Achieving_Olympia-Level_Geometry_Large_Language_Model_Agent_via_Complexity_Boosting_Reinforcement_Learning.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: InternGeometry
 	- datasets: IMO 50
-- [[obsidian-vault/analysis/ICLR_2026/Activation_Steering_with_a_Feedback_Controller.md|Activation Steering with a Feedback Controller(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Activation_Steering_with_a_Feedback_Controller.pdf|PDF]]
+- [[analysis/ICLR_2026/Activation_Steering_with_a_Feedback_Controller.md|Activation Steering with a Feedback Controller (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Activation_Steering_with_a_Feedback_Controller.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Other Method Family
 	- methods: Proportional-Integral-Derivative (PID) Steering
 	- datasets: Jailbreak Attack, Toxicity Mitigation
-- [[obsidian-vault/analysis/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.md|Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.pdf|PDF]]
+- [[analysis/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.md|Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Graph / Geometric / Structured Data
 	- methods: CoCo
 	- datasets: Cora, AMAP, BAT
-- [[obsidian-vault/analysis/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.md|Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.pdf|PDF]]
+- [[analysis/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.md|Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Evaluating_and_Improving_Cultural_Awareness_of_Reward_Models_for_LLM_Alignment.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: Think-as-Locals
 	- datasets: M-RewardBench, CARB, 综合
-- [[obsidian-vault/analysis/ICLR_2026/Latent_Visual_Reasoning.md|Latent Visual Reasoning(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Latent_Visual_Reasoning.pdf|PDF]]
+- [[analysis/ICLR_2026/Latent_Visual_Reasoning.md|Latent Visual Reasoning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Latent_Visual_Reasoning.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
 	- methods: Latent Visual Reasoning (LVR)
 	- datasets: MMVP, V*, V*_D.A.
-- [[obsidian-vault/analysis/ICLR_2026/MedGMAE_Gaussian_Masked_Autoencoders_for_Medical_Volumetric_Representation_Learning.md|MedGMAE: Gaussian Masked Autoencoders for Medical Volumetric Representation Learning(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/MedGMAE_Gaussian_Masked_Autoencoders_for_Medical_Volumetric_Representation_Learning.pdf|PDF]]
+- [[analysis/ICLR_2026/MedGMAE_Gaussian_Masked_Autoencoders_for_Medical_Volumetric_Representation_Learning.md|MedGMAE: Gaussian Masked Autoencoders for Medical Volumetric Representation Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MedGMAE_Gaussian_Masked_Autoencoders_for_Medical_Volumetric_Representation_Learning.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
 	- methods: MedGMAE
 	- datasets: AMOS multi-organ segmentation, FLARE'22 segmentation, SegTHOR segmentation
-- [[obsidian-vault/analysis/ICLR_2026/Obscure_but_Effective_Classical_Chinese_Jailbreak_Prompt_Optimization_via_Bio-Inspired_Search.md|Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Obscure_but_Effective_Classical_Chinese_Jailbreak_Prompt_Optimization_via_Bio-Inspired_Search.pdf|PDF]]
+- [[analysis/ICLR_2026/Obscure_but_Effective_Classical_Chinese_Jailbreak_Prompt_Optimization_via_Bio-Inspired_Search.md|Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Obscure_but_Effective_Classical_Chinese_Jailbreak_Prompt_Optimization_via_Bio-Inspired_Search.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
-	- methods: CC-BOS (Classical Chinese Black-box Optimization Search)
-	- datasets: AdvBench, CLAS, AdvBench Query Efficiency
-- [[obsidian-vault/analysis/ICLR_2026/ORCaS_Unsupervised_Depth_Completion_via_Occluded_Region_Completion_as_Supervision.md|ORCaS: Unsupervised Depth Completion via Occluded Region Completion as Supervision(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/ORCaS_Unsupervised_Depth_Completion_via_Occluded_Region_Completion_as_Supervision.pdf|PDF]]
+	- methods: CC-BOS
+	- datasets: AdvBench
+- [[analysis/ICLR_2026/ORCaS_Unsupervised_Depth_Completion_via_Occluded_Region_Completion_as_Supervision.md|ORCaS: Unsupervised Depth Completion via Occluded Region Completion as Supervision (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ORCaS_Unsupervised_Depth_Completion_via_Occluded_Region_Completion_as_Supervision.pdf|PDF]]
 	- topics: Other / Unclear
-	- method groups: Vision / Multimodal / 3D
-	- methods: ORCaS
+	- method groups: Other Method Family
+	- methods: ORCaS (Occluded Region Completion as Supervision)
 	- datasets: VOID1500, NYUv2, KITTI DC
-- [[obsidian-vault/analysis/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.md|Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.pdf|PDF]]
+- [[analysis/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.md|Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Probing_to_Refine_Reinforcement_Distillation_of_LLM_Reasoners_via_Explanatory_Inversion.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: ExGRPO (Explanatory GRPO)
-	- datasets: 同上数据集
-- [[obsidian-vault/analysis/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.md|Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data?(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.pdf|PDF]]
+	- datasets: 样本效率:SQA和CSQA, 平均训练令牌效率对比
+- [[analysis/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.md|Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data? (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Rethinking_LLM_Evaluation_Can_We_Evaluate_LLMs_with_200_Less_Data.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
 	- methods: EssenceBench
 	- datasets: HellaSwag, ARC, GSM8K
-- [[obsidian-vault/analysis/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.md|RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.pdf|PDF]]
+- [[analysis/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.md|RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/RPG_A_Repository_Planning_Graph_for_Unified_and_Scalable_Codebase_Generation.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Agent / RL / Planning, Graph / Geometric / Structured Data
 	- methods: ZeroRepo
 	- datasets: RepoCraft
-- [[obsidian-vault/analysis/ICLR_2026/Sparsity_Forcing_Reinforcing_Token_Sparsity_of_MLLMs.md|Sparsity Forcing: Reinforcing Token Sparsity of MLLMs(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Sparsity_Forcing_Reinforcing_Token_Sparsity_of_MLLMs.pdf|PDF]]
+- [[analysis/ICLR_2026/Sparsity_Forcing_Reinforcing_Token_Sparsity_of_MLLMs.md|Sparsity Forcing: Reinforcing Token Sparsity of MLLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Sparsity_Forcing_Reinforcing_Token_Sparsity_of_MLLMs.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Systems / Efficiency / Compression, Agent / RL / Planning
 	- methods: Sparsity Forcing
 	- datasets: MME, VideoMME
-- [[obsidian-vault/analysis/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.md|T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.pdf|PDF]]
+- [[analysis/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.md|T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/T1_Tool-integrated_Verification_for_Test-time_Compute_Scaling_in_Small_Language_Models.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
 	- methods: Tool-integrated Verification (T1)
 	- datasets: MATH500, GSM8K
-- [[obsidian-vault/analysis/ICLR_2026/Taming_Hierarchical_Image_Coding_Optimization_A_Spectral_Regularization_Perspective.md|Taming Hierarchical Image Coding Optimization: A Spectral Regularization Perspective(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Taming_Hierarchical_Image_Coding_Optimization_A_Spectral_Regularization_Perspective.pdf|PDF]]
+- [[analysis/ICLR_2026/Taming_Hierarchical_Image_Coding_Optimization_A_Spectral_Regularization_Perspective.md|Taming Hierarchical Image Coding Optimization: A Spectral Regularization Perspective (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Taming_Hierarchical_Image_Coding_Optimization_A_Spectral_Regularization_Perspective.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Vision / Multimodal / 3D, Optimization / Theory
 	- methods: DHIC-Regu (Explicit Spectral Regularization for Hierarchical Coding)
 	- datasets: Kodak, CLIC Pro, Tecnick
-- [[obsidian-vault/analysis/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.md|Topological Anomaly Quantification for Semi-supervised Graph Anomaly Detection(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.pdf|PDF]]
+- [[analysis/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.md|Topological Anomaly Quantification for Semi-supervised Graph Anomaly Detection (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Topological_Anomaly_Quantification_for_Semi-supervised_Graph_Anomaly_Detection.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
 	- methods: TAQ-GAD
-	- datasets: Amazon, Reddit, T-finance
-- [[obsidian-vault/analysis/ICLR_2026/TSLM_Tree-Structured_Language_Modeling_for_Divergent_Thinking.md|TSLM: Tree-Structured Language Modeling for Divergent Thinking(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/TSLM_Tree-Structured_Language_Modeling_for_Divergent_Thinking.pdf|PDF]]
+	- datasets: Amazon, T-Finance
+- [[analysis/ICLR_2026/TSLM_Tree-Structured_Language_Modeling_for_Divergent_Thinking.md|TSLM: Tree-Structured Language Modeling for Divergent Thinking (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TSLM_Tree-Structured_Language_Modeling_for_Divergent_Thinking.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Other Method Family
 	- methods: TSLM (Tree-Structured Language Modeling)
 	- datasets: Game of 24, Gridworld, ProntoQA
-- [[obsidian-vault/analysis/ICLR_2026/Video-STAR_Reinforcing_Open-Vocabulary_Action_Recognition_with_Tools.md|Video-STAR: Reinforcing Open-Vocabulary Action Recognition with Tools(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Video-STAR_Reinforcing_Open-Vocabulary_Action_Recognition_with_Tools.pdf|PDF]]
+- [[analysis/ICLR_2026/Video-STAR_Reinforcing_Open-Vocabulary_Action_Recognition_with_Tools.md|Video-STAR: Reinforcing Open-Vocabulary Action Recognition with Tools (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Video-STAR_Reinforcing_Open-Vocabulary_Action_Recognition_with_Tools.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Vision / Multimodal / 3D
 	- methods: Video-STAR
 	- datasets: Kinetics-400, UCF-101, Kinetics-600
-- [[obsidian-vault/analysis/ICLR_2026/VLM4VLA_Revisiting_Vision-Language-Models_in_Vision-Language-Action_Models.md|VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/VLM4VLA_Revisiting_Vision-Language-Models_in_Vision-Language-Action_Models.pdf|PDF]]
+- [[analysis/ICLR_2026/VLM4VLA_Revisiting_Vision-Language-Models_in_Vision-Language-Action_Models.md|VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/VLM4VLA_Revisiting_Vision-Language-Models_in_Vision-Language-Action_Models.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
 	- methods: VLM4VLA
 	- datasets: Calvin ABC-D, SimplerEnv-Bridge, Libero-10
-- [[obsidian-vault/analysis/ICLR_2026/Webscale-RL_Automated_Data_Pipeline_for_Scaling_RL_Data_to_Pretraining_Levels.md|Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Webscale-RL_Automated_Data_Pipeline_for_Scaling_RL_Data_to_Pretraining_Levels.pdf|PDF]]
+- [[analysis/ICLR_2026/Webscale-RL_Automated_Data_Pipeline_for_Scaling_RL_Data_to_Pretraining_Levels.md|Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Webscale-RL_Automated_Data_Pipeline_for_Scaling_RL_Data_to_Pretraining_Levels.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Systems / Efficiency / Compression, LLM / Reasoning / Alignment
 	- methods: Webscale-RL
 	- datasets: Average across 7 benchmarks, Gap to Qwen2.5-7B, MMLU-pro
-- [[obsidian-vault/analysis/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.md|Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.pdf|PDF]]
+- [[analysis/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.md|Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Wide-In_Narrow-Out_Revokable_Decoding_for_Efficient_and_Effective_DLLMs.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Systems / Efficiency / Compression, LLM / Reasoning / Alignment
 	- methods: Wide-In, Narrow-Out (WINO)
 	- datasets: GSM8K, ARC-E
-- [[obsidian-vault/analysis/ICLR_2026/YoNoSplat_You_Only_Need_One_Model_for_Feedforward_3D_Gaussian_Splatting.md|YoNoSplat: You Only Need One Model for Feedforward 3D Gaussian Splatting(ICLR 2026)]]
-	- [[obsidian-vault/paperPDFs/ICLR_2026/YoNoSplat_You_Only_Need_One_Model_for_Feedforward_3D_Gaussian_Splatting.pdf|PDF]]
+- [[analysis/ICLR_2026/YoNoSplat_You_Only_Need_One_Model_for_Feedforward_3D_Gaussian_Splatting.md|YoNoSplat: You Only Need One Model for Feedforward 3D Gaussian Splatting (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/YoNoSplat_You_Only_Need_One_Model_for_Feedforward_3D_Gaussian_Splatting.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: YoNoSplat
-	- datasets: DL3DV, RealEstate10K, ScanNet++
+	- datasets: RealEstate10K, ScanNet++, DL3DV
