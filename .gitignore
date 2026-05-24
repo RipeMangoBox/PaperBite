@@ -2,7 +2,7 @@ assets/*
 !assets/icon/
 !assets/icon/**
 paperPDFs/
-.obsidian/
+
 .trash/
 *.pdf
 *.zip

@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "857280dcfd205d39",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0382dda1d832c2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1ddefa2503b2610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "analysis/ICLR_2026/3D_Aware_Region_Prompted_Vision_Language_Model.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "3D_Aware_Region_Prompted_Vision_Language_Model"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5a4636aaf8c1d05c",
+    "type": "split",
+    "children": [
+      {
+        "id": "481ffc87a9869fcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad14aa852a92e125",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "458ff395d06cc497",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#topic/iclr_2026",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bb05c5597bd51f3c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 590.5
+  },
+  "right": {
+    "id": "e6cf879c4942e890",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b857944abe98ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71e166d5577e9920",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ACM MM审稿.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ACM MM审稿"
+            }
+          },
+          {
+            "id": "26d1d765618f1140",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AGENTS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from AGENTS"
+            }
+          },
+          {
+            "id": "098c8f8499ff8ded",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "655ade3fbecfcb63",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "9a9abc9de2ca911d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "analysis/ICLR_2026/3D_Aware_Region_Prompted_Vision_Language_Model.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 3D_Aware_Region_Prompted_Vision_Language_Model"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 430.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d1ddefa2503b2610",
+  "lastOpenFiles": [
+    "assets/icon/paperbite_icon.png",
+    "assets/icon",
+    "paperPDFs/README.md",
+    "paperPDFs/ICLR_2026/xRFM_Accurate_scalable_and_interpretable_feature_learning_models_for_tabular_data.pdf",
+    "paperPDFs/ICLR_2026/wd1_Weighted_Policy_Optimization_for_Reasoning_in_Diffusion_Language_Models.pdf",
+    "paperPDFs/ICLR_2026/textitMADFormer_Mixed_Autoregressive_and_Diffusion_Transformers_for_Continuous_Image_Generation.pdf",
+    "paperPDFs/ICLR_2026/textbfRe2_Unlocking_LLM_Reasoning_via_Reinforcement_Learning_with_Re-solving.pdf",
+    "paperPDFs/ICLR_2026/ptextrm-less_Sampling_A_Robust_Hyperparameter-Free_Approach_for_LLM_Decoding.pdf",
+    "paperPDFs/ICLR_2026/pi3_Permutation-Equivariant_Visual_Geometry_Learning.pdf",
+    "paperPDFs/ICLR_2026/nabla-Reasoner_LLM_Reasoning_via_Test-Time_Gradient_Descent_in_Latent_Space.pdf",
+    "paperPDFs/ICLR_2026/muLO_Compute-Efficient_Meta-Generalization_of_Learned_Optimizers.pdf",
+    "paperPDFs/ICLR_2026/mathbfLi_2_A_Framework_on_Dynamics_of_Feature_Emergence_and_Delayed_Generalization.pdf",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/278_Figure_45.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/277_Figure_259.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/276_Figure_258.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/275_Figure_257.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/274_Figure_256.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/273_Figure_255.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/272_Figure_254.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/271_Figure_253.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/270_Figure_252.jpg",
+    "assets/figures/papers/repair_max_xEWooSOgaz_A_Noise/figures/269_Figure_251.jpg",
+    "index/by_topic/Iclr 2026.md",
+    "index/by_dataset/同上.md",
+    "index/by_dataset/WebVoyager.md",
+    "index/by_dataset/WebShop.md",
+    "index/by_dataset/VQA-RAD.md",
+    "index/by_dataset/TikTok.md",
+    "index/by_dataset/Texas.md",
+    "index/by_dataset/Sudoku.md",
+    "index/by_dataset/Sintel.md",
+    "index/by_dataset/Simulation.md",
+    "index/by_dataset/SimplerEnv-Bridge.md",
+    "index/by_dataset/ScanRefer.md",
+    "index/by_dataset/ScanQA.md",
+    "index/by_dataset/Scan2Cap.md",
+    "index/by_dataset/SWE-Bench-Verified.md",
+    "index/by_dataset/SQA3D.md",
+    "index/by_dataset/SLAKE.md",
+    "index/by_dataset/RefCOCO.md",
+    "index/by_dataset/Real-world.md",
+    "index/by_dataset/RLBench.md",
+    "index/by_dataset/Pubmed.md",
+    "index/by_dataset/ProntoQA.md",
+    "index/by_dataset/Photo.md",
+    "index/by_dataset/Overall Average.md"
+  ]
+}
