@@ -33,7 +33,7 @@ paradigm: 中间工具调用的成功是最终答案正确性的强预测器（�
 | 英文题名 | THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0Af7UiJISU) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | THOR (Tool-Integrated Hierarchical Optimization via RL) |
 | Dataset | MATH 500, AIME 2024, AMC 2023, Overall Average (推理模型) |
 

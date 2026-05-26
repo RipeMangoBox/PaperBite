@@ -10,6 +10,7 @@ aliases:
 - OpenFly
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 openreview_forum_id: OKm3w71ymP
@@ -34,7 +35,7 @@ paradigm: 通过统一不同渲染引擎的接口并构建自动数据生成流�
 | 英文题名 | OpenFly: A COMPREHENSIVE PLATFORM FOR AERIAL VISION-LANGUAGE NAVIGATION |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OKm3w71ymP) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | OpenFly-Agent |
 | Dataset | OpenFly test-seen, OpenFly test-unseen, OpenFly test-seen, Real-world (真实场景) |
 

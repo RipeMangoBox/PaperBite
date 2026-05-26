@@ -10,6 +10,7 @@ aliases:
 - AASBOLLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/zero_order_and_black_box_optimization
 core_operator: 利用预训练大语言模型的推理能力，在每次迭代时根据完整的优化状态文本摘要动态选择最合适的采集函数。
@@ -33,7 +34,7 @@ paradigm: 将采集函数选择转化为上下文决策问题，通过结构化�
 | 英文题名 | Adaptive Acquisition Selection for Bayesian Optimization with Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EPKmSgXvRe) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/zero_order_and_black_box_optimization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/zero_order_and_black_box_optimization |
 | Method | LMABO (Language Model-Assisted Adaptive Bayesian Optimization) |
 | Dataset | 50 个合成与超参数优化问题 |
 

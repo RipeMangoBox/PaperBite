@@ -11,6 +11,7 @@ aliases:
 - ProActive Self-Refinement (PASR)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 强化学习训练策略，特别是基于比较的细粒度奖励函数，该函数鼓励及时、必要且上下文适当的优化行为。
 primary_logic: 通过在生成过程中引入结构化的<refine>标签，并利用GRPO算法和比较式奖励信号，模型可以学会在推理轨迹中自主触发优化，从而在不显著增加token消耗的情况下提升准确率。
@@ -33,7 +34,7 @@ paradigm: 通过在生成过程中引入结构化的<refine>标签，并利用GR
 | 英文题名 | A Stitch in Time Saves Nine: Proactive Self-Refinement for Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0GaCfBRFnf) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | ProActive Self-Refinement (PASR) |
 | Dataset | GSM8K, MATH, AIME24, ARC |
 

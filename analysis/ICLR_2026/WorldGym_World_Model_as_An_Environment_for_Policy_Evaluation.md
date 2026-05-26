@@ -32,7 +32,7 @@ paradigm: 尽管任务和策略层出不穷，物理世界遵循统一的物理�
 | 英文题名 | WorldGym: World Model as An Environment for Policy Evaluation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hidBHy1CAw) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | WorldGym |
 | Dataset | OpenVLA Bridge evaluation 17项任务, OpenVLA Bridge evaluation 17项任务, Bridge OOD Language Tasks (4项), Bridge OOD Image Distractors (17项) |
 

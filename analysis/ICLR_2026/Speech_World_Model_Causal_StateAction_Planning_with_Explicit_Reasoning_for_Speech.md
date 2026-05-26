@@ -33,7 +33,7 @@ paradigm: 通过因果图提供显式状态表示和推理链引导，可以降�
 | 英文题名 | Speech World Model: Causal State–Action Planning with Explicit Reasoning for Speech |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=YGUKPGO182) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Speech World Model (SWM) |
 | Dataset | Model-as-Judge (M.J.) 多维语音理解评价, 推理中的情绪分类准确率, Model-as-Judge (M.J.) 综合评分, 边缘因果效应评估 |
 

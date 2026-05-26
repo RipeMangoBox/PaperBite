@@ -33,7 +33,7 @@ paradigm: Scaf‑GRPO 不改变 GRPO 的损失函数形式，而是将干预定�
 | 英文题名 | Scaf-GRPO: Scaffolded Group Relative Policy Optimization for Enhancing LLM Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=bOwVr0yr7r) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Scaf‑GRPO |
 | Dataset | AIME24, 7‑benchmark Average (Qwen2.5‑Math‑7B), 7‑benchmark Average (Qwen2.5‑Math‑7B), AIME24 (Qwen2.5‑Math‑1.5B) |
 

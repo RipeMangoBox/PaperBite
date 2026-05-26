@@ -10,6 +10,7 @@ aliases:
 - P3PEVGL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/3d_rendering_reconstruction
 core_operator: 移除所有与顺序相关的组件（如帧索引位置编码、用于标记参考视图的可学习token），并采用完全置换等变的Transformer架构（交替进行视图间和全局自注意力），使模型对输入顺序不敏感。
@@ -33,7 +34,7 @@ paradigm: 通过预测定义在各自相机坐标系下的仿射不变相机姿�
 | 英文题名 | $\pi^3$: Permutation-Equivariant Visual Geometry Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=DTQIjngDta) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | $\pi^3$ |
 | Dataset | RealEstate10K, Sintel, Sintel, ETH3D |
 

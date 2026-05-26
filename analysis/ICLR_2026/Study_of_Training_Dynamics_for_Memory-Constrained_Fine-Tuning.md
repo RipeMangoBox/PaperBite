@@ -9,6 +9,7 @@ aliases:
 - STDMCFT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning
 core_operator: 动态随机选择待更新的输入通道子网络，使其期望梯度逼近全梯度，从而在严格内存限制下高效微调。
@@ -32,7 +33,7 @@ paradigm: 随机梯度具有重尾特性，梯度范数集中于少数通道；�
 | 英文题名 | Study of Training Dynamics for Memory-Constrained Fine-Tuning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=BhfIg0tuti) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning |
 | Method | TraDy |
 | Dataset | MobileNetV2-w0.35（跨CIFAR-10/100, CUB, Flowers, Food, Pets, VWW七个数据集）, MobileNetV2 on Food（最严格内存预算）, 所有架构与数据集（微调过程）, 不同任务下的层梯度范数分布相似性 |
 

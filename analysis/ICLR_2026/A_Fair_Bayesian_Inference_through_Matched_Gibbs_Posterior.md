@@ -10,6 +10,7 @@ aliases:
 - FBITMGP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety
 core_operator: 提出一种新的群体公平性度量——匹配偏差（matched deviation），并基于此构建匹配吉布斯后验（matched Gibbs posterior），通过可学习的匹配函数实现高效的MCMC采样，从而在贝叶斯框架下同时实现公平性和不确定性量化。
@@ -33,7 +34,7 @@ paradigm: 利用匹配函数将不同敏感组的输入空间对齐，使得匹�
 | 英文题名 | A Fair Bayesian Inference through Matched Gibbs Posterior |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=sIjFXzEOOH) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
 | Method | Matched Gibbs Posterior |
 | Dataset | CRIME, CRIME, CRIME, CRIME |
 

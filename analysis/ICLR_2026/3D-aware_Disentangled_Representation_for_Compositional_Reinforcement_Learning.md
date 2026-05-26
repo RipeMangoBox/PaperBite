@@ -10,6 +10,7 @@ aliases:
 - 3ADRCRL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 提出3D block-slot注意力机制，将对象槽进一步分解为多个属性块（如形状、颜色、大小、位置），并利用多视图Transformer和光场解码器实现3D感知解耦。
@@ -33,7 +34,7 @@ paradigm: 通过将对象表示分解为可解释的属性块，并利用块级�
 | 英文题名 | 3D-aware Disentangled Representation for Compositional Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GE0IFoDx8a) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | 3D block-slot representation with block transformer policy |
 | Dataset | Clevr3D, Clevr3D, Clevr3D, IsaacGym3D (GCRL) |
 

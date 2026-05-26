@@ -10,6 +10,7 @@ aliases:
 - ALDTPG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 关键可控因素为：① 决策树结构约束——根到叶路径上各节点测试不同特征维度；② 输入数据具有规则的网格结构。满足以上两个假设，分歧系数可被界为 O(ln^d n)，从而通过乘性误差主动学习算法实现 polylog 标签复杂度。
@@ -33,7 +34,7 @@ paradigm: 通过将决策树分解为 LineTree 结构并结合组合计数，首
 | 英文题名 | Active Learning for Decision Trees with Provable Guarantees |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NOkjJPJIit) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | Algorithm 2（乘性误差主动学习算法） |
 | Dataset |  |
 

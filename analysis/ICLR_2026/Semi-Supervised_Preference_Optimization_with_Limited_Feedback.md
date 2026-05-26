@@ -10,6 +10,7 @@ aliases:
 - SSPOLF
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/optimization_methods
 openreview_forum_id: ghwxbTx7do
@@ -34,7 +35,7 @@ paradigm: 将偏好对齐重构为贝叶斯最优分类问题，通过奖励阈�
 | 英文题名 | Semi-Supervised Preference Optimization with Limited Feedback |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ghwxbTx7do) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
 | Method | Semi-Supervised Preference Optimization (SSPO) |
 | Dataset | UltraFeedback (AlpacaEval2.0), UltraFeedback (AlpacaEval2.0) |
 

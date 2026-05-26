@@ -10,6 +10,7 @@ aliases:
 - ITPINNFEF
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 core_operator: 引入随机傅里叶特征（Random Fourier Features, RFF）扩展特征空间，并将训练解耦为上层特征基生成和下层线性回归，从而打破耦合，使线性PDE的下层问题成为凸优化，保证全局最优。
@@ -33,7 +34,7 @@ paradigm: 通过在隐藏层输出上施加RFF映射，生成一个与网络宽�
 | 英文题名 | Iterative Training of Physics-Informed Neural Networks with Fourier-enhanced Features |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ybffyf7LE7) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | IFeF-PINN (Iterative training of PINNs with Fourier-enhanced Features) |
 | Dataset | Low-frequency Helmholtz (a1=1,a2=4), Viscous Burgers (nonlinear), Low-frequency benchmarks (Helmholtz, Convection, Reaction) |
 

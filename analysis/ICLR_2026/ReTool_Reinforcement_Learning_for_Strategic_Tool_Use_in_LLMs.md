@@ -32,7 +32,7 @@ paradigm: 通过让LLM在强化学习的试错过程中与代码解释器交互�
 | 英文题名 | ReTool: Reinforcement Learning for Strategic Tool Use in LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=tRk1nofSmz) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ReTool |
 | Dataset | AIME2024, AIME2024, AIME2025, GSM8K |
 

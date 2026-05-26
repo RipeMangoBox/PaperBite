@@ -4,7 +4,7 @@ type: paper-index
 dimension: topic
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Topic: Vision / Multimodal / Applications
@@ -308,12 +308,6 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
 	- methods: VLM2VLA
 	- datasets: MMB-en, MMMU, Pick Up the Item Above Ash Ketchum
-- [[analysis/ICLR_2026/Active_Learning_of_3D_Gaussian_Splatting_with_Consistent_Region_Partition_and_Robust_Pose_Estimation.md|Active Learning of 3D Gaussian Splatting with Consistent Region Partition and Robust Pose Estimation (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Active_Learning_of_3D_Gaussian_Splatting_with_Consistent_Region_Partition_and_Robust_Pose_Estimation.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: Our Active 3DGS Reconstruction with Region Partition and Semantic Variance
-	- datasets: Blender, Objaverse
 - [[analysis/ICLR_2026/Adapt_Data_to_Model_Adaptive_Transformation_Optimization_for_Domain-shared_Time_Series_Foundation_Models.md|Adapt Data to Model: Adaptive Transformation Optimization for Domain-shared Time Series Foundation Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adapt_Data_to_Model_Adaptive_Transformation_Optimization_for_Domain-shared_Time_Series_Foundation_Models.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -344,18 +338,6 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: Agent-X
 	- datasets: Agent-X
-- [[analysis/ICLR_2026/AgentGym-RL_An_Open-Source_Framework_to_Train_LLM_Agents_for_Long-Horizon_Decision_Making_via_Multi-Turn_RL.md|AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/AgentGym-RL_An_Open-Source_Framework_to_Train_LLM_Agents_for_Long-Horizon_Decision_Making_via_Multi-Turn_RL.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
-	- methods: ScalingInter-RL
-	- datasets: Deep Search, WebArena, TextCraft
-- [[analysis/ICLR_2026/Agentic_Jigsaw_Interaction_Learning_for_Enhancing_Visual_Perception_and_Reasoning_in_Vision-Language_Models.md|Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and Reasoning in Vision-Language Models (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Agentic_Jigsaw_Interaction_Learning_for_Enhancing_Visual_Perception_and_Reasoning_in_Vision-Language_Models.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
-	- methods: AGILE (Agentic jiGsaw Interaction Learning for Enhancing visual perception and reasoning in VLMs)
-	- datasets: MME-RealWorld-Lite, RealWorldQA
 - [[analysis/ICLR_2026/AgentMath_Empowering_Mathematical_Reasoning_for_Large_Language_Models_via_Tool-Augmented_Agent.md|AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AgentMath_Empowering_Mathematical_Reasoning_for_Large_Language_Models_via_Tool-Augmented_Agent.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -431,7 +413,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/ARES_Multimodal_Adaptive_Reasoning_via_Difficulty-Aware_Token-Level_Entropy_Shaping.md|ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ARES_Multimodal_Adaptive_Reasoning_via_Difficulty-Aware_Token-Level_Entropy_Shaping.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- method groups: Agent / RL / Planning, Vision / Multimodal / 3D
 	- methods: ARES (multimodal Adaptive Reasoning via difficulty-aware token-level Entropy reward Shaping)
 	- datasets: MathVision, MMMU-Pro, AIME25
 - [[analysis/ICLR_2026/ARFlow_Auto-regressive_Optical_Flow_Estimation_for_Arbitrary-Length_Videos_via_Progressive_Next-Frame_Forecasting.md|ARFlow: Auto-regressive Optical Flow Estimation for Arbitrary-Length Videos via Progressive Next-Frame Forecasting (ICLR 2026)]]
@@ -482,16 +464,10 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D
 	- methods: AudioX
 	- datasets: AudioCaps
-- [[analysis/ICLR_2026/AUHead_Realistic_Emotional_Talking_Head_Generation_via_Action_Units_Control.md|AUHead: Realistic Emotional Talking Head Generation via Action Units Control (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/AUHead_Realistic_Emotional_Talking_Head_Generation_via_Action_Units_Control.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: AUHead
-	- datasets: MEAD
 - [[analysis/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.md|AutoLibra: Agent Metric Induction from Open-Ended Human Feedback (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
+	- method groups: Benchmark / Evaluation, Vision / Multimodal / 3D
 	- methods: AutoLibra
 	- datasets: Sotopia, WebArena, WebVoyager
 - [[analysis/ICLR_2026/Automatic_Image-Level_Morphological_Trait_Annotation_for_Organismal_Images.md|Automatic Image-Level Morphological Trait Annotation for Organismal Images (ICLR 2026)]]
@@ -521,7 +497,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/AVoCaDO_An_Audiovisual_Video_Captioner_Driven_by_Temporal_Orchestration.md|AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AVoCaDO_An_Audiovisual_Video_Captioner_Driven_by_Temporal_Orchestration.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D
+	- method groups: Vision / Multimodal / 3D, Agent / RL / Planning
 	- methods: AVoCaDO
 	- datasets: video-SALMONN-2 testset, UGC-VideoCap, Daily-Omni
 - [[analysis/ICLR_2026/BAPO_Stabilizing_Off-Policy_Reinforcement_Learning_for_LLMs_via_Balanced_Policy_Optimization_with_Adaptive_Clipping.md|BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping (ICLR 2026)]]
@@ -539,7 +515,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Bee_A_High-Quality_Corpus_and_Full-Stack_Suite_to_Unlock_Advanced_Fully_Open_MLLMs.md|Bee: A High-Quality Corpus and Full-Stack Suite to Unlock Advanced Fully Open MLLMs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Bee_A_High-Quality_Corpus_and_Full-Stack_Suite_to_Unlock_Advanced_Fully_Open_MLLMs.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
 	- methods: HoneyPipe (数据流水线) 和 DataStudio (数据策展框架)
 	- datasets: MMMU, MMStar, MMMU-Pro
 - [[analysis/ICLR_2026/Benchmarking_Large_Vision-Language_Models_on_Fine-Grained_Image_Tasks_A_Comprehensive_Evaluation.md|Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation (ICLR 2026)]]
@@ -548,12 +524,6 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
 	- methods: FG-BMK
 	- datasets: CUB-200-2011, Stanford Dogs, FGVC Aircraft
-- [[analysis/ICLR_2026/Beyond_Skeletons_Learning_Animation_Directly_from_Driving_Videos_with_Same2X_Training_Strategy.md|Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Beyond_Skeletons_Learning_Animation_Directly_from_Driving_Videos_with_Same2X_Training_Strategy.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: DirectAnimator
-	- datasets: TikTok, Unseen
 - [[analysis/ICLR_2026/Beyond_Text-to-Image_Liberating_Generation_with_a_Unified_Discrete_Diffusion_Model.md|Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Beyond_Text-to-Image_Liberating_Generation_with_a_Unified_Discrete_Diffusion_Model.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -569,7 +539,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/BLADE_Block-Sparse_Attention_Meets_Step_Distillation_for_Efficient_Video_Generation.md|BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/BLADE_Block-Sparse_Attention_Meets_Step_Distillation_for_Efficient_Video_Generation.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Systems / Efficiency / Compression
+	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: BLADE (Block-sparse Attention Meets step Distillation for Efficient video generation)
 	- datasets: VBench-2.0, Wan2.1-1.3B, CogVideoX-5B
 - [[analysis/ICLR_2026/Boosting_Medical_Visual_Understanding_From_Multi-Granular_Language_Learning.md|Boosting Medical Visual Understanding From Multi-Granular Language Learning (ICLR 2026)]]
@@ -742,7 +712,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.md|IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
 	- methods: IR-Agent
 	- datasets: NIST IR spectra dataset
 - [[analysis/ICLR_2026/Johnson-Lindenstrauss_Lemma_Guided_Network_for_Efficient_3D_Medical_Segmentation.md|Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation (ICLR 2026)]]

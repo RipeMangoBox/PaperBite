@@ -33,7 +33,7 @@ paradigm: 在剪枝校准阶段，通过自回归生成并收集模型的链式�
 | 英文题名 | Reasoning Models Can be Accurately Pruned Via Chain-of-Thought Reconstruction |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=tyGfwG6xTh) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Reasoning-Aware Compression (RAC) |
 | Dataset | MATH500, MATH500, MATH500, AIME-25 |
 

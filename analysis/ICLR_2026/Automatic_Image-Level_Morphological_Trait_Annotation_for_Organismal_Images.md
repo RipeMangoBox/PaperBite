@@ -9,8 +9,15 @@ aliases:
 - SGTAPMS
 - AILMTAOI
 acceptance: accepted
+core_operator: 该流水线用DINOv2特征上的稀疏自编码器定位形态部位，并由MLLM生成图像级性状描述。
+primary_logic: SAE筛选物种判别性空间掩码后，将带框图像和多图像上下文交给MLLM生成一致的形态标注。
+claims:
+- SAE潜在单元可在无人工定位标注下对应翅膀、触角等可解释形态区域。
+- 物种对比排序和多图像提示能减少图像特定噪声性状。
+- 生成的BIOSCAN-TRAITS数据提升人类评分和BioCLIP零样本物种分类表现。
 paradigm: 稀疏自编码器在无监督条件下从基础模型特征中分解出单语义的潜在单元，这些单元的空间激活图能精确定位有意义的形态部位；结合物种对比排序和多图像一致性约束，可自动生成高质量、可解释的性状描述，从而将大规模物种标注的图像库转化为丰富的性状数据集。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Automatic Image-Level Morphological Trait Annotation for Organismal Images |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oFRbiaib5Q) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | SAE-guided trait annotation pipeline (MLLM + SAE) |
 | Dataset | BIOSCAN-5M (昆虫图像), 人类评估（5分制）, 人类评估（5分制）, Insects (Ullah et al., 2022) |
 

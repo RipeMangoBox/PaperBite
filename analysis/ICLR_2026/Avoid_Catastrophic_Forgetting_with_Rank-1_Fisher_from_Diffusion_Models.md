@@ -10,7 +10,14 @@ aliases:
 - ACFR1FFDM
 acceptance: accepted
 paradigm: 扩散模型的低SNR区域使每样本梯度与均值近似共线，导致经验Fisher有效秩为一。基于此设计的秩一EWC惩罚项能更好地约束参数更新方向，与生成式蒸馏结合时，重放促进跨任务参数共享，EWC约束重放引起的漂移，两者互补。
+core_operator: The method approximates diffusion-model empirical Fisher information by a mean-gradient rank-one direction and uses it in EWC.
+primary_logic: It estimates the dominant low-SNR curvature direction, penalizes parameter drift along that direction, and combines the penalty with generative distillation replay.
+claims:
+- The note argues low-SNR diffusion gradients become nearly collinear, making rank-one Fisher effective.
+- Rank-one EWC captures a dominant curvature direction at cost comparable to diagonal EWC.
+- Combining rank-one EWC with generative distillation reduces forgetting on MNIST, FashionMNIST, CIFAR-10, and ImageNet-1k.
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zCZcbRsc4g) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Rank-1 EWC with Generative Distillation |
 | Dataset | MNIST, MNIST, FashionMNIST, FashionMNIST |
 

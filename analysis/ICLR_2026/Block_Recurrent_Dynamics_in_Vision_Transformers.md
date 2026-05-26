@@ -10,6 +10,7 @@ aliases:
 - BRDVT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/interpretability_and_visualization
 core_operator: 通过层间权重绑定（参数共享）和基于最大化层间相似度的阶段划分（max-cut算法），显式地引入块递归结构，并用自回归轨迹匹配训练来诱导功能上的相位对齐。
@@ -33,7 +34,7 @@ paradigm: 训练后的ViT深度轴隐含一个紧凑的递归程序：少量参�
 | 英文题名 | Block Recurrent Dynamics in Vision Transformers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gH3HhnfWLC) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
 | Method | Raptor (Recurrent Approximations to Phase‑structured TransfORmers) |
 | Dataset | ImageNet‑1k, ADE20k, NYUv2 |
 

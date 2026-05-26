@@ -32,7 +32,7 @@ paradigm: 空轮次是低概率 token 累积和高生成随机性的可靠信号
 | 英文题名 | SimpleTIR: End-to-End Reinforcement Learning for Multi-Turn Tool-Integrated Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EplNy91Xqh) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SimpleTIR |
 | Dataset | AIME24, MATH500, AIME25, AIME24 |
 

@@ -9,8 +9,16 @@ aliases:
 - AS
 - Ambig-SWE
 acceptance: accepted
+core_operator: 将SWE-Bench问题改写为不明确指令并用交互设置评估修复智能体。
+primary_logic: Ambig-SWE比较Full、Hidden和Interaction三种设置，再通过用户代理问答和信息增益指标分析澄清行为。
+claims:
+- 交互设置在所有评估模型上显著优于不明确且无交互的Hidden设置。
+- 多数模型缺乏主动检测不明确性的能力，强提示会提高检测但也增加误报。
+- 高效交互依赖先探索代码库再提出可回答的针对性澄清问题。
+- 信息提取量和最终任务解决率并不直接等价，模型执行能力仍是关键因素。
 paradigm: 交互性可以显著提升智能体在不明确指令下的任务完成率（最高提升74%），但模型普遍缺乏主动检测不明确性的能力，且交互效率与模型规模无直接关联；有效的交互依赖于模型提出可回答、有针对性的澄清问题，而非盲目提问。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=X2yzXtH4wp) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Ambig-SWE |
 | Dataset | Ambig-SWE (基于SWE-Bench Verified), Ambig-SWE (基于SWE-Bench Verified), Ambig-SWE (基于SWE-Bench Verified), Ambig-SWE (基于SWE-Bench Verified) |
 

@@ -32,7 +32,7 @@ paradigm: 利用VQ-VAE交叉手部蒸馏训练，使不同灵巧手的运动可�
 | 英文题名 | UniHM: Unified Dexterous Hand Manipulation with Vision Language Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cVX3VqO8BO) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | UniHM |
 | Dataset | DexYCB (Seen), DexYCB (Seen), OakInk (Seen), OakInk (Seen) |
 

@@ -10,6 +10,7 @@ aliases:
 - AEDGCSF
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/physics
 core_operator: 同一分布下算子间的相似性（谱分布与不变子空间的接近程度）被现有方法完全忽略；利用这种相似性，通过重排求解顺序并用已求解问题的特征对加速后续求解，可以大幅减少冗余计算。
@@ -33,7 +34,7 @@ paradigm: 将独立的特征值问题序列化为一个受排序引导的连续�
 | 英文题名 | Accelerating Eigenvalue Dataset Generation via Chebyshev Subspace Filter |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rrbCQT7JKX) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
 | Method | Sorting Chebyshev Subspace Filter (SCSF) |
 | Dataset | Helmholtz operator, dim=6400, L=200, tol=1e-8; Generalized Poisson operator, dim=10000, L=400, tol=1e-12; Helmholtz operator (FEM), dim=10000, L=200, tol=1e-8 |
 

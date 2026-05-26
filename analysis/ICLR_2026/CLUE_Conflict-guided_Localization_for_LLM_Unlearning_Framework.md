@@ -9,6 +9,7 @@ aliases:
 - CLUE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/interpretability_and_visualization
 openreview_forum_id: jtRYvazBWv
@@ -33,7 +34,7 @@ paradigm: 遗忘和保留本质上具有组合逻辑特性（AND/OR门），可�
 | 英文题名 | CLUE: Conflict-guided Localization for LLM Unlearning Framework |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jtRYvazBWv) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
 | Method | CLUE |
 | Dataset | WMDP Cyber (forget) / Winogrande (retain), WMDP Cyber (forget) / SST-2 (retain), WMDP Cyber (forget) / RTE (retain), WMDP Bio (forget) / Winogrande (retain) |
 

@@ -33,7 +33,7 @@ paradigm: RL和SFT以互补的方式影响推理过程：RL压缩错误轨迹和
 | 英文题名 | RL Squeezes, SFT Expands: A Comparative Study of Reasoning LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=N2lMNqJsBw) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | 推理路径分析框架（Trajectory-level and Step-level Analysis Framework） |
 | Dataset | AIME24, AIME25, AMC23, AIME24, AIME25, AMC23, AIME24, AIME25, AMC23, AIME24, AIME25, AMC23 |
 

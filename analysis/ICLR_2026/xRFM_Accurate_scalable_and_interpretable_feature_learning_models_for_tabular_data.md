@@ -9,6 +9,7 @@ aliases:
 - xRFM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/computer_vision_task
 core_operator: 利用平均梯度外积（AGOP）指导的二叉树分裂，将数据分成同质子集，然后在每个叶子节点上训练改进的核递归特征机（leaf RFM），从而实现局部特征学习和线性对数级可扩展性。
@@ -32,7 +33,7 @@ paradigm: AGOP 同时充当特征选择器、监督降维工具和可解释性�
 | 英文题名 | xRFM: Accurate, scalable, and interpretable feature learning models for tabular data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wHuVdpnUFp) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/computer_vision_task |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/computer_vision_task |
 | Method | xRFM |
 | Dataset | TALENT Regression (100 datasets), TALENT Binary Classification (120 datasets), Meta-test Large Regression (7 datasets) |
 

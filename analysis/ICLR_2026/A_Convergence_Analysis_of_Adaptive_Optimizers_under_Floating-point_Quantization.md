@@ -10,6 +10,7 @@ aliases:
 - CAAOUFPQ
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/non_convex
 core_operator: "浮点量化中尾数长度M（决定相对量化误差q = Θ(2^{-M})）以及各组件（权重、梯度、一阶动量、二阶动量）的量化误差控制。"
@@ -33,7 +34,7 @@ paradigm: "在相对误差模型下，Adam和Muon在平滑非凸目标上均能�
 | 英文题名 | A Convergence Analysis of Adaptive Optimizers under Floating-point Quantization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wwP1SCACee) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
 | Method | 量化自适应优化器分析框架（Quantized Adam & Quantized Muon） |
 | Dataset | Rosenbrock函数, Rosenbrock函数, CIFAR-10 (4层FCN), CIFAR-10 (4层FCN) |
 

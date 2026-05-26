@@ -9,8 +9,16 @@ aliases:
 - IISRAR
 - ARLISR
 acceptance: accepted
+core_operator: 用在线DPO训练隐式过程奖励并生成步骤级信用分配信号。
+primary_logic: iStar从结果奖励排序的轨迹对学习隐式PRM，再把步骤级优势与回合级优势相加用于策略优化。
+claims:
+- 隐式步骤奖励由新PRM相对旧策略的动作概率比给出，无需人工步骤标注。
+- 双层优势组合缓解了多轮智能体任务中奖励稀疏和延迟导致的信用分配困难。
+- iStar在WebShop和VisualSokoban上优于PPO、GRPO、RLOO、PRIME和GiGPO等基线。
+- 消融显示token级奖励、合并奖励和环境原始步骤奖励都不如iStar的步骤级隐式奖励。
 paradigm: 隐式步骤奖励（implicit step rewards）通过测量当前动作在新旧策略下的概率比，提供密集且低方差的信用分配信号，无需额外标注或回滚，且与多种RL算法兼容。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Agentic Reinforcement Learning with Implicit Step Rewards |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ooROvpmxMV) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | iStar (implicit step rewards for agentic RL) |
 | Dataset | WebShop, WebShop, VisualSokoban, SOTOPIA (Self-Chat, Hard) |
 

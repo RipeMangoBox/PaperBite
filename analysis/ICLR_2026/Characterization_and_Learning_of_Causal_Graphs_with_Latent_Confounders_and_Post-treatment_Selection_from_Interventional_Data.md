@@ -10,6 +10,7 @@ aliases:
 - CLCGLCPTSFI
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/causality
 openreview_forum_id: qclNnbjxNJ
@@ -34,7 +35,7 @@ paradigm: 处理后选择与直接因果关系在干预下具有相同的边际/
 | 英文题名 | Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qclNnbjxNJ) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/causality |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/causality |
 | Method | F-FCI |
 | Dataset | Synthetic graphs with latent confounders and post-treatment selection (hard intervention, n=2000), Synthetic graphs with latent confounders and post-treatment selection (soft intervention, n=2000), Synthetic graphs with latent confounders and post-treatment selection |
 

@@ -10,6 +10,7 @@ aliases:
 - SIECMCLSP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 core_operator: 将相关性矩阵表示为边嵌入的Gram矩阵（R = ν(Q Q^T + ε I)），并利用Woodbury矩阵恒等式重写条件概率分布，将推理中矩阵求逆的复杂度从O(m^3)降至O(d^3)（d << m）。
@@ -33,7 +34,7 @@ paradigm: 通过高斯Copula显式建模边之间的统计依赖性，并利用�
 | 英文题名 | A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=U7tR3lCRr5) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | CopulaLSP (CopulaGNN for Link Sign Prediction) |
 | Dataset | BitcoinAlpha, BitcoinAlpha, BitcoinOTC, BitcoinOTC |
 

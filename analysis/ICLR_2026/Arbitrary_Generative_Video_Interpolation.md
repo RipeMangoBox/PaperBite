@@ -9,6 +9,7 @@ aliases:
 - AGVI
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 openreview_forum_id: eKGkb4cFRe
@@ -33,7 +34,7 @@ paradigm: "将视频帧插值任务转化为归一化时间戳[0,1]上的连续�
 | 英文题名 | Arbitrary Generative Video Interpolation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eKGkb4cFRe) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | ArbInterp |
 | Dataset | MultiInterpBench (2× interpolation), MultiInterpBench (8× interpolation), MultiInterpBench (16× interpolation), MultiInterpBench (32× interpolation) |
 

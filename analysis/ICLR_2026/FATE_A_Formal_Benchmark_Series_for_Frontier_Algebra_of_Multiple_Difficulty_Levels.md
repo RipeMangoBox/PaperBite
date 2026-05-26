@@ -9,6 +9,7 @@ aliases:
 - FATE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_dialog
 core_operator: 显式地将自然语言证明生成与形式化翻译解耦（decoupled approach），并培养模型的“有效反思”（effective reflection）能力，使其能在推理过程中自主诊断和修复错误。
@@ -32,7 +33,7 @@ paradigm: 模型在证明过程中遵循固定的两阶段模式：首先生成�
 | 英文题名 | FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3bD19r4jqh) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
 | Method | FATE基准系列及双阶段解耦评估框架 |
 | Dataset | FATE系列（FATE-M, H, X）, FATE-H 和 FATE-X, FATE-H, FATE-H |
 

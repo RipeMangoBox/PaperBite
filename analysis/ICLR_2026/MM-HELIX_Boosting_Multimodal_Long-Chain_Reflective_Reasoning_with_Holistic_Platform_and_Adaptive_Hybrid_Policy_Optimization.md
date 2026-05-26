@@ -33,7 +33,7 @@ paradigm: 通过单阶段训练框架动态统一离线监督学习和在线策�
 | 英文题名 | MM-HELIX: Boosting Multimodal Long-Chain Reflective Reasoning with Holistic Platform and Adaptive Hybrid Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ORCZ0wcPLm) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Adaptive Hybrid Policy Optimization (AHPO) |
 | Dataset | MM-HELIX, MathVision, MathVerse-V1, LogicVista |
 

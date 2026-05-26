@@ -9,8 +9,15 @@ aliases:
 - RRP
 - RaLoRA / RaLoRA-Pro
 acceptance: accepted
+core_operator: RaLoRA用熵基梯度内在维度估计来决定LoRA块对角结构和等效秩。
+primary_logic: 先逐层估计全微调梯度有效秩，再在固定参数预算下进行层内块分解和层间重要性重分配。
+claims:
+- 固定低秩LoRA会压缩远高于预设秩的全微调梯度有效方向。
+- RaLoRA通过块对角分解提高等效表达秩而不增加参数量。
+- RaLoRA-Pro结合损失敏感性分配参数，在GLUE、GSM8K、HumanEval和图像分类任务上缩小与全微调差距。
 paradigm: 表达力不仅取决于参数量，还取决于架构结构。通过将 LoRA 的秩与 GID 对齐，可以在不增加参数的情况下更有效地利用容量，从而缩小与全微调的差距。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=kObvnQ6pUx) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | RaLoRA / RaLoRA-Pro |
 | Dataset | GLUE (T5-Base), MT-Bench (LLaMA-3.1-8B), GSM8K (LLaMA-3.1-8B), HumanEval (LLaMA-3.1-8B) |
 

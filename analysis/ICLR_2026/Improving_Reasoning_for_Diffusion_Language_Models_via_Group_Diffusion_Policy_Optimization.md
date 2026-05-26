@@ -33,7 +33,7 @@ paradigm: ELBO 方差主要由随机时间采样主导，而非随机掩码；�
 | 英文题名 | Improving Reasoning for Diffusion Language Models via Group Diffusion Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JaqvespRBP) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Group Diffusion Policy Optimization (GDPO) |
 | Dataset | GSM8K (512 tokens), MATH500 (512 tokens), Countdown (512 tokens), Sudoku (512 tokens) |
 

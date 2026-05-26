@@ -10,7 +10,14 @@ aliases:
 - AWNN
 acceptance: accepted
 paradigm: 通过变分推断（ELBO）联合优化网络权重和宽度参数，利用单调递减的分布对神经元施加软排序（soft ordering），使得新加入的神经元具有较低的重要性，从而在不预设上限的情况下实现宽度的自适应学习，并允许在训练后通过简单地删除最后几行/列权重矩阵来实现零成本压缩。
+core_operator: AWN learns layer widths by optimizing a variational latent width parameter that defines a monotone importance distribution over neurons.
+primary_logic: It jointly trains weights and width parameters under an ELBO, soft-sorts neurons by importance, and enables post-training truncation of low-importance units.
+claims:
+- AWN removes the need to preselect fixed layer widths or run expensive width grid search.
+- A monotone decreasing importance distribution makes later neurons less influential and easy to prune.
+- The note reports comparable or better performance than fixed-width baselines across tabular, image, text, sequence, and graph tasks.
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Adaptive Width Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=p6Ek7Qg577) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Adaptive Width Neural Networks (AWN) |
 | Dataset | DoubleMoon, Spiral, SpiralHard, pol |
 

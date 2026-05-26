@@ -10,6 +10,7 @@ aliases:
 - 2FAAFMTAHR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 引入任务感知路由器（Task-Aware Router），统一调度即时回答、推理和智能体三种执行模式，并通过自适应策略优化（APO）在强化学习中联合优化路由决策与轨迹生成，从而平衡准确率与计算成本。
@@ -33,7 +34,7 @@ paradigm: 采用“先路由后对齐”的两阶段训练框架：首先通过�
 | 英文题名 | A$^2$FM: An Adaptive Agent Foundation Model for Tool-Aware Hybrid Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3kvV1nfWVq) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | Adaptive Agent Foundation Model (A²FM) |
 | Dataset |  |
 

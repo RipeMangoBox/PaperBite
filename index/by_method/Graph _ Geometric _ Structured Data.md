@@ -4,7 +4,7 @@ type: paper-index
 dimension: method
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Method: Graph / Geometric / Structured Data
@@ -53,7 +53,6 @@ generated: 2026-05-23T23:39
 	- datasets: BitcoinAlpha, BitcoinOTC
 - [[analysis/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md|AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Graph / Geometric / Structured Data
 	- methods: AdaSpec
 	- datasets: Texas, Minesweeper, Roman_Empire
@@ -63,15 +62,24 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: BWFlow (Bures-Wasserstein Flow Matching)
 	- datasets: Plain Graph Generation, Small Sampling Steps
+- [[analysis/ICLR_2026/Characterizing_the_Discrete_Geometry_of_ReLU_Networks.md|Characterizing the Discrete Geometry of ReLU Networks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Characterizing_the_Discrete_Geometry_of_ReLU_Networks.pdf|PDF]]
+	- method groups: Graph / Geometric / Structured Data
+	- methods: Algorithm 1: Construction of the Connectivity Graph (基于BFS与LP冗余检测的多面体连通图构建)
+	- datasets: Synthetic clustering data with varying d, depth, and width
 - [[analysis/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.md|Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Compactness_and_Consistency_A_Conjoint_Framework_for_Deep_Graph_Clustering.pdf|PDF]]
 	- topics: Other / Unclear
 	- method groups: Graph / Geometric / Structured Data
 	- methods: CoCo
 	- datasets: Cora, AMAP, BAT
+- [[analysis/ICLR_2026/DCFold_Efficient_Protein_Structure_Generation_with_Single_Forward_Pass.md|DCFold: Efficient Protein Structure Generation with Single Forward Pass (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DCFold_Efficient_Protein_Structure_Generation_with_Single_Forward_Pass.pdf|PDF]]
+	- method groups: Graph / Geometric / Structured Data, Systems / Efficiency / Compression
+	- methods: DCFold
+	- datasets: Posebusters V2, Recent PDB
 - [[analysis/ICLR_2026/Embodied_Agents_Meet_Personalization_Investigating_Challenges_and_Solutions_Through_the_Lens_of_Memory_Utilization.md|Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Embodied_Agents_Meet_Personalization_Investigating_Challenges_and_Solutions_Through_the_Lens_of_Memory_Utilization.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Graph / Geometric / Structured Data, Systems / Efficiency / Compression
 	- methods: Hierarchical Knowledge Graph-based User Profile Memory
 	- datasets: MEMENTO
@@ -81,6 +89,17 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: EvA (Evolutionary Attack)
 	- datasets: CoraML, Pubmed, Ogbn-Arxiv
+- [[analysis/ICLR_2026/Exchangeability_of_GNN_Representations_with_Applications_to_Graph_Retrieval.md|Exchangeability of GNN Representations with Applications to Graph Retrieval (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Exchangeability_of_GNN_Representations_with_Applications_to_Graph_Retrieval.pdf|PDF]]
+	- method groups: Graph / Geometric / Structured Data, LLM / Reasoning / Alignment
+	- methods: GRAPHHASH
+	- datasets: cox2, ptc-fm
+- [[analysis/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.md|Flock A Knowledge Graph Foundation Model via Learning on Random Walks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
+	- methods: 基于随机游走序列编码的概率性节点-关系等变模型
+	- datasets: PETALS
 - [[analysis/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.md|Forest-Based Graph Learning for Semi-Supervised Node Classification (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Forest-Based_Graph_Learning_for_Semi-Supervised_Node_Classification.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -107,7 +126,6 @@ generated: 2026-05-23T23:39
 	- datasets: Planar, SBM
 - [[analysis/ICLR_2026/GRL-SNAM_Geometric_Reinforcement_Learning_with_Differential_Hamiltonians_for_Navigation_and_Mapping_in_Unknown_Environments.md|GRL-SNAM: Geometric Reinforcement Learning with Differential Hamiltonians for Navigation and Mapping in Unknown Environments (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/GRL-SNAM_Geometric_Reinforcement_Learning_with_Differential_Hamiltonians_for_Navigation_and_Mapping_in_Unknown_Environments.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Graph / Geometric / Structured Data
 	- methods: GRL-SNAM
 	- datasets: Point-agent dungeon navigation
@@ -117,12 +135,6 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: HGNet（包含 Z-NERD 零样本实体识别和 HGNet 层次关系抽取）
 	- datasets: SciERC, SciER, BioRED
-- [[analysis/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.md|IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/IR-Agent_Expert-Inspired_LLM_Agents_for_Structure_Elucidation_from_Infrared_Spectra.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
-	- methods: IR-Agent
-	- datasets: NIST IR spectra dataset
 - [[analysis/ICLR_2026/Learning_Flexible_Forward_Trajectories_for_Masked_Molecular_Diffusion.md|Learning Flexible Forward Trajectories for Masked Molecular Diffusion (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Learning_Flexible_Forward_Trajectories_for_Masked_Molecular_Diffusion.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -147,6 +159,16 @@ generated: 2026-05-23T23:39
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
 	- methods: MolLangBench 多任务基准
 	- datasets: MolLangBench 分子结构识别, MolLangBench 分子编辑, MolLangBench 分子生成
+- [[analysis/ICLR_2026/Multi-Domain_Riemannian_Graph_Gluing_for_Building_Graph_Foundation_Models.md|Multi-Domain Riemannian Graph Gluing for Building Graph Foundation Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Multi-Domain_Riemannian_Graph_Gluing_for_Building_Graph_Foundation_Models.pdf|PDF]]
+	- method groups: Graph / Geometric / Structured Data
+	- methods: GRAPHGLUE
+	- datasets: Arxiv, Reddit, Computers
+- [[analysis/ICLR_2026/One_for_Two_A_Unified_Framework_for_Imbalanced_Graph_Classification_via_Dynamic_Balanced_Prototype.md|One for Two: A Unified Framework for Imbalanced Graph Classification via Dynamic Balanced Prototype (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/One_for_Two_A_Unified_Framework_for_Imbalanced_Graph_Classification_via_Dynamic_Balanced_Prototype.pdf|PDF]]
+	- method groups: Graph / Geometric / Structured Data
+	- methods: UniImb
+	- datasets: PROTEINS, D&D
 - [[analysis/ICLR_2026/RankFlow_Property-aware_Transport_for_Protein_Optimization.md|RankFlow: Property-aware Transport for Protein Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/RankFlow_Property-aware_Transport_for_Protein_Optimization.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -165,12 +187,6 @@ generated: 2026-05-23T23:39
 	- method groups: Agent / RL / Planning, Graph / Geometric / Structured Data
 	- methods: ZeroRepo
 	- datasets: RepoCraft
-- [[analysis/ICLR_2026/Secondary_Motion-Aware_3D_Clothed_Gaussian_Avatars_from_Monocular_Videos.md|Secondary Motion-Aware 3D Clothed Gaussian Avatars from Monocular Videos (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Secondary_Motion-Aware_3D_Clothed_Gaussian_Avatars_from_Monocular_Videos.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
-	- methods: Secondary Motion-Aware Deformation (SMAD)
-	- datasets: ZJU-MoCap, LoCo-Human
 - [[analysis/ICLR_2026/Si-GT_Fast_Interconnect_Signal_Integrity_Analysis_for_Integrated_Circuit_Design_via_Graph_Transformers.md|Si-GT: Fast Interconnect Signal Integrity Analysis for Integrated Circuit Design via Graph Transformers (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Si-GT_Fast_Interconnect_Signal_Integrity_Analysis_for_Integrated_Circuit_Design_via_Graph_Transformers.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -193,6 +209,11 @@ generated: 2026-05-23T23:39
 	- [[paperPDFs/ICLR_2026/Triangle_Multiplication_is_All_You_Need_for_Biomolecular_Structure_Representations.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Graph / Geometric / Structured Data, Vision / Multimodal / 3D
+- [[analysis/ICLR_2026/Verifying_Chain-of-Thought_Reasoning_via_Its_Computational_Graph.md|Verifying Chain-of-Thought Reasoning via Its Computational Graph (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Verifying_Chain-of-Thought_Reasoning_via_Its_Computational_Graph.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Graph / Geometric / Structured Data
+	- methods: Circuit-based Reasoning Verification (CRV)
+	- datasets: Synthetic, GSM8K
 - [[analysis/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.md|WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion

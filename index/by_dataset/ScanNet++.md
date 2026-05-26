@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: ScanNet++
@@ -15,6 +15,11 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Systems / Efficiency / Compression
 	- methods: 3DGEER
 	- datasets: ScanNet++, MipNeRF360
+- [[analysis/ICLR_2026/Depth_Anything_3_Recovering_the_Visual_Space_from_Any_Views.md|Depth Anything 3: Recovering the Visual Space from Any Views (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Depth_Anything_3_Recovering_the_Visual_Space_from_Any_Views.pdf|PDF]]
+	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
+	- methods: Depth Anything 3 (DA3)
+	- datasets: HiRoom, ETH3D, ScanNet++
 - [[analysis/ICLR_2026/YoNoSplat_You_Only_Need_One_Model_for_Feedforward_3D_Gaussian_Splatting.md|YoNoSplat: You Only Need One Model for Feedforward 3D Gaussian Splatting (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/YoNoSplat_You_Only_Need_One_Model_for_Feedforward_3D_Gaussian_Splatting.pdf|PDF]]
 	- topics: Other / Unclear

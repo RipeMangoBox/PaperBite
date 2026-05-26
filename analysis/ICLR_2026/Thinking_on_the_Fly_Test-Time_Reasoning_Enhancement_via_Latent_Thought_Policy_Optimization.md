@@ -10,6 +10,7 @@ aliases:
 - TFTTRELTPO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 openreview_forum_id: r1WEQzkCQv
@@ -34,7 +35,7 @@ paradigm: 将潜在思考向量视为可动态优化的参数，利用冻结LLM�
 | 英文题名 | Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=r1WEQzkCQv) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | LTPO (Latent Thought Policy Optimization) |
 | Dataset | AIME2024, GSM8K, MATH-500, ASDiv Aug |
 

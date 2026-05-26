@@ -9,8 +9,15 @@ aliases:
 - ARPOA
 - ARPO
 acceptance: accepted
+core_operator: ARPO在工具调用后的高熵token位置触发分支采样，并用优势归因训练多轮工具调用LLM智能体。
+primary_logic: 熵变化决定局部分支展开，分支与共享token再分别获得优势信号以优化工具使用轨迹。
+claims:
+- 工具调用后token熵上升暴露了轨迹级RL缺少步骤级探索的问题。
+- 自适应分支采样以更少工具调用预算覆盖关键高不确定性决策。
+- 软优势归因和分层奖励使ARPO在推理与深度搜索任务上优于GRPO等轨迹级基线。
 paradigm: 通过监测工具调用后token熵的变化，自适应地在高熵决策点进行分支采样，结合优势归因估计，使LLM能够内化步骤级工具使用行为的优势差异，从而以更少的工具调用预算实现更优性能。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Agentic Reinforced Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=TX4k7BF6aO) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Agentic Reinforced Policy Optimization (ARPO) |
 | Dataset | 10个推理任务平均, AIME24, AIME25, HLE |
 

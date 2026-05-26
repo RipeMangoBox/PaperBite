@@ -10,6 +10,7 @@ aliases:
 - A2D
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety
 core_operator: "在训练时，将有害样本中被屏蔽的令牌监督为输出[EOS]（而非原始令牌），同时在安全样本中保持重构，从而在模型内部建立\"遇到有害内容即终止\"的令牌级拒绝机制。"
@@ -33,7 +34,7 @@ paradigm: "将[EOS]作为通用的拒绝令牌，在任意解码位置、任意�
 | 英文题名 | A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=URTnuyQJI1) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
 | Method | A2D (Any-Order, Any-Step Defense) |
 | Dataset | 安全基准（Zeroshot, PAIR, ReNeLLM, Prefilling, DIJA）, DIJA 攻击 |
 

@@ -10,6 +10,7 @@ aliases:
 - DRBench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 自适应行动规划（AAP）允许智能体根据已检索信息动态调整搜索策略，弥补信息鸿沟；这一机制在消融实验中单独最大程度地提高了洞察召回率（+2.79）和报告质量。
@@ -33,7 +34,7 @@ paradigm: 自适应探索机制是提升关键信息覆盖率的核心驱动力�
 | 英文题名 | DRBench: A Realistic Benchmark for Enterprise Deep Research |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IGYQ4c92e2) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | DRBench Agent (DRBA) and DRBench evaluation framework |
 | Dataset | DRBench FullBenchmark, DRBench FullBenchmark, DRBench FullBenchmark, DRBench FullBenchmark |
 

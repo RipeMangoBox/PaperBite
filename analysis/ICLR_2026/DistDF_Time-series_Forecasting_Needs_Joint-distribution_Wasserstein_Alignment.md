@@ -9,6 +9,7 @@ aliases:
 - DistDF
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/time_series_dynamical_systems
 - topic/time_series_dynamical_systems/time_series_forecasting
 openreview_forum_id: VrdLwUmzBy
@@ -33,7 +34,7 @@ paradigm: 联合分布Wasserstein差异可证明地作为条件分布差异的�
 | 英文题名 | DistDF: Time-series Forecasting Needs Joint-distribution Wasserstein Alignment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VrdLwUmzBy) |
-| Topic | #topic/time_series_dynamical_systems #topic/time_series_dynamical_systems/time_series_forecasting |
+| Topic | #ICLR_2026 #topic/time_series_dynamical_systems #topic/time_series_dynamical_systems/time_series_forecasting |
 | Method | DistDF |
 | Dataset | ETTm1, ETTh1, ECL, Traffic |
 

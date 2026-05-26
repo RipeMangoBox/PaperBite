@@ -10,6 +10,7 @@ aliases:
 - AATMSACP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety
 core_operator: 在不被信任模型的输出中嵌入针对监控器的提示注入（prompt injection），例如伪装成基准测试校准元数据或决策合约的文本，强制监控器输出极低的可疑度分数。
@@ -33,7 +34,7 @@ paradigm: 通过自适应提示注入攻击，即使攻击模型仅使用公开�
 | 英文题名 | Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wSs1Ez3aKl) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
 | Method | Adaptive Prompt Injection Attack（自适应提示注入攻击） |
 | Dataset | APPS Backdooring, APPS (GPT‑4.1 monitor), BashBench, Cross‑monitor transfer (APPS, BashBench) |
 

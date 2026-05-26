@@ -10,6 +10,7 @@ aliases:
 - OBECCJPOBIS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 openreview_forum_id: O7fxz7D6vf
 core_operator: 将越狱提示重定向至文言文语境，并将攻击策略分解为八个维度（角色身份、行为引导、机制、隐喻映射、表达风格、知识关系、上下文设置和触发模式），利用果蝇优化算法进行自动化搜索，系统性地探索高成功率策略。
@@ -33,7 +34,7 @@ paradigm: 文言文与安全对齐之间的“高能力‑低对齐”分布偏�
 | 英文题名 | Obscure but Effective: Classical Chinese Jailbreak Prompt Optimization via Bio-Inspired Search |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=O7fxz7D6vf) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | CC-BOS |
 | Dataset | AdvBench, AdvBench, AdvBench |
 

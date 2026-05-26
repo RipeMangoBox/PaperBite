@@ -32,7 +32,7 @@ paradigm: 结合球面傅里叶特征实现高效、连续的SE(3)等变点云�
 | 英文题名 | EquAct: An SE(3)-Equivariant Multi-Task Transformer for 3D Robotic Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=d1wuA8oIH0) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | EquAct |
 | Dataset | RLBench 18 tasks (2D/100 demonstrations), RLBench 18 tasks (2D/10 demonstrations), RLBench 18 tasks (3D/10 demonstrations), 4 real-world tasks |
 

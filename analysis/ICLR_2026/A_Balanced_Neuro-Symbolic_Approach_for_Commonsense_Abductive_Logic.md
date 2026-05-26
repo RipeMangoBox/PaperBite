@@ -10,6 +10,7 @@ aliases:
 - BNSACAL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 利用逻辑求解器的反馈（SAT问题骨干集）来引导LLM生成新的常识命题，并迭代地扩充问题，从而将搜索空间从受限的符号空间扩展到更通用的空间。
@@ -33,7 +34,7 @@ paradigm: 通过将逻辑求解器的骨干集作为搜索线索，可以高效�
 | 英文题名 | A Balanced Neuro-Symbolic Approach for Commonsense Abductive Logic |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RCsBoUr72G) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | ARGOS (Abductive Reasoning with Generalization Over Symbolics) |
 | Dataset | FOLIO, CLUTRR, QUAIL, CosmosQA |
 

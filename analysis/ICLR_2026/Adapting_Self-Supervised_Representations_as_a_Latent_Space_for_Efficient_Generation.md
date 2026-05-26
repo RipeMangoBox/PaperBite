@@ -10,6 +10,7 @@ aliases:
 - ASSRALSEG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: "仅微调预训练SSL视觉Transformer的[cls]令牌嵌入，同时应用余弦相似度正则化项，使单个连续令牌既能注入重建所需的底层细节，又保留原SSL空间的平滑几何结构。"
@@ -33,7 +34,7 @@ paradigm: "预训练自监督模型的池化[cls]向量本身构成一个平滑�
 | 英文题名 | Adapting Self-Supervised Representations as a Latent Space for Efficient Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0b6a2SE23v) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Representation Tokenizer (RepTok) |
 | Dataset | ImageNet 256×256, ImageNet 256×256, ImageNet 256×256 类别条件生成 (无CFG), MS-COCO zero-shot |
 

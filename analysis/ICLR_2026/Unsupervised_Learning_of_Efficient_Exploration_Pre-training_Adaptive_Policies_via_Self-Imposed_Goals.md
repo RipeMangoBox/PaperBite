@@ -9,6 +9,7 @@ aliases:
 - ULEEPTAPSIG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 openreview_forum_id: UmxTIxHWkl
@@ -33,7 +34,7 @@ paradigm: 通过上下文元学习训练无条件策略，并利用自我生成�
 | 英文题名 | Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UmxTIxHWkl) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | ULEE |
 | Dataset | 4Rooms‑Trivial / 4Rooms‑Small / 6Rooms‑Small, 4Rooms‑Small（少样本适应）, 固定 μ_eval 任务（长期微调）, μ_train 上的监督元学习 |
 

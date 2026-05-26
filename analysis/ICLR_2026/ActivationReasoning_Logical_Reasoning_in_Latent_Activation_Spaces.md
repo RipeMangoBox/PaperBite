@@ -11,6 +11,7 @@ aliases:
 - ACTIVATIONREASONING (AR)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 在LLM的潜在激活空间中，对稀疏自编码器（SAE）特征应用用户定义的逻辑规则，通过前向链接推理来增强模型的可控性和推理能力。
@@ -34,7 +35,7 @@ paradigm: 将SAE特征作为命题构建块，嵌入显式逻辑规则到LLM的�
 | 英文题名 | ActivationReasoning: Logical Reasoning in Latent Activation Spaces |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gGJh5AZTG7) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | ACTIVATIONREASONING (AR) |
 | Dataset | PrOntoQA (5-hop), Rail2Country Meta (Reasoning), ProverQA (Hard), BeaverTails Safety |
 

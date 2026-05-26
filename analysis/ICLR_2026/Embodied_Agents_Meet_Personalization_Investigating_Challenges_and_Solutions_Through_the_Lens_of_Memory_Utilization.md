@@ -33,7 +33,7 @@ paradigm: 情景记忆同时提供个性化知识和上下文学习（in-context
 | 英文题名 | Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=E5L43l5EIu) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Hierarchical Knowledge Graph-based User Profile Memory |
 | Dataset | MEMENTO (Single-Memory Task), MEMENTO (Joint-Memory Task) |
 

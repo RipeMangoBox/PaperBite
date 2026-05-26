@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: Amazon
@@ -21,3 +21,8 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Graph / Geometric / Structured Data
 	- methods: TAQ-GAD
 	- datasets: Amazon, T-Finance
+- [[analysis/ICLR_2026/VPI-Bench_Visual_Prompt_Injection_Attacks_for_Computer-Use_Agents.md|VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/VPI-Bench_Visual_Prompt_Injection_Attacks_for_Computer-Use_Agents.pdf|PDF]]
+	- method groups: Benchmark / Evaluation, LLM / Reasoning / Alignment
+	- methods: VPI-Bench
+	- datasets: Amazon, Booking, BBC

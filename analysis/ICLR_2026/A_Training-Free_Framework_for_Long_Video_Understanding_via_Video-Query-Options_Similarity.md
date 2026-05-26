@@ -10,6 +10,7 @@ aliases:
 - TFFLVUVQOS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 核心因果旋钮是视频片段与用户查询及候选答案选项之间的相似度分数，该分数决定了哪些片段应被密集采样并保留更高空间分辨率。
@@ -33,7 +34,7 @@ paradigm: 通过模拟人类认知过程（假设生成→专注验证→无关�
 | 英文题名 | A Training-Free Framework for Long Video Understanding via Video-Query-Options Similarity |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hfMfYMoRLk) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | VTR-VLM (免训练框架，包含AFS、DRA和VQOS) |
 | Dataset | LVBench, MLVU |
 

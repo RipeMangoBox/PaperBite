@@ -9,6 +9,7 @@ aliases:
 - BTILGUDDM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 采用基于预训练文生图模型的视觉先验，与轻量文本解码器结合，在纯离散扩散框架下进行统一的掩码预测训练，使模型同时具备快速并行生成和多模态理解能力。
@@ -32,7 +33,7 @@ paradigm: 强视觉先验可以弥补纯离散扩散模型在文本理解和生�
 | 英文题名 | Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=pG0WTde3pR) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Muddit |
 | Dataset | GenEval, MS-COCO, VQAv2, Image-to-Text (512×512, 32 steps) |
 

@@ -4,14 +4,13 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: Texas
 
 - [[analysis/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md|AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Graph / Geometric / Structured Data
 	- methods: AdaSpec
 	- datasets: Texas, Minesweeper, Roman_Empire

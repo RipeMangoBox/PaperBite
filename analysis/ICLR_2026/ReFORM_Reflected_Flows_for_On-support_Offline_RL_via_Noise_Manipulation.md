@@ -11,11 +11,13 @@ acceptance: accepted
 tags:
 - topic/iclr_2026
 openreview_forum_id: YvFsyRReeN
-core_operator: ReFORM
-primary_logic: ReFORM
+core_operator: ReFORM将有界源分布BC流策略与反射流噪声生成器复合，以构造性约束离线RL动作支持集。
+primary_logic: 先学习从有界噪声到行为动作的BC流，再在源空间内反射优化噪声分布以最大化Q值。
 claims:
-- ReFORM
-paradigm: ReFORM
+- 支持集约束通过策略结构保证，而不是依赖KL或Wasserstein等显式保守正则。
+- 有界源分布和反射流确保优化后策略仍处于BC策略支持集内。
+- ReFORM在OGBench和D4RL任务上以统一超参数取得强离线RL性能。
+paradigm: 通过在有界源分布内学习反射流噪声生成器，并将其输入行为克隆流策略，ReFORM让策略改进发生在行为支持集内部，从构造上避免离线RL的OOD动作外推。
 ---
 
 # ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation
@@ -29,7 +31,7 @@ paradigm: ReFORM
 | 英文题名 | ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=YvFsyRReeN) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method |  |
 | Dataset |  |
 

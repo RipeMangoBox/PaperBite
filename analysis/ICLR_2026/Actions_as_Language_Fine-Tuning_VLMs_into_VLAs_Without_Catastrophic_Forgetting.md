@@ -10,6 +10,7 @@ aliases:
 - VLM2VLA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 通过在数据层面将底层动作重新表示为自然语言描述（例如“向前移动 4.2 厘米”），使 VLA 的微调数据与 VLM 的预训练表示空间对齐，从而仅用低秩适配（LoRA）即可高效学习机器人策略，避免大幅修改预训练权重，从根本上阻断遗忘。
@@ -33,7 +34,7 @@ paradigm: “动作即语言”的数据重标注流程将机器人控制转化�
 | 英文题名 | Actions as Language: Fine-Tuning VLMs into VLAs Without Catastrophic Forgetting |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=sFO9d6XSlf) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | VLM2VLA |
 | Dataset | MMB-en (多模态理解), MMMU (多模态理解), Pick Up the Item Above Ash Ketchum (OOD 机器人操作) |
 

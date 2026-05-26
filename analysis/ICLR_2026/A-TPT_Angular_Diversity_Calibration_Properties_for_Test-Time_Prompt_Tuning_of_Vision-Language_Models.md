@@ -9,6 +9,7 @@ aliases:
 - A-TPT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/safety_security
 core_operator: 最大化归一化文本特征之间的最小成对角度距离，实现类间角度均匀分布（Tammes最佳填充问题）。
@@ -32,7 +33,7 @@ paradigm: 角度多样性比简单的特征分散或正交化更能促进文本�
 | 英文题名 | A-TPT: Angular Diversity Calibration Properties for Test-Time Prompt Tuning of Vision-Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VhlSBZebEw) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
 | Method | A-TPT |
 | Dataset | Fine-grained datasets (11 datasets, CLIP ViT-B/16, overall), Fine-grained datasets (CLIP ViT-B/16, N>\|D\| and N<\|D\|), Natural distribution shifts (ImageNet-V2/A/R/Sketch, CLIP ViT-B/16), Medical: ISIC 2018 (FPT backbone) |
 

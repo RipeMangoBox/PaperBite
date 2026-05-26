@@ -9,7 +9,14 @@ aliases:
 - ActiveDPO
 acceptance: accepted
 paradigm: 通过理论推导的误差上界（Proposition 1），将奖励差异估计误差与梯度差异的范数（经协方差逆矩阵加权）联系起来，从而利用LLM的梯度作为不确定性度量来选择信息量最大的偏好数据，同时通过LoRA和随机投影降低计算开销。
+core_operator: ActiveDPO selects preference pairs by the inverse-covariance norm of LLM implicit-reward gradient differences.
+primary_logic: It iteratively generates candidate responses, chooses high-uncertainty and diverse pairs for labeling, then updates the model with DPO on the selected preferences.
+claims:
+- The selection criterion is derived from a reward-difference error bound tied to gradient difference norms.
+- Using the current LLM as the implicit reward model couples data selection to the alignment target.
+- LoRA gradients and random projection reduce the cost of applying the criterion at scale.
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/function_approximation
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RD4XgyVyGh) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/function_approximation |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/function_approximation |
 | Method | ActiveDPO |
 | Dataset | TLDR summarization, WebGPT long-form QA, TLDR summarization |
 

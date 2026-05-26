@@ -10,6 +10,7 @@ aliases:
 - HARP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 将隐藏状态投影到推理子空间（通过SVD分解Unembedding层获得的基向量）提取紧凑的推理特征，可实现高精度、单次采样的幻觉检测。
@@ -33,7 +34,7 @@ paradigm: LLM隐藏状态空间可分解为语义子空间与推理子空间的�
 | 英文题名 | HARP: Hallucination Detection via Reasoning Subspace Projection |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ShEDWasmDG) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | HARP (HAllucination detection via Reasoning subspace Projection) |
 | Dataset | TriviaQA, TruthfulQA, NQ Open, TriviaQA |
 

@@ -10,6 +10,7 @@ aliases:
 - OBCD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/non_convex
 core_operator: OBCD 采用行块坐标下降框架，每次迭代仅更新解矩阵的 k 行（k≥2），通过全局求解一个低维（k×k）Stiefel 流形上的非光滑子问题来保持可行性。
@@ -33,7 +34,7 @@ paradigm: 通过将大规模正交约束优化分解为一系列小规模子问�
 | 英文题名 | A Block Coordinate Descent Method for Nonsmooth Composite Optimization under Orthogonality Constraints |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=L3Or2mhuCH) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
 | Method | OBCD |
 | Dataset | L0-regularized SPCA (w1a-2477-300, r=20, λ=10), L0-regularized SPCA (w1a-2477-300, r=20, λ=100), L1-regularized SPCA (w1a-2477-300, r=10, λ=10), Nonnegative PCA (w1a-2477-300, r=10) |
 

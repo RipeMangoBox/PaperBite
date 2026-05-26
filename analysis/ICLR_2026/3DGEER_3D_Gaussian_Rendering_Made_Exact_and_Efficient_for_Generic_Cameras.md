@@ -9,6 +9,7 @@ aliases:
 - 33GRMEEGC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/3d_rendering_reconstruction
 core_operator: 将光线-粒子关联从图像空间或场景级BVH提升至相机子视锥（CSF）与粒子包围视锥（PBF）之间的精确视锥级关联，并推导出闭合形式的PBF解析解，从而在保持投影精确性的同时实现高效GPU并行化。
@@ -32,7 +33,7 @@ paradigm: 通过将每个3D高斯映射到各向同性的规范坐标系，光�
 | 英文题名 | 3DGEER: 3D Gaussian Rendering Made Exact and Efficient for Generic Cameras |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=4voMNlRWI7) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | 3DGEER |
 | Dataset | ScanNet++ (Full FoV), ScanNet++ (Full FoV), ScanNet++ (Full FoV), MipNeRF360 |
 

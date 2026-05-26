@@ -10,6 +10,7 @@ aliases:
 - LogART
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/non_convex
 openreview_forum_id: V85HbymBLW
@@ -34,7 +35,7 @@ paradigm: 将量化误差分解为网格离散化误差（由OHS解决）和舍�
 | 英文题名 | LogART: Pushing the Limit of Efficient Logarithmic Post-Training Quantization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=V85HbymBLW) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
 | Method | LogART (Logarithmic Adaptive Rounding Techniques) |
 | Dataset | WikiText‑2 (OPT‑125M 3‑bit), WikiText‑2 (LLaMA2‑7B 3‑bit), ImageNet (ResNet18 4‑bit), ImageNet (ViT‑Base 4‑bit) |
 

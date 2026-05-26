@@ -33,7 +33,7 @@ paradigm: 扩散大语言模型的双向注意力机制天然支持补全修复�
 | 英文题名 | Inpainting-Guided Policy Optimization for Diffusion Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=haVf5e4Q6C) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | IGPO (Inpainting Guided Policy Optimization) |
 | Dataset | GSM8K, MATH500, AMC, Minerva Math |
 

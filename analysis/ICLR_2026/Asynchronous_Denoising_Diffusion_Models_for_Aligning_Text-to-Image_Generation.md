@@ -9,8 +9,15 @@ aliases:
 - ADMA
 - ADDMATIG
 acceptance: accepted
+core_operator: AsynDM为不同像素分配异步去噪时间步，并用交叉注意力掩码调度提示相关区域。
+primary_logic: 模型从注意力图识别提示相关像素，让这些区域慢速去噪并从更清晰背景中获取上下文。
+claims:
+- 同步去噪把所有像素置于同一噪声水平，限制文本相关区域利用清晰上下文。
+- 像素级时间步张量和凹函数调度在不微调模型的情况下改善图文对齐。
+- AsynDM在Animal Activity、Drawbench、GenEval和MSCOCO提示集上提升多项对齐指标。
 paradigm: 在扩散模型的去噪过程中，不同区域（提示相关 vs. 无关）对上下文清晰度的需求不同。通过异步去噪，让提示相关区域更慢地降噪，使其能够从已经更清晰的无关区域获取更好的上下文参考，从而提升对齐效果。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Asynchronous Denoising Diffusion Models for Aligning Text-to-Image Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZHb4bduWkM) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Asynchronous Diffusion Models (AsynDM) |
 | Dataset | Animal Activity, Animal Activity, Animal Activity, Animal Activity |
 

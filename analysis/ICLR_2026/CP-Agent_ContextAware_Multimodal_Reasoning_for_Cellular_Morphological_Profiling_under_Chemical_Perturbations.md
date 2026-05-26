@@ -32,7 +32,7 @@ paradigm: 将实验上下文编码为连续数值嵌入，并与细胞绘画图�
 | 英文题名 | CP-Agent: Context‑Aware Multimodal Reasoning for Cellular Morphological Profiling under Chemical Perturbations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7BLnSeWuei) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | CP-Agent |
 | Dataset | 化合物分类（10类已知药物）, 未见药物匹配（零样本）, 上下文到图像检索 |
 

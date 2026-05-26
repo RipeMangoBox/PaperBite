@@ -33,7 +33,7 @@ paradigm: 利用策略固有的随机性，在频域嵌入对边际分布无影�
 | 英文题名 | Remotely Detectable Robot Policy Watermarking |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8s5jBVybhQ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Colored Noise Coherency (CoNoCo) |
 | Dataset | RoboMaster Navigation (Real Robot), Velocity-Controlled VMAS Navigation (Sim), Mujoco Inverted Pendulum, Mujoco HalfCheetah |
 

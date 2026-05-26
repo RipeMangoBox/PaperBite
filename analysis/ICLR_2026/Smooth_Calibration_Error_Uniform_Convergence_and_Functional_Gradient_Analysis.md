@@ -9,6 +9,7 @@ aliases:
 - SCEUCFGA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/probabilistic_methods
 openreview_forum_id: qXVmmj8J0T
@@ -33,7 +34,7 @@ paradigm: 首先建立平滑校准误差的一致收敛界，将总体平滑CE�
 | 英文题名 | Smooth Calibration Error: Uniform Convergence and Functional Gradient Analysis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qXVmmj8J0T) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
 | Method | 平滑校准误差的一致收敛与函数梯度分析框架 |
 | Dataset | Toy dataset (Eq. (34)) / UCI Breast Cancer, Toy dataset (Eq. (34)) / UCI Breast Cancer, Difficult separability toy data (Eq. (35)) |
 

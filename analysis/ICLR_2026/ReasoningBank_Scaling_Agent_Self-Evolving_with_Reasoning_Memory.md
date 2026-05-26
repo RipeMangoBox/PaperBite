@@ -33,7 +33,7 @@ paradigm: REASONINGBANK通过将原始交互轨迹抽象为结构化的推理记
 | 英文题名 | ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jL7fwchScm) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | REASONINGBANK + MATTS |
 | Dataset | WebArena Overall, WebArena Overall with MATTS, SWE-Bench-Verified, Mind2Web Cross-Domain |
 

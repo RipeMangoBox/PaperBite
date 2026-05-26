@@ -9,8 +9,18 @@ aliases:
 - AVFETDM
 - AlignTok
 acceptance: accepted
+core_operator: 将预训练视觉基础编码器通过适配器和三阶段训练对齐为扩散模型分词器，构建兼具语义结构和扩散友好性的潜在空间。
+primary_logic: |
+  AlignTok 先冻结 DINOv2 等预训练编码器，只训练适配器和解码器完成潜在对齐。
+  随后联合微调编码器、适配器和解码器，并用语义保持损失约束当前潜在码贴近前一阶段潜在码，避免语义灾难性遗忘。
+  最后仅精炼解码器以提升重建质量，再将所得潜在空间用于 ImageNet 类别条件生成和 LAION 文本到图像扩散训练。
+claims:
+- 预训练视觉编码器的语义结构可通过渐进式对齐转化为扩散友好的图像潜在空间。
+- 语义保持损失能防止联合微调阶段的语义结构崩塌，并保持线性探测能力。
+- AlignTok 在 ImageNet 和文本到图像生成设置中比 Vanilla VAE、VA-VAE 或 FLUX VAE 取得更好的生成指标和更快收敛。
 paradigm: 利用预训练编码器已有的丰富语义结构，通过渐进式对齐（冻结→联合微调→解码器精炼）构建语义丰富且扩散友好的潜在空间，避免从零学习语义的困难。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +36,7 @@ tags:
 | 英文题名 | Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ajnBafpqmE) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | AlignTok |
 | Dataset | ImageNet 256×256, ImageNet 256×256, ImageNet 256×256, COCO Prompt 6K (T2I) |
 
@@ -35,9 +45,11 @@ tags:
 > - ImageNet 256×256 上，gFID (w/ CFG, f16d64) 为 2.34，对比 3.19 (VA-VAE)，变化 -0.85。
 > - ImageNet 256×256 上，gFID (800 epochs, QKNorm) 为 1.37，对比 1.52 (VA-VAE w/ QKNorm)，变化 -0.15。
 
+## 概述
+
 本文提出 **AlignTok**，一种通过将预训练视觉基础编码器（如 DINOv2）对齐为扩散模型分词器的方法。传统 VAE 分词器从零学习语义结构，导致潜在空间被低层细节支配、扩散友好性差。AlignTok 采用三阶段渐进对齐策略（潜在对齐 → 感知对齐 → 解码器精炼），在保留预训练编码器丰富语义的同时，构建扩散友好的潜在空间。在 ImageNet 256×256 上，AlignTok 仅用 64 个 epoch 即达到 gFID 1.90，加速扩散模型收敛约 5 倍；在 LAION 文本到图像生成中，相同训练步数下持续优于 FLUX VAE 和 VA-VAE。
 
-# 2. 背景与动机
+## 背景与动机
 
 **潜在扩散模型（Latent Diffusion Models, LDMs）** 通过分词器将图像压缩到潜在空间，再在该空间训练扩散模型。传统 VAE 分词器（如 LDM 中的 VAE）的编码器从零训练，重建损失主导训练过程，导致潜在空间被低层细节支配，缺乏语义结构，扩散模型需要大量训练步数才能学习语义信息。
 
@@ -48,7 +60,7 @@ tags:
 
 **核心洞察**：利用预训练编码器（如 DINOv2）已有的丰富语义结构，通过渐进式对齐（冻结 → 联合微调 → 解码器精炼）构建语义丰富且扩散友好的潜在空间，避免从零学习语义的困难。
 
-# 3. 核心创新
+## 核心创新
 
 1. **三阶段渐进对齐策略**：第一阶段冻结预训练编码器，仅训练适配器和解码器；第二阶段联合微调所有组件，引入语义保持损失防止语义灾难性遗忘；第三阶段仅微调解码器提升重建质量。
 
@@ -58,7 +70,7 @@ tags:
 
 4. **适配器设计**：两层 MLP 将 1024 维 DINOv2 特征投影到 32 维潜在空间，实现高效降维。
 
-# 4. 整体框架
+## 整体框架
 
 AlignTok 的整体框架如 Figure 2 所示，包含三个渐进阶段：
 
@@ -75,9 +87,9 @@ AlignTok 的整体框架如 Figure 2 所示，包含三个渐进阶段：
 - **解码器 D**：CNN 网络（~42M 参数），与 VA-VAE 相同架构。
 - **扩散模型 v_θ**：ImageNet 实验使用 LightningDiT（~673M 参数），LAION 实验使用 FLUX 架构（2B 参数）。
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
-## 1 重建损失
+### 1 重建损失
 
 分词器训练使用组合重建损失：
 
@@ -85,7 +97,7 @@ $$\mathcal{L}_{\mathrm{rec}} = \mathcal{L}_{\ell_1}(x, \hat{x}) + w_p \mathcal{L
 
 其中 $\mathcal{L}_{\ell_1}$ 为像素级 L1 损失，$\mathcal{L}_{\mathrm{perceptual}}$ 为感知损失，$\mathcal{L}_{\mathrm{GAN}}$ 为对抗损失，权重 $w_p = 1.0$，$w_g$ 根据梯度范数比自适应调整。
 
-## 2 流匹配公式
+### 2 流匹配公式
 
 扩散模型使用流匹配（Flow Matching）训练：
 
@@ -99,13 +111,13 @@ $$u_t = \frac{d}{dt} z_t = z_1 - z_0$$
 
 $$\mathcal{L}_{\mathrm{FM}} = \mathbb{E}_{z_0, z_1, t} \left[ \| v_\theta(z_t, t) - u_t \|_2^2 \right]$$
 
-## 3 潜在码生成
+### 3 潜在码生成
 
 适配器将预训练编码器特征投影到紧凑潜在码：
 
 $$z_0 = A(E_p(x))$$
 
-## 4 语义保持损失
+### 4 语义保持损失
 
 第二阶段引入语义保持损失，约束当前潜在码与前一阶段对齐：
 
@@ -113,7 +125,7 @@ $$\mathcal{L}_{\mathrm{sp}} = L_{\ell_2}(z_0^*, z_0)$$
 
 其中 $z_0^*$ 为前一阶段（冻结编码器）的潜在码，$z_0$ 为当前阶段（微调编码器）的潜在码。
 
-## 5 感知对齐损失
+### 5 感知对齐损失
 
 第二阶段总损失：
 
@@ -121,9 +133,9 @@ $$\mathcal{L}_{\mathrm{pa}} = \mathcal{L}_{\mathrm{rec}} + w_{sp} \mathcal{L}_{\
 
 默认 $w_{sp} = 1$（ImageNet）或 $w_{sp} = 3$（LAION）。
 
-# 6. 实验与分析
+## 实验与分析
 
-## 1 主要结果
+### 1 主要结果
 
 **Table 3: Comparison with Other Tokenizers.** 在 ImageNet 256×256 上，AlignTok 在两种潜在配置下均显著优于基线：
 
@@ -140,7 +152,7 @@ $$\mathcal{L}_{\mathrm{pa}} = \mathcal{L}_{\mathrm{rec}} + w_{sp} \mathcal{L}_{\
 
 **Table 5: Quantitative Comparison on Text-to-Image (T2I) Generation with FLUX VAE.** 在 COCO Prompt 6K 上，AlignTok 的 gFID 为 30.27，显著优于 FLUX VAE 的 35.78，且在 HPSv2、PickScore、ImageReward、Aesthetic、CLIP、VQA 等指标上全面领先。
 
-## 2 消融研究
+### 2 消融研究
 
 **Table 1: Ablation study.** 关键发现：
 
@@ -158,20 +170,20 @@ $$\mathcal{L}_{\mathrm{pa}} = \mathcal{L}_{\mathrm{rec}} + w_{sp} \mathcal{L}_{\
 
 **Table 2: Comparison of Various Pretrained Encoders.** DINOv2 在生成质量上最优（gFID 2.19），优于 MAE（gFID 3.12）和 SigLIP 2（gFID 2.85）。
 
-## 3 收敛速度与采样效率
+### 3 收敛速度与采样效率
 
 **Figure 4: Comparison of Sampling Steps, CFG Scales, and Convergence Speed.** 关键发现：
 - **左图**：AlignTok 在 50 步采样时即超越 VA-VAE 在 250 步采样的质量。
 - **中图**：在所有 CFG 尺度下，AlignTok 一致优于 VA-VAE。
 - **右图**：AlignTok 收敛速度约为 VA-VAE 的 5 倍（~60K 步 vs ~300K 步达到可比质量）。
 
-## 4 潜在空间分析
+### 4 潜在空间分析
 
 **Figure 7: PCA Visualization of Latent Space.** AlignTok 的潜在空间最接近 DINOv2 的特征分布，保留更丰富的语义结构。Vanilla VAE 产生过平滑或过锐利的潜在表示，VA-VAE 倾向于生成一致过平滑的表示。
 
 **Table 16: Quantitative Analysis of Latent Space.** AlignTok 的 CKNNA 指标（0.282）最高，最接近 DINOv2（1.000），而 Vanilla VAE（0.023）和 VA-VAE（0.233）均较低。
 
-## 5 训练与推理成本
+### 5 训练与推理成本
 
 **Table 6: Training Cost Comparison.** AlignTok 的累计 GPU 训练小时数（576.15）低于 Vanilla VAE 和 VA-VAE。Stage 1 和 Stage 3 因冻结编码器，内存消耗低于 VA-VAE；Stage 2 因微调 DINOv2 编码器，内存消耗最大。
 
@@ -179,7 +191,7 @@ $$\mathcal{L}_{\mathrm{pa}} = \mathcal{L}_{\mathrm{rec}} + w_{sp} \mathcal{L}_{\
 
 **Table 8: Inference Compute Cost Comparison.** AlignTok 的编码器延迟和 GFLOPS 高于 VA-VAE，但 512 分辨率下延迟更低。
 
-## 6 文本到图像生成扩展
+### 6 文本到图像生成扩展
 
 **Table 11: Quantitative Comparison on T2I Generation with FLUX VAE.** 在 Parti Prompt 和 HPSv2 Prompt 上，AlignTok 在 HPSv2、PickScore、ImageReward、Aesthetic、CLIP、VQA 等指标上全面领先。
 
@@ -191,7 +203,7 @@ $$\mathcal{L}_{\mathrm{pa}} = \mathcal{L}_{\mathrm{rec}} + w_{sp} \mathcal{L}_{\
 
 **Table 15: GenEval Comparison with VA-VAE.** 有 CFG 时，AlignTok 的 GenEval Overall 为 0.454 vs VA-VAE 的 0.411。
 
-## 7 定性结果
+### 7 定性结果
 
 **Figure 5: Qualitative Comparison on Text-to-Image Generation with FLUX VAE.** AlignTok 生成的图像具有更好的连贯性和文本对齐。
 
@@ -203,18 +215,18 @@ $$\mathcal{L}_{\mathrm{pa}} = \mathcal{L}_{\mathrm{rec}} + w_{sp} \mathcal{L}_{\
 
 **Figure 20-23: Qualitative Results on Text-to-Image Generation.** 在 256×256 和 512×512 分辨率下，AlignTok 生成高质量、高连贯性的图像。
 
-## 8 失败案例
+### 8 失败案例
 
 **Figure 8: Failure Case of Our Method on Text-to-Image Generation at 512×512 Resolution.** 常见问题包括：时钟数字渲染不准确（如 12）、物体计数错误、长文本生成不一致、手部等细节渲染困难。
 
-## 9 公平性说明
+### 9 公平性说明
 
 - 所有实验使用相同的扩散模型架构（LightningDiT 或 FLUX）和训练超参数，仅替换分词器。
 - VA-VAE 和 Vanilla VAE 的检查点来自官方 VA-VAE 仓库。
 - 系统级比较（Table 4）包含多种方法（VAR, MagViT-v2, MAR, DiT 等），使用相同训练设置。
 - 文本到图像实验中，所有模型训练相同步数（100K 或 50K 步），使用相同评估协议。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 AlignTok 属于 **视觉分词器（Visual Tokenizer）** 研究谱系，核心贡献在于将预训练视觉基础编码器对齐为扩散模型分词器。
 

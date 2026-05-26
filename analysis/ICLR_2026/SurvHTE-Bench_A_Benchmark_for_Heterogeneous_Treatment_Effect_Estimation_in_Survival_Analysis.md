@@ -10,6 +10,7 @@ aliases:
 - SurvHTE-Bench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 core_operator: 模块化合成数据集的设计——在八个因果配置（操控随机化、可忽略性、阳性、信息性删失）和五个生存场景（不同事件时间分布与删失率）之间正交变化——构成可控的“因果旋钮”，允许在已知真实值的条件下探测估计器对常见假设违反的敏感程度。
@@ -33,7 +34,7 @@ paradigm: 没有任何一种方法在所有条件下都占优。生存元学习�
 | 英文题名 | SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qG6O3jMkCj) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method | SurvHTE-Bench |
 | Dataset | 40 Synthetic Datasets (overall CATE RMSE ranking), 40 Synthetic Datasets (family-level CATE RMSE ranking), ACTG Semi-synthetic, MIMIC-i Semi-synthetic (88% censoring) |
 

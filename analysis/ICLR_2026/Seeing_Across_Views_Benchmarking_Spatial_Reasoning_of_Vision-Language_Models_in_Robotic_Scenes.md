@@ -33,7 +33,7 @@ paradigm: 通用单视图空间推理能力不能可靠地迁移至多视图机�
 | 英文题名 | Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jXDZJAfRZB) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MV-RoboBench |
 | Dataset | MV-RoboBench (Overall), MV-RoboBench (Overall), MV-RoboBench (3D Spatial Consistency), MV-RoboBench (Action Planning) |
 

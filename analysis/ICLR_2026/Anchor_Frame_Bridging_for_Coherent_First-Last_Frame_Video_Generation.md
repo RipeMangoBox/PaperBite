@@ -10,8 +10,16 @@ aliases:
 - AFBCFLFVG
 - Anchor Frame Bridging (AFB)
 acceptance: accepted
+core_operator: 用反向生成候选中的镜像断裂位置选择锚帧来桥接首尾帧视频。
+primary_logic: AFB先交换首尾帧做反向生成并定位连续性断裂，再把镜像锚帧作为额外条件引导前向生成。
+claims:
+- 首尾帧条件在中间帧传播时会衰减，导致语义漂移和时间不一致。
+- 前向与反向生成的连续性断裂点近似对称，可用于自适应选择单个锚帧。
+- 在Wan2.1-I2V上加入AFB显著降低LPIPS和FVD并提高SSIM、PSNR。
+- 单个锚帧在默认设置下优于多个锚帧，过多锚帧会过度约束生成轨迹。
 paradigm: 通过反转首尾帧顺序生成高质量候选帧，并利用前向与反向生成中连续性断裂点近似对称的特性，在镜像位置选取锚帧，以最小的额外计算代价（仅需一次反向生成和一次前向生成）显著提升中间帧的语义连贯性。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -27,7 +35,7 @@ tags:
 | 英文题名 | Anchor Frame Bridging for Coherent First-Last Frame Video Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=isNjWnVsUR) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Anchor Frame Bridging (AFB) |
 | Dataset | 自定义数据集（436对首尾帧图像）, 自定义数据集（436对首尾帧图像）, 自定义数据集（436对首尾帧图像）, 自定义数据集（436对首尾帧图像） |
 

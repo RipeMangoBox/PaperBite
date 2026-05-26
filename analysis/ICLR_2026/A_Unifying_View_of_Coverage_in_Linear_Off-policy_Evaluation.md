@@ -9,6 +9,7 @@ aliases:
 - UVCLOPE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/reinforcement_learning_and_planning
 core_operator: "从工具变量（IV）视角重新分析LSTDQ，引入特征动态覆盖率 C_φ^π = (1-γ)^2 φ_0^T A^{-1} Σ A^{-T} φ_0，用以衡量特征在压缩动力学系统中的覆盖程度。"
@@ -32,7 +33,7 @@ paradigm: "特征动态覆盖率将估值误差绑定到特征诱导的线性动
 | 英文题名 | A Unifying View of Coverage in Linear Off-policy Evaluation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FjTYIRufJp) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
 | Method | 基于特征动态覆盖率的LSTDQ分析 |
 | Dataset |  |
 

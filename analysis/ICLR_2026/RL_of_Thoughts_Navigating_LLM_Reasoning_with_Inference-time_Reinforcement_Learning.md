@@ -33,7 +33,7 @@ paradigm: 将长序列推理过程建模为马尔可夫决策过程（MDP），�
 | 英文题名 | RL of Thoughts: Navigating LLM Reasoning with Inference-time Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Dw034qKrP5) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RL-of-Thoughts (RLoT) |
 | Dataset | GPQA, Overall Average (7 tasks), Overall Average (5 tasks) |
 

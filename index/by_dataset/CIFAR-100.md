@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: CIFAR-100
@@ -27,6 +27,11 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Structured Temporal Orthogonal Decorrelation (STOD)
 	- datasets: CIFAR-10, CIFAR-100, ImageNet
+- [[analysis/ICLR_2026/Difficult_Examples_Hurt_Unsupervised_Contrastive_Learning_A_Theoretical_Perspective.md|Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Difficult_Examples_Hurt_Unsupervised_Contrastive_Learning_A_Theoretical_Perspective.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer, Systems / Efficiency / Compression
+	- methods: Difficulty-aware Contrastive Learning Framework (Sample Removal, Margin Tuning, Temperature Scaling, and Combined)
+	- datasets: CIFAR-10, CIFAR-100, STL-10
 - [[analysis/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.md|DiffusionBlocks Block-wise Neural Network Training via Diffusion Interpretation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -45,6 +50,11 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
 	- methods: 相似性空间耦合分析框架（Similarity-Space Coupling Analysis Framework）
 	- datasets: Tiny-ImageNet, CIFAR-100, Multiple datasets
+- [[analysis/ICLR_2026/On_The_Surprising_Effectiveness_of_a_Single_Global_Merging_in_Decentralized_Learning.md|On The Surprising Effectiveness of a Single Global Merging in Decentralized Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/On_The_Surprising_Effectiveness_of_a_Single_Global_Merging_in_Decentralized_Learning.pdf|PDF]]
+	- method groups: Other Method Family
+	- methods: Decentralized SGD with Sparse Gossip and Final Global Merging
+	- datasets: Tiny ImageNet, CIFAR-100
 - [[analysis/ICLR_2026/Revisiting_Weight_Regularization_for_Low-Rank_Continual_Learning.md|Revisiting Weight Regularization for Low-Rank Continual Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Revisiting_Weight_Regularization_for_Low-Rank_Continual_Learning.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer

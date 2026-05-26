@@ -10,6 +10,7 @@ aliases:
 - AHURAACP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/reinforcement_learning_and_planning
 core_operator: 将规划过程分解为动作层、状态层与计划层的开领域生成任务，并用基于符号化验证器的精确评价体系来探测模型的真实推理能力，从而暴露传统封闭式选择题无法揭示的缺陷。
@@ -33,7 +34,7 @@ paradigm: 通过构造与符号规划器内部决策点完全对应的生成式�
 | 英文题名 | ACPBench Hard: Unrestrained Reasoning about Action, Change, and Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=WIXohR7mEo) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
 | Method | ACPBench Hard 基准测试 |
 | Dataset | ACPBench Hard, ACPBench Hard |
 

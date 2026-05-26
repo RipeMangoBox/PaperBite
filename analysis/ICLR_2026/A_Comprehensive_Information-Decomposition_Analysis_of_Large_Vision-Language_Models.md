@@ -10,6 +10,7 @@ aliases:
 - CIDALVLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 通过部分信息分解（PID）将决策相关信息分解为冗余（R）、视觉唯一（U1）、语言唯一（U2）和协同（S）四个非负分量，从而定量刻画模型的信息处理策略。
@@ -33,7 +34,7 @@ paradigm: LVLM存在两种任务模式（协同驱动 vs. 知识驱动）和两�
 | 英文题名 | A Comprehensive Information-Decomposition Analysis of Large Vision-Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=6WsBGk4Iag) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | 基于部分信息分解（PID）的LVLM分析框架 |
 | Dataset | MMBench, POPE, Reefknot, PMC-VQA |
 

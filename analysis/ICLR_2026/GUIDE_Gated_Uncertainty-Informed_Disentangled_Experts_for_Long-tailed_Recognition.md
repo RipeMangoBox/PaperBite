@@ -9,6 +9,7 @@ aliases:
 - GUIDE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 openreview_forum_id: jY21fwcrjr
@@ -33,7 +34,7 @@ paradigm: 只有在表示层面构建真正多样的专家委员会，才能将�
 | 英文题名 | GUIDE: Gated Uncertainty-Informed Disentangled Experts for Long-tailed Recognition |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jY21fwcrjr) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | GUIDE |
 | Dataset | CIFAR-100-LT (IR=100), ImageNet-LT, iNaturalist 2018 |
 

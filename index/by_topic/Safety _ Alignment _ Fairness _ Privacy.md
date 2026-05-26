@@ -4,7 +4,7 @@ type: paper-index
 dimension: topic
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Topic: Safety / Alignment / Fairness / Privacy
@@ -102,7 +102,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.md|Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
-	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- method groups: Safety / Privacy / Robustness, Benchmark / Evaluation
 	- methods: Benchmarking framework for fairness-constrained DNN training
 	- datasets: ACSIncome
 - [[analysis/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.md|Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset (ICLR 2026)]]

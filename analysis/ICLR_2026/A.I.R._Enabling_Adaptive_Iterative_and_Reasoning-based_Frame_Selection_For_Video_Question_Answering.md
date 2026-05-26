@@ -10,6 +10,7 @@ aliases:
 - IREAIRBFSVQA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 查询与帧之间关系的语义理解深度和计算分配策略。通过VLM只对少量高潜帧进行推理分析，并利用局部密度采样迭代扩展相关区域，在控制计算成本的同时实现准确选择。
@@ -33,7 +34,7 @@ paradigm: 利用强大的VLM进行深度语义分析，但通过迭代循环仅�
 | 英文题名 | A.I.R.: Enabling Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=SZVpOKw0YD) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | A.I.R. |
 | Dataset | Video-MME (w/o subtitle), LongVideoBench (LVB), NextQA |
 

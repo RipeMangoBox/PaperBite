@@ -32,7 +32,7 @@ paradigm: 不是所有问题都应缩短推理链。简单的、已掌握的问�
 | 英文题名 | DeepCompress: A Dual Reward Strategy for Dynamically Exploring and Compressing Reasoning Chains |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=K5A2jBmEBK) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | DeepCompress |
 | Dataset | Math (Average over MATH 500, AMC 23, Olympiad Bench, Minerva Math, AIME 24, AIME 25, Poly Math), AIME 2024, Average Response Length (across math benchmarks), GPQA-Diamond / MMLU-STEM / Big-Bench Hard |
 

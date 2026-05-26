@@ -10,6 +10,7 @@ aliases:
 - ACDAYEIBCCS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/reinforcement_learning_and_planning
 core_operator: 核心干预措施是动作分块（预测并执行开环动作序列）与探索性数据收集（在专家动作执行时注入噪声），二者通过控制论稳定性机制规避复合误差。
@@ -33,7 +34,7 @@ paradigm: 控制论中的增量输入-状态稳定性（EISS）是上述干预�
 | 英文题名 | Action Chunking and Data Augmentation Yield Exponential Improvements in Behavior Cloning for Continuous Spaces |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jiWXDvw1Lf) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
 | Method | 动作分块与探索性噪声注入（Action-Chunking & Noise-Injected Data Collection） |
 | Dataset | Synthetic EISS dynamics, HalfCheetah-v5, Humanoid-v5, robomimic tool_hang (全状态观测) |
 

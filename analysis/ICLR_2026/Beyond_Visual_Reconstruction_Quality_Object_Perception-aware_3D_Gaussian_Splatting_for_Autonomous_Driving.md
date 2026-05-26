@@ -33,7 +33,7 @@ paradigm: 将冻结的感知模型的输出一致性作为优化目标，或通�
 | 英文题名 | Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=PmQlMTBmpa) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Perception-aware 3DGS Training with Perception-aligned Loss and Object Zone Quality Loss |
 | Dataset | Waymo Open Dataset, Waymo Open Dataset, Waymo Open Dataset, Waymo Open Dataset |
 

@@ -33,7 +33,7 @@ paradigm: 视觉规划将环境动力学建模与动作预测解耦，动力学�
 | 英文题名 | Self-Improving Loops for Visual Robotic Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=SzUgx5r3wy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Self-Improving Loops for Visual Robotic Planning (SILVR) |
 | Dataset | MetaWorld 12 unseen tasks, Real-World Panda Arm Cup Push (2 unseen colors), Real-World Panda Arm Drawer Open (1 unseen color), MetaWorld 12 tasks (suboptimal init) |
 

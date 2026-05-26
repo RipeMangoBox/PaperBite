@@ -33,7 +33,7 @@ paradigm: 通过构造精确标注几何属性的多面体基准，发现现有�
 | 英文题名 | GIQ: Benchmarking 3D Geometric Reasoning of Vision Foundation Models with Simulated and Real Polyhedra |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Uf8X57bQIr) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | GIQ (Geometric IQ Test) 基准数据集 |
 | Dataset | GIQ Mental Rotation Test (hard split, synthetic→wild) |
 

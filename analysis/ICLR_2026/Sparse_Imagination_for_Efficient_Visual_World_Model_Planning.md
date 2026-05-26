@@ -33,7 +33,7 @@ paradigm: ViT patch token存在高度冗余，随机丢弃大量token仍能保�
 | 英文题名 | Sparse Imagination for Efficient Visual World Model Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=faxcxKINBC) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Sparse Imagination |
 | Dataset | PushT (60 episodes), PointMaze (60 episodes), Meta-World (50 tasks × 15 trials), LIBERO-10 |
 

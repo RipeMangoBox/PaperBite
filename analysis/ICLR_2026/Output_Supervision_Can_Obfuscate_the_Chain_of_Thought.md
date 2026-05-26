@@ -10,6 +10,7 @@ aliases:
 - OSCOCT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability
 core_operator: 输出监控器的惩罚系数λ和梯度流控制（通过奖励目标阻断CoT上的梯度，或通过分离Mind/Face模型阻止参数共享）。
@@ -33,7 +34,7 @@ paradigm: 仅仅避免对CoT的直接监控不足以保持CoT的可监控性；�
 | 英文题名 | Output Supervision Can Obfuscate the Chain of Thought |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JTX0iqxBjk) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
 | Method | Reward Targeting and Mind & Face separation (Spillover-Aware Training) |
 | Dataset | Polynomial Derivative Factoring, Question Answering with Hints (MMLU), Multi-Turn Terminal Interaction (Regex Penalty), Multi-Turn Terminal Interaction (LLM Judge Penalty) |
 

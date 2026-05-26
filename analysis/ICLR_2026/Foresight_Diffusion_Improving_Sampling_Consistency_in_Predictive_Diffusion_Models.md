@@ -10,6 +10,7 @@ aliases:
 - FDISCPDM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 将条件理解从去噪过程中解耦，引入独立的确定性预测流，并使用预训练预测器进行两阶段训练。
@@ -33,7 +34,7 @@ paradigm: 通过架构分离和两阶段训练，解耦条件建模与去噪过�
 | 英文题名 | Foresight Diffusion: Improving Sampling Consistency in Predictive Diffusion Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9WJoD0iDig) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Foresight Diffusion (ForeDiff) |
 | Dataset | RoboNet, RoboNet, RoboNet, RT-1 |
 

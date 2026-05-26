@@ -33,7 +33,7 @@ paradigm: 树内组相对策略优化（Intra-tree GRPO）在梯度结构上与�
 | 英文题名 | Tree Search for LLM Agent Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZpQwAFhU13) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Tree-GRPO |
 | Dataset | Multi-Hop QA (Qwen2.5-3b), Multi-Hop QA (Qwen2.5-1.5b), Web-Agent QA SimpleQA (Qwen2.5-7b), Multi-Hop QA under budget ~2 (Qwen2.5-3b) |
 

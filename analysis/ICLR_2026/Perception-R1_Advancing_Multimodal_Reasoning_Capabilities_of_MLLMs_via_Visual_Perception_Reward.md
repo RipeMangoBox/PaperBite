@@ -10,7 +10,14 @@ aliases:
 - Perception-R1
 acceptance: accepted
 paradigm: 多模态推理可分解为多模态感知和逻辑推理；仅优化答案正确性无法纠正感知错误，甚至可能强化有缺陷的推理路径。通过从CoT轨迹中提取视觉标注作为参考，并利用评判LLM评估模型响应与标注的一致性，可以为感知提供密集的奖励信号，从而有效提升感知和推理能力。
+core_operator: Perception-R1 adds visual perception reward to GRPO by checking response consistency with atomic visual annotations extracted from CoT trajectories.
+primary_logic: It builds annotation references from strong-model CoTs, scores generated reasoning with a judge LLM, and combines perception, accuracy, format, and repetition rewards.
+claims:
+- The method addresses multimodal failures caused by perception errors that accuracy-only RLVR does not fix.
+- Visual perception reward gives dense feedback on whether reasoning mentions correct visual facts.
+- The note reports strong 7B performance using only 1,442 training samples.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Perception-R1: Advancing Multimodal Reasoning Capabilities of MLLMs via Visual Perception Reward |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KttCXdjj4w) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Perception-R1 |
 | Dataset | MathVista testmini, MathVerse testmini, MathVision test, WeMath testmini |
 

@@ -9,6 +9,7 @@ aliases:
 - PCEPRTVM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 core_operator: 提示词设计（Prompt Design）是影响模型物理真实性的关键可操作变量。具体而言，在提示词中显式加入物理相关的描述（Physics-Enhanced Prompt）能够显著提升模型遵循物理规律的能力，而仅仅增加叙事细节（Detailed Narrative Prompt）则不一定带来改进。
@@ -32,7 +33,7 @@ paradigm: 通过引入一个新颖的“反物理”（Anti-Physics）类别—�
 | 英文题名 | $PhyWorldBench$: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rlZeILv3fm) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | PhyWorldBench |
 | Dataset | PhyWorldBench, PhyWorldBench, PhyWorldBench, PhyWorldBench |
 

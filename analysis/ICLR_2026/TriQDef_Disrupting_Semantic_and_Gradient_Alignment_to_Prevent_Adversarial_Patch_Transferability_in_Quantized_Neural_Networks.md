@@ -9,6 +9,7 @@ aliases:
 - TriQDef
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 core_operator: 通过引入特征不对齐惩罚（FDP）和梯度感知不协调惩罚（GPDP），在训练时主动破坏中间特征图和输入梯度在不同量化级别之间的边缘结构和纹理相似性，并配合比特宽度感知的课程训练（BACT）稳定优化，从而切断补丁的跨比特迁移路径。
@@ -32,7 +33,7 @@ paradigm: 对抗性补丁的可迁移性不仅源于梯度方向的相似性，�
 | 英文题名 | TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=acQP99PU8y) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | TriQDef |
 | Dataset | CIFAR-10 (ResNet-56), CIFAR-10 (ResNet-56), ImageNet (ResNet-50), ImageNet (ResNet-50) |
 

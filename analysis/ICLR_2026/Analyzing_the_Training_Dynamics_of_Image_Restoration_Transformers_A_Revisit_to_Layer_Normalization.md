@@ -9,8 +9,15 @@ aliases:
 - ILIRTTLN
 - ATDIRTRLN
 acceptance: accepted
+core_operator: i-LN用空间整体归一化和输入自适应重缩放替代图像恢复Transformer中的逐token LayerNorm。
+primary_logic: 先用LN*保留token间空间结构，再按输入尺度重缩放注意力或前馈残差以稳定特征统计。
+claims:
+- 逐token LayerNorm会破坏图像恢复任务所需的空间关系并引发特征幅度发散。
+- i-LN将特征幅度稳定在接近标准正态的范围并缓解通道熵崩溃。
+- 在超分辨率、去雨、去噪和JPEG伪影去除任务上，i-LN通常优于传统LN。
 paradigm: 通过整体归一化（LN*）保留空间结构，并通过输入自适应重缩放恢复丢失的全局尺度，i-LN使特征分布稳定在N(0,1)附近（幅度约1.2），从而显著提升训练稳定性和恢复性能。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Analyzing the Training Dynamics of Image Restoration Transformers: A Revisit to Layer Normalization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=SbLj5hJXh6) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | i-LN (Image Restoration Transformer Tailored Layer Normalization) |
 | Dataset | Set14, Set14, BSD100, BSD100 |
 

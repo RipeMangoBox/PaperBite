@@ -10,6 +10,7 @@ aliases:
 - SSDESBANNA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 openreview_forum_id: Vit5M0G5Gb
@@ -34,7 +35,7 @@ paradigm: 通过嵌套不动点层级的构造、不变流形的存在以及时�
 | 英文题名 | Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Vit5M0G5Gb) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | Saddle-to-Saddle Dynamics Framework |
 | Dataset | 多种两层架构（线性全连接、线性卷积、ReLU全连接、ReLU卷积、线性自注意力、二次网络）, MNIST 二分类（两层全连接线性/ReLU） |
 

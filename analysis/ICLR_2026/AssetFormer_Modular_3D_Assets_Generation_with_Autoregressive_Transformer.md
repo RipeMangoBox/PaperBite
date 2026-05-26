@@ -32,7 +32,7 @@ paradigm: 将模块化3D资产表示为具有离散属性的基元序列，并�
 | 英文题名 | AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ODB82HDp0V) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AssetFormer |
 | Dataset | Modular Building Generation (collected dataset) |
 

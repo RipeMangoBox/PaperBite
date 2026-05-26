@@ -10,6 +10,7 @@ aliases:
 - ADPORRACTD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 将奖励优化直接融入一致性轨迹蒸馏过程，驱动学生模型从教师捕获的多模态分布中选择高奖励模式。
@@ -33,7 +34,7 @@ paradigm: 通过在噪声自由空间中使用预训练奖励模型对单步去�
 | 英文题名 | Accelerating Diffusion Planners in Offline RL via Reward-Aware Consistency Trajectory Distillation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hRuTBS07C7) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Reward-Aware Consistency Trajectory Distillation (RACTD) |
 | Dataset | D4RL Gym‑MuJoCo (9 tasks), D4RL FrankaKitchen (kitchen‑partial, kitchen‑mixed), Maze2d (Large) |
 

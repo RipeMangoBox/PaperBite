@@ -10,6 +10,7 @@ aliases:
 - Q-RAG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 将多步检索视为有限时域MDP，对嵌入器进行最大熵强化学习训练，通过状态与动作嵌入的内积估计Q值，并引入基于已检索事实的相对位置编码以支持时间推理。
@@ -33,7 +34,7 @@ paradigm: 仅微调轻量级嵌入器即可实现与微调LLM相当的多步检�
 | 英文题名 | Q-RAG: Long Context Multi‑Step Retrieval via Value‑Based Embedder Training |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=MS9nWFY7LG) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Q‑RAG |
 | Dataset | BabiLong QA3 (10M tokens), RULER NIAH Avg (4K‑1M), HotPotQA, Musique (out‑of‑distribution) |
 

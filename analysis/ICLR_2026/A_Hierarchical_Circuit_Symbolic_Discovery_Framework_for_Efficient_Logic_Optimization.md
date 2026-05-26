@@ -10,6 +10,7 @@ aliases:
 - HCSDFELO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 评分函数（scoring function）的准确性和效率，它决定了LO启发式算法中哪些节点级变换被保留或剪枝。
@@ -33,7 +34,7 @@ paradigm: 受图神经网络（GNN）消息传递机制的启发，提出层次�
 | 英文题名 | A Hierarchical Circuit Symbolic Discovery Framework for Efficient Logic Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=YaXSEbRrHP) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | Hierarchical Circuit Symbolic Discovery Framework (HIS) |
 | Dataset | EPFL (Hyp, Square, Multiplier, DesPerf, Ethernet, Conmax), EPFL (Hyp, Square, Multiplier, DesPerf, Ethernet, Conmax), EPFL + IWLS (六个电路), EPFL + IWLS (六个电路) |
 

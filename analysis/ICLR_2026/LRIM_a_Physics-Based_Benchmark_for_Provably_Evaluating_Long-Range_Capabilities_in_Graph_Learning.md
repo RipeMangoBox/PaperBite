@@ -10,6 +10,7 @@ aliases:
 - LRIM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 core_operator: 模型计算复杂度与有效感受野之间的权衡，具体表现为模型深度、注意力机制的全局性以及计算预算。
@@ -33,7 +34,7 @@ paradigm: 采用具有幂律衰减相互作用的伊辛模型构建可证明且�
 | 英文题名 | LRIM: a Physics-Based Benchmark for Provably Evaluating Long-Range Capabilities in Graph Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IAZXEX1dVV) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | LRIM Graph Benchmark (Long-Range Ising Model Graph Benchmark) |
 | Dataset | LRIM-16-hard, LRIM-32-hard, LRIM-16-easy, LRIM-32-easy |
 

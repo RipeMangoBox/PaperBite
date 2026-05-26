@@ -33,7 +33,7 @@ paradigm: 维持训练批次中足够的奖励方差和适当的难度分布是R
 | 英文题名 | Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RduOiisl1S) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | BAPO (Batch Adaptation Policy Optimization) |
 | Dataset | 多任务平均提升, AIME24 (数学), MATH500 (数学), Countdown-3to4 (规划) |
 

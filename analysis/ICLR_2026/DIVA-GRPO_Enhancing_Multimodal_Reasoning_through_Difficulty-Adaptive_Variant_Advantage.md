@@ -33,7 +33,7 @@ paradigm: 将难度评估与变体生成结合，设计难度加权的局部-全
 | 英文题名 | DIVA-GRPO: Enhancing Multimodal Reasoning through Difficulty-Adaptive Variant Advantage |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qKXYEg00eH) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | DIVA-GRPO |
 | Dataset | MathVista, MathVerse, MathVision, OlympiadBench |
 

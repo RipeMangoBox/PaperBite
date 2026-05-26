@@ -9,6 +9,7 @@ aliases:
 - AbstRaL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 通过强化学习训练模型生成问题的符号抽象（抽象思维），使推理过程与具体上下文解耦，从而对表面形式变化不敏感。
@@ -32,7 +33,7 @@ paradigm: 直接学习问题的抽象模式而非通过数据增强，结合符�
 | 英文题名 | AbstRaL: Augmenting LLMs' Reasoning by Reinforcing Abstract Thinking |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=49vo7D9LbI) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | AbstRaL |
 | Dataset | GSM-Symbolic, GSM-Plus, MATH (OOD) |
 

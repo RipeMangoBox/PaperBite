@@ -33,7 +33,7 @@ paradigm: 通过多任务RL训练，MLLM能够像经验丰富的SAM用户一样�
 | 英文题名 | SAM-Veteran: An MLLM-Based Human-like SAM Agent for Reasoning Segmentation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oN55r8iJJW) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SAM-Veteran |
 | Dataset | ReasonSeg val, ReasonSeg val, ReasonSeg test, RefCOCO testA |
 

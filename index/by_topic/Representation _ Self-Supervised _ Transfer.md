@@ -4,7 +4,7 @@ type: paper-index
 dimension: topic
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Topic: Representation / Self-Supervised / Transfer
@@ -108,7 +108,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.md|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Adaptive Debiasing Tsallis Entropy (ADTE)
 	- datasets: ImageNet, ImageNet-V2, ImageNet-K
 - [[analysis/ICLR_2026/Adaptive_Width_Neural_Networks.md|Adaptive Width Neural Networks (ICLR 2026)]]
@@ -117,12 +117,6 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Adaptive Width Neural Networks (AWN)
 	- datasets: DoubleMoon, Spiral, SpiralHard
-- [[analysis/ICLR_2026/Addressing_divergent_representations_from_causal_interventions_on_neural_networks.md|Addressing divergent representations from causal interventions on neural networks (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Addressing_divergent_representations_from_causal_interventions_on_neural_networks.pdf|PDF]]
-	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer
-	- methods: Counterfactual Latent (CL) loss 及其针对因果子空间的改进版本
-	- datasets: Boundless DAS on 7B LLM, 合成数据集
 - [[analysis/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.md|Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -138,7 +132,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Ambig-SWE_Interactive_Agents_to_Overcome_Underspecificity_in_Software_Engineering.md|Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Ambig-SWE_Interactive_Agents_to_Overcome_Underspecificity_in_Software_Engineering.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: Ambig-SWE
 	- datasets: Ambig-SWE
 - [[analysis/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.md|An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation (ICLR 2026)]]
@@ -150,7 +144,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Anatomy-aware_Representation_Learning_for_Medical_Ultrasound.md|Anatomy-aware Representation Learning for Medical Ultrasound (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Anatomy-aware_Representation_Learning_for_Medical_Ultrasound.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Anatomy-aware Representation Learning (ARL)
 	- datasets: Breast Cancer, Thyroid Cancer
 - [[analysis/ICLR_2026/Beyond_Entity_Correlations_Disentangling_Event_Causal_Puzzles_in_Temporal_Knowledge_Graphs.md|Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs (ICLR 2026)]]

@@ -10,6 +10,7 @@ aliases:
 - HUME
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
 openreview_forum_id: rcmfu1ydAf
@@ -34,7 +35,7 @@ paradigm: 人类表现并非性能上限而是诊断信号：模型在低共识�
 | 英文题名 | HUME: Measuring the Human-Model Performance Gap in Text Embedding Tasks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rcmfu1ydAf) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | HUME (Human Evaluation Framework for Text Embeddings) |
 | Dataset | Overall (16 tasks), Multilingual Sentiment (Arabic), Multilingual Sentiment (Russian), Emotion Classification (English) |
 

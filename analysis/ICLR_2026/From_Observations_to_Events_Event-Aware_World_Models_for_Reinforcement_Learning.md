@@ -33,7 +33,7 @@ paradigm: 将世界模型的训练目标从重建原始观测转向预测自动�
 | 英文题名 | From Observations to Events: Event-Aware World Models for Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OWkkFaq1IZ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Event-Aware World Model (EAWM) |
 | Dataset | Atari 100K (26 games), DeepMind Control Suite 500K (10 hard tasks), DMC-GB2 Color Hard (6 tasks), DMC-GB2 Video Hard (6 tasks) |
 

@@ -32,7 +32,7 @@ paradigm: 将工具的内在功能语义与外在共现模式联合编码到层�
 | 英文题名 | ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Ge1DKuzWTO) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ToolWeaver |
 | Dataset | ToolBench retrieval (I3), ToolBench end-to-end (I3), ToolBench end-to-end (I3), WikiText-2 (language modeling) |
 

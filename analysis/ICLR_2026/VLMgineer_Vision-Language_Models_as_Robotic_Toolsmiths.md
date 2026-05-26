@@ -32,7 +32,7 @@ paradigm: VLM通过进化搜索可以被显著激发出物理创造力，超越�
 | 英文题名 | VLMgineer: Vision-Language Models as Robotic Toolsmiths |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=nESyz4PvJL) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VLMGINEER |
 | Dataset | ROBOTOOLBENCH (所有12个任务), ROBOTOOLBENCH (4个RLBench相关任务) |
 

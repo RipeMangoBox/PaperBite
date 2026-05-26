@@ -12,8 +12,18 @@ aliases:
 acceptance: accepted
 cited_by: 1
 code_url: "https://github.com/SakanaAI/DiffusionBlocks"
+core_operator: 将残差网络划分为多个块，并把每个块解释为扩散去噪步骤，用局部得分匹配损失独立训练各块。
+primary_logic: |
+  DiffusionBlocks 先把 L 层残差网络切分为 B 个连续块，并为每个块分配一个噪声尺度区间。
+  训练时对目标状态加噪，让对应块预测噪声并最小化去噪得分匹配损失，从而避免端到端保存全部激活。
+  推理时按块顺序执行去噪更新，使图像分类、图像生成和文本生成模型在较低内存下接近端到端训练质量。
+claims:
+- 残差网络的逐层更新可解释为扩散模型的逐步去噪过程。
+- 基于噪声调度的逐块得分匹配训练能显著降低训练内存，同时保持接近端到端训练的性能。
+- DiffusionBlocks 在图像分类、图像生成和文本生成任务上均显示出跨模态适用性。
 paradigm: Block-wise training with score matching objective
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 ---
@@ -29,7 +39,7 @@ tags:
 | 英文题名 | DiffusionBlocks Block-wise Neural Network Training via Diffusion Interpretation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=pwVSmK71cS) / [code](https://github.com/SakanaAI/DiffusionBlocks) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | DiffusionBlocks：将残差网络划分为块，为每个块分配噪声尺度，并使用扩散式去噪损失独立训练每个块 |
 | Dataset | ImageNet-1K, CIFAR-100, Tiny-ImageNet, Pythia |
 
@@ -37,6 +47,10 @@ tags:
 > - 在 ImageNet-1K、CIFAR-100 和 Tiny-ImageNet 上，DiffusionBlocks 的准确率与端到端训练相当，同时显著降低了训练内存。
 > - 在 Pythia/One Billion Word 文本生成任务上，困惑度与端到端训练可比。
 > - 消融实验表明，移除噪声调度会降低逐块训练质量。
+
+## 概述
+
+DiffusionBlocks 将残差网络的块级更新解释为扩散去噪步骤，并据此把端到端反向传播改写为逐块独立训练。该方法通过块划分、噪声调度和去噪得分匹配损失，使每个块只需在自身噪声区间内学习局部去噪，从而降低训练内存，并在图像分类、图像生成和文本生成任务上接近端到端训练质量。
 
 ## 背景与动机
 

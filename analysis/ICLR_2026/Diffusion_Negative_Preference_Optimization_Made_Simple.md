@@ -10,6 +10,7 @@ aliases:
 - DNPOMS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 openreview_forum_id: CU5EHe1KUt
@@ -34,7 +35,7 @@ paradigm: 利用 CFG 固有的条件/无条件双分支，以单网络实现正�
 | 英文题名 | Diffusion Negative Preference Optimization Made Simple |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CU5EHe1KUt) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Diff-SNPO (Diffusion Simple Negative Preference Optimization) |
 | Dataset | Pick-a-Pic v2 (SD1.5), Pick-a-Pic v2 (SD1.5), Pick-a-Pic v2 (SDXL), HPDv2 (SD1.5) |
 

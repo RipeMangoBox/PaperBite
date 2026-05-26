@@ -9,6 +9,7 @@ aliases:
 - ProofOptimizer
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_dialog
 openreview_forum_id: huptrb4JTa
@@ -33,7 +34,7 @@ paradigm: 通过自动构建的证明简化数据、专家迭代和在线强化�
 | 英文题名 | ProofOptimizer: Training Language Models to Simplify Proofs without Human Demonstrations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=huptrb4JTa) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
 | Method | ProofOptimizer |
 | Dataset | miniF2F, PutnamBench, Seed-Prover IMO 2025, miniF2F (单样本) |
 

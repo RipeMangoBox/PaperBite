@@ -9,8 +9,15 @@ aliases:
 - AABTPLAS
 - ATLAS
 acceptance: accepted
+core_operator: ATLAS将旅行规划形式化为CSP，并用约束管理器、规划器、检查器和搜索顾问分工协作。
+primary_logic: 系统先提取搜索域和显隐式约束，再循环生成、验证、诊断信息缺口并触发自适应搜索。
+claims:
+- 显式约束构建使旅行规划不再依赖LLM隐式记忆常识约束。
+- 规划器与检查器的迭代循环将计划生成和约束验证解耦。
+- 自适应交错搜索在TravelPlanner和真实多轮规划场景中提升最终通过率。
 paradigm: 通过将旅行规划形式化为约束满足问题（CSP），并引入专门的约束管理器（Constraint Manager）来枚举显式和隐式约束、检查器（Checker）进行迭代验证、搜索顾问（Search Advisor）在不可满足时诊断信息缺口并引导自适应搜索，可以系统性地解决复杂约束下的规划问题。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | ATLAS: Constraints-Aware Multi-Agent Collaboration for Real-World Travel Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=mIYGiBf9Pm) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | ATLAS (Agent-based Travel planning with Live Adaptive Search) |
 | Dataset | TravelPlanner (validation set), TravelPlanner (test set), Live Travel Planning (real-world, multi-turn), Flex-TravelPlanner (multi-turn) |
 

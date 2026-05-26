@@ -9,19 +9,23 @@ aliases:
 - TGCDLRG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 core_operator: ""
-primary_logic: ""
+core_operator: 随机干预下基于评分的因果排序误差函数，并用结构 Lipschitz 常数与 McDiarmid 不等式推导 FNR 集中界。
+primary_logic: |
+  将最优因果序产生的拓扑错误定义为 f(I)，归一化为 FNR g(I)；先用祖先/后代规模控制单节点干预翻转的 Lipschitz 常数，再将 McDiarmid 不等式应用到随机干预向量，最后在 ER 和 BA 随机图模型中把结构界转化为随图规模 d 收敛的期望与集中速率。
 claims:
-- 待人工复核。
-paradigm: ""
+- 在稠密与稀疏 ER 图以及广义 BA 图上，FNR 的期望上界和围绕期望的集中速率可由随机图结构量给出。
+- 模拟实验显示 ER 图和较轻尾 BA 图中的 FNR 变异随图规模增大而下降，极重尾 BA 情形是主要失效边界。
+paradigm: 随机图平均情况因果发现理论分析：用随机干预、结构敏感性和有界差分不等式刻画拓扑错误/FNR 的有限维集中行为。
 ---
 
 # Theoretical Guarantees for Causal Discovery on Large Random Graphs
 
 > [!tip] 核心洞察
-> 待人工复核。
+> 在随机干预和弱化的 ϵ-interventional faithfulness 条件下，因果排序的 FNR 可以通过结构 Lipschitz 常数转化为有界差分集中问题；随机图模型进一步给出随节点规模收敛的平均情况误差界。
 
 | 字段 | 内容 |
 |------|------|
@@ -29,7 +33,7 @@ paradigm: ""
 | 英文题名 | Theoretical Guarantees for Causal Discovery on Large Random Graphs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=V7pT2ZRoTB) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method |  |
 | Dataset |  |
 

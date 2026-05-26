@@ -11,7 +11,14 @@ aliases:
 - Elastic-Cache
 acceptance: accepted
 paradigm: 通过三个观察：远距离MASK token可被块缓存；KV漂移随深度增加；最受关注token的漂移最小，从而设计出Elastic-Cache，一种无需训练、架构无关的自适应KV缓存更新策略。
+core_operator: Elastic-Cache uses attention-aware drift tests and layer-depth scheduling to update only necessary KV cache entries in diffusion LLMs.
+primary_logic: It caches distant MASK tokens, monitors the most-attended decoded token for drift, and recomputes KV only from layers where attention similarity falls below a threshold.
+claims:
+- The method exploits observations that distant MASK tokens are cacheable, deeper layers drift more, and highly attended tokens drift least.
+- Sliding-window decoding and selective cache refresh reduce redundant QKV computation.
+- The note reports large throughput gains on GSM8K with preserved or improved accuracy.
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -27,7 +34,7 @@ tags:
 | 英文题名 | Attention Is All You Need for KV Cache in Diffusion LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zkUbhdAiFJ) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Elastic-Cache |
 | Dataset | GSM8K, GSM8K (512 tokens, LLaDA-1.5), GSM8K (512 tokens, LLaDA-1.5), GSM8K (Dream-7B) |
 

@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: Simulation
@@ -17,7 +17,6 @@ generated: 2026-05-23T23:39
 	- datasets: LaLonde, Simulation, IHDP
 - [[analysis/ICLR_2026/RFS_Reinforcement_learning_with_Residual_flow_steering_for_dexterous_manipulation.md|RFS: Reinforcement learning with Residual flow steering for dexterous manipulation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/RFS_Reinforcement_learning_with_Residual_flow_steering_for_dexterous_manipulation.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning
 	- methods: Residual Flow Steering (RFS)
 	- datasets: Simulation, Stacking, Real-world Pick-and-Place

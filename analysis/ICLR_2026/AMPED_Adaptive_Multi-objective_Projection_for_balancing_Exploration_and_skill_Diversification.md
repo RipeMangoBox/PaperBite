@@ -10,7 +10,14 @@ aliases:
 - AMPED
 acceptance: accepted
 paradigm: 通过显式解决探索与多样性之间的梯度冲突，并结合自适应技能选择器，AMPED 能够同时实现高状态覆盖和强技能区分度，从而在下游任务中取得更优的微调性能。
+core_operator: AMPED uses PCGrad-style gradient surgery over exploration and diversity objectives, with combined entropy and RND exploration rewards, AnInfoNCE diversity reward, and an adaptive skill selector.
+primary_logic: During pretraining it projects conflicting exploration and diversity gradients before policy updates, then uses a SAC-based selector to choose useful skills for downstream fine-tuning.
+claims:
+- AMPED explicitly targets gradient conflict between state coverage and skill separability in unsupervised skill pretraining.
+- The combined RND, AnInfoNCE, gradient surgery, and skill selector components yield the best aggregate URLB return reported in the note.
+- Ablations show disabling gradient surgery or other components reduces overall returns, with the largest gradient-surgery impact in Jaco.
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=U8A5nGuw7M) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | AMPED (Adaptive Multi-objective Projection for balancing Exploration and skill Diversification) |
 | Dataset | URLB (Walker, Quadruped, Jaco 12 tasks), URLB (Walker), URLB (Quadruped), URLB (Jaco) |
 

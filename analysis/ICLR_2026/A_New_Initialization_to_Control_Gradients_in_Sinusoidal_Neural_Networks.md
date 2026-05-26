@@ -10,6 +10,7 @@ aliases:
 - NICGSNN
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/theory
 core_operator: 通过设置预激活方差固定点σ_a = 0和雅可比方差σ_g = 1，可以同时控制前向传播的频谱范围和反向传播的梯度缩放。
@@ -33,7 +34,7 @@ paradigm: 在无限宽度和深度极限下，预激活方差收敛到一个由L
 | 英文题名 | A New Initialization to Control Gradients in Sinusoidal Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=92d74WdgtG) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
 | Method | SIREN Proposed (σ_a=0 initialization) |
 | Dataset | 1D多尺度函数拟合, 2D多尺度函数拟合, 3D多尺度函数拟合, 图像拟合（L=10, N=256） |
 

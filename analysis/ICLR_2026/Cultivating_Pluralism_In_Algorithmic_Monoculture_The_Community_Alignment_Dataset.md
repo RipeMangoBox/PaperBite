@@ -10,6 +10,7 @@ aliases:
 - CPAMCAD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/alignment_preference
 openreview_forum_id: 4NtoAVqfhA
@@ -34,7 +35,7 @@ paradigm: 当候选回复集合通过负相关采样获得时，即使在训练�
 | 英文题名 | Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=4NtoAVqfhA) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/alignment_preference |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/alignment_preference |
 | Method | 负相关候选采样 (Negatively‑Correlated Sampling) |
 | Dataset | PRISM prompts (Section 3.1) + Inglehart-Welzel 价值维度, 同上, PRISM prompts, SFT+DPO on Llama-3.3-70B Instruct, PRISM prompts, SFT+GRPO on Llama-3.1-8B Instruct |
 

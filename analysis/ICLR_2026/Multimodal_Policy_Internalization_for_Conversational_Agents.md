@@ -32,7 +32,7 @@ paradigm: 直接对策略文本进行持续预训练能够显式注入策略知�
 | 英文题名 | Multimodal Policy Internalization for Conversational Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fSE0rUngCX) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | TriMPI |
 | Dataset | ClevrPolicy-T (N=6), ClevrPolicy-M (N=6), GTAPolicy, 效率指标 (ClevrPolicy & GTAPolicy) |
 

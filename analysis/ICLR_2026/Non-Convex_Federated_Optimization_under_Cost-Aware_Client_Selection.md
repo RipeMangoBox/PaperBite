@@ -10,6 +10,7 @@ aliases:
 - NCFOUCACS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed
 core_operator: 利用函数相似度δ（而非L_max）作为方差控制参数，并引入递归梯度（RG）技术进一步收紧误差界，从而在不增加全同步开销的前提下大幅降低通信和本地复杂度。
@@ -33,7 +34,7 @@ paradigm: 将不精确复合梯度方法（I-CGM）与基于SAGA的递归梯度�
 | 英文题名 | Non-Convex Federated Optimization under Cost-Aware Client Selection |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FnaDv6SMd9) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
 | Method | I-CGM-RG-SAGA (Inexact Composite Gradient Method with Recursive Gradient SAGA estimator) |
 | Dataset | EMNIST (6-layer Residual CNN, heterogeneous Dirichlet α=0.1), CIFAR10 (ResNet18, heterogeneous Dirichlet α=0.1), Quadratic minimization with non-convex log-sum penalty (synthetic), LIBSVM logistic regression with nonconvex regularizer (mushrooms, duke) |
 

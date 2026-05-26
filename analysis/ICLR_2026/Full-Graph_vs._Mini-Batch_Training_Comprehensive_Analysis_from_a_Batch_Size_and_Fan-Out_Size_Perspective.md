@@ -9,6 +9,7 @@ aliases:
 - SCAF
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability
 core_operator: 批次大小 b 与扇出大小 β，它们在全图训练中分别取最大值（n_train 和 d_max），而在迷你批次训练中可自由调节，从而控制训练动态与最终性能。
@@ -32,7 +33,7 @@ paradigm: 全图训练并非始终优于精心调参的迷你批次训练。批�
 | 英文题名 | Full-Graph vs. Mini-Batch Training: Comprehensive Analysis from a Batch Size and Fan-Out Size Perspective |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZSfgsh43vT) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
 | Method | 全图与迷你批次训练系统分析框架 (Systematic Comparative Analysis Framework) |
 | Dataset | Reddit, ogbn-arxiv, ogbn-products, ogbn-papers100M |
 

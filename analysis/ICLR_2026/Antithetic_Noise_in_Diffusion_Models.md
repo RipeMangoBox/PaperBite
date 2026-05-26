@@ -9,7 +9,14 @@ aliases:
 - ANDM
 acceptance: accepted
 paradigm: "学习到的分数函数 ε_θ^{(t)} 近似满足仿射反对称性：ε_θ^{(t)}(x) + ε_θ^{(t)}(-x) ≈ 2c_t。这一性质使得对偶噪声对 (z, -z) 在DDIM等确定性采样过程中始终保持强负相关，从而可作为控制变量实现方差缩减，且不增加计算开销。"
+core_operator: The method pairs diffusion initial noise z with -z and uses the negatively correlated outputs in antithetic Monte Carlo estimates.
+primary_logic: Approximate affine anti-symmetry of the score network preserves negative correlation through deterministic sampling, reducing estimator variance without extra model calls.
+claims:
+- Generated samples from paired antithetic noise exhibit strong negative correlation across architectures and datasets.
+- AMC narrows confidence intervals for image statistics compared with ordinary Monte Carlo.
+- The same noise design can improve image editing quality and diversity without added compute.
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | Antithetic Noise in Diffusion Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9yFORC1tu3) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Antithetic Noise in Diffusion Models |
 | Dataset | CIFAR-10, CelebA-HQ, DPS Inpainting, DPS Super-resolution |
 

@@ -10,6 +10,7 @@ aliases:
 - QAFDGBRRG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 core_operator: 动态查询感知边权重：在流扩散过程中，根据查询与边两端节点的语义对齐度在线调整边权重，引导流沿相关路径传播并抑制无关区域。
@@ -33,7 +34,7 @@ paradigm: 将流扩散重新表述为查询感知的约束优化问题，通过�
 | 英文题名 | Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=n28wnc2QTc) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | Query-Aware Flow Diffusion RAG (QAFD-RAG) |
 | Dataset | UltraDomain (Physics), UltraDomain (Physics), Spider 2.0 (SQLite), Spider 2.0 (Snowflake) |
 

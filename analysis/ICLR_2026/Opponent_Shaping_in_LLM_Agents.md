@@ -9,8 +9,15 @@ aliases:
 - OSLA
 acceptance: accepted
 cited_by: 2
+core_operator: 用结构化自然语言历史提示和 PPO+LoRA 微调，让 LLM 塑形者在重复博弈中影响对手学习动态。
+primary_logic: |
+  将回合内与回合间交互历史写入 LLM 提示，LLM 生成文本动作并映射为博弈动作；塑形者通过 PPO 和 LoRA 按博弈收益及 KL 惩罚更新，利用历史中体现的对手策略变化实现无需显式梯度的模型无关对手塑形。
+claims:
+- 回合间历史是 LLM 对手塑形成功的关键信号，仅使用当前状态或回合内历史时塑形收益显著下降。
+- ShapeLLM 在多个重复正规型博弈中显著提升塑形者奖励，并在合作性与竞争性设置中均显示效果。
 paradigm: Reinforcement learning (PPO) with LoRA fine-tuning, asymmetric parameter updates between shaper and naive learner
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/multi_agent
 ---
@@ -20,13 +27,13 @@ tags:
 > [!tip] 核心洞察
 > LLM智能体可以通过结构化自然语言提示编码回合内与回合间的历史交互信息，从而间接观察对手的参数更新方向，实现模型无关的对手塑形，因为回合间历史包含了对手策略变化的痕迹，从而使塑形者无需显式梯度即可影响对手学习成为可能。
 
-| 字段      | 内容                                                                                      |
+| 字段 | 内容 |
 | ------- | --------------------------------------------------------------------------------------- |
 | 中文题名    | LLM智能体中的对手塑形                                                                            |
 | 英文题名    | Opponent Shaping in LLM Agents                                                          |
 | 会议/期刊   | ICLR 2026 (accepted)                                                                    |
 | Links   | [paper](https://openreview.net/forum?id=yJoHTqUNry)                                     |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/multi_agent |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/multi_agent |
 | Method  | ShapeLLM                                                                                |
 | Dataset | IPD, IMP, ICG, C-IPD, ISH                                                               |
 
@@ -34,6 +41,10 @@ tags:
 > - 在IPD中，ShapeLLM使塑形者平均每步奖励达到3.96，而独立PPO基线仅为1.0，提升约296%。
 > - 在IMP中，塑形者平均奖励为0.99，基线为-0.03，提升超过34倍。
 > - 在合作性游戏C-IPD中，塑形者奖励达5.88，基线为1.0，提升488%。
+
+## 概述
+
+本文提出ShapeLLM，将对手塑形引入LLM智能体。方法把传统多智能体强化学习中的状态和动作表示替换为结构化自然语言提示与文本生成动作，并用PPO和LoRA对塑形者进行参数高效更新。其核心证据来自重复正规型博弈实验：塑形者利用回合间历史捕捉对手学习轨迹，在多个竞争性和合作性博弈中获得高于独立PPO基线的奖励。
 
 ## 背景与动机
 

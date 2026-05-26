@@ -32,7 +32,7 @@ paradigm: SimuHome通过模拟环境变量的连续变化和操作依赖关系�
 | 英文题名 | SimuHome: A Temporal- and Environment-Aware Benchmark for Smart Home LLM Agents |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=LCS1WsGvha) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SimuHome（时态加速智能家居模拟器与基准） |
 | Dataset | QT1-F (状态查询-可行), QT3-F (显式设备控制-可行), QT4-1-F (时间调度-可行), QT4-2-F (事件调度-可行) |
 

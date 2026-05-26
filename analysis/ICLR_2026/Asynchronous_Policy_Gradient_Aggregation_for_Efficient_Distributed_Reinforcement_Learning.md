@@ -10,8 +10,16 @@ aliases:
 - APGAEDRL
 - Rennala NIGT and Malenia NIGT
 acceptance: accepted
+core_operator: 将异步梯度聚合过程接入NIGT动量归一化策略梯度更新。
+primary_logic: Rennala按固定梯度数聚合均匀智能体，Malenia按调和均值条件聚合异构智能体，再执行NIGT更新。
+claims:
+- Rennala NIGT通过批量异步聚合和AllReduce把通信复杂度从AFedPG的次优量级降到更优量级。
+- Malenia NIGT扩展到环境分布和奖励函数异构的分布式策略梯度设置。
+- 在Humanoid和Reacher等异构计算通信场景中，Rennala NIGT比AFedPG和同步NIGT收敛更快。
+- 理论上界与新下界之间仍存在差距，尤其体现在通信复杂度项上。
 paradigm: 将Rennala SGD的异步聚合思想与NIGT的动量归一化技术结合，在二阶光滑性假设下，通过精心设计的聚合循环条件（Rennala使用固定数量M，Malenia使用调和均值条件）实现最优时间复杂度，同时支持AllReduce操作。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -27,7 +35,7 @@ tags:
 | 英文题名 | Asynchronous Policy Gradient Aggregation for Efficient Distributed Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=SitVEPYv6W) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Rennala NIGT and Malenia NIGT |
 | Dataset | Humanoid-v4, Reacher-v4, Walker2d-v4, Hopper-v4 |
 

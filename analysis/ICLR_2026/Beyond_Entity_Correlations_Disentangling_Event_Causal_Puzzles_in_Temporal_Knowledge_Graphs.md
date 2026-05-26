@@ -10,7 +10,16 @@ aliases:
 - BECDECPTKG
 acceptance: accepted
 paradigm: 在TKG中构建事件级结构因果模型，利用事件重要性和分布差异解耦非因果性，利用工具变量解耦虚假因果性，利用正交约束分离静态与动态因果性，从而获得鲁棒的事件表示用于事件预测。
+core_operator: |
+  在时序知识图谱中构建事件级结构因果模型，通过反事实检测器、工具变量引导解耦和进化正交模块分离非因果、虚假因果、静态因果与动态因果因素。
+primary_logic: |
+  先将TKG事件表示为主体、关系、客体和时间的事件序列，再用事件重要性与KL分布差异生成非因果掩码，用IV分数划分真实与虚假因果边，最后以Gram-Schmidt正交化和进化损失分离静态与动态因果表示并服务事件预测。
+claims:
+- HEDRA首次在事件层面形式化并解耦TKG中的非因果性、虚假因果性、静态因果性和动态因果性。
+- 在ICEWS14上，HEDRA达到MRR 47.86、Hits@1 35.28、Hits@3 53.32，均高于DECRL。
+- 消融结果显示移除反事实检测器、IV引导解耦模块或进化正交模块都会降低ICEWS14性能。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +35,7 @@ tags:
 | 英文题名 | Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RdoXks7VmJ) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | HEDRA (Heterogeneous Event causality Disentangling Representation learning Approach) |
 | Dataset | ICEWS14, ICEWS14, ICEWS14, ICEWS14 |
 
@@ -35,9 +44,11 @@ tags:
 > - ICEWS14 上，Hits@1 为 35.28，对比 30.49 (DECRL)，变化 +15.71%。
 > - ICEWS14 上，Hits@3 为 53.32，对比 48.07 (DECRL)，变化 +10.92%。
 
+## 概述
+
 本文提出**HEDRA (Heterogeneous Event causality Disentangling Representation learning Approach)**，一种面向时序知识图谱（Temporal Knowledge Graph, TKG）事件预测的异质因果解耦表示学习方法。现有TKG方法仅关注实体或关系层面的相关性，忽略了事件层面固有的异质因果性——包括非因果性、虚假因果性、静态因果性和动态因果性。HEDRA首次在事件层面构建TKG结构因果模型（SCM），通过反事实检测器、工具变量（IV）引导解耦模块和进化正交模块，逐步解耦这四类因果性，从而获得鲁棒的事件表示用于事件预测。在五个真实数据集（ICEWS14、ICEWS18、WIKI、YAGO、GDELT）上，HEDRA在MRR、Hits@1、Hits@3、Hits@10上平均超过第二名5.70%、7.51%、7.21%、2.30%。
 
-# 2. 背景与动机
+## 背景与动机
 
 ## 1 问题定义
 
@@ -56,7 +67,7 @@ TKG $\mathcal{G} = \{ (s, r, o, t) | s \in \mathcal{E}, r \in \mathcal{R}, o \in
 
 在TKG中构建事件级结构因果模型，利用事件重要性和分布差异解耦非因果性，利用工具变量解耦虚假因果性，利用正交约束分离静态与动态因果性，从而获得鲁棒的事件表示用于事件预测。
 
-# 3. 核心创新
+## 核心创新
 
 1. **首次在事件层面解耦TKG中的异质因果性**：提出事件级TKG结构因果模型（SCM），形式化定义非因果性、虚假因果性、静态因果性和动态因果性，并通过后门调整公式 $P(\mathcal{Y}|\operatorname{do}(\mathcal{D})) = \sum P(\mathcal{S}) \sum P(\mathcal{T}) \sum P(\mathcal{P}) \sum P(\mathcal{Y}|\mathcal{G})$ 估计动态因果性对预测的因果效应。
 
@@ -66,7 +77,7 @@ TKG $\mathcal{G} = \{ (s, r, o, t) | s \in \mathcal{E}, r \in \mathcal{R}, o \in
 
 4. **进化正交模块**：通过Gram-Schmidt正交化分离动态与静态因果性，通过进化损失保持动态分量的时序依赖性和静态分量的时序独立性。
 
-# 4. 整体框架
+## 整体框架
 
 HEDRA的整体框架如Figure 3所示，以时间戳 $T-1$ 为例，包含以下流水线模块：
 
@@ -78,7 +89,7 @@ HEDRA的整体框架如Figure 3所示，以时间戳 $T-1$ 为例，包含以下
 6. **进化正交模块**：分离动态因果性与静态因果性。
 7. **事件预测解码器**：使用ConvTransE进行事件预测。
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
 ## 1 事件表示构建
 
@@ -135,7 +146,7 @@ $$\mathcal{L} = (1-\lambda_{con}-\lambda_{rob}-\lambda_{evo}) \mathcal{L}_{TKG} 
 其中 $\mathcal{L}_{TKG}$ 为事件预测的交叉熵损失：
 $$\mathcal{L}_{TKG} = -\frac{1}{N_S} \sum_{i=1}^{N_S} \sum_{j=1}^{N_r} (y_{i,j} \log p_{i,j} + (1-y_{i,j}) \log(1-p_{i,j}))$$
 
-# 6. 实验与分析
+## 实验与分析
 
 ## 1 主要结果
 
@@ -229,7 +240,7 @@ HEDRA在第一个样本中正确预测了“Make a visit”，在第二个样本
 
 Figure 7展示了中国和日本实体的动态与静态分量步长变化。对于中国和日本，动态分量变化幅度更大，表明短期冲击被动态分量吸收，而静态分量保持相对稳定。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 ## 1 与现有方法的关系
 

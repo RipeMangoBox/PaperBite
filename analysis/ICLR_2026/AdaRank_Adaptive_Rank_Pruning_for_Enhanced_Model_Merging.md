@@ -33,7 +33,7 @@ paradigm: 通过测试时适应（TTA）和熵最小化作为无监督代理目�
 | 英文题名 | AdaRank: Adaptive Rank Pruning for Enhanced Model Merging |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fTygcJVOni) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AdaRank (Adaptive Rank Pruning) |
 | Dataset | 8 Vision Tasks (ViT-B/32), 8 Vision Tasks (ViT-L/14), 7 NLP Tasks (RoBERTa) |
 

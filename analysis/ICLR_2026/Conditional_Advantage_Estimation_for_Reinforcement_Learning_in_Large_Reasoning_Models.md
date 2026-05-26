@@ -33,7 +33,7 @@ paradigm: 按指标值将采样响应等分为两组，跨组比较揭示指标�
 | 英文题名 | Conditional Advantage Estimation for Reinforcement Learning in Large Reasoning Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CTEXdHB1BB) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | CANON (Conditional advANtage estimatiON) |
 | Dataset | AIME 24, Math Reasoning (Avg), High Complexity Reasoning (Avg), Math Reasoning (Token Cost) |
 

@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: nuScenes
@@ -17,7 +17,6 @@ generated: 2026-05-23T23:39
 	- datasets: nuScenes, NAVSIMv1, NAVSIMv2
 - [[analysis/ICLR_2026/AutoDrive-R²_Incentivizing_Reasoning_and_Self-Reflection_Capacity_for_VLA_Model_in_Autonomous_Driving.md|AutoDrive-R²: Incentivizing Reasoning and Self-Reflection Capacity for VLA Model in Autonomous Driving (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AutoDrive-R²_Incentivizing_Reasoning_and_Self-Reflection_Capacity_for_VLA_Model_in_Autonomous_Driving.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: AutoDrive-R²
 	- datasets: nuScenes, Waymo, NAVSIM

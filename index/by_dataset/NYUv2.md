@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: NYUv2
@@ -21,6 +21,11 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory, Vision / Multimodal / 3D
 	- methods: Raptor (Recurrent Approximations to Phase‑structured TransfORmers)
 	- datasets: ImageNet-1k, ADE20k, NYUv2
+- [[analysis/ICLR_2026/Dens3R_A_Foundation_Model_for_3D_Geometry_Prediction.md|Dens3R: A Foundation Model for 3D Geometry Prediction (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Dens3R_A_Foundation_Model_for_3D_Geometry_Prediction.pdf|PDF]]
+	- method groups: Vision / Multimodal / 3D
+	- methods: Dens3R
+	- datasets: NYUv2, ScanNet, Sintel
 - [[analysis/ICLR_2026/ORCaS_Unsupervised_Depth_Completion_via_Occluded_Region_Completion_as_Supervision.md|ORCaS: Unsupervised Depth Completion via Occluded Region Completion as Supervision (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ORCaS_Unsupervised_Depth_Completion_via_Occluded_Region_Completion_as_Supervision.pdf|PDF]]
 	- topics: Other / Unclear

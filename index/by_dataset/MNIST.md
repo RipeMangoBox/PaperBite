@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: MNIST
@@ -24,6 +24,16 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.md|Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Rank-1 EWC with Generative Distillation
 	- datasets: MNIST, FashionMNIST
+- [[analysis/ICLR_2026/Characterizing_the_Discrete_Geometry_of_ReLU_Networks.md|Characterizing the Discrete Geometry of ReLU Networks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Characterizing_the_Discrete_Geometry_of_ReLU_Networks.pdf|PDF]]
+	- method groups: Graph / Geometric / Structured Data
+	- methods: Algorithm 1: Construction of the Connectivity Graph (基于BFS与LP冗余检测的多面体连通图构建)
+	- datasets: Synthetic clustering data with varying d, depth, and width
+- [[analysis/ICLR_2026/Structured_Flow_Autoencoders_Learning_Structured_Probabilistic_Representations_with_Flow_Matching.md|Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Structured_Flow_Autoencoders_Learning_Structured_Probabilistic_Representations_with_Flow_Matching.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Structured Flow Autoencoders (SFA)
+	- datasets: Pinwheel, MNIST

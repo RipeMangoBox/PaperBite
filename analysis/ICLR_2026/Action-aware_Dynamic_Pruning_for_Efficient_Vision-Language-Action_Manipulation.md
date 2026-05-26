@@ -10,6 +10,7 @@ aliases:
 - AADPEVLAM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 动作轨迹的动态幅度——末端执行器窗口内的位移大小（δ_i）——决定是否启用剪枝。当运动幅度高时激活剪枝（抑制冗余），幅度低时禁用剪枝（保留全视觉），由此实现操作阶段自适应的计算节省与感知保真。
@@ -33,7 +34,7 @@ paradigm: 视觉 token 的重要性不仅依赖于文本指令的语义相关性
 | 英文题名 | Action-aware Dynamic Pruning for Efficient Vision-Language-Action Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ea6j8k8Rnw) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | Action-aware Dynamic Pruning (ADP) |
 | Dataset | LIBERO (Spatial, Object, Goal, Long 四类任务), 真实世界操作 (Jaco2 平台，4 个拾取、放置、擦拭任务) |
 

@@ -10,6 +10,7 @@ aliases:
 - REBEFHTEE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 core_operator: "通过精心设计加权最小二乘损失函数和平衡正则化器，利用倾向得分与结果回归模型之间的内在联系，使得相对误差估计量在结果回归模型有偏时仍保持 n-一致性和渐近正态性，仅需倾向得分模型以快于 n^{-1/4} 的速率一致。"
@@ -33,7 +34,7 @@ paradigm: 通过共享表示 Φ(X) 和新的损失函数设计，使得泰勒展
 | 英文题名 | A Relative Error-Based Evaluation Framework of Heterogeneous Treatment Effect Estimators |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gubSyVxWdG) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method | 基于相对误差的鲁棒HTE评估框架（Robust Relative Error-based HTE Evaluation Framework） |
 | Dataset | IHDP, IHDP, IHDP, IHDP |
 

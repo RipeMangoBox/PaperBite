@@ -11,7 +11,14 @@ aliases:
 - Agent Data Protocol (ADP)
 acceptance: accepted
 paradigm: 尽管表面形式多样，大多数智能体交互都可以分解为智能体执行的动作序列和从环境接收的观察序列。通过标准化这些基本组件，ADP 能够统一来自不同领域（编码、软件工程、API/工具使用、网页浏览）的数据集，同时保留原始数据的丰富语义。
+core_operator: ADP standardizes agent trajectories into action and observation objects that bridge heterogeneous raw datasets and SFT formats.
+primary_logic: Raw datasets are converted once into ADP trajectories, then converted from ADP into framework-specific SFT formats through a hub-and-spoke pipeline.
+claims:
+- ADP reduces conversion cost from O(DxA) pairwise adapters to O(D+A) dataset and agent adapters.
+- The protocol represents diverse agent interactions with API, code, and message actions plus text and web observations.
+- ADP Dataset V1 combines 1.3M trajectories and improves agent benchmarks after fine-tuning.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -27,7 +34,7 @@ tags:
 | 英文题名 | Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=tG6301ORHd) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | Agent Data Protocol (ADP) |
 | Dataset | SWE-Bench (Verified), SWE-Bench (Verified), SWE-Bench (Verified), WebArena |
 

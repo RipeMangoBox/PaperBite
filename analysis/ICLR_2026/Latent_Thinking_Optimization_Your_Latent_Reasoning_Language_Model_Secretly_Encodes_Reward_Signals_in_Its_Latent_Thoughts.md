@@ -32,7 +32,7 @@ paradigm: 正确与错误的潜在思维轨迹在潜在空间中呈现高度可�
 | 英文题名 | Latent Thinking Optimization: Your Latent Reasoning Language Model Secretly Encodes Reward Signals in Its Latent Thoughts |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2jkAk3EP0v) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Latent Thinking Optimization (LTO) |
 | Dataset | GSM8K, GSM-Symbolic, SVAMP, CommonsenseQA |
 

@@ -10,7 +10,14 @@ aliases:
 - BDEZSMSI
 acceptance: accepted
 paradigm: 在教师权重初始化和对齐蒸馏（特别是余弦距离损失）的条件下，将教师层块插回蒸馏后的学生模型可以零样本地生成性能平滑插值的中间尺寸模型，且无需额外训练。
+core_operator: Boomerang Distillation trains a layer-pruned student with CE, KL, and cosine alignment so teacher blocks can be patched back zero-shot.
+primary_logic: It initializes each student layer from a teacher block, distills the student to align hidden states with block outputs, then replaces selected student layers with teacher layer blocks to interpolate model sizes.
+claims:
+- Teacher-initialized students plus cosine alignment enable smooth zero-shot size interpolation.
+- Student patching produces intermediate models without training each size separately.
+- The note reports large FLOP savings over independently distilling every intermediate model.
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Boomerang Distillation Enables Zero-Shot Model Size Interpolation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=4ZU8v4s3IR) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Boomerang Distillation |
 | Dataset | 10个分类数据集（平均）, 3个生成数据集（平均）, WikiText, Qwen3-4B-Base 教师模型 |
 

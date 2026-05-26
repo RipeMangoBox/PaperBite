@@ -10,6 +10,7 @@ aliases:
 - TTGAONED
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/optimization_methods
 core_operator: 引入自适应光滑性（Λ_ℋ(f)）和自适应梯度方差（σ_ℋ）作为更强的结构化假设，分别催化加速收敛和维度无关收敛。
@@ -33,7 +34,7 @@ paradigm: 自适应优化器与归一化最速下降虽然都能利用非欧几�
 | 英文题名 | A Tale of Two Geometries: Adaptive Optimizers and Non-Euclidean Descent |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=iaoAKDRAJQ) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
 | Method | 统一自适应优化器框架（Well-Structured Preconditioner Set, Algorithm 1） |
 | Dataset |  |
 

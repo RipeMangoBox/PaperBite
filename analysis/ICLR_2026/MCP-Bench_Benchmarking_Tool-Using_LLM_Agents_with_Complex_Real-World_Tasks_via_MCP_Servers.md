@@ -10,6 +10,7 @@ aliases:
 - MCP-Bench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 core_operator: 任务的模糊化程度（模糊指令）以及跨工具依赖链的复杂性（单服务器 vs 多服务器、干扰工具的存在）是揭示各模型在高层推理和规划能力差距的关键变量。
@@ -33,7 +34,7 @@ paradigm: 通过将LLM代理接入基于MCP的、包含互补工具和跨服务�
 | 英文题名 | MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fe8mzHwMxN) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | MCP-Bench |
 | Dataset | MCP-BENCH (综合平均), MCP-BENCH (单服务器), MCP-BENCH (多服务器) |
 

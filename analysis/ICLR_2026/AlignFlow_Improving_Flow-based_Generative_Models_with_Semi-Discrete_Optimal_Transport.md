@@ -9,7 +9,14 @@ aliases:
 - AlignFlow
 acceptance: accepted
 paradigm: 由于训练数据有限（离散经验分布），而噪声分布是连续的，因此SDOT天然适用于此场景。SDOT映射具有确定性、批大小不变性、可证明收敛性，且计算开销极低（<1%），可作为即插即用模块无缝集成到现有FGM中，通过提供更直的流轨迹来提升性能。
+core_operator: AlignFlow precomputes a semi-discrete optimal transport map that deterministically pairs continuous noise samples with discrete training data points.
+primary_logic: It partitions noise space into Laguerre cells, uses the resulting noise-data alignment in flow-model training, and optionally rebalances imperfect assignments.
+claims:
+- SDOT is well matched to finite empirical data and continuous noise distributions.
+- The deterministic full-dataset map avoids minibatch OT bias and batch-size dependence.
+- The note reports consistent FID improvements with less than one percent extra training time.
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=nTCF3QNsIN) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | AlignFlow |
 | Dataset | CIFAR-10 (U-Net), CIFAR-10 (U-Net), CIFAR-10 (U-Net), ImageNet256 (DiT-B/2, Shortcut Model) |
 

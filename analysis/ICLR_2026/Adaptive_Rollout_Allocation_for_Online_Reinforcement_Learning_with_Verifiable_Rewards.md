@@ -33,7 +33,7 @@ paradigm: 通过理论分析揭示梯度方差与提示成功概率 p 的函数�
 | 英文题名 | Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Z5sWYACAop) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VIP (Variance-Informed Predictive allocation strategy) |
 | Dataset | AIME24, Bamboogle, MuSiQue, Bamboogle |
 

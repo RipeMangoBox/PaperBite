@@ -11,7 +11,14 @@ aliases:
 - AVEm-DPO
 acceptance: accepted
 paradigm: 通过构建细粒度的多模态偏好对（包括输入模态偏好和输出响应偏好）并引入文本先验正则项，可以直接优化模型使其更忠实于真实的视听输入，从而同时缓解推理错误和感知错误。
+core_operator: AVEm-DPO constructs audiovisual preference pairs and adds text-prior debiasing to align emotion reasoning with real audio-visual evidence.
+primary_logic: It combines prompt-conditioned modality preference, emotion response preference, and text-prior subtraction inside a DPO objective.
+claims:
+- AVEm-DPO targets both spurious emotion reasoning and hallucinated audiovisual cues.
+- PMP, ERP, and TPD each create preference signals that penalize modality mismatch or text-prior overuse.
+- The note reports gains on EmoReAlM and standard audiovisual emotion benchmarks over the base model.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -27,7 +34,7 @@ tags:
 | 英文题名 | AVERE: Improving Audiovisual Emotion Reasoning with Preference Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=td682AAuPr) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AVEm-DPO |
 | Dataset | DFEW, DFEW, RAVDESS, RAVDESS |
 

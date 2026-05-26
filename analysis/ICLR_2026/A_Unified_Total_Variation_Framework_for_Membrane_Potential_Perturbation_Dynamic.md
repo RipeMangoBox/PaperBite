@@ -11,6 +11,7 @@ aliases:
 - MPPD-TV-ℓ₁
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 core_operator: 将MPPD的正则化项从平方和（ℓ₂）替换为绝对值全变分（ℓ₁），利用共面积公式和更大的L¹函数空间实现更稳健的扰动抑制。
@@ -34,7 +35,7 @@ paradigm: 将膜电位扰动重新解读为全变分（TV），并基于共面�
 | 英文题名 | A Unified Total Variation Framework for Membrane Potential Perturbation Dynamic |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LDo9numrx6) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | MPPD-TV-ℓ₁ |
 | Dataset | CIFAR-10 (VGG11, AT训练), CIFAR-10 (VGG11, AT训练) |
 

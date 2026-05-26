@@ -9,6 +9,7 @@ aliases:
 - UniSplat
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/3d_rendering_reconstruction
 openreview_forum_id: Ng2VDbKD4r
@@ -33,7 +34,7 @@ paradigm: 利用预训练的几何和视觉基础模型构建富含几何和语�
 | 英文题名 | UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Ng2VDbKD4r) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | UniSplat |
 | Dataset | nuScenes, nuScenes |
 

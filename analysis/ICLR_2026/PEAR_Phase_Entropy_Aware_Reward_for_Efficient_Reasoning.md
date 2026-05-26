@@ -33,7 +33,7 @@ paradigm: 在奖励设计中引入阶段性熵感知惩罚，通过降低思考�
 | 英文题名 | PEAR: Phase Entropy Aware Reward for Efficient Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HLc2igXEA3) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | PEAR (Phase Entropy Aware Reward) |
 | Dataset | Average (6 benchmarks), Average (6 benchmarks), Average (5 benchmarks) |
 

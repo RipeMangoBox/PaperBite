@@ -8,8 +8,15 @@ pdf_ref: paperPDFs/ICLR_2026/AgilePruner_An_Empirical_Study_of_Attention_and_Div
 aliases:
 - AgilePruner
 acceptance: accepted
+core_operator: 根据图像复杂度指标 erank 与注意力熵，自适应调节注意力选择和多样性保留的视觉令牌剪枝。
+primary_logic: |
+  先用 erank 与注意力熵分析图像复杂度和不同剪枝策略的行为差异，再依据简单图像偏好注意力剪枝、复杂图像偏好多样性剪枝的观察，设计按输入 erank 调整相似性阈值的 AgilePruner，并在 LVLM 多基准中验证速度、性能和幻觉指标。
+claims:
+- 基于注意力的剪枝在低 erank、低注意力熵图像上更有效，基于多样性的剪枝在高 erank、高注意力熵图像上更有效。
+- AgilePruner 通过自适应阈值保留少量视觉令牌，在多基准上维持接近全令牌性能并显著降低 FLOPs。
 paradigm: 基于注意力的剪枝在简单图像（低erank、低注意力熵）上更有效，而基于多样性的剪枝在复杂图像（高erank、高注意力熵）上表现更好；更高的保留多样性与更高的幻觉频率相关。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2NLkhPex1M) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AgilePruner（自适应阈值剪枝方法） |
 | Dataset | GQA, SQAIMG, POPE, MME |
 
@@ -34,9 +41,11 @@ tags:
 > - SQAIMG 上，Accuracy 为 68.6，对比 70.2 (LLaVA-1.5-7B full)，变化 -1.6。
 > - POPE 上，Accuracy 为 84.1，对比 85.9 (LLaVA-1.5-7B full)，变化 -1.8。
 
+## 概述
+
 本文《AgilePruner: An Empirical Study of Attention and Diversity for Adaptive Visual Token Pruning in Large Vision-Language Models》对大型视觉语言模型（LVLM）中视觉令牌剪枝的两种主流范式——基于注意力的剪枝与基于多样性的剪枝——进行了系统的实证研究。通过引入有效秩（erank）和注意力熵两个可量化的图像复杂度指标，论文揭示了不同剪枝策略在不同图像类型上的性能偏好，并发现保留令牌的多样性与幻觉频率之间存在正相关关系。基于这些发现，作者提出了AgilePruner，一种自适应阈值剪枝方法，能够根据图像复杂度动态调节注意力选择与多样性保留之间的平衡。在LLaVA-1.5-7B上，该方法在保留64个令牌时平均相对性能达到96.76%，在保留128个令牌时达到98.04%，同时将计算量降低约89%。
 
-# 2. 背景与动机
+## 背景与动机
 
 大型视觉语言模型（LVLM）通常由视觉编码器（vision encoder）、模态投影器（modality projector）和大语言模型（LLM）组成。视觉编码器将输入图像转换为大量视觉令牌（例如LLaVA-1.5-7B使用576个令牌），这些令牌随后通过投影器与LLM的词嵌入空间对齐。处理大量视觉令牌带来了显著的计算开销，因此视觉令牌剪枝成为提升LVLM推理效率的关键技术。
 
@@ -44,7 +53,7 @@ tags:
 
 然而，现有方法的实际行为缺乏系统表征。具体而言，以下关键问题尚未得到充分研究：不同剪枝方法在特征多样性保留程度上的差异；保留令牌的属性与幻觉倾向之间的关系；以及不同图像类型对不同剪枝策略的偏好。本文旨在填补这些空白。
 
-# 3. 核心创新
+## 核心创新
 
 本文的核心创新在于：
 
@@ -56,7 +65,7 @@ tags:
 
 4. **跨模型架构的泛化验证**：在LLaVA-1.5-7B、LLaVA-1.5-13B、LLaVA-NeXT-7B和Qwen2.5-VL-7B等多种模型架构上验证了方法的有效性。
 
-# 4. 整体框架
+## 整体框架
 
 AgilePruner的整体框架包含以下核心模块：
 
@@ -72,7 +81,7 @@ AgilePruner的整体框架包含以下核心模块：
 
 6. **大语言模型（LLM）**：处理剪枝后的视觉令牌与文本令牌，生成响应。the LLM can effectively interpret and process visual information.
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
 ## 1 注意力熵（Attention Entropy）
 
@@ -110,7 +119,7 @@ $$\tau_i = \mathrm{order}_i \times \left( \frac{\mathrm{erank}_{\mathrm{input}}}
 
 $$C = X X^\top, \quad S = \sqrt{\lambda(C)}, \quad p_i = \frac{S_i}{\sum_j S_j}, \quad \operatorname{erank}(X) = \exp\left(-\sum_i p_i \log p_i\right)$$
 
-# 6. 实验与分析
+## 实验与分析
 
 ## 1 主要结果
 
@@ -158,7 +167,7 @@ Table 4显示简单图像（OCR）的注意力熵为4.61，erank为78；复杂�
 
 在COCO-C的15种图像损坏类型下，erank表现出高度稳定性，平均偏差在严重度1时为2.78，严重度3时为4.11（Table 17）。改变全局空间结构的损坏（如zoom blur、frost、snow、elastic transform）产生中等偏大的erank偏差（4-7点），而局部像素级失真（如brightness、pixelation、JPEG compression）的偏差最小（1-2.5点）。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 本文在视觉令牌剪枝方法谱系中占据独特位置。现有方法可分为三类：基于注意力的方法（FasterVLM、PyramidDrop、SparseVLM、VisionZip）优先保留高注意力令牌；基于多样性的方法（DivPrune、FPSPruner）最大化令牌间的几何分散度；混合方法（VisPruner、BAT、PruMerge+）尝试结合两种策略但使用固定比例。
 

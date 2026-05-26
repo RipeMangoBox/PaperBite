@@ -9,6 +9,7 @@ aliases:
 - MECQCQ
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/health
 core_operator: 提出一个自动化的数据集构建流水线，从放射学报告中利用LLM提取信息构建场景图，再基于模板和场景图生成问答对，并自动评估质量。
@@ -32,7 +33,7 @@ paradigm: 通过LLM信息提取和语义实体映射构建细粒度场景图（2
 | 英文题名 | A Structured, Tagged, and Localized Visual Question Answering Dataset with Full Sentence Answers and Scene Graphs for Chest X-ray Images |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LrmyW9JLYq) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
 | Method | MIMIC-Ext-CXR-QBA (CXR-QBA) 数据集构建流水线 |
 | Dataset | MIMIC-CXR-JPG Test (CheXpert 13类), CXR-LT 2024 Gold (13 CXP + 12 LT类), MS-CXR (6类), REFLACX (18类) |
 

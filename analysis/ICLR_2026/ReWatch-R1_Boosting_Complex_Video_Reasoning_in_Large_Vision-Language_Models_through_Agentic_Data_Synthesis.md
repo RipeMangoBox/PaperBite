@@ -33,7 +33,7 @@ paradigm: 将智能体数据合成（生成高质量、视频基于的思维链�
 | 英文题名 | ReWatch-R1: Boosting Complex Video Reasoning in Large Vision-Language Models through Agentic Data Synthesis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=xindJJLSr1) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ReWatch-R1 |
 | Dataset | Average of 5 Video Reasoning Benchmarks (192 frames), Average of 5 Video Reasoning Benchmarks (192 frames), VCR-Bench (192 frames), Average of 4 Video Understanding Benchmarks (192 frames) |
 

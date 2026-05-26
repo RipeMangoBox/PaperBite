@@ -4,14 +4,13 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: Bamboogle
 
 - [[analysis/ICLR_2026/Adaptive_Rollout_Allocation_for_Online_Reinforcement_Learning_with_Verifiable_Rewards.md|Adaptive Rollout Allocation for Online Reinforcement Learning with Verifiable Rewards (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Rollout_Allocation_for_Online_Reinforcement_Learning_with_Verifiable_Rewards.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning
 	- methods: VIP (Variance-Informed Predictive allocation strategy)
 	- datasets: AIME24, Bamboogle, MuSiQue

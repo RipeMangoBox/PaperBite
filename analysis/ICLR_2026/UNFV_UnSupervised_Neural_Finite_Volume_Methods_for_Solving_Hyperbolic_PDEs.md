@@ -11,6 +11,7 @@ aliases:
 - (U)NFV (Neural Finite Volume)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 core_operator: 用轻量级神经网络替代手工设计的数值通量函数，同时保留经典FV更新规则以保证守恒性。通过扩展时空模板（a×b），网络可以学习更复杂的通量近似，而无需手动设计高阶重构。
@@ -34,7 +35,7 @@ paradigm: 将神经网络嵌入有限体积框架的守恒更新规则中，可�
 | 英文题名 | (U)NFV: (Un)Supervised Neural Finite Volume Methods for Solving Hyperbolic PDEs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=AhtDnPyfOE) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | (U)NFV (Neural Finite Volume) |
 | Dataset | Greenshields LWR, Triangular 1 LWR, Burgers, Burgers |
 

@@ -10,6 +10,7 @@ aliases:
 - GCVAMND
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 关键干预：在训练时将验证集中的边替换为独立的伯努利随机变量（随机插补），从而切断训练与验证之间的统计依赖，并使训练分布保持原始分布的仿射变换关系。
@@ -33,7 +34,7 @@ paradigm: 通过随机边缘插补与仿射变换校正，可以从被扰动过�
 | 英文题名 | Graphon Cross-Validation: Assessing Models on Network Data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8J3GTeQmwl) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | CV-imputation (K‑fold random‑imputation graphon cross‑validation) |
 | Dataset | Synthetic Graphon 1 (NS estimator, n=200), Political Blogs network (PolBlog), Coauthorship network (NetSci), Yeast protein‑protein interaction network |
 

@@ -10,6 +10,7 @@ aliases:
 - BNFPFBTDS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning
 core_operator: Dirichlet过程（DirP）的超参数 a 和互信息（MI）正则化系数 λ_F、类别平衡系数 λ_B。a 控制全局隐私预算与局部隐私的权衡；λ_F 控制生成结果与敏感属性之间的依赖程度；λ_B 控制非敏感分类属性的均匀程度。
@@ -33,7 +34,7 @@ paradigm: 利用贝叶斯非参数学习（BNPL）中的Dirichlet过程后验采
 | 英文题名 | A Bayesian Nonparametric Framework for Private, Fair, and Balanced Tabular Data Synthesis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=j0czDrEnFc) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning |
 | Method | CBNP-VAECGAN (Conditional Bayesian Nonparametric VAECGAN) |
 | Dataset | Adult, Adult, COMPAS, COMPAS |
 

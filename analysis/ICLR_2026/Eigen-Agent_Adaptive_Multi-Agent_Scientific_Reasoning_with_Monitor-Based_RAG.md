@@ -32,7 +32,7 @@ paradigm: 隐式知识增强与结构化分层精炼可同时提升科学推理�
 | 英文题名 | Eigen-Agent: Adaptive Multi-Agent Scientific Reasoning with Monitor-Based RAG |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=bGtmGTbmaz) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | EIGEN‑AGENT |
 | Dataset | HLE Bio/Chem Gold (149 题), SuperGPQA Hard Biology, TRQA |
 

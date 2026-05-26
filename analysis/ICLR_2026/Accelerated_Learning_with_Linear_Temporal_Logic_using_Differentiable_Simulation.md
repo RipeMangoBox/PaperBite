@@ -10,6 +10,7 @@ aliases:
 - ALLTLUDS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/planning_control
 core_operator: 通过概率软标签（soft labeling）将离散自动机状态和奖励变为对动作可微，使得可以利用一阶梯度信号进行高效策略优化。
@@ -33,7 +34,7 @@ paradigm: 采用概率化软标签将LTL派生的自动机转换为可微的马�
 | 英文题名 | Accelerated Learning with Linear Temporal Logic using Differentiable Simulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zbdhhlIy8o) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/planning_control |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/planning_control |
 | Method | Differentiable Reinforcement Learning with LTL (∂RLs) |
 | Dataset | Hopper, Cheetah, Cheetah (reward machines) |
 

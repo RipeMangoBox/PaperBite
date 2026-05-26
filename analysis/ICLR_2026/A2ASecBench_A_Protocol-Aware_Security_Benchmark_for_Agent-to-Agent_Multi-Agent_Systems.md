@@ -9,6 +9,7 @@ aliases:
 - A2ASecBench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/safety_security
 core_operator: 是否在A2A协议中嵌入身份证明、能力签名验证、任务图环检测与并发资源限制。
@@ -32,7 +33,7 @@ paradigm: 多智能体系统的安全性不仅是提示词安全问题，更是�
 | 英文题名 | A2ASecBench: A Protocol-Aware Security Benchmark for Agent-to-Agent Multi-Agent Systems |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LfdFnakqGJ) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
 | Method | A2ASecBench |
 | Dataset | A2A-MAS (Travel), A2A-MAS (Travel), A2A-MAS (Travel), A2A-MAS (Travel) |
 

@@ -32,7 +32,7 @@ paradigm: 一个覆盖多领域、集成深度、相机姿态、文本描述、�
 | 英文题名 | OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1y1YFKb9pp) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | OmniWorld多领域多模态数据集构建与标注流水线 |
 | Dataset | Sintel, Sintel, OmniWorld-Game (Video Generation) |
 

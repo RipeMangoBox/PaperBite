@@ -33,7 +33,7 @@ paradigm: 将人机协作从被动求助升级为策略性元认知框架，使�
 | 英文题名 | Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IKVUB9Exuc) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Human-In-the-Loop Multi-Agent Collaboration (HILA) with Dual-Loop Policy Optimization (DLPO) |
 | Dataset | GSM8K, AMC, AIME, HumanEval |
 

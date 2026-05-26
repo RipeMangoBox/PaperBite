@@ -10,6 +10,7 @@ aliases:
 - STFELR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/attention_mechanisms
 core_operator: 将推理过程建模为状态转移过程，用线性注意力机制压缩历史推理信息为状态矩阵，使当前推理步的每个token可直接从状态矩阵检索历史信息，无需显式关注之前推理步的token。
@@ -33,7 +34,7 @@ paradigm: 推理步中的语言信息主要用于保证流畅性，而推理信�
 | 英文题名 | A State-Transition Framework for Efficient LLM Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Zz8ikW4uWG) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/attention_mechanisms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/attention_mechanisms |
 | Method | State-Transition Framework with Mixed Attention Module (MAM) |
 | Dataset | AIME24, AIME24, AIME24, AIME24 |
 

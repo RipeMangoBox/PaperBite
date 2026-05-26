@@ -10,6 +10,7 @@ aliases:
 - SynGA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 core_operator: 通过设计直接操作于合成路线的自定义遗传算子（交叉与变异），将合成约束内嵌于生成过程本身，从而保证所有生成分子天然具有可合成性。
@@ -33,7 +34,7 @@ paradigm: 将遗传算法直接定义在合成树上，利用模板反应和可�
 | 英文题名 | A Genetic Algorithm for Navigating Synthesizable Molecular Spaces |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OvMtGGaFUT) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | SynGA |
 | Dataset | ChEMBL 类似物搜索, ChEMBL 类似物搜索, ChEMBL 类似物搜索, PMO 套件 (22 任务) |
 

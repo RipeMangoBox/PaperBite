@@ -33,7 +33,7 @@ paradigm: 少量的有标签样本可以作为‘锚点’来稳定基于一致�
 | 英文题名 | TraPO: A Semi-Supervised Reinforcement Learning Framework for Boosting LLM Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3K1y4KbWAx) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | TRAPO (Trajectory-based Policy Optimization) |
 | Dataset | In-Distribution (AIME, AMC, MATH-500, Minerva, Olympiad) average, Out-of-Distribution (ARC-c, GPQA*, MMLU-Pro) average, In-Distribution average, Cross-domain OOD (non‑math unlabeled) – ID average |
 

@@ -10,6 +10,7 @@ aliases:
 - FBGLSSNC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 core_operator: 生成树的选择分布：通过提高边缘同质性估计质量，可以诱导出偏向高同质性树的分布，从而使森林中的树以更高的概率包含有利的同质性边，进而提升全局消息传递的质量。
@@ -33,7 +34,7 @@ paradigm: 将图上的消息传递重新诠释为在生成树（森林）上的�
 | 英文题名 | Forest-Based Graph Learning for Semi-Supervised Node Classification |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5asbtzIVpS) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | FGL (Forest-based Graph Learning) |
 | Dataset | Cora, Pubmed, Cornell, Texas |
 

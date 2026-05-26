@@ -32,7 +32,7 @@ paradigm: 预训练文本到视频模型内部已经编码了丰富的电影摄�
 | 英文题名 | AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=c2EfS9E5CJ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AdaViewPlanner |
 | Dataset | E.T. Testset (SMPL-based), E.T. Testset, E.T. Testset, Ours Testset (curated, 240 samples) |
 

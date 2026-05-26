@@ -10,8 +10,15 @@ aliases:
 - ALRNKMSKLM
 - Hits@k
 acceptance: accepted
+core_operator: Hits@k通过检查LLM输出logits前k候选来度量被最终解码掩蔽的潜藏知识。
+primary_logic: 方法先比较最终答案与token级候选知识，再过滤无信息token以分析知识存储和表达之间的差距。
+claims:
+- LLM错误输出并不等价于参数中缺少对应知识。
+- Hits@k揭示DBpedia等数据集中大量正确答案存在于高排名logit候选中。
+- “unsure”等无信息响应会掩蔽低置信度正确知识，过滤解码可恢复部分答案。
 paradigm: 通过检查token级输出分布（logits）而非仅看最终输出，可以揭示模型潜藏的知识；提出的Hits@k指标能独立于表面答案正确性量化这种潜藏知识保留程度。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -27,7 +34,7 @@ tags:
 | 英文题名 | Are LLMs Really Not Knowledgeable? Mining the Submerged Knowledge in LLMs' Memory |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gvUufgeJvV) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | Hits@k |
 | Dataset | DBpedia-Head, DBpedia-Head, DBpedia-Head, IMDB-Head |
 

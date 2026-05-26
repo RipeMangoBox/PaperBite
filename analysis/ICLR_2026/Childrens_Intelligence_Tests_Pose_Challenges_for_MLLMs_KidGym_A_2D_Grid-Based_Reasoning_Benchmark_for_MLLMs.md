@@ -32,7 +32,7 @@ paradigm: 借鉴儿童智力测验设计多维度、动态、可定制的基准�
 | 英文题名 | Children's Intelligence Tests Pose Challenges for MLLMs? KidGym: A 2D Grid-Based Reasoning Benchmark for MLLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Hj8Dc14nk1) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | KIDGYM |
 | Dataset | KIDGYM Counting (CO) L1, KIDGYM Puzzle (PU) L1, KIDGYM Classification (CL) L1, KIDGYM Filling (FI) L1 |
 

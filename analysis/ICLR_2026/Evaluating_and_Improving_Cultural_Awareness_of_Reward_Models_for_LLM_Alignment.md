@@ -10,6 +10,7 @@ aliases:
 - EICARMLA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 强制模型先显式生成扎根于文化的结构化评估准则（structured cultural evaluation criteria），再依据准则做出偏好判断，从而抑制对表面特征的利用，引导模型关注因果性文化特征。
 primary_logic: 通过强化学习可验证奖励（RLVR）同时优化判断正确性与准则生成质量，使模型内化深层文化推理能力，最终实现因果特征驱动的、可解释的文化意识奖励建模。
@@ -32,7 +33,7 @@ paradigm: 通过强化学习可验证奖励（RLVR）同时优化判断正确性
 | 英文题名 | Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=WhSzqsMhfZ) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Think-as-Locals |
 | Dataset | M-RewardBench, CARB, 综合 (M-RB + CARB), DPO下游对齐 (X-AlpacaEval) |
 

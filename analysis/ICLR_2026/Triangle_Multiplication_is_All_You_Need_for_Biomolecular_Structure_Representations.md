@@ -9,14 +9,17 @@ aliases:
 - TMIAYNBSR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 openreview_forum_id: CrXcfMLR9q
-core_operator: Triangle
-primary_logic: Triangle
+core_operator: Pairmixer replaces Pairformer attention updates with incoming and outgoing triangle multiplication plus FFN over 2-D pair representations.
+primary_logic: It keeps pair representations explicit, removes sequence update and triangle attention, and uses matrix-multiplication-based triangle mixing before the structure module.
 claims:
-- Pairmixer 通过保留 incoming/outgoing triangle multiplication 并移除 triangle attention 与 sequence update，在保持结构预测精度的同时显著降低训练和推理成本。
-paradigm: Triangle
+- Triangle multiplication alone preserves high-order geometric reasoning while lowering Pairformer training and inference cost.
+- Pairmixer matches Pairformer mean lDDT on RCSB while using about 66% of the training time.
+- Low-norm dropout analysis suggests triangle multiplication relies on sparse high-norm residue-pair interactions.
+paradigm: 三角乘法本身能够聚合残基三元组几何关系；Pairmixer 将 Pairformer 简化为 incoming/outgoing triangle multiplication 加 FFN，以更低常数开销保留二维 pair representation 的几何推理能力。
 ---
 
 # Triangle Multiplication is All You Need for Biomolecular Structure Representations
@@ -30,7 +33,7 @@ paradigm: Triangle
 | 英文题名 | Triangle Multiplication is All You Need for Biomolecular Structure Representations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CrXcfMLR9q) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method |  |
 | Dataset |  |
 

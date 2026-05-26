@@ -10,6 +10,7 @@ aliases:
 - RDFMUBSSC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 openreview_forum_id: 3iw5t2W41F
@@ -34,7 +35,7 @@ paradigm: 训练过程中，样本的贡献集中体现为使模型对该样本�
 | 英文题名 | Remaining-data-free Machine Unlearning by Suppressing Sample Contribution |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3iw5t2W41F) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | MU-Mis (Machine Unlearning by Minimizing Input Sensitivity) |
 | Dataset | CIFAR-100 full-class (VGG-16), CIFAR-100 full-class (VGG-16), Tiny ImageNet full-class (ViT), Overall (6 datasets) |
 

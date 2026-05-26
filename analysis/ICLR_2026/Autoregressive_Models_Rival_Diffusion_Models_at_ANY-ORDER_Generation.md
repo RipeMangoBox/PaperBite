@@ -9,8 +9,15 @@ aliases:
 - AOASAMA
 - AMRDMAAOG
 acceptance: accepted
+core_operator: A3把自回归分解推广为任意token组和任意顺序的组级自回归预测。
+primary_logic: 双流注意力编码已知组并预测当前组，课程训练再从单token自回归过渡到随机组顺序生成。
+claims:
+- A3保留自回归多层依赖建模，同时支持扩散式并行和双向生成灵活性。
+- 三阶段课程学习对任意顺序组级预测的稳定训练是必要的。
+- A3在条件生成质量和长上下文QA速度质量权衡上相对扩散语言模型有竞争力。
 paradigm: 通过将标准自回归分解推广到任意token组和生成顺序，A3框架在保留自回归概率严谨性和多层依赖建模的同时，继承了扩散模型在并行和双向生成方面的灵活性。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Autoregressive Models Rival Diffusion Models at ANY-ORDER Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vtDUomlazQ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Any-order Any-subset Autoregressive modeling (A3) |
 | Dataset | TriviaQA, 条件生成 (The Pile), LongBench v1 单文档QA, LongBench v1 单文档QA |
 

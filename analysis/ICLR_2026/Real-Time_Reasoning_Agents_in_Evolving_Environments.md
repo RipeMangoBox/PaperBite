@@ -32,7 +32,7 @@ paradigm: 通过双线程并行架构，令规划线程持续进行长程推理�
 | 英文题名 | Real-Time Reasoning Agents in Evolving Environments |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=n1AvXiU2lu) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AgileThinker |
 | Dataset | Real-Time Reasoning Gym (Freeway, Snake, Overcooked 平均评分), Wall-clock time: Freeway, Wall-clock time: Snake, Wall-clock time: Overcooked |
 

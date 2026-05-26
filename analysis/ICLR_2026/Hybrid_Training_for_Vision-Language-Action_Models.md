@@ -10,6 +10,7 @@ aliases:
 - HTVLAM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 openreview_forum_id: IBJtOltTbx
@@ -34,7 +35,7 @@ paradigm: CoT 训练的主要收益来源于模型内部表征的改进，而非
 | 英文题名 | Hybrid Training for Vision-Language-Action Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IBJtOltTbx) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | Hybrid Training (HyT) |
 | Dataset | ClevrSkills (9 tasks, 3000 demos), LIBERO (4 suites, 100 episodes each), 真实机器人操作 (Real-world tasks, 26 trials total), 真实机器人 分布外任务 (OOD) |
 

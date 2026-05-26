@@ -33,7 +33,7 @@ paradigm: 通过预测两个GUI截图之间的首个动作，并利用容忍功�
 | 英文题名 | GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NakMHPljT7) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | GUI-Shift |
 | Dataset | AndroidControl-High, AndroidControl-Low, ScreenSpot-v2, ScreenSpot-Pro |
 

@@ -10,6 +10,7 @@ aliases:
 - SMCERFLRM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 在训练提示中直接注入奖励函数的自然语言描述（即“动机”），使模型在生成时就能感知优化目标。
@@ -33,7 +34,7 @@ paradigm: 利用LLM强大的上下文学习能力，将可验证奖励函数的�
 | 英文题名 | A Simple "Motivation" Can Enhance Reinforcement Finetuning of Large Reasoning Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3owSlsYDQf) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Motivation-enhanced Reinforcement Finetuning (MeRF) |
 | Dataset | K&K Logic Puzzles (Qwen2.5-7B-Base), K&K Logic Puzzles (Qwen2.5-7B-Instruct), K&K Logic Puzzles (Qwen2.5-14B-Instruct), K&K Logic Puzzles (DeepSeek-R1-Distill-Llama-8B) |
 

@@ -10,6 +10,7 @@ aliases:
 - TR2ULRRLRS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 模型是否具备在推理过程中主动放弃低质量推理路径并重新开始（re-solve）的能力。
@@ -33,7 +34,7 @@ paradigm: 通过纯强化学习训练模型在推理过程中灵活地选择放�
 | 英文题名 | $\textbf{Re}^{2}$: Unlocking LLM Reasoning via Reinforcement Learning with Re-solving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HBOLN5m3qg) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Re² (Reinforcement Learning with Re-solving) |
 | Dataset | AIME 2024, AIME 2025, AMC 2023, GSM8K |
 

@@ -11,6 +11,7 @@ aliases:
 - Action-Guided Attention (AGA)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 core_operator: 将自我预测的动作分布作为注意力查询与键，以高层语义信号取代像素特征，引导模型聚焦于过去帧中与未来动作相关的时刻。
@@ -34,7 +35,7 @@ paradigm: 利用模型自身不断演化的动作预测构建查询和键，通�
 | 英文题名 | Action-Guided Attention for Video Action Anticipation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=uKFVZMPppq) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | Action-Guided Attention (AGA) |
 | Dataset | EPIC-Kitchens-100 Test (Overall), EPIC-Kitchens-100 Validation (Overall), EPIC-Kitchens-55 Validation |
 

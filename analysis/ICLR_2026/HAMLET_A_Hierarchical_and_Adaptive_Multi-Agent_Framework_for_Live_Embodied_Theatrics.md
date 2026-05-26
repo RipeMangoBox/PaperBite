@@ -32,7 +32,7 @@ paradigm: 通过解耦离线规划与在线表演，引入双过程认知理论�
 | 英文题名 | HAMLET: A Hierarchical and Adaptive Multi-Agent Framework for Live Embodied Theatrics |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=MKwW04UHW1) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | HAMLET |
 | Dataset | HAMLET在线表演任务完成率, 响应策略综合评估（含延迟惩罚）, 人类评估一致性 |
 

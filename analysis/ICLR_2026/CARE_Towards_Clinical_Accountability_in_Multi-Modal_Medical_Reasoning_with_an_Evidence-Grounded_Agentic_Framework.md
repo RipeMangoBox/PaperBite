@@ -33,7 +33,7 @@ paradigm: 模拟临床医生“先定位异常区域→放大观察→基于证�
 | 英文题名 | CARE: Towards Clinical Accountability in Multi-Modal Medical Reasoning with an Evidence-Grounded Agentic Framework |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=whRAOJiyHM) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | CARE (CARE-Flow and CARE-Coord) |
 | Dataset | Overall (OMVQA-3k, VQA-RAD, SLAKE, VQA-Med-2019), OMVQA-3k, VQA-RAD, SLAKE |
 

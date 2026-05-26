@@ -10,6 +10,7 @@ aliases:
 - ADMATODSTSFM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/time_series
 core_operator: 通过自适应优化输入时间序列的变换管道（上下文切片、尺度归一化、异常值校正），可改善冻结 LTM 的域自适应预测性能，而非微调模型参数。
@@ -33,7 +34,7 @@ paradigm: 数据适应模型而非模型适应数据：在保持大规模时间�
 | 英文题名 | Adapt Data to Model: Adaptive Transformation Optimization for Domain-shared Time Series Foundation Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=uTK1SNgi1N) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/time_series |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/time_series |
 | Method | TATO (Time-series Adaptive Transformation Optimization) |
 | Dataset | ETTh1, ETTm2, Exchange, Overall |
 

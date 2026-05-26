@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: WebArena
@@ -17,19 +17,22 @@ generated: 2026-05-23T23:39
 	- datasets: SWE-Bench, WebArena
 - [[analysis/ICLR_2026/AgentGym-RL_An_Open-Source_Framework_to_Train_LLM_Agents_for_Long-Horizon_Decision_Making_via_Multi-Turn_RL.md|AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AgentGym-RL_An_Open-Source_Framework_to_Train_LLM_Agents_for_Long-Horizon_Decision_Making_via_Multi-Turn_RL.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: ScalingInter-RL
-	- datasets: Deep Search, WebArena, TextCraft
+	- datasets: TextCraft, WebArena, Deep Search
 - [[analysis/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.md|AutoLibra: Agent Metric Induction from Open-Ended Human Feedback (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AutoLibra_Agent_Metric_Induction_from_Open-Ended_Human_Feedback.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Benchmark / Evaluation
+	- method groups: Benchmark / Evaluation, Vision / Multimodal / 3D
 	- methods: AutoLibra
 	- datasets: Sotopia, WebArena, WebVoyager
 - [[analysis/ICLR_2026/R-WoM_Retrieval-augmented_World_Model_For_Computer-use_Agents.md|R-WoM: Retrieval-augmented World Model For Computer-use Agents (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/R-WoM_Retrieval-augmented_World_Model_For_Computer-use_Agents.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment
 	- methods: R-WoM (Retrieval-augmented World Model)
 	- datasets: OSWorld, WebArena
+- [[analysis/ICLR_2026/Test-Time_Adaptation_for_LLM_Agents_via_Environment_Interaction.md|Test-Time Adaptation for LLM Agents via Environment Interaction (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Test-Time_Adaptation_for_LLM_Agents_via_Environment_Interaction.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment
+	- methods: Syntactic Alignment (SA) and Dynamics Grounding (DG)
+	- datasets: WebArena, WebArena Multi-site, BFCLv3

@@ -10,6 +10,7 @@ aliases:
 - GGNDSMDS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 openreview_forum_id: T8VcTykTf1
@@ -34,7 +35,7 @@ paradigm: 将扩散偏微分方程推广到几何图中，利用等变梯度算�
 | 英文题名 | Geometric Graph Neural Diffusion for Stable Molecular Dynamics Simulations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=T8VcTykTf1) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | Geometric Graph Neural Diffusion (GGND) |
 | Dataset | 3BPA, 3BPA, SiN (Test, SAMD23), HfO (Test, SAMD23) |
 

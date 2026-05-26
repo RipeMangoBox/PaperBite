@@ -10,6 +10,7 @@ aliases:
 - MATH-Beyond
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 openreview_forum_id: RNkErKpCAp
@@ -34,7 +35,7 @@ paradigm: 衡量RL是否真正拓展推理边界，需要使用基模型完全�
 | 英文题名 | MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RNkErKpCAp) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | MATH-Beyond Benchmark (MATH-B) |
 | Dataset | MATH-B-U, MATH-B-U, MATH-B-U, MATH-B vs AIME24 |
 

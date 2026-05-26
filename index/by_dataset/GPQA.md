@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: GPQA
@@ -23,19 +23,31 @@ generated: 2026-05-23T23:39
 	- datasets: GSM8K, GPQA, MMLU-pro
 - [[analysis/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md|Adaptive Thinking: Large Language Models Know When to Think in Latent Space (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Sonata (Self-Consistency-Guided Adapter for Thinking Allocation)
 	- datasets: AIME25, MATH-500, GSM8K
+- [[analysis/ICLR_2026/EigenBench_A_Comparative_Behavioral_Measure_of_Value_Alignment.md|EigenBench: A Comparative Behavioral Measure of Value Alignment (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/EigenBench_A_Comparative_Behavioral_Measure_of_Value_Alignment.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment
+	- methods: EigenBench
+	- datasets: GPQA, Human Validation, Loving Constitution
+- [[analysis/ICLR_2026/Invisible_Safety_Threat_Malicious_Finetuning_for_LLM_via_Steganography.md|Invisible Safety Threat: Malicious Finetuning for LLM via Steganography (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Invisible_Safety_Threat_Malicious_Finetuning_for_LLM_via_Steganography.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: 基于不可见字符隐写的恶意微调 (Malicious Finetuning with Invisible-Character Steganography)
+	- datasets: AdvBench, MMLU, GPQA
+- [[analysis/ICLR_2026/Reasoning_with_Sampling_Your_Base_Model_is_Smarter_Than_You_Think.md|Reasoning with Sampling: Your Base Model is Smarter Than You Think (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Reasoning_with_Sampling_Your_Base_Model_is_Smarter_Than_You_Think.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: Power Sampling (Algorithm 1)
+	- datasets: MATH500, HumanEval, GPQA
 - [[analysis/ICLR_2026/RL_of_Thoughts_Navigating_LLM_Reasoning_with_Inference-time_Reinforcement_Learning.md|RL of Thoughts: Navigating LLM Reasoning with Inference-time Reinforcement Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/RL_of_Thoughts_Navigating_LLM_Reasoning_with_Inference-time_Reinforcement_Learning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: RL-of-Thoughts (RLoT)
 	- datasets: GPQA, Overall Average
 - [[analysis/ICLR_2026/Sample_More_to_Think_Less_Group_Filtered_Policy_Optimization_for_Concise_Reasoning.md|Sample More to Think Less: Group Filtered Policy Optimization for Concise Reasoning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Sample_More_to_Think_Less_Group_Filtered_Policy_Optimization_for_Concise_Reasoning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: Group Filtered Policy Optimization (GFPO)
 	- datasets: AIME 25, AIME 24, GPQA
@@ -45,3 +57,8 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Error-Incoherence Analysis Framework (Bias-Variance Decomposition)
 	- datasets: GPQA, SWE-BENCH, MMLU
+- [[analysis/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.md|Token-Importance Guided Direct Preference Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: TI-DPO
+	- datasets: MMLU, GSM8K, GPQA

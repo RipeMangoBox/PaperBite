@@ -33,7 +33,7 @@ paradigm: 将网页智能体学习分解为“知识内容学习”与“认知�
 | 英文题名 | Web-CogReasoner: Towards Multimodal Knowledge-Induced Cognitive Reasoning for Web Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=siXHlHBYIe) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Web-CogReasoner |
 | Dataset | Web-CogBench, VisualWebBench, WebVoyager, Online-Mind2Web Cross-Task |
 

@@ -32,7 +32,7 @@ paradigm: 仅通过视觉提示（BEV+STO标记）而无需修改预训练VLM架
 | 英文题名 | GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0fib2BYc0L) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | GPT4Scene |
 | Dataset | ScanQA, SQA3D, ScanRefer, Multi3DRef |
 

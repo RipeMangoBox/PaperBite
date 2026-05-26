@@ -10,6 +10,7 @@ aliases:
 - HMAHDMSMITC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 推理长度（思考步骤数）和任务复杂度是导致错误不一致性增加的关键可调节因素；模型规模对不一致性的影响取决于任务难度。
@@ -33,7 +34,7 @@ paradigm: 通过偏差-方差分解定义错误不一致性，揭示更大更智
 | 英文题名 | The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity? |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=sIBwirjYlY) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Error-Incoherence Analysis Framework (Bias-Variance Decomposition) |
 | Dataset | GPQA (multiple-choice), SWE-BENCH (agentic coding), MMLU (QWEN3 scaling), Synthetic optimizer (quadratic) |
 

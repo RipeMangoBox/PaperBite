@@ -4,12 +4,12 @@ type: paper-index
 dimension: home
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # PaperBite Paper Index
 
-This directory is derived from the ResearchFlow index build and PaperBite `analysis/` frontmatter.
+This directory is generated from PaperBite analysis notes and root-relative vault paths.
 
 ## Entry Points
 
@@ -17,10 +17,9 @@ This directory is derived from the ResearchFlow index build and PaperBite `analy
 - [[index/by_topic/topic_index.md|By topic]]
 - [[index/by_method/method_index.md|By method]]
 - [[index/by_dataset/dataset_index.md|By dataset]]
-- [[index/by_venue/venue_index.md|By venue]]
-- [[index/by_year/year_index.md|By year]]
+- [[index/by_venue_year/venue_year_index.md|By venue/year]]
 
 ## Counts
 
-- papers: 618
-- generated: 2026-05-23T23:39
+- papers: 951
+- generated: 2026-05-26T18:30

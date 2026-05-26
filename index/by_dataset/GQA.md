@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: GQA
@@ -17,7 +17,6 @@ generated: 2026-05-23T23:39
 	- datasets: GQA, SQAIMG, POPE
 - [[analysis/ICLR_2026/MATA_A_Trainable_Hierarchical_Automaton_System_for_Multi-Agent_Visual_Reasoning.md|MATA: A Trainable Hierarchical Automaton System for Multi-Agent Visual Reasoning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/MATA_A_Trainable_Hierarchical_Automaton_System_for_Multi-Agent_Visual_Reasoning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: MATA (Multi-Agent hierarchical Trainable Automaton)
 	- datasets: GQA, OK-VQA, RefCOCO

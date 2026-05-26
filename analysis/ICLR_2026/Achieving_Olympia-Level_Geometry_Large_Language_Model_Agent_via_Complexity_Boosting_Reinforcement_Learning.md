@@ -10,6 +10,7 @@ aliases:
 - InternGeometry
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 通过长周期 LLM‑工具交互（>200 步）积累几何性质并反射反馈，结合动态记忆压缩和复杂度渐进课程，使智能体能从弱启发式逐步过渡到强探索能力。
 primary_logic: 让 LLM 智能体像人类一样进行探索性试探：在每轮中自然语言思考并输出命题或辅助构造，利用符号引擎验证，根据结果反思，并通过压缩历史保持长期记忆，从而无需依赖大规模数据预训练即可解决高难度的几何证明问题。
@@ -32,7 +33,7 @@ paradigm: 让 LLM 智能体像人类一样进行探索性试探：在每轮中�
 | 英文题名 | Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1sffPGGQyT) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | InternGeometry |
 | Dataset | IMO 50, IMO 50, IMO 50 |
 

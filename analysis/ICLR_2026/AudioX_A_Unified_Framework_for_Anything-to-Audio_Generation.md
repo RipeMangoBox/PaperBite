@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/AudioX_A_Unified_Framework_for_Anything-to-Audio_Ge
 aliases:
 - AudioX
 acceptance: accepted
+core_operator: 用多模态自适应融合模块条件化DiT统一生成音效和音乐。
+primary_logic: AudioX分别编码文本、视频和音频条件，经MAF门控与查询注意力融合后驱动扩散Transformer生成音频。
+claims:
+- AudioX统一支持文本、视频、音频及其组合到音效或音乐的生成任务。
+- MAF通过门控、可学习查询交叉注意力和残差更新减少跨模态干扰。
+- IF-caps的大规模高质量指令标注对细粒度指令跟随能力至关重要。
+- 数据和MAF消融显示更高质量文本监督与完整融合模块能联合提升多种条件模态表现。
 paradigm: 通过统一的多模态训练，可以产生跨模态正则化效应：提高文本监督的质量和粒度可以减少对齐噪声，从而联合提升所有条件模态的性能。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | AudioX: A Unified Framework for Anything-to-Audio Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qjJWxK3yWo) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AudioX |
 | Dataset | AudioCaps, AudioCaps, AudioCaps, AudioCaps |
 

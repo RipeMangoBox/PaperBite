@@ -10,6 +10,7 @@ aliases:
 - GGTFCDALCMD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 通过几何校正项对质心判别基（CDB0）进行旋转调整，在二维平面上利用贝叶斯优化搜索最优判别方向，并引入非均匀样本权重更新策略。
@@ -33,7 +34,7 @@ paradigm: 任何线性分类器的判别向量均可分解为CDB0（连接两类
 | 英文题名 | A Generalized Geometric Theoretical Framework of Centroid Discriminant Analysis for Linear Classification of Multi-dimensional Data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=bp9DOHb1mk) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Centroid Discriminant Analysis (CDA) |
 | Dataset | 27个真实数据集（标准图像、医学图像、化学性质）, 27个真实数据集, 大规模单细胞小鼠脑数据, 大规模单细胞小鼠脑数据 |
 

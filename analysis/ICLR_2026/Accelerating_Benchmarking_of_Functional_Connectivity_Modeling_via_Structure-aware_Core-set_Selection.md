@@ -10,6 +10,7 @@ aliases:
 - ABFCMSACSS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 在保持SPI相对性能排名的前提下，用仅占原数据集10%的高质量核心集替代完整数据集进行评估，即可将计算成本降低一个数量级以上，同时保留排名信息。
@@ -33,7 +34,7 @@ paradigm: 通过Transformer学习样本特定的FC同步结构，并利用训练
 | 英文题名 | Accelerating Benchmarking of Functional Connectivity Modeling via Structure-aware Core-set Selection |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0RYazbfSzW) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | SCLCS (Structure-aware Contrastive Learning for Core-set Selection) |
 | Dataset | REST-meta-MDD (Brain Fingerprinting & MDD Diagnosis), 计算成本 (266 个 SPI 在 4520 个样本上的完整基准) |
 

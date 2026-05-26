@@ -9,6 +9,7 @@ aliases:
 - LPFIBAVM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 测试时对输入图像进行低通滤波（如高斯模糊σ=2.5像素或缩放到64×64），有效去除高频纹理信息，使模型依赖低频形状线索。
@@ -32,7 +33,7 @@ paradigm: 测试时低通滤波的频谱恰好近似于人类在短时呈现（2
 | 英文题名 | Low-Pass Filtering Improves Behavioral Alignment of Vision Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=YhgBy6jTR8) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | 测试时低通滤波（高斯模糊 / 双三次插值缩放 / 可学习傅里叶滤波器） |
 | Dataset | model-vs-human (MvH), model-vs-human (MvH), model-vs-human (MvH) |
 

@@ -33,7 +33,7 @@ paradigm: 将加权对数似然RL目标等价解释为优势引导的能量引�
 | 英文题名 | wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=L2rfd2Czbj) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | wd1（及扩展wd1++） |
 | Dataset | Sudoku (256 tokens), Countdown (256 tokens), GSM8K (wd1++ full), MATH500 (wd1++ full) |
 

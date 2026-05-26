@@ -33,7 +33,7 @@ paradigm: 增加提示复杂度会降低合成数据的条件多样性并削弱�
 | 英文题名 | The Intricate Dance of Prompt Complexity, Quality, Diversity and Consistency in T2I Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RBIBMCdw7y) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | T2I合成数据提示复杂度评估框架 (Prompt Complexity Evaluation Framework) |
 | Dataset | CC12M, CC12M, CC12M, ImageNet-1k |
 

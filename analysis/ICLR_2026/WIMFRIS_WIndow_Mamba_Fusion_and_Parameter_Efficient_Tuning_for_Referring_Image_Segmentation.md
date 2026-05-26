@@ -9,6 +9,7 @@ aliases:
 - WIMFRIS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: WnRzN4U8Y8
@@ -33,7 +34,7 @@ paradigm: 先聚合多层视觉特征，再通过窗口分区限制序列长度�
 | 英文题名 | WIMFRIS: WIndow Mamba Fusion and Parameter Efficient Tuning for Referring Image Segmentation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=WnRzN4U8Y8) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | WIMFRIS |
 | Dataset | RefCOCO |
 

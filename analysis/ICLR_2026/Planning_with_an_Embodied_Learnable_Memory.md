@@ -33,7 +33,7 @@ paradigm: 将记忆更新建模为VLM的序列预测任务，能够端到端学�
 | 英文题名 | Planning with an Embodied Learnable Memory |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=79BOATBal9) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Embodied Perception Memory (EPM) |
 | Dataset | PARTNR (single-agent), PARTNR (single-agent), PARTNR (single-agent), Spot-Indoor |
 

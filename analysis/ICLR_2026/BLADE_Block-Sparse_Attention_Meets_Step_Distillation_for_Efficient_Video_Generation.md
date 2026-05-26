@@ -10,7 +10,14 @@ aliases:
 - BLADE
 acceptance: accepted
 paradigm: 将动态稀疏注意力直接嵌入步长蒸馏的联合训练过程，而非作为后处理步骤，可以在数据无关的条件下同时实现步数压缩和每步计算量降低，且稀疏感知的蒸馏能让学生模型在稀疏约束下学习到更紧凑的生成轨迹。
+core_operator: BLADE jointly trains adaptive block-sparse attention inside trajectory distribution matching step distillation for video diffusion transformers.
+primary_logic: A sparse student generator denoises with ASA masks, a fake score model estimates the student distribution, and TDM aligns it with the teacher under sparse constraints.
+claims:
+- ASA dynamically keeps salient KV blocks using block sampling, Gilbert reordering, and thresholded importance scores.
+- Sparse-aware distillation reduces both denoising step count and per-step attention cost.
+- The note reports up to 14.10x end-to-end speedup on Wan2.1-1.3B while preserving VBench quality.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=O9J20MsmRl) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | BLADE (Block-sparse Attention Meets step Distillation for Efficient video generation) |
 | Dataset | VBench-2.0, VBench-2.0, Wan2.1-1.3B (H20), CogVideoX-5B |
 

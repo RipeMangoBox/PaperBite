@@ -10,6 +10,7 @@ aliases:
 - THICOSRP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 显式光谱正则化方案：尺度内频率正则化（DCT基础的渐进频谱截断）强制各尺度专注于目标频带；尺度间潜在正则化（DWT+Conv的L2惩罚）抑制跨尺度频谱混叠，两者仅在训练时使用，推理无开销。
 primary_logic: 通过训练动态的光谱分析揭示了违反频率原则的现象；提出的正则化引导模型实现自然的低-to-高频率分层，使各尺度解耦，从而显著加快收敛（2.3×）并提升率失真性能。
@@ -32,7 +33,7 @@ paradigm: 通过训练动态的光谱分析揭示了违反频率原则的现象�
 | 英文题名 | Taming Hierarchical Image Coding Optimization: A Spectral Regularization Perspective |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=lO6I66lweK) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | DHIC-Regu (Explicit Spectral Regularization for Hierarchical Coding) |
 | Dataset | Kodak, CLIC Pro, Tecnick, 三数据集平均 |
 

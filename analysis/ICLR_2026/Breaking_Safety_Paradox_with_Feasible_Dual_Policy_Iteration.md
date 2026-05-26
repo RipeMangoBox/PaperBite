@@ -9,8 +9,16 @@ aliases:
 - FDPIF
 - BSPFDPI
 acceptance: accepted
+core_operator: 用接近原策略的对偶策略主动采集约束违反样本。
+primary_logic: FDPI让原始策略优化安全回报，同时训练对偶策略最大化违反并用重要性采样校正其数据来学习可行性函数。
+claims:
+- 安全悖论指出策略越安全，违反样本越少，可行性函数估计误差越大。
+- 对偶策略通过故意穿越危险区域提高违反样本比例，同时KL约束限制与原策略的分布偏移。
+- 重要性采样用于把对偶策略采集的数据校正到原始策略分布。
+- Safety-Gymnasium实验显示FDPI相较多种安全RL基线取得更低成本和更高回报。
 paradigm: 通过引入一个额外的对偶策略（dual policy）来主动最大化约束违反，同时通过KL散度约束使其接近原始策略，从而增加违反样本比例，打破安全悖论。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Breaking Safety Paradox with Feasible Dual Policy Iteration |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=BHSSV1nHvU) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Feasible Dual Policy Iteration (FDPI) |
 | Dataset | Safety-Gymnasium, Safety-Gymnasium, Safety-Gymnasium, Safety-Gymnasium |
 

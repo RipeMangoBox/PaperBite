@@ -9,19 +9,25 @@ aliases:
 - UniCon
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
-core_operator: ""
-primary_logic: ""
+core_operator: 将对比相似度权重矩阵 S(gamma) 转化为低秩谱逼近，并用 SVD 或核化谱分解替代小批量反向传播。
+primary_logic: |
+  UniCon 先由广义对比损失构造对比相似度权重矩阵 S(gamma)，再把对比损失梯度等价写成迹目标的梯度。
+  在线性设定下，该迹目标归结为加权对比协方差矩阵 C(gamma) 的秩-r SVD；在非线性设定下，则通过 RKHS 核算子执行同样的谱逼近。
+  由此，训练从多轮 SGD 更新转为少量闭式谱更新，用于冻结特征下的跨模态或单模态快速对齐。
 claims:
-- 待人工复核。
-paradigm: ""
+- 对比学习优化可被重写为由 S(gamma) 驱动的迹最大化与秩-r 谱发现问题。
+- 线性情形下 UniCon 可通过一次截断 SVD 获得全局最优投影矩阵。
+- 在 MSCOCO、FLICKR30K、CIFAR-10 和合成任务中，UniCon 以秒级训练达到与 SGD-CLIP 相当或更优的对齐质量。
+paradigm: 谱方法驱动的对比表示对齐；将损失梯度更新替换为结构化低秩谱更新，重点适用于冻结编码器特征空间。
 ---
 
 # UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels
 
 > [!tip] 核心洞察
-> 待人工复核。
+> 对比对齐可以被视为由对比相似度权重矩阵 S(gamma) 定义的低秩谱发现问题，因此可用闭式 SVD 或核化谱分解替代多轮 SGD 训练。
 
 | 字段 | 内容 |
 |------|------|
@@ -29,7 +35,7 @@ paradigm: ""
 | 英文题名 | UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=BjL4CSNJug) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method |  |
 | Dataset |  |
 

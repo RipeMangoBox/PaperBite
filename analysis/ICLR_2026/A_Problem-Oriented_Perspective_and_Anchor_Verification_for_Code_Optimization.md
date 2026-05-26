@@ -9,6 +9,7 @@ aliases:
 - POPAVCO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_dialog
 core_operator: 将优化对的构建从用户导向视角转变为问题导向视角，并引入锚点验证框架，利用慢代码作为可信锚点生成验证测试用例进行迭代精炼。
@@ -32,7 +33,7 @@ paradigm: 通过整合同一问题的多个程序员解决方案，问题导向�
 | 英文题名 | A Problem-Oriented Perspective and Anchor Verification for Code Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HGaUV3jjvo) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
 | Method | 问题导向视角与锚点验证框架 |
 | Dataset | PIE/PCO测试集（C++，gem5模拟器）, PIE/PCO测试集（C++，gem5模拟器）, PIE/PCO测试集（C++，gem5模拟器）, PCO测试集（C++，gem5模拟器） |
 

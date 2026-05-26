@@ -10,6 +10,7 @@ aliases:
 - AATTABFEA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning
 openreview_forum_id: 7kLNGaAHaw
@@ -34,7 +35,7 @@ paradigm: 领域偏移本质上在嵌入空间中产生平移（均值偏移）�
 | 英文题名 | Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7kLNGaAHaw) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning |
 | Method | Progressive Embedding Alignment (PEA) |
 | Dataset | ImageNet-C (ViT-Base), CIFAR100-C (ViT-Base), CIFAR10-C (ResNet-50), Mixed-Domain CIFAR100-C (ViT-Base) |
 

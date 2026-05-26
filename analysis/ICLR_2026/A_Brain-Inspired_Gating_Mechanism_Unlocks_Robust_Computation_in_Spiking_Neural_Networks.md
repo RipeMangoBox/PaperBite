@@ -11,6 +11,7 @@ aliases:
 - Dynamic Gated Neuron (DGN)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 引入动态电导因子C_i，使膜电导随输入活动自适应变化，形成生物启发的门控机制。
@@ -34,7 +35,7 @@ paradigm: 动态电导机制在功能上等价于LSTM的遗忘门，通过自适
 | 英文题名 | A Brain-Inspired Gating Mechanism Unlocks Robust Computation in Spiking Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5h741EyfQM) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | Dynamic Gated Neuron (DGN) |
 | Dataset | TIDIGITS, SHD, SSC, Ti46Alpha |
 

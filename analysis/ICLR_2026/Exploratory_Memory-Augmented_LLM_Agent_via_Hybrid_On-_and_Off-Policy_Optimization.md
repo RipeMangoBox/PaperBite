@@ -11,11 +11,13 @@ acceptance: accepted
 tags:
 - topic/iclr_2026
 openreview_forum_id: UOzxviKVFO
-core_operator: Exploratory
-primary_logic: Exploratory
+core_operator: EMPO² augments LLM-agent RL with self-generated reflection memory and hybrid on-policy/off-policy optimization.
+primary_logic: The agent stores tips from trajectory reflection, retrieves relevant tips during rollouts, and distills memory-guided high-reward behavior back into the base policy through mixed updates.
 claims:
-- Exploratory
-paradigm: Exploratory
+- Memory retrieval provides structured exploration beyond the current policy sampling distribution.
+- Off-policy updates reinterpret memory-enhanced trajectories without tip conditioning to internalize useful behaviors.
+- The note reports large ScienceWorld and WebShop gains over GRPO, with memory, off-policy updates, and intrinsic reward all important.
+paradigm: EMPO² 将自生成反思记忆用于引导 LLM 智能体探索，并通过在线与离线混合策略优化把记忆增强轨迹蒸馏回参数策略，从而缓解 GRPO 式纯在线训练的探索不足。
 ---
 
 # Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization
@@ -29,7 +31,7 @@ paradigm: Exploratory
 | 英文题名 | Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UOzxviKVFO) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method |  |
 | Dataset |  |
 

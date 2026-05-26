@@ -10,6 +10,7 @@ aliases:
 - Ours
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 利用线性霍克斯过程的惩罚最小二乘损失函数的二次型结构，通过Mercer展开将无限维优化问题转化为有限维线性系统，且所有对偶系数解析地固定为1，从而避免了对对偶系数的昂贵优化。
@@ -33,7 +34,7 @@ paradigm: 在线性霍克斯过程的惩罚最小二乘框架下，最优触发�
 | 英文题名 | A Representer Theorem for Hawkes Processes via Penalized Least Squares Minimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gJjRdLG5MY) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | Ours |
 | Dataset | Mutually-exciting scenario (T=2000), Mutually-exciting scenario (T=2000), Mutually-exciting scenario (T=7000), Mutually-exciting scenario (T=7000) |
 

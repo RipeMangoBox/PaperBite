@@ -10,6 +10,7 @@ aliases:
 - A3Point
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/segmentation
 core_operator: 将增强点云中的语义混淆（网络固有不确定性）与语义漂移解耦，并通过异常检测定位语义漂移区域，对一致性区域保留原标签监督，对漂移区域采用与类别无关的潜在蒸馏信号。
@@ -33,7 +34,7 @@ paradigm: 语义混淆是网络内在属性且在正常与增强数据上表现�
 | 英文题名 | Adaptive Augmentation-Aware Latent Learning for Robust LiDAR Semantic Segmentation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=l7Cwq08AO0) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/segmentation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/segmentation |
 | Method | A3Point |
 | Dataset | SemanticKITTI → SemanticSTF, SynLiDAR → SemanticSTF, SemanticKITTI → SemanticSTF (SPVCNN backbone) |
 

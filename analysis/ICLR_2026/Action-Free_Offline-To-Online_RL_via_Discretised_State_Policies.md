@@ -10,6 +10,7 @@ aliases:
 - AFOORDSP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/batch_offline
 core_operator: "将状态变化离散化为{增大、减小、不变}，利用集成解耦Q学习在此离散动作式空间中学习状态策略，并通过保守正则化约束状态可达性。"
@@ -33,7 +34,7 @@ paradigm: 学习预测离散状态转移而非直接输出动作，使从仅含(
 | 英文题名 | Action-Free Offline-To-Online RL via Discretised State Policies |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=TImzB3SxUO) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/batch_offline |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/batch_offline |
 | Method | OSO-DecQN (Offline State-Only Decoupled Q-Network) |
 | Dataset | Hopper-medium-replay (D4RL), Walker2D-medium (guided online, 1M steps) |
 

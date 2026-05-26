@@ -9,8 +9,15 @@ aliases:
 - MNIO
 - RPTSRADBCO
 acceptance: accepted
+core_operator: 该理论分析最小范数插值在线性尖峰协方差回归中的渐近泛化风险分解。
+primary_logic: 数据模型分离尖峰和体噪声分量，再在比例极限下解析偏置、方差、噪声和目标对齐贡献。
+claims:
+- 目标与尖峰方向对齐并不总是改善泛化，其效果依赖尖峰强度、过参数化比例和误设定。
+- 在算子范数标度下，对齐可随尖峰强度从温和风险转入灾难性再转入良性过拟合。
+- 合成实验、三层ReLU网络和MNIST衍生实验支持理论相变预测。
 paradigm: 在尖峰协方差线性回归中，泛化误差由偏置、方差、数据噪声和目标对齐四项精确分解控制。尖峰强度与对齐的相互作用可导致非单调相变：在良设定对齐问题中，增大尖峰强度会先引发灾难性过拟合，然后才进入良性过拟合；目标-尖峰对齐并非总是有利，其利弊取决于尖峰强度是否超过关键阈值以及模型是否误设定。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/theory
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Risk Phase Transitions in Spiked Regression: Alignment Driven Benign and Catastrophic Overfitting |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fFG4wZee3f) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
 | Method | 最小范数插值（Minimum-Norm Interpolating OLS） |
 | Dataset | 合成数据（尖峰协方差线性回归）, 合成数据（尖峰协方差线性回归）, 合成数据（尖峰协方差线性回归）, 合成数据（尖峰协方差线性回归） |
 

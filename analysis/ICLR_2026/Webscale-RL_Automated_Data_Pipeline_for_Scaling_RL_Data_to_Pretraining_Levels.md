@@ -10,6 +10,7 @@ aliases:
 - Webscale-RL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 通过自动化、分阶段的数据转换管道，将海量预训练文档转化为符合RL格式的问答对，同时保留原始数据的多样性与规模，从而直接解除RL的数据供给瓶颈。
 primary_logic: 将预训练文本转换为可验证的QA对，使RL能够以极低的token消耗（约1/100）匹配甚至超越持续预训练的性能，证明了RL的样本效率优势在通用领域同样适用，并为RL规模化至预训练级别提供了可行路径。
@@ -32,7 +33,7 @@ paradigm: 将预训练文本转换为可验证的QA对，使RL能够以极低的
 | 英文题名 | Webscale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hOJS9RB1NU) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Webscale-RL |
 | Dataset | Average across 7 benchmarks (MMLU-pro, Big-Bench, GPQA-D, MATH500, GSM8K, MBPP, EvalPlus), Gap to Qwen2.5-7B (average across benchmarks), MMLU-pro (Scaling efficiency), Big-Bench (Scaling efficiency) |
 

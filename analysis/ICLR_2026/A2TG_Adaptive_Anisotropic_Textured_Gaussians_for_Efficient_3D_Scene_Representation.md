@@ -10,6 +10,7 @@ aliases:
 - 2AATGE3SR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/3d_rendering_reconstruction
 core_operator: 基于梯度引导的自适应纹理控制策略：利用位置梯度筛选需要高频细节的高斯，再根据高斯两个轴的比例各向异性地上采样纹理分辨率与宽高比，从而实现按需分配纹理参数。
@@ -33,7 +34,7 @@ paradigm: 通过梯度驱动的高斯筛选与各向异性上采样，纹理分�
 | 英文题名 | A^2TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EPN5MU4liR) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | A^2TG (Adaptive Anisotropic Textured Gaussians) |
 | Dataset | DeepBlending (200MB fixed memory budget), DeepBlending (#GS=1M, fixed Gaussians), Mip-NeRF360 (60MB fixed memory budget), Mip-NeRF360 (#GS=500k, fixed Gaussians) |
 

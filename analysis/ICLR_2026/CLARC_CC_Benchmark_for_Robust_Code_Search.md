@@ -9,6 +9,7 @@ aliases:
 - CLARC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 代码中标识符的词法信息（原始、中性化、随机化）以及代码表示层次（高级语言 vs. Assembly/WebAssembly）
@@ -32,7 +33,7 @@ paradigm: 当前主流训练范式和评估基准鼓励模型匹配表面文本�
 | 英文题名 | CLARC: C/C++ Benchmark for Robust Code Search |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oO6D0whLDo) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | CLARC 基准数据集与自动化构建流水线 |
 | Dataset | CLARC Group1 (Standard), CLARC Group1 (Neutralized vs Standard), CLARC Group1 (Randomized vs Standard), CLARC Group1 (Assembly) |
 

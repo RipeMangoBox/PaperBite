@@ -33,7 +33,7 @@ paradigm: 即使在所有 rollout 均不正确的情况下，通过将问题分�
 | 英文题名 | Supervised Reinforcement Learning: From Expert Trajectories to Step-wise Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Uro84w2xz5) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Supervised Reinforcement Learning (SRL) |
 | Dataset | AIME24, Minerva Math, Overall Average (AMC23, AIME24, AIME25, Minerva Math), SWE-Bench-Verified (Oracle File Edit) |
 

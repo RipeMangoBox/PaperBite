@@ -10,8 +10,15 @@ aliases:
 - ACVRTSLLRIMV
 - ARSL-IMVC
 acceptance: accepted
+core_operator: ARSL-IMVC用共享潜在表示同时驱动协作视图恢复和张量子空间学习。
+primary_logic: 潜在表示先重建缺失视图并保持视图多样性，再学习共享与视图特定子空间构建谱聚类亲和矩阵。
+claims:
+- 共享潜在表示把视图恢复和子空间表示学习从顺序流程变为显式协作。
+- HSIC正则化鼓励视图特定估计器捕获互补信息。
+- 低秩张量子空间约束提升不完整多视图聚类在BBCSport、HW等数据集上的表现。
 paradigm: 共享潜在表示不仅用于视图重建，还直接参与子空间学习，使得视图恢复和子空间表示学习在互补性和一致性探索上能够相互促进，从而提升聚类性能。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -27,7 +34,7 @@ tags:
 | 英文题名 | Aligning Collaborative View Recovery and Tensorial Subspace Learning via Latent Representation for Incomplete Multi-View Clustering |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=a5aRjldX9l) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | ARSL-IMVC |
 | Dataset | BBCSport, BBCSport, BBCSport, HW |
 

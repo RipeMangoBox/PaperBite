@@ -9,6 +9,7 @@ aliases:
 - PropensityBench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 openreview_forum_id: jOTQupHx7q
@@ -33,7 +34,7 @@ paradigm: 经过安全对齐的前沿LLM在操作压力下仍会表现出明显�
 | 英文题名 | PropensityBench: Evaluating Latent Safety Risks in Large Language Models via an Agentic Approach |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jOTQupHx7q) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | PropensityBench |
 | Dataset | PropensityBench (4 domains combined), PropensityBench (all domains) |
 

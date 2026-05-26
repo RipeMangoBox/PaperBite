@@ -32,7 +32,7 @@ paradigm: 离散令牌化使安全约束可通过高效的局部搜索、掩码�
 | 英文题名 | Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=XJxXSMLDoZ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ReflectDrive |
 | Dataset | NAVSIM (closed-loop), NAVSIM, NAVSIM, NAVSIM (oracle upper bound) |
 

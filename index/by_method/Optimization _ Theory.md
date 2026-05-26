@@ -4,7 +4,7 @@ type: paper-index
 dimension: method
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Method: Optimization / Theory
@@ -229,7 +229,6 @@ generated: 2026-05-23T23:39
 	- methods: LMABO (Language Model-Assisted Adaptive Bayesian Optimization)
 - [[analysis/ICLR_2026/Adaptive_Collaboration_with_Humans_Metacognitive_Policy_Optimization_for_Multi-Agent_LLMs_with_Continual_Learning.md|Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Collaboration_with_Humans_Metacognitive_Policy_Optimization_for_Multi-Agent_LLMs_with_Continual_Learning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Optimization / Theory
 	- methods: Human-In-the-Loop Multi-Agent Collaboration (HILA) with Dual-Loop Policy Optimization (DLPO)
 	- datasets: GSM8K, AMC, AIME
@@ -257,6 +256,12 @@ generated: 2026-05-23T23:39
 	- method groups: Agent / RL / Planning, Optimization / Theory
 	- methods: AutoQD
 	- datasets: Ant, Swimmer, BipedalWalker
+- [[analysis/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.md|Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.pdf|PDF]]
+	- topics: Generative Models / Diffusion
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
+	- methods: Rank-1 EWC with Generative Distillation
+	- datasets: MNIST, FashionMNIST
 - [[analysis/ICLR_2026/Binomial_Gradient-Based_Meta-Learning_for_Enhanced_Meta-Gradient_Estimation.md|Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Binomial_Gradient-Based_Meta-Learning_for_Enhanced_Meta-Gradient_Estimation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -293,6 +298,30 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory, Vision / Multimodal / 3D
 	- methods: Constraint-based Model Reduction with Multi-Modal Representation (Ours)
 	- datasets: CA, MVC, Large-scale CA
+- [[analysis/ICLR_2026/Discount_Model_Search_for_Quality_Diversity_Optimization_in_High-Dimensional_Measure_Spaces.md|Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Discount_Model_Search_for_Quality_Diversity_Optimization_in_High-Dimensional_Measure_Spaces.pdf|PDF]]
+	- method groups: Optimization / Theory
+	- methods: Discount Model Search (DMS)
+- [[analysis/ICLR_2026/DTO-KD_Dynamic_Trade-off_Optimization_for_Effective_Knowledge_Distillation.md|DTO-KD: Dynamic Trade-off Optimization for Effective Knowledge Distillation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DTO-KD_Dynamic_Trade-off_Optimization_for_Effective_Knowledge_Distillation.pdf|PDF]]
+	- method groups: Optimization / Theory, Systems / Efficiency / Compression
+	- methods: DTO-KD
+	- datasets: ImageNet-1K, COCO
+- [[analysis/ICLR_2026/Efficient_Resource-Constrained_Training_of_Transformers_via_Subspace_Optimization.md|Efficient Resource-Constrained Training of Transformers via Subspace Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Efficient_Resource-Constrained_Training_of_Transformers_via_Subspace_Optimization.pdf|PDF]]
+	- method groups: Optimization / Theory, Systems / Efficiency / Compression
+	- methods: WASI (Weight-Activation Subspace Iteration)
+	- datasets: ViT on CIFAR-10, SwinT on multiple datasets, TinyLlama on BoolQ
+- [[analysis/ICLR_2026/Fast_Escape_Slow_Convergence_Learning_Dynamics_of_Phase_Retrieval_under_Power-Law_Data.md|Fast Escape, Slow Convergence: Learning Dynamics of Phase Retrieval under Power-Law Data (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Fast_Escape_Slow_Convergence_Learning_Dynamics_of_Phase_Retrieval_under_Power-Law_Data.pdf|PDF]]
+	- method groups: Optimization / Theory, LLM / Reasoning / Alignment
+	- methods: Three-phase Gradient Flow Analysis for Anisotropic Phase Retrieval
+	- datasets: Synthetic Phase Retrieval under Power-Law Covariance, Synthetic Data
+- [[analysis/ICLR_2026/Fast_training_of_accurate_physics-informed_neural_networks_without_gradient_descent.md|Fast training of accurate physics-informed neural networks without gradient descent (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Fast_training_of_accurate_physics-informed_neural_networks_without_gradient_descent.pdf|PDF]]
+	- method groups: Optimization / Theory
+	- methods: Frozen-PINN
+	- datasets: 线性对流方程, 波动方程
 - [[analysis/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.md|FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -311,9 +340,13 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: GELATO
 	- datasets: AIDS, LINUX
+- [[analysis/ICLR_2026/Global_Resolution_Optimal_Multi-Draft_Speculative_Sampling_via_Convex_Optimization.md|Global Resolution: Optimal Multi-Draft Speculative Sampling via Convex Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Global_Resolution_Optimal_Multi-Draft_Speculative_Sampling_via_Convex_Optimization.pdf|PDF]]
+	- method groups: Optimization / Theory
+	- methods: Global Resolution
+	- datasets: Llama-3 70B/8B, Gemma-2 27B/2B
 - [[analysis/ICLR_2026/HeuriGym_An_Agentic_Benchmark_for_LLM-Crafted_Heuristics_in_Combinatorial_Optimization.md|HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/HeuriGym_An_Agentic_Benchmark_for_LLM-Crafted_Heuristics_in_Combinatorial_Optimization.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Optimization / Theory, Benchmark / Evaluation
 	- methods: HeuriGym
 	- datasets: HeuriGym, 对比进化框架
@@ -323,6 +356,11 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory
 	- methods: SGD with momentum (SGD-M) 及带有梯度单位范数预条件的 SGD（SGD-U）的高维标度极限框架
 	- datasets: Spiked Tensor / Matrix PCA, Single Index Model=x^7+4x^4 with noise), Matrix PCA
+- [[analysis/ICLR_2026/How_Do_Transformers_Learn_to_Associate_Tokens_Gradient_Leading_Terms_Bring_Mechanistic_Interpretability.md|How Do Transformers Learn to Associate Tokens: Gradient Leading Terms Bring Mechanistic Interpretability (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/How_Do_Transformers_Learn_to_Associate_Tokens_Gradient_Leading_Terms_Bring_Mechanistic_Interpretability.pdf|PDF]]
+	- method groups: Optimization / Theory
+	- methods: 梯度主导项表征理论（Gradient Leading Term Characterization）
+	- datasets: TinyStories, OpenWebText
 - [[analysis/ICLR_2026/In-the-Flow_Agentic_System_Optimization_for_Effective_Planning_and_Tool_Use.md|In-the-Flow Agentic System Optimization for Effective Planning and Tool Use (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/In-the-Flow_Agentic_System_Optimization_for_Effective_Planning_and_Tool_Use.pdf|PDF]]
 	- topics: Reinforcement Learning / Planning / Agents
@@ -347,6 +385,16 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory, Representation / Self-Supervised / Transfer
 	- methods: MaskCO
 	- datasets: TSP-100, TSP-1000, CVRP-1000
+- [[analysis/ICLR_2026/Modality-free_Graph_In-context_Alignment.md|Modality-free Graph In-context Alignment (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Modality-free_Graph_In-context_Alignment.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: MF-GIA (Modality-Free Graph In-context Alignment)
+	- datasets: Cora, ogbn-Products, Physics
+- [[analysis/ICLR_2026/Multiplayer_Nash_Preference_Optimization.md|Multiplayer Nash Preference Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Multiplayer_Nash_Preference_Optimization.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: MNPO (Multiplayer Nash Preference Optimization)
+	- datasets: Arena-Hard, AlpacaEval 2.0
 - [[analysis/ICLR_2026/Muon_Outperforms_Adam_in_Tail-End_Associative_Memory_Learning.md|Muon Outperforms Adam in Tail-End Associative Memory Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Muon_Outperforms_Adam_in_Tail-End_Associative_Memory_Learning.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
@@ -369,6 +417,16 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory
 	- methods: 第一层训练的两层 Kolmogorov‑Arnold 网络（First‑Layer Training for Two‑Layer KANs）
 	- datasets: 合成数据, 理论比较
+- [[analysis/ICLR_2026/Pareto-Conditioned_Diffusion_Models_for_Offline_Multi-Objective_Optimization.md|Pareto-Conditioned Diffusion Models for Offline Multi-Objective Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Pareto-Conditioned_Diffusion_Models_for_Offline_Multi-Objective_Optimization.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
+	- methods: PCD (Pareto-Conditioned Diffusion)
+	- datasets: Overall, Real-World Applications, Synthetic ZDT2
+- [[analysis/ICLR_2026/RAIN-Merging_A_Gradient-Free_Method_to_Enhance_Instruction_Following_in_Large_Reasoning_Models_with_Preserved_Thinking_Format.md|RAIN-Merging: A Gradient-Free Method to Enhance Instruction Following in Large Reasoning Models with Preserved Thinking Format (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/RAIN-Merging_A_Gradient-Free_Method_to_Enhance_Instruction_Following_in_Large_Reasoning_Models_with_Preserved_Thinking_Format.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: RAIN-Merging
+	- datasets: IFEval, Math, Instruction Following Average
 - [[analysis/ICLR_2026/Reevaluating_Policy_Gradient_Methods_for_Imperfect-Information_Games.md|Reevaluating Policy Gradient Methods for Imperfect-Information Games (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Reevaluating_Policy_Gradient_Methods_for_Imperfect-Information_Games.pdf|PDF]]
 	- topics: Reinforcement Learning / Planning / Agents
@@ -387,6 +445,11 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory
 	- methods: Saddle-to-Saddle Dynamics Framework
 	- datasets: 多种两层架构, MNIST 二分类
+- [[analysis/ICLR_2026/SafeDPO_A_Simple_Approach_to_Direct_Preference_Optimization_with_Enhanced_Safety.md|SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SafeDPO_A_Simple_Approach_to_Direct_Preference_Optimization_with_Enhanced_Safety.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: SafeDPO
+	- datasets: PKU-SafeRLHF-30K
 - [[analysis/ICLR_2026/Semi-Supervised_Preference_Optimization_with_Limited_Feedback.md|Semi-Supervised Preference Optimization with Limited Feedback (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Semi-Supervised_Preference_Optimization_with_Limited_Feedback.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
@@ -401,7 +464,6 @@ generated: 2026-05-23T23:39
 	- datasets: Toy dataset) / UCI Breast Cancer, Difficult separability toy data)
 - [[analysis/ICLR_2026/Stronger-MAS_Multi-Agent_Reinforcement_Learning_for_Collaborative_LLMs.md|Stronger-MAS: Multi-Agent Reinforcement Learning for Collaborative LLMs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Stronger-MAS_Multi-Agent_Reinforcement_Learning_for_Collaborative_LLMs.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Optimization / Theory
 	- methods: AT-GRPO (Agent- and Turn-wise Grouped Relative Policy Optimization)
 	- datasets: Sudoku - Qwen3-1.7B, Sokoban - Qwen3-8B, Plan-Path - Qwen3-1.7B
@@ -417,15 +479,40 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Optimization / Theory
 	- methods: DHIC-Regu (Explicit Spectral Regularization for Hierarchical Coding)
 	- datasets: Kodak, CLIC Pro, Tecnick
+- [[analysis/ICLR_2026/Task-free_Adaptive_Meta_Black-box_Optimization.md|Task-free Adaptive Meta Black-box Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Task-free_Adaptive_Meta_Black-box_Optimization.pdf|PDF]]
+	- method groups: Optimization / Theory
+	- methods: ABOM (Adaptive meta Black-box Optimization Model)
+	- datasets: BBOB f6, BBOB f8, UAV 路径规划
+- [[analysis/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.md|Token-Importance Guided Direct Preference Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: TI-DPO
+	- datasets: MMLU, GSM8K, GPQA
 - [[analysis/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.md|Training-Free Determination of Network Width via Neural Tangent Kernel (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: 基于NTK最小特征值的训练无关cardinal width选择
 	- datasets: DNN on Diabetes / California Housing, CNN / ResNet on CIFAR-10 / MNIST, DNN on MNIST / XOR
+- [[analysis/ICLR_2026/TROLL_Trust_Regions_Improve_Reinforcement_Learning_for_Large_Language_Models.md|TROLL: Trust Regions Improve Reinforcement Learning for Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TROLL_Trust_Regions_Improve_Reinforcement_Learning_for_Large_Language_Models.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Optimization / Theory
+	- methods: TROLL (Trust Region Optimization for Large Language models)
+	- datasets: DAPO-Train, DAPO-Eval, MATH-Eval
 - [[analysis/ICLR_2026/Understanding_vs._Generation_Navigating_Optimization_Dilemma_in_Multimodal_Models.md|Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Understanding_vs._Generation_Navigating_Optimization_Dilemma_in_Multimodal_Models.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Optimization / Theory
 	- methods: Reason-Reflect-Refine (R3)
 	- datasets: GenEval++, Image-Text Alignment, Compositional VQA
+- [[analysis/ICLR_2026/Uni-DPO_A_Unified_Paradigm_for_Dynamic_Preference_Optimization_of_LLMs.md|Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Uni-DPO_A_Unified_Paradigm_for_Dynamic_Preference_Optimization_of_LLMs.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: Uni-DPO
+	- datasets: AlpacaEval 2.0, Arena-Hard, Math Reasoning
+- [[analysis/ICLR_2026/When_Weak_LLMs_Speak_with_Confidence_Preference_Alignment_Gets_Stronger.md|When Weak LLMs Speak with Confidence, Preference Alignment Gets Stronger (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/When_Weak_LLMs_Speak_with_Confidence_Preference_Alignment_Gets_Stronger.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: Confidence-Weighted Preference Optimization (CW-PO)
+	- datasets: HH-RLHF, TL, DR

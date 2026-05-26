@@ -10,6 +10,7 @@ aliases:
 - GMNLKAN
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 openreview_forum_id: ONpyYavBqR
@@ -34,7 +35,7 @@ paradigm: KANs与MLPs共享相同的隐藏层置换对称性（Proposition 3.1�
 | 英文题名 | A Graph Meta-Network for Learning on Kolmogorov–Arnold Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ONpyYavBqR) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | WS-KAN |
 | Dataset | MNIST INR, Fashion-MNIST INR, CIFAR-10 INR, MNIST Accuracy Prediction |
 

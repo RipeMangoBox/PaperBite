@@ -10,6 +10,7 @@ aliases:
 - Grounding-IQA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/computer_vision_task
 core_operator: 将多模态指称（referring）与定位（grounding）机制引入图像质量评价，让模型能够在质量描述和问答中提供并利用精确的边界框坐标，从而实现从整体到局部的精细化质量感知。
@@ -33,7 +34,7 @@ paradigm: 图像质量评估不仅需要语言描述，还需要类似人类视�
 | 英文题名 | Grounding-IQA: Grounding Multimodal Language Model for Image Quality Assessment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=yEpE0QPpf8) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/computer_vision_task |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/computer_vision_task |
 | Method | Grounding-IQA |
 | Dataset | GIQA-Bench, GIQA-Bench |
 

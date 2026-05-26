@@ -33,7 +33,7 @@ paradigm: 将广泛的3D任务（生成、编辑、问答）重新定义为单�
 | 英文题名 | Part-X-MLLM: Part-aware 3D Multimodal Large Language Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=WffiETiSeU) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Part-X-MLLM |
 | Dataset | UniPart-Bench, UniPart-Bench, UniPart-Bench, UniPart-Bench (Ablation) |
 

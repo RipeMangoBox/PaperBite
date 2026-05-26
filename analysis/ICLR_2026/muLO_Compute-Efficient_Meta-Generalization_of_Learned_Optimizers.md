@@ -9,6 +9,7 @@ aliases:
 - MLCEMGLO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_for_optimization
 core_operator: 优化器更新缩放、初始化方差和前激活乘数对网络宽度的依赖关系。标准参数化（SP）未正确缩放这些量，导致宽网络中的前激活爆炸和更新不稳定。最大更新参数化（µP）通过引入与扇入（FAN_IN）相关的缩放因子来修正这些依赖关系。
@@ -32,7 +33,7 @@ paradigm: 将最大更新参数化（µP）应用于学习型优化器架构（s
 | 英文题名 | $\mu$LO: Compute-Efficient Meta-Generalization of Learned Optimizers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=f8z2bzOLK2) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_for_optimization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_for_optimization |
 | Method | µLO（µ-参数化学习型优化器） |
 | Dataset | MLP IN32 (ImageNet-32), MLP IN32 (ImageNet-32) W=8192, MLP C10 (CIFAR-10) W=8192, LM (LM1B) W=4096 |
 

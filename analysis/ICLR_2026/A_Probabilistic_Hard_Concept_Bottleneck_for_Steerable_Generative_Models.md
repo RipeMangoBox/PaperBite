@@ -10,6 +10,7 @@ aliases:
 - PHCBSGM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 将概念瓶颈层从确定性软概念映射改为基于二元VAE的概率化硬概念映射（VHCB层），通过硬二值表示阻断泄漏，并利用概率公式实现从指定概念配置直接生成。
@@ -33,7 +34,7 @@ paradigm: 通过将Coded DVAE扩展为包含概念向量c和无监督侧信道s�
 | 英文题名 | A Probabilistic Hard Concept Bottleneck for Steerable Generative Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Kcb6WufAco) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Variational Hard Concept Bottleneck (VHCB) |
 | Dataset | CelebA-HQ (StyleGAN2), CelebA-HQ (StyleGAN2), CelebA-HQ (StyleGAN2), CelebA-HQ (StyleGAN2) |
 

@@ -11,6 +11,7 @@ aliases:
 - SR-3D (Spatial Region 3D)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 将3D位置嵌入直接集成到基础视觉语言模型的视觉表示中，并通过动态分块（dynamic tiling）的区域提取器，在共享的规范化3D坐标空间中统一单视图和多视图输入。
@@ -34,7 +35,7 @@ paradigm: 通过将单视图图像的深度估计结果反投影到规范化3D�
 | 英文题名 | 3D Aware Region Prompted Vision Language Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GTpf2NuwtR) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | SR-3D (Spatial Region 3D) |
 | Dataset | BLINK_Depth, COCO-2017 region-level classification, COCO-2017 region-level classification, Scan2Cap |
 

@@ -10,6 +10,7 @@ aliases:
 - RiboDiff
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/genetics_cell_biology_health_etc
 core_operator: 将预训练的跨分子结构预测模型RoseTTAFold2NA (RF2NA)作为去噪网络嵌入到联合扩散框架中，利用其丰富的先验知识提升数据效率。
@@ -33,7 +34,7 @@ paradigm: 利用预训练生物分子模型（RF2NA）作为扩散模型的去�
 | 英文题名 | A Joint Diffusion Model with Pre-Trained Priors for RNA Sequence-Structure Co-Design |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cpc63YrVWN) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
 | Method | RiboDiff |
 | Dataset | 单RNA设计 (RNASolo), 单RNA设计 (RNASolo), 单RNA设计 (RNASolo), RNA-蛋白质复合物设计 |
 

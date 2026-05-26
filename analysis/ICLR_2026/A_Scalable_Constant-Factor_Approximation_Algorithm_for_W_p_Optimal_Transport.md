@@ -10,6 +10,7 @@ aliases:
 - SCFAAWPOT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/optimization
 core_operator: "通过 Bourgain 多级采样构造有向 spanner，将 $\\mathsf{d}(\\cdot,\\cdot)^p$ 的近似问题转化为有向图中的最短路径问题，从而绕过 $\\mathsf{d}(\\cdot,\\cdot)^p$ 不满足三角不等式的困难。"
@@ -33,7 +34,7 @@ paradigm: "利用多级聚类和精心选择的 Steiner 点构造有向 spanner�
 | 英文题名 | A Scalable Constant-Factor Approximation Algorithm for $W_p$ Optimal Transport |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RPQKJxrEPs) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization |
 | Method | 基于多级聚类有向 spanner 的 $W_p$ 最优传输近似算法 |
 | Dataset | 合成正态分布数据, MNIST 数据集 (p=2), 均匀分布数据 |
 

@@ -10,6 +10,7 @@ aliases:
 - TaCo
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 openreview_forum_id: 1PYXFkS6Hy
@@ -34,7 +35,7 @@ paradigm: 将异构触觉数据统一映射为二维图像格式，复用成熟�
 | 英文题名 | TaCo: A Benchmark for Lossless and Lossy Codecs of Heterogeneous Tactile Data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1PYXFkS6Hy) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | TaCo-LL（无损压缩）和TaCo-L（有损压缩） |
 | Dataset | TouchandGo, ObjTac, TouchandGo, YCB-Slide |
 

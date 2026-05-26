@@ -10,6 +10,7 @@ aliases:
 - ∂∞-Grid
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 将特征网格与径向基函数（RBF）插值相结合，并采用多分辨率共位网格分解。
@@ -33,7 +34,7 @@ paradigm: 使用无限可微的RBF插值替代线性插值，使得基于网格�
 | 英文题名 | $\boldsymbol{\partial^\infty}$-Grid: A Neural Differential Equation Solver with Differentiable Feature Grids |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7G0L4cj452) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | ∂∞-Grid |
 | Dataset | 泊松方程图像重建（梯度监督）, 泊松方程图像重建（梯度监督）, 泊松方程图像重建（拉普拉斯监督）, 泊松方程图像重建（拉普拉斯监督） |
 

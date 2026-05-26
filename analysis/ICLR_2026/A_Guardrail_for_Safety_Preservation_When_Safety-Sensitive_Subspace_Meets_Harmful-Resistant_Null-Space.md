@@ -10,6 +10,7 @@ aliases:
 - GuardSpace
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 core_operator: 通过协方差预条件奇异值分解（SVD）将预训练权重显式分解为安全相关和安全无关组件，并构建零空间投影器，将适配器更新约束在有害输入的零空间中。
@@ -33,7 +34,7 @@ paradigm: 安全对齐的退化源于微调更新干扰了安全相关权重组�
 | 英文题名 | A Guardrail for Safety Preservation: When Safety-Sensitive Subspace Meets Harmful-Resistant Null-Space |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=887vde4ZAW) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | GuardSpace |
 | Dataset | SST-2, SST-2, AGNEWS, AGNEWS |
 

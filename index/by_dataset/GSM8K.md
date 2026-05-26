@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: GSM8K
@@ -47,22 +47,30 @@ generated: 2026-05-23T23:39
 	- datasets: GSM8K, Overall
 - [[analysis/ICLR_2026/Adaptive_Collaboration_with_Humans_Metacognitive_Policy_Optimization_for_Multi-Agent_LLMs_with_Continual_Learning.md|Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Collaboration_with_Humans_Metacognitive_Policy_Optimization_for_Multi-Agent_LLMs_with_Continual_Learning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Optimization / Theory
 	- methods: Human-In-the-Loop Multi-Agent Collaboration (HILA) with Dual-Loop Policy Optimization (DLPO)
 	- datasets: GSM8K, AMC, AIME
 - [[analysis/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md|Adaptive Thinking: Large Language Models Know When to Think in Latent Space (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Sonata (Self-Consistency-Guided Adapter for Thinking Allocation)
 	- datasets: AIME25, MATH-500, GSM8K
+- [[analysis/ICLR_2026/ADEPT_Continual_Pretraining_via_Adaptive_Expansion_and_Dynamic_Decoupled_Tuning.md|ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ADEPT_Continual_Pretraining_via_Adaptive_Expansion_and_Dynamic_Decoupled_Tuning.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: ADEPT
+	- datasets: GSM8K, CMB, MedQA
 - [[analysis/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.md|Attention Is All You Need for KV Cache in Diffusion LLMs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Attention_Is_All_You_Need_for_KV_Cache_in_Diffusion_LLMs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Elastic-Cache
 	- datasets: GSM8K
+- [[analysis/ICLR_2026/Beyond_Fixed_Training-Free_Variable-Length_Denoising_for_Diffusion_Large_Language_Models.md|Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Beyond_Fixed_Training-Free_Variable-Length_Denoising_for_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: DAEDAL
+	- datasets: GSM8K, MATH500, MBPP
 - [[analysis/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.md|Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -71,22 +79,59 @@ generated: 2026-05-23T23:39
 	- datasets: GSM8K, HumanEval
 - [[analysis/ICLR_2026/Co-rewarding_Stable_Self-supervised_RL_for_Eliciting_Reasoning_in_Large_Language_Models.md|Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Co-rewarding_Stable_Self-supervised_RL_for_Eliciting_Reasoning_in_Large_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
 	- methods: Co-rewarding
 	- datasets: MATH500, GSM8K, CRUX
+- [[analysis/ICLR_2026/Consolidating_Reinforcement_Learning_for_Multimodal_Discrete_Diffusion_Models.md|Consolidating Reinforcement Learning for Multimodal Discrete Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Consolidating_Reinforcement_Learning_for_Multimodal_Discrete_Diffusion_Models.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: MaskGRPO
+	- datasets: GSM8K, MATH500, MBPP
 - [[analysis/ICLR_2026/Curriculum_Reinforcement_Learning_from_Easy_to_Hard_Tasks_Improves_LLM_Reasoning.md|Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Curriculum_Reinforcement_Learning_from_Easy_to_Hard_Tasks_Improves_LLM_Reasoning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: E2H Reasoner (E2H)
 	- datasets: Blocksworld, Countdown, GSM8K
+- [[analysis/ICLR_2026/Diffusion_Language_Model_Knows_the_Answer_Before_It_Decodes.md|Diffusion Language Model Knows the Answer Before It Decodes (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Diffusion_Language_Model_Knows_the_Answer_Before_It_Decodes.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Prophet (Early Commit Decoding)
+	- datasets: MMLU, GSM8K
+- [[analysis/ICLR_2026/Dont_Settle_Too_Early_Self-Reflective_Remasking_for_Diffusion_Language_Models.md|Don't Settle Too Early: Self-Reflective Remasking for Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Dont_Settle_Too_Early_Self-Reflective_Remasking_for_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: RemeDi (Remasking-enabled Diffusion Language Model)
+	- datasets: GSM8K, MATH, HumanEval
+- [[analysis/ICLR_2026/DPad_Efficient_Diffusion_Language_Models_with_Suffix_Dropout.md|DPad: Efficient Diffusion Language Models with Suffix Dropout (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DPad_Efficient_Diffusion_Language_Models_with_Suffix_Dropout.pdf|PDF]]
+	- method groups: Systems / Efficiency / Compression, Generative / Diffusion / Flow
+	- methods: DPad
+	- datasets: GSM8K, HumanEval
 - [[analysis/ICLR_2026/DRPO_Efficient_Reasoning_via_Decoupled_Reward_Policy_Optimization.md|DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/DRPO_Efficient_Reasoning_via_Decoupled_Reward_Policy_Optimization.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: DRPO (Decoupled Reward Policy Optimization)
 	- datasets: GSM8K, AES
+- [[analysis/ICLR_2026/Energy-Based_Transformers_are_Scalable_Learners_and_Thinkers.md|Energy-Based Transformers are Scalable Learners and Thinkers (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Energy-Based_Transformers_are_Scalable_Learners_and_Thinkers.pdf|PDF]]
+	- method groups: Other Method Family
+	- methods: Energy-Based Transformers (EBTs)
+	- datasets: GSM8K, Image Denoising, Image Classification
+- [[analysis/ICLR_2026/Fast-dLLM_v2_Efficient_Block-Diffusion_LLM.md|Fast-dLLM v2: Efficient Block-Diffusion LLM (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Fast-dLLM_v2_Efficient_Block-Diffusion_LLM.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Fast-dLLM v2
+	- datasets: GSM8K, HumanEval Base, Average
+- [[analysis/ICLR_2026/Fast-dLLM_Training-free_Acceleration_of_Diffusion_LLM_by_Enabling_KV_Cache_and_Parallel_Decoding.md|Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Fast-dLLM_Training-free_Acceleration_of_Diffusion_LLM_by_Enabling_KV_Cache_and_Parallel_Decoding.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Fast-dLLM
+	- datasets: GSM8K, MATH, MBPP
+- [[analysis/ICLR_2026/FlashDLM_Accelerating_Diffusion_Language_Model_Inference_via_Efficient_KV_Caching_and_Guided_Diffusion.md|FlashDLM: Accelerating Diffusion Language Model Inference via Efficient KV Caching and Guided Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/FlashDLM_Accelerating_Diffusion_Language_Model_Inference_via_Efficient_KV_Caching_and_Guided_Diffusion.pdf|PDF]]
+	- method groups: Systems / Efficiency / Compression, LLM / Reasoning / Alignment
+	- methods: FlashDLM (FreeCache + Guided Diffusion)
+	- datasets: GSM8K, MMLU-PRO, PiQA
 - [[analysis/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.md|Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -95,25 +140,36 @@ generated: 2026-05-23T23:39
 	- datasets: GLUE, MT-Bench, GSM8K
 - [[analysis/ICLR_2026/Improving_Reasoning_for_Diffusion_Language_Models_via_Group_Diffusion_Policy_Optimization.md|Improving Reasoning for Diffusion Language Models via Group Diffusion Policy Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Improving_Reasoning_for_Diffusion_Language_Models_via_Group_Diffusion_Policy_Optimization.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: Group Diffusion Policy Optimization (GDPO)
 	- datasets: GSM8K, MATH500, Countdown
+- [[analysis/ICLR_2026/Incentivizing_LLM_Reasoning_via_Reinforcement_Learning_with_Functional_Monte_Carlo_Tree_Search.md|Incentivizing LLM Reasoning via Reinforcement Learning with Functional Monte Carlo Tree Search (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Incentivizing_LLM_Reasoning_via_Reinforcement_Learning_with_Functional_Monte_Carlo_Tree_Search.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: RFTT (Reinforced Functional Token Tuning)
+	- datasets: MATH-500, GSM8K
 - [[analysis/ICLR_2026/Inpainting-Guided_Policy_Optimization_for_Diffusion_Large_Language_Models.md|Inpainting-Guided Policy Optimization for Diffusion Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Inpainting-Guided_Policy_Optimization_for_Diffusion_Large_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: IGPO (Inpainting Guided Policy Optimization)
 	- datasets: GSM8K, MATH500, AMC
+- [[analysis/ICLR_2026/Jackpot_Align_Actor-Policy_Distribution_for_scalable_and_stable_RL_for_LLM.md|Jackpot: Align Actor-Policy Distribution for scalable and stable RL for LLM (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Jackpot_Align_Actor-Policy_Distribution_for_scalable_and_stable_RL_for_LLM.pdf|PDF]]
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: JACKPOT
+	- datasets: GSM8K, MATH-500, AMC22 & AMC23
 - [[analysis/ICLR_2026/Latent_Thinking_Optimization_Your_Latent_Reasoning_Language_Model_Secretly_Encodes_Reward_Signals_in_Its_Latent_Thoughts.md|Latent Thinking Optimization: Your Latent Reasoning Language Model Secretly Encodes Reward Signals in Its Latent Thoughts (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Latent_Thinking_Optimization_Your_Latent_Reasoning_Language_Model_Secretly_Encodes_Reward_Signals_in_Its_Latent_Thoughts.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: Latent Thinking Optimization (LTO)
 	- datasets: GSM8K, GSM-Symbolic, SVAMP
+- [[analysis/ICLR_2026/Overcoming_Joint_Intractability_with_Lossless_Hierarchical_Speculative_Decoding.md|Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Overcoming_Joint_Intractability_with_Lossless_Hierarchical_Speculative_Decoding.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment
+	- methods: Hierarchical Speculative Decoding (HSD)
+	- datasets: GSM8K, HumanEval
 - [[analysis/ICLR_2026/Principled_RL_for_Diffusion_LLMs_Emerges_from_a_Sequence-Level_Perspective.md|Principled RL for Diffusion LLMs Emerges from a Sequence-Level Perspective (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Principled_RL_for_Diffusion_LLMs_Emerges_from_a_Sequence-Level_Perspective.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: ESPO (ELBO-based Sequence-level Policy Optimization)
 	- datasets: GSM8K, MATH, Countdown
@@ -125,13 +181,11 @@ generated: 2026-05-23T23:39
 	- datasets: GSM8K, MATH500, Average over 4 math benchmarks on Qwen2.5-7B
 - [[analysis/ICLR_2026/QuRL_Low-Precision_Reinforcement_Learning_for_Efficient_Reasoning.md|QuRL: Low-Precision Reinforcement Learning for Efficient Reasoning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/QuRL_Low-Precision_Reinforcement_Learning_for_Efficient_Reasoning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: QuRL (Quantized Reinforcement Learning)
 	- datasets: GSM8K, AIME 2024, DeepScaleR
 - [[analysis/ICLR_2026/REA-RL_Reflection-Aware_Online_Reinforcement_Learning_for_Efficient_Reasoning.md|REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/REA-RL_Reflection-Aware_Online_Reinforcement_Learning_for_Efficient_Reasoning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: REA-RL
 	- datasets: GSM8K, MATH500
@@ -143,13 +197,11 @@ generated: 2026-05-23T23:39
 	- datasets: HellaSwag, ARC, GSM8K
 - [[analysis/ICLR_2026/ReTool_Reinforcement_Learning_for_Strategic_Tool_Use_in_LLMs.md|ReTool: Reinforcement Learning for Strategic Tool Use in LLMs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ReTool_Reinforcement_Learning_for_Strategic_Tool_Use_in_LLMs.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: ReTool
 	- datasets: AIME2024, AIME2025, GSM8K
 - [[analysis/ICLR_2026/SPG_Sandwiched_Policy_Gradient_for_Masked_Diffusion_Language_Models.md|SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/SPG_Sandwiched_Policy_Gradient_for_Masked_Diffusion_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: SPG (Sandwiched Policy Gradient)
 	- datasets: GSM8K, MATH500, Countdown
@@ -159,21 +211,39 @@ generated: 2026-05-23T23:39
 	- method groups: Agent / RL / Planning, Systems / Efficiency / Compression
 	- methods: Tool-integrated Verification (T1)
 	- datasets: MATH500, GSM8K
+- [[analysis/ICLR_2026/TEST-TIME_SCALING_IN_DIFFUSION_LLMS_VIA_HIDDEN_SEMI-AUTOREGRESSIVE_EXPERTS.md|TEST-TIME SCALING IN DIFFUSION LLMS VIA HIDDEN SEMI-AUTOREGRESSIVE EXPERTS (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TEST-TIME_SCALING_IN_DIFFUSION_LLMS_VIA_HIDDEN_SEMI-AUTOREGRESSIVE_EXPERTS.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: HEX (Hidden semi-autoregressive EXperts)
+	- datasets: GSM8K, MATH, ARC-C
 - [[analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: LTPO (Latent Thought Policy Optimization)
 	- datasets: AIME2024, GSM8K, MATH-500
+- [[analysis/ICLR_2026/Time_Is_a_Feature_Exploiting_Temporal_Dynamics_in_Diffusion_Language_Models.md|Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Time_Is_a_Feature_Exploiting_Temporal_Dynamics_in_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: Temporal Self-Consistency Voting and Temporal Consistency Reinforcement
+	- datasets: GSM8K, MATH500, SVAMP
+- [[analysis/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.md|Token-Importance Guided Direct Preference Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: TI-DPO
+	- datasets: MMLU, GSM8K, GPQA
 - [[analysis/ICLR_2026/Unlocking_the_Power_of_Multi-Agent_LLM_for_Reasoning_From_Lazy_Agents_to_Deliberation.md|Unlocking the Power of Multi-Agent LLM for Reasoning: From Lazy Agents to Deliberation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Unlocking_the_Power_of_Multi-Agent_LLM_for_Reasoning_From_Lazy_Agents_to_Deliberation.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: Dr. MAMR (Multi-Agent Meta-Reasoning Done Right)
 	- datasets: MATH500, GSM8K, AIME24
+- [[analysis/ICLR_2026/Verifying_Chain-of-Thought_Reasoning_via_Its_Computational_Graph.md|Verifying Chain-of-Thought Reasoning via Its Computational Graph (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Verifying_Chain-of-Thought_Reasoning_via_Its_Computational_Graph.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Graph / Geometric / Structured Data
+	- methods: Circuit-based Reasoning Verification (CRV)
+	- datasets: Synthetic, GSM8K
 - [[analysis/ICLR_2026/wd1_Weighted_Policy_Optimization_for_Reasoning_in_Diffusion_Language_Models.md|wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/wd1_Weighted_Policy_Optimization_for_Reasoning_in_Diffusion_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: wd1（及扩展wd1++）
 	- datasets: Sudoku, Countdown, GSM8K

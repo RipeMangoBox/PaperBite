@@ -9,6 +9,7 @@ aliases:
 - CAPSUL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/genetics_cell_biology_health_etc
 openreview_forum_id: wJn4WbvSpK
@@ -33,7 +34,7 @@ paradigm: 通过统一的三维结构表示与细粒度注释，验证了结构�
 | 英文题名 | CAPSUL: A Comprehensive Human Protein Benchmark for Subcellular Localization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wJn4WbvSpK) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
 | Method | CAPSUL 数据集与基准构建 |
 | Dataset | CAPSUL (test set), CAPSUL (test set), CAPSUL (test set) |
 

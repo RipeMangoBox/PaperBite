@@ -33,7 +33,7 @@ paradigm: 通过将记忆分布到专门的专家并以对比方式抑制虚假�
 | 英文题名 | Composition of Memory Experts for Diffusion World Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=sUEdpZCHdp) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Composition of Memory Experts (CoME) |
 | Dataset | Memory Maze, Memory Maze, RECON, RECON |
 

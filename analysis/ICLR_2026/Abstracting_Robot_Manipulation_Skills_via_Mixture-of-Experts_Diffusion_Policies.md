@@ -10,6 +10,7 @@ aliases:
 - ARMSMEDP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 引入状态自适应的正交技能基和粘性路由，将动作分解为少量、可复用的技能分量，并基于变分目标联合训练基、门控和系数扩散模型，实现推理时的自适应专家激活。
@@ -27,13 +28,13 @@ paradigm: 通过将动作空间局部白化投影到正交技能基底，并用�
 > [!tip] 核心洞察
 > 通过将动作空间局部白化投影到正交技能基底，并用慢变门控控制技能组合，SMP学习到可解耦、可迁移的动作基元，在不同任务间复用技能，从而以较低的活跃参数量和推理延迟取得高成功率。
 
-| 字段      | 内容                                                                                                                               |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 字段 | 内容 |
+|------|------|
 | 中文题名    | 基于混合专家扩散策略的机器人操作技能抽象                                                                                                             |
 | 英文题名    | Abstracting Robot Manipulation Skills via Mixture-of-Experts Diffusion Policies                                                  |
 | 会议/期刊   | ICLR 2026 (accepted)                                                                                                             |
 | Links   | [paper](https://openreview.net/forum?id=VSWjHIveqZ)                                                                              |
-| Topic   | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics                                             |
+| Topic   | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics                                             |
 | Method  | SMP (Skill Mixture-of-Experts Policy)                                                                                            |
 | Dataset | RoboTwin-2 (multi-task learning), RLBench-2 (multi-task learning), RoboTwin-2 (inference efficiency), Few-shot transfer learning |
 

@@ -10,6 +10,7 @@ aliases:
 - UCTLTHNSL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/theory
 core_operator: 控制压缩质量的关键因素是矩匹配阶数 k 和聚类直径：通过保留前 k 阶张量矩并将对象分组到小直径聚类中，可以在几乎不损失信息的情况下显著减少对象数量。
@@ -33,7 +34,7 @@ paradigm: 任意光滑的置换对称函数可以被压缩到仅需 polylog(d) �
 | 英文题名 | A universal compression theory for lottery ticket hypothesis and neural scaling laws |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vxkzW4ljeX) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
 | Method | Universal Compression via Moment Matching and Clustering |
 | Dataset | teacher–student function fitting (Eq. 13), cylindrical harmonic function learning, teacher–student (neural scaling law, data), cylindrical harmonic (neural scaling law, width) |
 

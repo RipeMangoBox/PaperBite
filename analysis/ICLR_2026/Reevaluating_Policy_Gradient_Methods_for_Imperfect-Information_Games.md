@@ -10,6 +10,7 @@ aliases:
 - RPGMIIG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 openreview_forum_id: vClBDezZUo
@@ -34,7 +35,7 @@ paradigm: 类似于磁性镜像下降（MMD）的通用策略梯度方法（PPO�
 | 英文题名 | Reevaluating Policy Gradient Methods for Imperfect-Information Games |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vClBDezZUo) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | 通用策略梯度方法（PPO、PPG、MMD）配以适当调优 |
 | Dataset | LD2D5F, DH3, ADH3, PTTT, APTTT（全部五个游戏）, LD2D5F, DH3, ADH3, PTTT, APTTT |
 

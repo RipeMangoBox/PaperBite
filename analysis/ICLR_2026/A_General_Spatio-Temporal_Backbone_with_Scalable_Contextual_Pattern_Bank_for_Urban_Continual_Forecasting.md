@@ -10,6 +10,7 @@ aliases:
 - STBP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/time_series
 core_operator: 可扩展的上下文模式库（Contextual Pattern Bank）与冻结的通用时空骨干网络之间的协同机制。模式库通过参数扩展增量更新，并通过门控和注意力机制与骨干网络交互，在保留通用知识的同时适应新场景。
@@ -33,7 +34,7 @@ paradigm: 将通用时空骨干网络与可扩展上下文模式库分离：骨�
 | 英文题名 | A General Spatio-Temporal Backbone with Scalable Contextual Pattern Bank for Urban Continual Forecasting |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LHSea6DI8U) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/time_series |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/time_series |
 | Method | STBP |
 | Dataset | PEMS-Stream, PEMS-Stream, PEMS-Stream, CA-Stream |
 

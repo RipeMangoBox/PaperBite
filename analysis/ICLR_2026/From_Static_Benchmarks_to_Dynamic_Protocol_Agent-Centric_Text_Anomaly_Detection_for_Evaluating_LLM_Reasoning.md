@@ -32,7 +32,7 @@ paradigm: 通过从静态数据集转向多代理动态协议，可以持续、�
 | 英文题名 | From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9HacBDFOjt) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Agent-Centric Text Anomaly Detection (ATAD) |
 | Dataset | ATAD benchmark (GPT-4o generated), ATAD benchmark (GPT-4o generated, w/ vs. w/o Orchestrator), ATAD benchmark (average across all generators) |
 

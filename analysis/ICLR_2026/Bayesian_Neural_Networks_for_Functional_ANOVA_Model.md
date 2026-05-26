@@ -10,6 +10,7 @@ aliases:
 - BNNFAM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability
 openreview_forum_id: cvZhXILRLI
@@ -34,7 +35,7 @@ paradigm: 利用分层贝叶斯先验（节点稀疏$K$、边稀疏$S_k$）与�
 | 英文题名 | Bayesian Neural Networks for Functional ANOVA Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cvZhXILRLI) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
 | Method | Bayesian-TPNN |
 | Dataset | ABALONE（回归）, MADELON（分类）, CELEBA-HQ（图像分类CBM）, SERVO（回归） |
 

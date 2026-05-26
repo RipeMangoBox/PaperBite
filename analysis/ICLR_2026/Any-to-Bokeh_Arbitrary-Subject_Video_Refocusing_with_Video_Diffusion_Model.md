@@ -9,8 +9,15 @@ aliases:
 - AB
 - Any-to-Bokeh
 acceptance: accepted
+core_operator: Any-to-Bokeh用焦平面自适应MPI和单步SVD视频扩散骨干生成可控视频散景。
+primary_logic: 深度相关MPI掩码与模糊强度条件注入U-Net，经过渐进训练和重叠推理得到时间一致的重聚焦视频。
+claims:
+- 焦平面自适应MPI在焦平面附近精细采样以改善深度边界过渡。
+- 单步视频扩散利用预训练SVD的3D先验提升时间一致性。
+- 加权重叠推理可扩展到任意长度视频并减少片段边界伪影。
 paradigm: 利用预训练视频扩散模型（Stable Video Diffusion）的强3D先验，结合焦平面自适应的MPI几何先验，通过单步扩散实现可控、时间一致且深度感知的视频散景渲染。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Any-to-Bokeh: Arbitrary-Subject Video Refocusing with Video Diffusion Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=h05AulYT7g) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Any-to-Bokeh |
 | Dataset | 合成测试集, 合成测试集, 合成测试集, 合成测试集 |
 

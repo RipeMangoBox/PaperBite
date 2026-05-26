@@ -9,6 +9,7 @@ aliases:
 - DMSMGEOSGAD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 openreview_forum_id: zefuSJ3nOg
@@ -33,7 +34,7 @@ paradigm: 将多样本混合与能量梯度反馈结合，能够在标签极少�
 | 英文题名 | Dynamic Multi-sample Mixup with Gradient Exploration for Open-set Graph Anomaly Detection |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zefuSJ3nOg) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | DEMO |
 | Dataset | Photo (small-scale), Photo (small-scale), Computers (small-scale), CS (small-scale) |
 

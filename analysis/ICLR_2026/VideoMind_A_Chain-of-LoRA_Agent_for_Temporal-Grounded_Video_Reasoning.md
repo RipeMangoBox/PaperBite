@@ -32,7 +32,7 @@ paradigm: 将视频推理分解为规划、定位、验证和回答四个可组�
 | 英文题名 | VideoMind: A Chain-of-LoRA Agent for Temporal-Grounded Video Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=57EwidOnSf) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VideoMind |
 | Dataset | CG-Bench, ReXTime, NExT-GQA, Charades-STA |
 

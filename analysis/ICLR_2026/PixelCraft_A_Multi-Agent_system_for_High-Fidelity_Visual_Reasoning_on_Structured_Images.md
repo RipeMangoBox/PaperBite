@@ -32,7 +32,7 @@ paradigm: 将紧凑型多模态大模型微调为精准的定位模型，用于�
 | 英文题名 | PixelCraft: A Multi-Agent system for High-Fidelity Visual Reasoning on Structured Images |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HtpjSCs3g5) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | PixelCraft |
 | Dataset | CharXiv (GPT-4o), ChartQAPro (GPT-4o), EvoChart (GPT-4.1-mini), Geometry3K auxiliary-line subset (GPT-4.1-mini) |
 

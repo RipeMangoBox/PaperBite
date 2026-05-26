@@ -9,6 +9,7 @@ aliases:
 - LDRRFB
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning
 core_operator: 模型参数数量 p 是控制数据重建可行性的关键旋钮：当 p 超过阈值 dn 时，训练数据可以从模型参数中被重建。
@@ -32,7 +33,7 @@ paradigm: 在随机特征回归模型中，当参数数量 p 远大于 dn 时，
 | 英文题名 | A Law of Data Reconstruction for Random Features (And Beyond) |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=R9ZuD0WvU0) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning |
 | Method | 基于子空间投影的数据重建算法 |
 | Dataset | CIFAR-10 (d=3072, n=100, 二分类), 合成数据 (d维球面均匀采样), Tiny-ImageNet (d=12288, n=20), CIFAR-10 (n=10, 10类回归, 两层ReLU网络) |
 

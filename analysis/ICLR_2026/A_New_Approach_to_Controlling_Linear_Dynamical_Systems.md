@@ -11,6 +11,7 @@ aliases:
 - Online Spectral Control (OSC)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/reinforcement_learning_and_planning
 core_operator: 使用从特定Hankel矩阵（公式2.1）的特征向量构造的谱滤波器，将控制策略参数化，从而将问题转化为对低维谱特征的回归。
@@ -34,7 +35,7 @@ paradigm: 通过谱表示压缩扰动历史，将在线控制问题转化为在�
 | 英文题名 | A New Approach to Controlling Linear Dynamical Systems |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=BQIzu1T6F0) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
 | Method | Online Spectral Control (OSC) |
 | Dataset | 线性动力系统 (LDS), 非线性动力系统 (LDS ReLU), 线性动力系统 (LDS), 非线性动力系统 (LDS ReLU) |
 

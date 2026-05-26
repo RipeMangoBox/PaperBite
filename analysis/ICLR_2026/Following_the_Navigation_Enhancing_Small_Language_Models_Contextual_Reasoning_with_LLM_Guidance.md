@@ -32,7 +32,7 @@ paradigm: 通过将LLM的专长蒸馏为可泛化的模板并存储于可扩展�
 | 英文题名 | Following the Navigation: Enhancing Small Language Models Contextual Reasoning with LLM Guidance |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=R8A12kykPG) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Navigation |
 | Dataset | MuSR (Object Placements), MuSR (Murder Mystery), StrategyQA, HotpotQA |
 

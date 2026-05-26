@@ -10,8 +10,18 @@ aliases:
 - HNBYSMBSLTRE
 - HNSBSL
 acceptance: accepted
+core_operator: 用静态排序启发式、加权 Kendall tau 和保真度分析诊断 SITE 基准中的静态模型层级与分数差异失真。
+primary_logic: |
+  论文先分析标准 SITE 模型动物园的真实微调排名，发现不同架构家族在多数据集上存在稳定的静态性能层级。
+  随后构造不使用目标数据的静态排序启发式，并与 LogME、SFDA、NLEEP、H-Score、GBC、TransRate 等 SITE 指标比较排名相关性。
+  最后引入保真度指标和 Meta-Album 改进基准，检验 SITE 分数差异是否能反映真实精度差异，并给出更现实的评估建议。
+claims:
+- 现有标准 SITE 基准可被不依赖目标数据的静态排序启发式大幅超越，说明基准存在琐碎化风险。
+- 仅报告加权 Kendall tau 不足以评估 SITE 指标，还需要检查分数差异与真实精度差异之间的保真度。
+- 更现实的 SITE 基准应使用性能范围重叠的模型动物园，避免由架构家族静态层级主导结果。
 paradigm: Transfer learning (fine-tuning pre-trained models)
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning
 ---
@@ -27,7 +37,7 @@ tags:
 | 英文题名 | How NOT to benchmark your SITE metric Beyond Static Leaderboards and Towards Realistic Evaluation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZHKVPkJMSI) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
 | Method | 静态排序启发式（Static Ranking Heuristic） |
 | Dataset | Standard Benchmark, Meta-Album Benchmark |
 
@@ -35,6 +45,10 @@ tags:
 > - 在标准基准上，一个简单的静态排序启发式（不依赖任何目标数据）取得了0.91的加权Kendall's tau，远超所有SITE指标（最佳LogME为0.573），相对提升58.8%。
 > - 在改进的Meta-Album基准上，静态排序仍以0.31的加权Kendall's tau领先（最佳SFDA为0.15），相对提升82.4%。
 > - SITE指标在保真度（fidelity）上表现极差：平均Pearson相关系数接近零甚至为负（如TransRate为-0.178，GBC为-0.147），表明其分数差异无法反映真实精度差异。
+
+## 概述
+
+本文批判性分析了源无关迁移性估计（SITE）指标的现有评估协议，指出标准基准中的模型动物园存在静态性能层级，使一个不访问目标数据的静态排序启发式即可超过复杂 SITE 指标。论文进一步引入保真度指标，检验 SITE 分数差异是否反映真实精度差异，并用 Meta-Album 构建更现实的模型选择基准，以推动 SITE 评估从静态排行榜转向任务相关、可解释的真实评估。
 
 ## 背景与动机
 

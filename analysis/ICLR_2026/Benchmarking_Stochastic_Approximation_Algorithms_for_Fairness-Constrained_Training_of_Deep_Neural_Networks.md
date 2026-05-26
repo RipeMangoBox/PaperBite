@@ -10,7 +10,14 @@ aliases:
 - BSAAFCTDNN
 acceptance: accepted
 paradigm: 通过构建基于US Census (Folktables) 的真实大规模公平性约束学习基准，首次系统比较了三种近期提出的随机近似算法（Stochastic Ghost, SSL-ALM, Stochastic Switching Subgradient）在优化性能和公平性改善方面的实际表现，并指出目前尚无理论保证的算法。
+core_operator: The benchmark formulates fairness-constrained DNN training as stochastic inequality-constrained optimization and compares recent stochastic approximation algorithms.
+primary_logic: It builds Folktables-based constrained ERM tasks, implements Stochastic Ghost, SSL-ALM, ALM, and Switching Subgradient, then tracks accuracy and fairness metrics over time.
+claims:
+- The benchmark stresses nonconvex, nonsmooth, large-scale objectives and constraints that current theory does not fully cover.
+- ALM and SSL-ALM provide the best reported accuracy-fairness tradeoff in the note.
+- Switching Subgradient satisfies constraints strongly but is weaker at minimizing the objective.
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JxmjzC6syB) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
 | Method | Benchmarking framework for fairness-constrained DNN training |
 | Dataset | ACSIncome (Oklahoma, binary protected attribute: race), ACSIncome (Oklahoma, binary protected attribute: race), ACSIncome (Oklahoma, binary protected attribute: race), ACSIncome (Oklahoma, binary protected attribute: race) |
 

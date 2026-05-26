@@ -10,6 +10,7 @@ aliases:
 - RWRLRCL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 openreview_forum_id: pZj2DhfaVD
@@ -34,7 +35,7 @@ paradigm: 在全维参数空间中估计Fisher信息矩阵，以准确捕捉低�
 | 英文题名 | Revisiting Weight Regularization for Low-Rank Continual Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=pZj2DhfaVD) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | EWC-LoRA |
 | Dataset | CIFAR-100 (10 tasks), DomainNet (5 tasks), ImageNet-R (10 tasks), ImageNet-A (10 tasks) |
 

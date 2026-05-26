@@ -33,7 +33,7 @@ paradigm: 静态背景与动态物体在空间位置上具有相似性，但在�
 | 英文题名 | LLaVA-4D: Embedding SpatioTemporal Prompt into LMMs for 4D Scene Understanding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=URpbmVEsqB) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | LLaVA-4D |
 | Dataset | VSI-Bench, Chat4D, Chat4D, Chat4D |
 

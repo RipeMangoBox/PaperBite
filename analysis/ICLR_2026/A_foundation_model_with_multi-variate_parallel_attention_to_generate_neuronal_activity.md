@@ -10,6 +10,7 @@ aliases:
 - FMMVPAGNA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 多变量并行注意力（MVPA）机制，它将注意力分解为内容、时间和通道三个独立组件，从而解耦了信号的语义、时间动态和空间结构。
@@ -33,7 +34,7 @@ paradigm: 通过将注意力分解为内容、时间和通道三个并行组件�
 | 英文题名 | A foundation model with multi-variate parallel attention to generate neuronal activity |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5M1YOW3bRq) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | Multi-Variate Parallel Attention (MVPA) |
 | Dataset | SWEC iEEG (Seizure Detection), SWEC iEEG (Seizure Detection), MAYO iEEG (Seizure Detection), FNUSA iEEG (Seizure Detection) |
 

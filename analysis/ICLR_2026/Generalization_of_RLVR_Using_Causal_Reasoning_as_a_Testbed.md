@@ -10,6 +10,7 @@ aliases:
 - GRUCRAT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 core_operator: 查询层级（关联、干预、反事实）和查询复杂度（相关子图大小|V_rel|）构成两个因果调节变量，可系统地控制任务难度并检验层级内和跨层级的泛化。
@@ -33,7 +34,7 @@ paradigm: RLVR在基座模型具备足够推理能力时能够提升泛化，主
 | 英文题名 | Generalization of RLVR Using Causal Reasoning as a Testbed |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=DZjbL9BuHs) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method | RLVR（基于总变差距离的准确性奖励的GRPO/DAPO） |
 | Dataset | RLCausal（过滤后），干预层级中等难度, RLCausal（过滤后），跨层级：关联训练→干预测试（简单）, CLadder 确定性反事实子集（小图，确定性机制） |
 

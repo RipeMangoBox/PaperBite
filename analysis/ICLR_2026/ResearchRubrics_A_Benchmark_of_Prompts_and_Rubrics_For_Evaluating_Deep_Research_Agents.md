@@ -32,7 +32,7 @@ paradigm: 通过人类专家编写的细粒度、强制/可选分类的评分标
 | 英文题名 | ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ErnvfmSX0P) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RESEARCHRUBRICS基准与评估体系 |
 | Dataset | RESEARCHRUBRICS (三元评分), RESEARCHRUBRICS (二元评分), RESEARCHRUBRICS |
 

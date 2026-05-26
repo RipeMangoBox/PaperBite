@@ -9,7 +9,14 @@ aliases:
 - Astra
 acceptance: accepted
 paradigm: 通过噪声增强历史记忆（noise-as-mask）削弱视觉惯性，迫使模型在生成未来帧时同时依赖历史上下文和动作信号；混合动作专家（MoAE）统一处理异构动作模态。
+core_operator: Astra adapts a pretrained video diffusion transformer with action-aware adapters, noise-as-mask history, MoAE routing, and action-free guidance.
+primary_logic: It autoregressively denoises future video chunks conditioned on noisy history and heterogeneous action streams, then amplifies action-conditioned velocity at inference.
+claims:
+- Noise-as-mask reduces visual inertia and forces the model to attend to action signals.
+- MoAE maps camera, robot, and navigation actions into a unified action embedding through modality-specialized experts.
+- The note reports higher Astra-Bench instruction following and visual consistency than Wan-2.1, Matrix-Game, and YUME.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | Astra: General Interactive World Model with Autoregressive Denoising |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8UZpmrxoLG) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Astra |
 | Dataset | Astra-Bench, Astra-Bench, Astra-Bench, Astra-Bench |
 

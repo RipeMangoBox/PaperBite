@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/BindWeave_Subject-Consistent_Video_Generation_via_C
 aliases:
 - BindWeave
 acceptance: accepted
+core_operator: 用MLLM跨模态推理隐藏状态联合条件化主体一致视频扩散生成。
+primary_logic: BindWeave先用MLLM绑定文本指令和参考主体，再联合T5、CLIP与VAE条件信号驱动DiT生成视频。
+claims:
+- MLLM隐藏状态提供主体身份、关系和动作绑定的高层推理信号，弥补浅层后融合不足。
+- T5文本嵌入对训练稳定性必要，仅依赖MLLM条件化无法稳定收敛。
+- 自适应多参考条件化支持把多个参考图像作为时间槽位注入视频潜变量。
+- OpenS2V-Eval和用户研究显示BindWeave在主体一致性与总分上优于对比方法。
 paradigm: 在生成过程开始之前，利用MLLM对多模态输入进行深层的、有推理的理解，取代浅层的后融合。MLLM生成的隐藏状态提供了高层推理信号，与T5提供的精确语言锚点、CLIP提供的语义身份信号以及VAE提供的低层外观细节信号协同作用，共同引导扩散过程，生成在视觉上忠实于主体、在逻辑和语义上与复杂用户指令对齐的视频。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | BindWeave: Subject-Consistent Video Generation via Cross-Modal Integration |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FP2XNyV9WL) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | BindWeave |
 | Dataset | OpenS2V-Eval, OpenS2V-Eval, OpenS2V-Eval, OpenS2V-Eval |
 

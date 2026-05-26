@@ -9,7 +9,14 @@ aliases:
 - AutoLibra
 acceptance: accepted
 paradigm: 通过模拟社会科学主题分析中的编码-主题归纳步骤，将人类反馈中的每个方面（aspect）锚定到智能体轨迹中的具体行为，再将相似行为聚类为指标（metric），并利用覆盖率和冗余度两个元指标进行自验证和优化，可以自动生成比专家设计更具体、更全面的评估指标。
+core_operator: AutoLibra induces agent evaluation metrics by grounding open-ended feedback to trajectory behaviors and clustering similar behavior aspects.
+primary_logic: It converts feedback into behavior-feedback-sign triples, clusters them into metric definitions, evaluates trajectories with LLM-as-judge, and optimizes metric sets by coverage and redundancy.
+claims:
+- The method automates fine-grained metric discovery instead of relying on expert-designed task success metrics.
+- Coverage and redundancy serve as meta-evaluation signals for selecting metric sets.
+- The note reports high human agreement for feedback grounding, judging, and meta-evaluation steps.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | AutoLibra: Agent Metric Induction from Open-Ended Human Feedback |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=4BjGVZ7Bxn) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | AutoLibra |
 | Dataset | Sotopia, WebArena, WebVoyager, Baba-Is-AI (GPT-4o) |
 

@@ -33,7 +33,7 @@ paradigm: 预训练视频扩散模型的去噪得分匹配机制天然适合捕�
 | 英文题名 | Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wPEIStHxYH) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Cosmos Policy |
 | Dataset | LIBERO (4 suites), RoboCasa (24 tasks), Real-world ALOHA (4 tasks), Real-world ALOHA (planning subset: put candies in bowl, put candy in ziploc bag) |
 

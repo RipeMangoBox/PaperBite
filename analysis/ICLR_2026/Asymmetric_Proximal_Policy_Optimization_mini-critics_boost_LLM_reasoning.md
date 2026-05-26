@@ -33,7 +33,7 @@ paradigm: 预训练模型的初始表征能力使得非对称actor-critic架构�
 | 英文题名 | Asymmetric Proximal Policy Optimization: mini-critics boost LLM reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0vgzrcv4Dr) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Asymmetric Proximal Policy Optimization (AsyPPO) |
 | Dataset | Multiple benchmarks (MATH-500, OlympiadBench, MinervaMath, AMC 2023, etc.), Qwen3-4B-Base performance improvement (6 benchmark average), Qwen3-8B-Base and 14B-Base, LiveCodeBench (Code Generation) |
 

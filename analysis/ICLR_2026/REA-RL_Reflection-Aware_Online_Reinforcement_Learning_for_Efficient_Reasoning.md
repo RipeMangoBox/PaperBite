@@ -33,7 +33,7 @@ paradigm: 通过将并行采样与顺序修订相结合，并利用反射奖励�
 | 英文题名 | REA-RL: Reflection-Aware Online Reinforcement Learning for Efficient Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=E6keG5QDct) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | REA-RL |
 | Dataset | 5 项数学基准 (平均), 5 项数学基准 (平均), GSM8K, MATH500 |
 

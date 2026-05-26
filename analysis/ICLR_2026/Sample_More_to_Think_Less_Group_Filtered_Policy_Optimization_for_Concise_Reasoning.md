@@ -33,7 +33,7 @@ paradigm: 在训练时增加采样数量并进行选择性过滤，可以隐式�
 | 英文题名 | Sample More to Think Less: Group Filtered Policy Optimization for Concise Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UKOqoULbZS) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Group Filtered Policy Optimization (GFPO) |
 | Dataset | AIME 25, AIME 24, GPQA, Omni-MATH |
 

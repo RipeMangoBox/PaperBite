@@ -9,6 +9,7 @@ aliases:
 - AdaCache
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/optimization_methods
 core_operator: 利用逐块注意力模式分析识别关键令牌，构建分层缓存（硬/软前缀、独立缓存）并按需进行选择性重计算；同时通过轻量置信度估计动态确定最优检索深度，实现提前终止。
@@ -32,7 +33,7 @@ paradigm: 仅少数令牌具有高跨块注意力，且注意力模式在层间�
 | 英文题名 | AdaCache: Adaptive Caching and Context Augmentation for Efficient LLM Serving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Bmvx8ybDzo) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
 | Method | AdaCache |
 | Dataset | MMLU, MMLU‑Pro, SuperGPQA, TriviaQA, 2Wiki‑MultihopQA, HotpotQA (Llama‑3‑8B‑Instruct, Qwen3‑4B, Qwen3‑8B), 同上, 同上, 同上 |
 

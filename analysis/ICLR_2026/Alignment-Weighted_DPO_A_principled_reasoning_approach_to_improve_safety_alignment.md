@@ -33,7 +33,7 @@ paradigm: 通过构建包含详细推理轨迹的CoT安全微调数据集，显�
 | 英文题名 | Alignment-Weighted DPO: A principled reasoning approach to improve safety alignment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OuMNJoKJBQ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Alignment-Weighted DPO (AW-DPO) |
 | Dataset | SorryBench (各种越狱攻击下的安全评估), MMLU, SorryBench (与先进对齐基线比较，LLaMA-3.1-8B) |
 

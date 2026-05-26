@@ -33,7 +33,7 @@ paradigm: 粗到细的检索与多粒度奖励（答案正确、证据接地、�
 | 英文题名 | Memory-T1: Reinforcement Learning for Temporal Reasoning in Multi-session Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vQf2YR2Kpd) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Memory-T1 |
 | Dataset | Time-Dialog, Time-Dialog, Time-Dialog, Time-Dialog |
 

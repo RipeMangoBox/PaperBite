@@ -4,7 +4,7 @@ type: paper-index
 dimension: topic
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Topic: Generative Models / Diffusion
@@ -138,7 +138,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.md|AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: AlignFlow
 	- datasets: CIFAR-10, ImageNet256
 - [[analysis/ICLR_2026/Aligning_Visual_Foundation_Encoders_to_Tokenizers_for_Diffusion_Models.md|Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models (ICLR 2026)]]
@@ -168,7 +168,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.md|Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: AutoRegressive-based Progressive Coding (ARPC)
 	- datasets: CLIC2020
 - [[analysis/ICLR_2026/Avey-B.md|Avey-B (ICLR 2026)]]
@@ -180,7 +180,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.md|Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Rank-1 EWC with Generative Distillation
 	- datasets: MNIST, FashionMNIST
 - [[analysis/ICLR_2026/Beyond_Masks_Efficient_Flexible_Diffusion_Language_Models_via_Deletion-Insertion_Processes.md|Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes (ICLR 2026)]]
@@ -198,7 +198,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.md|Boomerang Distillation Enables Zero-Shot Model Size Interpolation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: Boomerang Distillation
 	- datasets: WikiText, Qwen3-4B-Base 教师模型
 - [[analysis/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.md|Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks (ICLR 2026)]]
@@ -270,7 +270,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.md|Flock A Knowledge Graph Foundation Model via Learning on Random Walks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: 基于随机游走序列编码的概率性节点-关系等变模型
 	- datasets: PETALS
 - [[analysis/ICLR_2026/Foresight_Diffusion_Improving_Sampling_Consistency_in_Predictive_Diffusion_Models.md|Foresight Diffusion: Improving Sampling Consistency in Predictive Diffusion Models (ICLR 2026)]]

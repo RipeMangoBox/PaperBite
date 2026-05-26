@@ -10,6 +10,7 @@ aliases:
 - EvA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 openreview_forum_id: EzXzGRngYb
@@ -34,7 +35,7 @@ paradigm: 通过约束搜索空间到攻击节点的感受野、使用准确率�
 | 英文题名 | EvA: Evolutionary Attacks on Graphs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EzXzGRngYb) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | EvA (Evolutionary Attack) |
 | Dataset | CoraML, Pubmed, CoraML (Defense: GCN-SVD, ε=0.10), Ogbn-Arxiv (with D&C) |
 

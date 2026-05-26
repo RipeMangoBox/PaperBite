@@ -10,6 +10,7 @@ aliases:
 - ABBA-Adapters
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning
 core_operator: 将Hadamard乘积与冻结的预训练权重解耦，并使乘积两侧均为独立可学习的低秩矩阵，在保持参数效率的同时显著提升更新的有效秩。
@@ -33,7 +34,7 @@ paradigm: 更新矩阵可以表示为两个独立优化的低秩矩阵的逐元�
 | 英文题名 | ABBA-Adapters: Efficient and Expressive Fine-Tuning of Foundation Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NvSRYp0oaX) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
 | Method | ABBA-Adapters |
 | Dataset | COMMONSENSE170K (Llama-3.2 1B, 八项任务平均), COMMONSENSE170K (Llama-3.2 3B, 八项任务平均), GSM8K (Mistral-7B, 算术推理), MATH (Mistral-7B, 算术推理) |
 

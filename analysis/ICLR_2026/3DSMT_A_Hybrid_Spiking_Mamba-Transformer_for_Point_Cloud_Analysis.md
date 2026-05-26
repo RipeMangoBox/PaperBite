@@ -10,6 +10,7 @@ aliases:
 - 3HSMTPCA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 core_operator: 在SNN框架内引入混合架构：使用Spiking Local Offset Attention（SLOA）进行局部几何特征提取，同时使用Spiking Mamba Block（SMB）进行线性复杂度的全局特征融合。
@@ -33,7 +34,7 @@ paradigm: 通过将脉冲神经网络的稀疏事件驱动特性与Mamba的线�
 | 英文题名 | 3DSMT: A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KkoS6y0pHP) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | 3DSMT (Hybrid Spiking Mamba-Transformer) |
 | Dataset | ModelNet40, ScanObjectNN PB_T50_RS, ScanObjectNN OBJ_BG, ScanObjectNN OBJ_ONLY |
 

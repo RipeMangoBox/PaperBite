@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/RouterArena_An_Open_Platform_for_Comprehensive_Comp
 aliases:
 - RouterArena
 acceptance: accepted
+core_operator: 构建多领域多难度查询集和五维指标来统一评估LLM路由器。
+primary_logic: RouterArena按DDC、Bloom和模型经验难度构建查询，再评估准确率、成本、最优性、鲁棒性和延迟并生成排行榜。
+claims:
+- RouterArena覆盖9大领域44个类别和三个经验难度等级，弥补现有路由评估类别少且无难度分层的问题。
+- Arena Score用加权调和平均在准确率和归一化成本之间提供可调权衡。
+- GPT-5等商业路由器准确率更高但成本显著更高，MIRT-BERT等开源路由器成本效益更好。
+- 没有路由器在准确性、成本、最优性、鲁棒性和延迟所有维度上同时最优。
 paradigm: 通过系统化的数据集构建（覆盖9大领域44个类别，3个经验验证的难度等级）和多维度指标（5个评估视角），ROUTERARENA揭示了商业路由器（如GPT-5）虽准确率高但成本显著更高，而开源路由器（如MIRT-BERT）在成本效益上更具优势，且没有任何路由器在所有指标上均表现最优，反映了路由器设计中固有的权衡。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | RouterArena: An Open Platform for Comprehensive Comparison of LLM Routers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9HsaIi4ngF) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | ROUTERARENA |
 | Dataset | ROUTERARENA数据集（整体）, ROUTERARENA数据集（整体）, ROUTERARENA数据集（困难查询）, ROUTERARENA数据集（困难查询） |
 

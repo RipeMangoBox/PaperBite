@@ -10,7 +10,14 @@ aliases:
 - IR-Agent
 acceptance: accepted
 paradigm: 通过将红外光谱分析分解为局部子结构识别（基于吸收表）和全局结构上下文（基于谱图检索）两个互补任务，并让LLM智能体分别处理后再进行综合推理，可以显著提升分子结构解析的准确性，且无需重新训练即可整合新信息。
+core_operator: IR-Agent decomposes infrared structure elucidation into translator, table-interpretation, retrieval, and final structure-elucidation agents.
+primary_logic: It generates SMILES candidates, extracts local substructure cues from absorption tables, retrieves globally similar spectra, and lets an SE expert rerank candidates.
+claims:
+- TI Expert supplies explicit peak-to-substructure evidence from IR absorption ranges.
+- Ret Expert adds global structural context by cosine-similarity retrieval over spectra.
+- The note reports higher Top-K accuracy than Transformer and single-agent baselines without retraining for extra chemical information.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | IR-Agent: Expert-Inspired LLM Agents for Structure Elucidation from Infrared Spectra |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=6bthH14pD8) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | IR-Agent |
 | Dataset | NIST IR spectra dataset (9,052 spectra, 80/10/10 split), NIST IR spectra dataset, NIST IR spectra dataset, NIST IR spectra dataset |
 

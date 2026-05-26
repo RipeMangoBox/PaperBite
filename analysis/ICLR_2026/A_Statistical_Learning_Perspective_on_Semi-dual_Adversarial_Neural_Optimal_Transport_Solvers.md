@@ -10,6 +10,7 @@ aliases:
 - SLPSDANOTS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 通过将泛化误差分解为估计误差（由经验分布代替真实分布引起）和近似误差（由受限函数类引起），并利用 Rademacher 复杂度分别界定这两项。
@@ -33,7 +34,7 @@ paradigm: 对于二次代价的 minimax OT 求解器，泛化误差可被估计�
 | 英文题名 | A Statistical Learning Perspective on Semi-dual Adversarial Neural Optimal Transport Solvers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FJTdyG8jeJ) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Minimax Quadratic OT Solver (半对偶对抗神经最优传输求解器) |
 | Dataset | 合成高斯分布 (D=2,4,8,16,32,64,128), 合成高斯分布 (D=2,4,8,16,32,64,128) |
 

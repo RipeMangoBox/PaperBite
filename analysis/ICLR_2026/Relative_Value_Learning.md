@@ -10,6 +10,7 @@ aliases:
 - RVL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 openreview_forum_id: ulTRUwrzt9
@@ -34,7 +35,7 @@ paradigm: 使用反称函数逼近成对值差，将值学习目标从绝对尺�
 | 英文题名 | Relative Value Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ulTRUwrzt9) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | Relative Value Learning (RV) |
 | Dataset | Atari 49 games (40M frames), Atari 49 games (40M frames), Atari 40M frames (selected game: VideoPinball) |
 

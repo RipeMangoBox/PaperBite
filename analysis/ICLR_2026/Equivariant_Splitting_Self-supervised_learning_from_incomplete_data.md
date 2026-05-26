@@ -10,6 +10,7 @@ aliases:
 - ESSSLFID
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 openreview_forum_id: upMIVpe467
@@ -34,7 +35,7 @@ paradigm: 通过定义适用于逆问题的重建网络等变性，等价分裂�
 | 英文题名 | Equivariant Splitting: Self-supervised learning from incomplete data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=upMIVpe467) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Equivariant Splitting (ES) |
 | Dataset | Compressive Sensing (MNIST, 28×28, various m), Image Inpainting (DIV2K 128×128, ~70% missing), MRI (FastMRI, 320×320, ×8 accel., 40 dB SNR), Sparse-View CT (50 views, 50 dB SNR) |
 

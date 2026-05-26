@@ -11,6 +11,7 @@ aliases:
 - AbsTopK SAE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 core_operator: "稀疏正则项中隐含的非负指示函数（ι_{z≥0}）强制激活只留正值，直接导致了双向语义的碎片化。开关就是这个非负约束。"
@@ -34,7 +35,7 @@ paradigm: 通过移除非负约束并直接使用ℓ₀稀疏硬阈值（保留�
 | 英文题名 | AbsTopK: Rethinking Sparse Autoencoders For Bidirectional Features |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EEs6I4cO7S) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | AbsTopK SAE |
 | Dataset | Qwen3-4B, Layer 18 |
 

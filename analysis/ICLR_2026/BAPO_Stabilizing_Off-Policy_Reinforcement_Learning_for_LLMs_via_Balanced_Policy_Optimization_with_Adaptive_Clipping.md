@@ -9,8 +9,15 @@ aliases:
 - BBPOAC
 - BAPO
 acceptance: accepted
+core_operator: BAPO动态调整PPO式裁剪上下界，以平衡离策略LLM强化学习中正负优势token的贡献。
+primary_logic: 训练中监控正样本损失占比，放宽上界纳入低概率正样本并收紧下界抑制低概率负样本。
+claims:
+- 固定对称裁剪会排除低概率正样本，造成策略熵下降和探索能力受损。
+- 自适应非对称裁剪可稳定离策略RL并避免负优势样本主导更新。
+- BAPO在AIME数学推理和跨领域评估中提升7B与32B模型表现。
 paradigm: 通过动态调整裁剪边界 c_low 和 c_high，可以重新平衡正负样本的贡献：纳入更多低概率正样本（熵增更新），过滤过多低概率负样本，从而保持策略熵、稳定训练并提升性能。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jIeJJqG7dz) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | BAPO (Balanced Policy Optimization with Adaptive Clipping) |
 | Dataset | AIME 2024, AIME 2025, AIME 2024, AIME 2025 |
 

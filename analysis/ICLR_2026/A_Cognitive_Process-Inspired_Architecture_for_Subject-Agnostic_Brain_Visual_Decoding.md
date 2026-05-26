@@ -10,6 +10,7 @@ aliases:
 - CPIASABVD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 通过显式建模腹侧-背侧双流视觉通路，并引入基于重分配模块的跨被试对比学习，将语义特征与被试特定特征解耦，从而提取被试不变的表征。
@@ -33,7 +34,7 @@ paradigm: 将fMRI脑特征按早期视觉区、腹侧流、背侧流拆分，分
 | 英文题名 | A Cognitive Process-Inspired Architecture for Subject-Agnostic Brain Visual Decoding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=H1GLFKk0xE) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | Visual Cortex Flow Architecture (VCFLOW) |
 | Dataset | cc2017, cc2017, cc2017, cc2017 |
 

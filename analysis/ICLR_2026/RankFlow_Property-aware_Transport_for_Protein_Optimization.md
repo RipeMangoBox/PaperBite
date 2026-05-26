@@ -9,6 +9,7 @@ aliases:
 - RankFlow
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 core_operator: 通过能量函数引导的条件流，将 PLM 的突变表示运输到与目标属性对齐的分布，并利用可微的秩一致性损失 (RC^2) 强制保持突变排序，从而控制预测质量。
@@ -32,7 +33,7 @@ paradigm: 学习一个属性感知的条件流，以能量函数和秩一致性�
 | 英文题名 | RankFlow: Property-aware Transport for Protein Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=uS5rA4fDJp) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | RankFlow |
 | Dataset | ProteinGym Stability, ProteinGym Fitness, ProteinGym Expression, ProteinGym Binding |
 

@@ -10,6 +10,7 @@ aliases:
 - ARFEPULA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: ①仅使用正例与未标注验证数据的代理准确率(PA)与代理AUC(PAUC)进行模型选择；②通过将正例集合并入未标注损失项以校准单样本设置下的数据分布，消除ILS偏差。
@@ -33,7 +34,7 @@ paradigm: 用PU数据可计算的无偏替代指标（PA/PAUC）进行超参数�
 | 英文题名 | Accessible, Realistic, and Fair Evaluation of Positive-Unlabeled Learning Algorithms |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5R11h5o44C) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | PU Benchmark with Proxy Accuracy/PAUC Model Selection and ILS Calibration |
 | Dataset | CIFAR-10 Case 1, ImageNette Case 1, CIFAR-10 Case 2, USPS Case 2 |
 

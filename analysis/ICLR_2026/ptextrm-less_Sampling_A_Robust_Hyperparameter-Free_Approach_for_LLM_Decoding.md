@@ -11,6 +11,7 @@ aliases:
 - p-less sampling
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/probabilistic_methods
 core_operator: "p-less采样通过计算整个token概率分布的二阶矩（即正确随机猜测的概率L[P]）作为动态截断阈值，该阈值随分布熵自适应变化，无需任何超参数。"
@@ -34,7 +35,7 @@ paradigm: 利用信息论中的Rényi二阶熵（碰撞熵）的指数形式，�
 | 英文题名 | $p\textrm{-less}$ Sampling: A Robust Hyperparameter-Free Approach for LLM Decoding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ItFuNJQGH4) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
 | Method | p-less sampling |
 | Dataset | CSQA, GPQA, GSM8K, QASC |
 

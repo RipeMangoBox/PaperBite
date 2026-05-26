@@ -10,6 +10,7 @@ aliases:
 - APTNT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/probabilistic_methods
 core_operator: 引入可学习的前向/后向加速器（正则化流、控制扩散、扩散模型），在相邻链之间构建更灵活的传输路径，从而增加有效分布重叠，加速参考分布与目标分布之间的通信。
@@ -33,7 +34,7 @@ paradigm: 通过将神经网络传输作为并行退火交换步骤的加速器�
 | 英文题名 | Accelerated Parallel Tempering via Neural Transports |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CODnlyYUli) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
 | Method | Accelerated Parallel Tempering (APT) |
 | Dataset | 40-mode GMM-10, 40-mode GMM-10, DW-4 (8D), ManyWell-32 (32D) |
 

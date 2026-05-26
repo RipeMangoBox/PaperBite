@@ -9,8 +9,15 @@ aliases:
 - DSDMSR
 - BDGHPDPSR
 acceptance: accepted
+core_operator: DM-SR训练轻量编码器把低分辨率图像映射到冻结扩散模型熟悉的噪声图像混合分布。
+primary_logic: 时间步估计器先预测退化匹配噪声水平，编码器再生成扩散兼容潜变量并由冻结SD-Turbo单步去噪。
+claims:
+- 将LR输入分布对齐到预训练扩散分布可避免微调扩散模型带来的先验削弱。
+- 自适应时间步预测比固定噪声水平更能匹配不同退化强度。
+- DM-SR在感知质量指标和推理速度上优于多步或蒸馏式超分辨率基线。
 paradigm: 与其修改预训练扩散模型，不如将LR图像直接变换到扩散模型训练时见过的分布（即噪声-图像混合），从而在不微调扩散模型的前提下充分利用其生成先验，实现单步高质量超分辨率。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Bridging the Distribution Gap to Harness Pretrained Diffusion Priors for Super-Resolution |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=66Ad0i78lW) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | DM-SR (Distribution Matching Super-Resolution) |
 | Dataset | ImageNet, ImageNet, ImageNet, ImageNet |
 

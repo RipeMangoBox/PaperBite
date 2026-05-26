@@ -10,7 +10,14 @@ aliases:
 - DualDiff
 acceptance: accepted
 paradigm: 将联合分布 p(Z_l, Z_g) 分解为 p(Z_l|Z_g)p(Z_g) 和 p(Z_g|Z_l)p(Z_l) 两种互补形式，利用 FiLM 风格的条件化（全局→局部）和消息传递+池化（局部→全局）交替进行，使模型同时具备全局和局部拓扑感知能力。
+core_operator: DualDiff runs coupled latent diffusion over node-level local embeddings and cluster-level global embeddings with dual conditioning.
+primary_logic: It alternates global-to-local FiLM conditioning and local-to-global message-pooling conditioning so graph samples preserve local substructures and global topology.
+claims:
+- The model decomposes graph generation into local and global latent branches rather than a single node-level process.
+- Dual conditioning enables dynamic information exchange between topology scales.
+- The note reports improved or competitive MMD metrics on Planar and SBM plus molecular generation gains.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Global and Local Topology-Aware Graph Generation via Dual Conditioning Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IZV9k5BGxi) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | DualDiff |
 | Dataset | Planar, Planar, Planar, SBM |
 

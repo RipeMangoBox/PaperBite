@@ -9,6 +9,7 @@ aliases:
 - SMBIDGTLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 门控向量w_Δ（通过sigmoid函数控制输入更新和状态保持的强度）
@@ -32,7 +33,7 @@ paradigm: 门控参数在训练中被优化以放大与类别相关特征的对�
 | 英文题名 | A Theoretical Analysis of Mamba’s Training Dynamics: Filtering Relevant Features for Generalization in State Space Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hvpKqEYJjj) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | Simplified Mamba block with input-dependent gating and two-layer MLP |
 | Dataset | Synthetic majority-voting data, Synthetic locality-structured data, Synthetic locality-structured data, Synthetic locality-structured data |
 

@@ -10,6 +10,7 @@ aliases:
 - LFFTMMD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 openreview_forum_id: raVuVPbnQL
@@ -34,7 +35,7 @@ paradigm: 通过元素级可学习的噪声调度网络，自适应地为每个�
 | 英文题名 | Learning Flexible Forward Trajectories for Masked Molecular Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=raVuVPbnQL) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | MELD (Masked Element-wise Learnable Diffusion) |
 | Dataset | QM9, ZINC250K, Polymer (property-conditioned) |
 

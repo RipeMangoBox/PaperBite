@@ -10,7 +10,14 @@ aliases:
 - BDDGUIR
 acceptance: accepted
 paradigm: 通过多角度多尺度灰度共生矩阵（MAS-GLCM）实现细粒度退化判别，并将其特征与扩散模型的中间特征进行双向对齐，从而在单一模型中同时保留生成先验和退化判别能力，实现保真度与感知质量的平衡。
+core_operator: BDG aligns MAS-GLCM degradation descriptors with diffusion intermediate features in a three-stage restoration training pipeline.
+primary_logic: It pretrains generation, bridges degradation features to diffusion features with bidirectional alignment, then fine-tunes restoration with low-quality image injection.
+claims:
+- MAS-GLCM provides fine-grained degradation type and level discrimination.
+- The bridge stage injects degradation awareness while retaining the diffusion model generation prior.
+- The note reports PSNR gains over DiffUIR on all-in-one restoration tasks.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Bridging Degradation Discrimination and Generation for Universal Image Restoration |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hVFoiCDiMB) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | BDG (Bridging Degradation discrimination and Generation) |
 | Dataset | 5D All-in-One (Deraining), 5D All-in-One (Low-light Enhancement), 5D All-in-One (Desnowing), 5D All-in-One (Dehazing) |
 

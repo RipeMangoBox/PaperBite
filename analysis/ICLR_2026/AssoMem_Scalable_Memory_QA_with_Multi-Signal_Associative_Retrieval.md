@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/AssoMem_Scalable_Memory_QA_with_Multi-Signal_Associ
 aliases:
 - AssoMem
 acceptance: accepted
+core_operator: 构建线索话语关联图并融合相关性、重要性和时序信号检索记忆。
+primary_logic: AssoMem先从对话抽取线索并建图，再用RITRanker三信号打分和CMI权重融合选择记忆上下文。
+claims:
+- 仅靠语义相关性难以区分大规模高相似记忆中的关键话语。
+- 关联记忆图把话语锚定到自动抽取线索，支持重要性感知的图排序。
+- CMI融合能按查询类型自适应调整相关性、重要性和时序信号权重。
+- AssoMem在LongMemEval和MeetingQA上提升检索与问答性能且在线延迟低于HippoRAG。
 paradigm: 模仿人类联想记忆机制，将对话话语锚定到自动提取的线索（clues）上，形成关联图结构，从而支持重要性感知排序；并利用互信息驱动的融合策略根据查询意图自适应平衡相关性、重要性和时序信号，实现更准确的上下文感知记忆检索。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZCjWUBwCwE) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | AssoMem |
 | Dataset | LongMemEval medium, LongMemEval medium, LongMemEval medium, LongMemEval medium |
 

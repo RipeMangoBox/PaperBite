@@ -10,6 +10,7 @@ aliases:
 - FEDFTRL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 将分布式通信带来的延迟建模为反馈延迟，并采用混合正则化器（hybrid regularizer）和截断损失估计器（truncated loss estimator）来对齐各智能体的动作概率分布。
@@ -33,7 +34,7 @@ paradigm: 通过截断损失估计器防止罕见臂的估计值爆炸，从而�
 | 英文题名 | A Near-Optimal Best-of-Both-Worlds Algorithm for Federated Bandits |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Lkndkxeemx) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | FEDFTRL |
 | Dataset | 合成数据集, MovieLens数据集 |
 

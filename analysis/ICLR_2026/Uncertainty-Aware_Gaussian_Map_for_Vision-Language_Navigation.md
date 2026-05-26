@@ -33,7 +33,7 @@ paradigm: 3D高斯原语的显式结构使物理上有意义的属性（位置�
 | 英文题名 | Uncertainty-Aware Gaussian Map for Vision-Language Navigation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LPv59noPAy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Uncertainty-Aware Gaussian Map (UAGM) Agent |
 | Dataset | R2R, R2R, RxR, RxR |
 
@@ -205,19 +205,19 @@ $$\pmb{p} = \mathrm{Softmax}\big(\mathcal{F}^{\mathrm{MLT}}\big([\pmb{F}^g, \pmb
 ## 实验与分析
 
 ![[assets/figures/papers/paper_list_l26_https_openreview_net_forum_id_LPv59noPAy/figures/007_Table_2.jpg]]
-*Table 2: Quantitative results on R2R [1] val unseen. ‘−’: unavailable statistics. See §4.2 for more details*
+*Table 2: Quantitative results on R2R val unseen. ‘−’: unavailable statistics. See §4.2 for more details*
 
 ![[assets/figures/papers/paper_list_l26_https_openreview_net_forum_id_LPv59noPAy/figures/003_Table_1.jpg]]
-*Table 1: Quantitative results on REVERIE [28]. ‘−’: unavailable statistics. See §4.2 for more details*
+*Table 1: Quantitative results on REVERIE. ‘−’: unavailable statistics. See §4.2 for more details*
 
 ![[assets/figures/papers/paper_list_l26_https_openreview_net_forum_id_LPv59noPAy/figures/008_Table_3.jpg]]
-*Table 3: Quantitative results on RxR [27] val unseen. ‘−’: unavailable statistics. See §4.2*
+*Table 3: Quantitative results on RxR val unseen. ‘−’: unavailable statistics. See §4.2*
 
 ![[assets/figures/papers/paper_list_l26_https_openreview_net_forum_id_LPv59noPAy/figures/010_Table_4.jpg]]
-*Table 4: Ablation studies on val unseen split of R2R [1] and REVERIE [28]. See §4.4 for more details*
+*Table 4: Ablation studies on val unseen split of R2R and REVERIE. See §4.4 for more details*
 
 ![[assets/figures/papers/paper_list_l26_https_openreview_net_forum_id_LPv59noPAy/figures/012_Table_6.jpg]]
-*Table 6: Effectiveness of U g, U s, U ^ { a } on val unseen of R2R [1] and REVERIE [28]. See §4.4 for more details*
+*Table 6: Effectiveness of U g, U s, U ^ { a } on val unseen of R2R and REVERIE. See §4.4 for more details*
 
 ### 核心定量结果
 

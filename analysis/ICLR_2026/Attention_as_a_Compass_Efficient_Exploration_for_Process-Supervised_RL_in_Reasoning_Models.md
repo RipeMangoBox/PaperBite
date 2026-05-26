@@ -32,7 +32,7 @@ paradigm: LLM自注意力中，对后续上下文影响力较大的步骤（高F
 | 英文题名 | Attention as a Compass: Efficient Exploration for Process-Supervised RL in Reasoning Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NCN8oUsiNf) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AttnRL |
 | Dataset | 六项数学基准平均（AIME24/25, AMC23, MATH-500, Minerva, Olympiad） |
 

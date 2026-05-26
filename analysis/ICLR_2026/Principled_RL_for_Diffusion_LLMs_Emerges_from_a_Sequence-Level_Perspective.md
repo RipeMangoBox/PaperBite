@@ -33,7 +33,7 @@ paradigm: 将动作空间从token级提升到序列级，并借助ELBO代理与�
 | 英文题名 | Principled RL for Diffusion LLMs Emerges from a Sequence-Level Perspective |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=S5YeC9llIL) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ESPO (ELBO-based Sequence-level Policy Optimization) |
 | Dataset | GSM8K, MATH, Countdown, Sudoku |
 

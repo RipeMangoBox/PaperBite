@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: RealEstate10K
@@ -23,7 +23,6 @@ generated: 2026-05-23T23:39
 	- datasets: RealEstate10K
 - [[analysis/ICLR_2026/Geometry_Forcing_Marrying_Video_Diffusion_and_3D_Representation_for_Consistent_World_Modeling.md|Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Geometry_Forcing_Marrying_Video_Diffusion_and_3D_Representation_for_Consistent_World_Modeling.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: Geometry Forcing (GF)
 	- datasets: RealEstate10K

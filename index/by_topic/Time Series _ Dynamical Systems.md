@@ -4,7 +4,7 @@ type: paper-index
 dimension: topic
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Topic: Time Series / Dynamical Systems

@@ -33,7 +33,7 @@ paradigm: 哈密顿量结构作为导航的强归纳偏置：能量守恒稳定�
 | 英文题名 | GRL-SNAM: Geometric Reinforcement Learning with Differential Hamiltonians for Navigation and Mapping in Unknown Environments |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KcC5mwfGf0) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | GRL-SNAM |
 | Dataset | 2D deformable ring navigation (cluttered environments), 2D deformable ring navigation, Point-agent dungeon navigation (short-rollout) |
 

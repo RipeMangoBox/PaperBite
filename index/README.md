@@ -1,6 +1,7 @@
 # PaperBite Paper Index
 
-This directory is derived from the ResearchFlow index build and PaperBite `analysis/` frontmatter.
+This directory is generated from PaperBite analysis notes and uses root-relative
+vault paths.
 
 ## Entry Points
 
@@ -10,10 +11,10 @@ This directory is derived from the ResearchFlow index build and PaperBite `analy
 - `index/by_topic/`
 - `index/by_method/`
 - `index/by_dataset/`
-- `index/by_venue/`
-- `index/by_year/`
+- `index/by_venue_year/`
 
 Topic pages use coarse top-level research areas. Method pages use normalized
 method families; exact method names remain in `index.jsonl`.
 
-Generated index files are local research artifacts and are ignored by default.
+Generated index files should be rebuilt from the source notes rather than
+hand-edited.

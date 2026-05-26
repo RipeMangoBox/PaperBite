@@ -9,6 +9,7 @@ aliases:
 - CG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 通过可学习的边权重掩码，选择性削弱异质性邻居的聚合强度，增强正常与异常候选节点在潜空间的可分性。
@@ -32,7 +33,7 @@ paradigm: 联合优化自判别掩码破坏器与基于聚类的异常检测器�
 | 英文题名 | Escaping the Homophily Trap: A Threshold-free Graph Outlier Detection Framework via Clustering-guided Edge Reweighting |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Z8f0whjttd) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | CER-GOD |
 | Dataset | Email, Amazon, Disney, OGB-Proteins |
 

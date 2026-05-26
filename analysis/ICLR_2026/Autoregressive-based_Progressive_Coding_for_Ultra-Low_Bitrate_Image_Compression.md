@@ -9,8 +9,16 @@ aliases:
 - ABPCA
 - ABPCULBIC
 acceptance: accepted
+core_operator: 用VAR下一尺度预测和分组掩码残差量化实现渐进式超低码率压缩。
+primary_logic: ARPC先传输粗尺度离散token和图像描述，再由VAR预测未接收尺度并用概率估计支持无损熵重编码。
+claims:
+- VAR从粗到细的下一尺度预测天然适合按尺度渐进传输图像信息。
+- 单个ARPC模型可通过选择传输尺度数量支持多码率压缩。
+- 基于VAR概率的无损熵重编码在不损害质量的情况下降低约30%比特率。
+- ARPC在超低码率下取得强感知质量，解码速度比扩散压缩方法快2到6倍。
 paradigm: 核心洞察是：VAR的从粗到细（coarse-to-fine）生成范式天然契合渐进式压缩——先传输包含布局等关键信息的粗尺度，再逐步添加细粒度纹理细节以提升图像质量。同时，VAR相比扩散模型具有更快的生成速度，且无需发送端和接收端共享随机性。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FXu4G5T5QZ) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | AutoRegressive-based Progressive Coding (ARPC) |
 | Dataset | CLIC2020 (1024×1024), CLIC2020 (1024×1024), CLIC2020 (1024×1024), CLIC2020 (1024×1024) |
 

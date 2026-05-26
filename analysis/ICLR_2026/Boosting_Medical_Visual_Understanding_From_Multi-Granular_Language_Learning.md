@@ -10,6 +10,7 @@ aliases:
 - BMVUFMGLL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: ccjukmExrB
@@ -34,7 +35,7 @@ paradigm: 利用多粒度文本描述构建层次化监督信号，设计软标�
 | 英文题名 | Boosting Medical Visual Understanding From Multi-Granular Language Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ccjukmExrB) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Multi-Granular Language Learning (MGLL) |
 | Dataset | RFMiD (multi-label fundus), ChestX-ray14, MIDRC-XR |
 

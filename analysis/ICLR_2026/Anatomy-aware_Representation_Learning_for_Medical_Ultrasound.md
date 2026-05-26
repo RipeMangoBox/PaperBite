@@ -10,7 +10,16 @@ aliases:
 - AARLMU
 acceptance: accepted
 paradigm: 通过将解剖上下文显式注入Vision Transformer的注意力机制（ACDT中解剖条件特征作为key/value，原始patch作为query），并结合掩码图像建模、对抗性损失（保留高频散斑）和自蒸馏损失（全局语义对齐）的多目标自监督学习框架，ARL能够学习到器官感知且泛化性强的超声图像表示。
+core_operator: |
+  通过解剖条件可变形Transformer将16类解剖上下文注入ViT注意力，并联合MIM、对抗性损失和自蒸馏损失进行超声自监督表示学习。
+primary_logic: |
+  先用解剖类别嵌入生成条件特征作为注意力key/value，使patch query按器官上下文自适应提取特征，再用局部重建、高频散斑保留和全局语义对齐的多目标训练获得可迁移超声表示。
+claims:
+- ARL在5.2M张超声图像和16个解剖类别上预训练A-ViT，学习器官感知表示。
+- 在BUSI乳腺癌分类上，A-ViT微调准确率达到93.66%，AUROC达到0.9742。
+- 消融结果显示ACDT、对抗性损失、自蒸馏损失和自适应加权共同提升乳腺癌分类性能。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -20,14 +29,14 @@ tags:
 > [!tip] 核心洞察
 > 通过将解剖上下文显式注入Vision Transformer的注意力机制（ACDT中解剖条件特征作为key/value，原始patch作为query），并结合掩码图像建模、对抗性损失（保留高频散斑）和自蒸馏损失（全局语义对齐）的多目标自监督学习框架，ARL能够学习到器官感知且泛化性强的超声图像表示。
 
-| 字段      | 内容                                                                                                                    |
-| ------- | --------------------------------------------------------------------------------------------------------------------- |
-| 中文题名    | 面向医学超声的解剖感知表示学习                                                                                                       |
-| 英文题名    | Anatomy-aware Representation Learning for Medical Ultrasound                                                          |
-| 会议/期刊   | ICLR 2026 (accepted)                                                                                                  |
-| Links   | [paper](https://openreview.net/forum?id=5ThIWuDkEf)                                                                   |
-| Topic   | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
-| Method  | Anatomy-aware Representation Learning (ARL)                                                                           |
+| 字段 | 内容 |
+|------|------|
+| 中文题名 | 面向医学超声的解剖感知表示学习 |
+| 英文题名 | Anatomy-aware Representation Learning for Medical Ultrasound |
+| 会议/期刊 | ICLR 2026 (accepted) |
+| Links | [paper](https://openreview.net/forum?id=5ThIWuDkEf) |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Method | Anatomy-aware Representation Learning (ARL) |
 | Dataset | Breast Cancer (BUSI), Breast Cancer (BUSI), Thyroid Cancer, Thyroid Cancer                                            |
 
 > [!tip] 效果简介

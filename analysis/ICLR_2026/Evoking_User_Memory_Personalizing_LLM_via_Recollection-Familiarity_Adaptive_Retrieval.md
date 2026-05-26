@@ -10,6 +10,7 @@ aliases:
 - EUMPLRFAR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 利用探测检索的均值相似度和熵联合估计熟悉度不确定性，通过双阈值门控策略（θ_high, θ_low, τ）自适应选择熟悉度路径（一次top-K）或回忆路径（迭代聚类-α混合查询扩展）。
@@ -33,7 +34,7 @@ paradigm: 将认知科学中的回忆-熟悉度双过程理论映射为检索器
 | 英文题名 | Evoking User Memory: Personalizing LLM via Recollection-Familiarity Adaptive Retrieval |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=f7p0F2X6XN) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | RF-Mem (Recollection–Familiarity Memory Retrieval) |
 | Dataset | PersonaMem (32K), PersonaMem (1M), PersonaBench (MiniLM), LongMemEval-S (BGE) |
 

@@ -10,6 +10,7 @@ aliases:
 - FSOD-VFM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 openreview_forum_id: jHlAq2rYUw
@@ -34,7 +35,7 @@ paradigm: 利用 SAM2 产生的精确物体掩码和 DINOv2 的强表征能力�
 | 英文题名 | FSOD-VFM: Few-Shot Object Detection with Vision Foundation Models and Graph Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jHlAq2rYUw) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | FSOD-VFM |
 | Dataset | Pascal-5i (novel splits), COCO-20i, CD-FSOD |
 

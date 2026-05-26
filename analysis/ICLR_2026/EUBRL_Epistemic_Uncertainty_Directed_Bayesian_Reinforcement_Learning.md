@@ -9,6 +9,7 @@ aliases:
 - EUBRL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/online
 openreview_forum_id: KASqlcI6Nm
@@ -33,7 +34,7 @@ paradigm: 利用概率推断将认知不确定性建模为奖励的一部分，�
 | 英文题名 | EUBRL: Epistemic Uncertainty Directed Bayesian Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KASqlcI6Nm) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/online |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/online |
 | Method | EUBRL |
 | Dataset | Chain, Loop (2 Loops), DeepSea (stochastic), LazyChain |
 

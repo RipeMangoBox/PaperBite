@@ -32,7 +32,7 @@ paradigm: 推理时生成的语言本身就兼具两种功能：为当前查询�
 | 英文题名 | MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=XY8AaxDSLb) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MEM1 |
 | Dataset | Multi-Objective QA (16-Objective), Multi-Objective QA (16-Objective), WebShop, WebShop |
 

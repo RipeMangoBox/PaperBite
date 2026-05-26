@@ -9,8 +9,16 @@ aliases:
 - AFARMFM
 - ARM-FM
 acceptance: accepted
+core_operator: 用基础模型从自然语言任务自动生成语言对齐奖励机构。
+primary_logic: ARM-FM先生成LARM结构、标签函数和状态指令，再用状态语言嵌入条件化RL策略并提供稠密奖励。
+claims:
+- LARM为每个奖励机构状态加入自然语言指令和嵌入，使策略能够按当前子目标语义行动。
+- 生成器和评论家基础模型通过自我改进从任务提示和视觉观察生成可执行奖励机构。
+- 在MiniGrid长时域任务中，ARM-FM是唯一能解决全部评估任务并接近完美奖励的方法。
+- 完整的LARM奖励加状态嵌入在多任务XLand-MiniGrid中比单独组件更稳定。
 paradigm: 将基础模型的高层推理能力与奖励机构（RM）的形式化结构相结合：FM自动将自然语言任务描述分解为有限状态自动机，每个状态关联一个语言嵌入，使得策略可以基于当前子目标的语义嵌入进行条件化，从而在共享的语义技能空间中实现经验复用和零样本泛化。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OBpQdCWLfd) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | ARM-FM (Automated Reward Machines via Foundation Models) |
 | Dataset | MiniGrid-DoorKey (固定地图), MiniGrid-DoorKey (程序生成地图), MiniGrid-UnlockToUnlock, MiniGrid-BlockedUnlockPickup |
 

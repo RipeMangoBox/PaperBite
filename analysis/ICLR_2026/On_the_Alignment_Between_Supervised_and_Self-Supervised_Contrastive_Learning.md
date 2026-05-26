@@ -10,6 +10,7 @@ aliases:
 - ABSSSCL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 批量大小（B）、类别数（C）、温度（τ）和学习率调度是控制CL-NSCL表示对齐度的关键可调节超参数。增大类别数、提高温度或使用较小的有效步长可以增强对齐；批量大小的影响取决于学习率缩放策略。
@@ -33,7 +34,7 @@ paradigm: 在相似性空间中分析耦合动力学，绕过参数空间指数�
 | 英文题名 | On the Alignment Between Supervised and Self-Supervised Contrastive Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JkitQScjuL) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | 相似性空间耦合分析框架（Similarity-Space Coupling Analysis Framework） |
 | Dataset | Tiny-ImageNet, CIFAR-100, Multiple datasets (CIFAR-10/100, Mini/Tiny ImageNet), Multiple datasets |
 

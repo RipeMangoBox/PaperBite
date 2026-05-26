@@ -9,6 +9,7 @@ aliases:
 - SpikePingpong
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 引入‘快慢’双系统架构：系统1利用物理模型快速估计击球位置；系统2通过脉冲相机数据训练神经校准网络以纠正系统1的误差；IMPACT模仿学习模块实现策略性回球。
@@ -32,7 +33,7 @@ paradigm: 借鉴认知科学中双系统理论（快速直觉与慢速审慎）�
 | 英文题名 | SpikePingpong: Spike Vision-based Fast-Slow Pingpong Robot System |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=d08yOXs1Dl) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | SpikePingpong |
 | Dataset | Ball-racket contact prediction error, Single-target return accuracy (30cm zone), Single-target return accuracy (20cm zone), Sequential target execution (30cm) |
 

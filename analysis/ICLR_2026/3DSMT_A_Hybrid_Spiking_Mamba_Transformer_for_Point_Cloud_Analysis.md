@@ -10,8 +10,15 @@ aliases:
 - 3HSMTPCA
 - AHSMTP
 acceptance: accepted
+core_operator: 将脉冲局部偏移注意力和脉冲 Mamba 块组合成混合 SNN 点云分析架构。
+primary_logic: |
+  先用脉冲补丁嵌入把点云编码为脉冲令牌，再在堆叠的 Spiking Hybrid Blocks 中交替用 SLOA 捕捉局部几何、用 SMB 融合全局上下文，最后接任务特定头完成分类或分割，并用多数据集实验验证精度-能量权衡。
+claims:
+- 点云稀疏性与 SNN 事件驱动计算匹配，但需要同时引入局部几何注意力和全局序列建模才能缩小与 ANN 的精度差距。
+- 3DSMT 在点云分类与分割任务上取得强 SNN 性能，同时保持较低能耗。
 paradigm: supervised spiking neural network training for point cloud analysis
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 ---
@@ -21,13 +28,13 @@ tags:
 > [!tip] 核心洞察
 > 点云的稀疏性与SNN的事件驱动计算天然契合，但SNN需要同时具备局部几何注意力和全局序列建模能力才能缩小精度差距，因为局部偏移注意力能有效编码点云的细粒度几何结构，而脉冲曼巴块能以线性复杂度融合全局特征，从而使全脉冲混合架构在保持低能耗的同时实现高精度成为可能。
 
-| 字段      | 内容                                                                                 |
+| 字段 | 内容 |
 | --------- | ------------------------------------------------------------------------------------ |
 | 中文题名  | 3DSMT：用于点云分析的混合脉冲曼巴-Transformer                                        |
 | 英文题名  | 3DSMT A Hybrid Spiking Mamba-Transformer for Point Cloud Analysis                    |
 | 会议/期刊 | ICLR 2026 (accepted)                                                                 |
 | Links     | [paper](https://openreview.net/forum?id=KkoS6y0pHP)                                     |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method    | 混合脉冲曼巴-Transformer（3DSMT），包含脉冲局部偏移注意力（SLOA）和脉冲曼巴块（SMB） |
 | Dataset   | ModelNet40, ScanObjectNN, ShapeNetPart, S3DIS, SemanticKITTI                         |
 
@@ -36,6 +43,10 @@ tags:
 > - 在ModelNet40分类任务上达到95.2%的总体准确率，在对比的SNN点云方法中取得最优结果。
 > - 在ScanObjectNN上展现出比ANN和SNN基线更好的精度-能量权衡。
 > - 在ShapeNetPart部件分割任务上取得85.1%的实例mIoU，在SNN点云模型中具有竞争力。
+
+## 概述
+
+3DSMT提出一种面向点云分析的混合脉冲曼巴-Transformer架构。模型通过脉冲补丁嵌入、脉冲局部偏移注意力和脉冲曼巴块，将点云局部几何建模与全局特征融合结合起来，在保持SNN低能耗优势的同时提升分类和分割精度。实验覆盖ModelNet40、ScanObjectNN、ShapeNetPart、S3DIS和SemanticKITTI等点云任务，显示该方法在SNN点云模型中具有较好的精度-效率权衡。
 
 ## 背景与动机
 

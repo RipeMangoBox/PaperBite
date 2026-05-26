@@ -10,6 +10,7 @@ aliases:
 - MedLesionVQA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/health
 core_operator: MedLesionVQA 定义的七项逐级视觉诊断能力评估维度（尤其是识别类任务占比 61%），直接暴露了模型在视觉-文本对齐和医学概念基础方面的差距。通过控制视觉输入（纯文本 vs. 图文），证实了视觉模态是当前模型的真正瓶颈。
@@ -33,7 +34,7 @@ paradigm: 模型在纯文本建议任务上准确率超过80%，但在需要从�
 | 英文题名 | MedLesionVQA: A Multimodal Benchmark Emulating Clinical Visual Diagnosis for Body Surface Health |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=BYtqk6AVuL) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
 | Method | MedLesionVQA Benchmark and Evaluation Framework |
 | Dataset | MedLesionVQA validation set, MedLesionVQA test set, Lesion Recognition (subset), Suggestion & Treatment (subset) |
 

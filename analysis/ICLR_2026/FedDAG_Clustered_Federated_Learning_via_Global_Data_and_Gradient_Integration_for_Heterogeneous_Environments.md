@@ -9,6 +9,7 @@ aliases:
 - FedDAG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_theory
 core_operator: 采用加权类级别数据相似度与稀疏梯度相似度融合的全面客户端相似度矩阵，并通过自适应聚类与双编码器架构实现跨集群互补表示共享。
@@ -32,7 +33,7 @@ paradigm: 融合来自数据和梯度的多模态信息能够更稳健地发现�
 | 英文题名 | FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eIMXY9qkKz) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_theory |
 | Method | FedDAG |
 | Dataset | CIFAR-10, FMNIST, CIFAR-10 (高数量转移 α'=0.25, 20%标签偏斜), CIFAR-10 (LDA偏斜 α'=0.25) |
 

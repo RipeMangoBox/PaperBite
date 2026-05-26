@@ -10,6 +10,7 @@ aliases:
 - ACADREASON
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 构建一个由50道高难度理论学术问题组成的多领域基准，要求模型在无原文的情况下进行深度推理，并通过专家验证的清单评分和提示辅助来严格评估。
@@ -33,7 +34,7 @@ paradigm: 通过从顶级期刊中精选纯理论论文、提取高推理需求�
 | 英文题名 | ACADREASON: Exploring the Limits of Reasoning Models with Academic Research Problems |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vl0hQuluv4) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | ACADREASON Benchmark Construction and Evaluation Pipeline |
 | Dataset | ACADREASON (50 questions), ACADREASON domain evaluation |
 

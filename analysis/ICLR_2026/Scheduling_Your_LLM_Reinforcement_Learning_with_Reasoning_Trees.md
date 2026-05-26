@@ -33,7 +33,7 @@ paradigm: 通过构建近似推理树并定义推理分数（r-score），可以
 | 英文题名 | Scheduling Your LLM Reinforcement Learning with Reasoning Trees |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=V4zln7XiJj) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Re-Schedule (Reasoning Tree Schedule) |
 | Dataset | Six math benchmarks (AIME24, AIME25, AMC23, MATH500, Minerva Math, OlympiadBench), Six math benchmarks (as above), Six math benchmarks (as above) |
 

@@ -33,7 +33,7 @@ paradigm: 通过离线训练轻量级适配器，从查询的最后一层隐藏�
 | 英文题名 | Adaptive Thinking: Large Language Models Know When to Think in Latent Space |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2i6Rp0gCq6) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Sonata (Self-Consistency-Guided Adapter for Thinking Allocation) |
 | Dataset | AIME25, MATH-500, GSM8K, GPQA |
 

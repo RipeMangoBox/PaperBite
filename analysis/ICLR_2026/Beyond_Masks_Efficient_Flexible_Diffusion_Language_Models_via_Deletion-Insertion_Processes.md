@@ -9,8 +9,15 @@ aliases:
 - DIDLMD
 - BMEFDLMDIP
 acceptance: accepted
+core_operator: DID用连续时间删除过程和学习到的插入分数替代掩码扩散语言模型的掩码去掩码过程。
+primary_logic: 前向链独立删除token至空序列，反向链通过插入分数和Tau-leaping并行重建变长文本。
+claims:
+- 删除插入范式消除了MASK和PAD token造成的Transformer冗余计算。
+- DID原生支持变长序列并能更好匹配训练数据的长度分布。
+- 并行动态规划使插入分数训练目标可高效计算，同时带来训练和推理加速。
 paradigm: 通过将前向过程定义为独立标记删除，后向过程定义为基于学习到的插入分数的标记插入，DID模型能够原生支持变长序列，消除冗余计算，并实现内在的自校正机制。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VbvXjs5f72) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Deletion-Insertion Diffusion language models (DID) |
 | Dataset | WikiText, Lambada, OpenWebText (固定长度), OpenWebText (固定长度) |
 

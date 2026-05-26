@@ -33,7 +33,7 @@ paradigm: 通过将 RGB、光流与相机姿态等多模态场景元素统一表
 | 英文题名 | Unified 3D Scene Understanding Through Physical World Modeling |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NQq9JLMfNN) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | 3WM (3D World Model) |
 | Dataset | WildRGB-D (NVS), DL3DV (NVS), SEVA RE10K (NVS), 3DEditBench (Object Manip.) |
 

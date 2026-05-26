@@ -10,6 +10,7 @@ aliases:
 - Revisual-R1
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: NTo6f6GENJ
@@ -34,7 +35,7 @@ paradigm: 1) 有效的冷启动初始化对 MLLM 推理至关重要，仅使用�
 | 英文题名 | Revisual-R1: Advancing Multimodal Reasoning From Optimized Cold Start to Staged Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NTo6f6GENJ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | ReVisual-R1 |
 | Dataset | 多模态与文本推理基准平均 (Multimodal & Textual Benchmarks Average) |
 

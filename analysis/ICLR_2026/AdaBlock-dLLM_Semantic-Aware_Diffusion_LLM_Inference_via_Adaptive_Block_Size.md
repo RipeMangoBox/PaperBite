@@ -9,6 +9,7 @@ aliases:
 - AdaBlock-dLLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 通过动态识别分隔符词元的置信度，自适应地调整块大小，使其与语义步骤的边界对齐，从而在运行时实现语义感知的块调度。
@@ -32,7 +33,7 @@ paradigm: 去噪过程中置信度动态呈现出高置信度平台、波动带�
 | 英文题名 | AdaBlock-dLLM: Semantic-Aware Diffusion LLM Inference via Adaptive Block Size |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0Cv9PwL7cI) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | AdaBlock-dLLM |
 | Dataset | GSM8K, GSM8K, GSM8K, Overall |
 

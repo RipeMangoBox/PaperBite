@@ -10,6 +10,7 @@ aliases:
 - HBABUPSBU
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_multimodal
 core_operator: 通过构建一个大规模、多模态、标准化的统一基准（HUMAN BEHAVIOR ATLAS），并在其上进行多任务联合训练（SFT、RL）以及灵活的迁移学习，使得模型能够获取跨任务的通用行为理解能力。
@@ -33,7 +34,7 @@ paradigm: 将13个异构的多模态行为数据集统一为prompt-target格式�
 | 英文题名 | Human Behavior Atlas: Benchmarking Unified Psychological And Social Behavior Understanding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZKE23BBvlQ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_multimodal |
 | Method | HUMAN BEHAVIOR ATLAS + OMNISAPIENS-7B (SFT / BAM / RL) |
 | Dataset | CMU-MOSEI (SEN), MUStARD (SAR), MELD (EMO), PTSD-in-the-Wild (PTSD) |
 

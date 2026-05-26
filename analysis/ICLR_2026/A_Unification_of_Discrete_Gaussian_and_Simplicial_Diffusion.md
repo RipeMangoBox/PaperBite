@@ -10,6 +10,7 @@ aliases:
 - UDGSD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: Wright-Fisher 模型中的种群大小 ζ 与繁殖率决定了扩散的类型：ζ=1 给出离散扩散，ζ→∞ 在无繁殖时给出高斯扩散、有繁殖时给出单纯形扩散；同时参数化选择（hollow 或 sufficient-statistic）直接影响损失可比性和模型统一性。
@@ -33,7 +34,7 @@ paradigm: 各类离散数据扩散模型本质上都是 Wright-Fisher 种群遗�
 | 英文题名 | A Unification of Discrete, Gaussian, and Simplicial Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1taAXRcm21) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | 基于 Wright‑Fisher 扩散的统一框架与 sufficient‑statistic 参数化 (SSP) |
 | Dataset | FlyBrain 增强子数据 (DNA), UniRef50 (蛋白质), LM1B (语言), MNIST 灰度图像 |
 

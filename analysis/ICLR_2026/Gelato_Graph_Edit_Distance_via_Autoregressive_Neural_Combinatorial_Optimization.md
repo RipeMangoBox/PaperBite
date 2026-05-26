@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/Gelato_Graph_Edit_Distance_via_Autoregressive_Neura
 aliases:
 - Gelato
 acceptance: accepted
+core_operator: 将图编辑距离求解转化为自回归节点匹配序列预测。
+primary_logic: GELATO逐步预测源图和目标图的节点匹配，每步用已匹配关系更新图表示并通过实例约简压缩子问题。
+claims:
+- 自回归匹配能捕捉线性分配方法忽略的匹配间依赖关系。
+- reduce函数移除已解决局部结构而不丢失最优解，从而压缩状态空间。
+- 自同构类中的等价节点对可作为正样本，缓解监督信号歧义。
+- GELATO在多个GED数据集上达到或接近最优nMAE和EHR，并保持毫秒级推理。
 paradigm: 通过自回归的图神经网络模型，将GED问题转化为一个序列预测任务，每一步预测一对源-目标节点进行匹配，并利用实例约简（reduce）技术压缩状态空间，使得模型能够学习到匹配之间的依赖关系，从而显著提升解的质量。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | Gelato: Graph Edit Distance via Autoregressive Neural Combinatorial Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=6ZTcLNmguc) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | GELATO |
 | Dataset | AIDS, AIDS, LINUX, LINUX |
 

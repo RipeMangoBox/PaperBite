@@ -9,6 +9,7 @@ aliases:
 - RPG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 将自然语言规划替换为结构化、机器可解析的仓库规划图（RPG），并以此驱动整个代码生成流程。
 primary_logic: 通过统一“提案级规划”（功能分解）与“实现级规划”（文件结构/数据流/接口设计）的图表示，RPG 能够提供稳定的长期规划基础，实现覆盖率和代码体量的近线性扩展，并显著加速代理的定位与调试。
@@ -31,7 +32,7 @@ paradigm: 通过统一“提案级规划”（功能分解）与“实现级规�
 | 英文题名 | RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VAQq3Y8tIF) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | ZeroRepo |
 | Dataset | RepoCraft, RepoCraft, RepoCraft |
 

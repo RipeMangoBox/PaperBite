@@ -10,6 +10,7 @@ aliases:
 - A2SEARCH
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 将单一参考答案的精确匹配奖励替换为答案级F1（AnsF1）奖励，并自动构建包含多个验证后替代答案的训练数据，使模型能从奖励中学习适应多答案场景。
@@ -33,7 +34,7 @@ paradigm: 通过轨迹采样与证据验证自动发现歧义问题的替代答�
 | 英文题名 | A$^2$Search: Ambiguity-Aware Question Answering with Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3CPzUWIoNf) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | A2SEARCH |
 | Dataset | Macro Avg (4 multi-hop benchmarks: HotpotQA, 2Wiki, MuSiQue, Bamboogle), HotpotQA, NQ (single-hop), AmbigQA (human-annotated ambiguity) |
 

@@ -33,7 +33,7 @@ paradigm: 通过多智能体辩论融合不同符号语言与自然语言推理�
 | 英文题名 | MAD-Logic: Multi-Agent Debate Enhances Symbolic Translation and Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rdE9qxGfIv) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MAD-Logic（带稀疏通信的多智能体辩论框架） |
 | Dataset | ProntoQA (GPT-4), ProofWriter (GPT-4), LogicalDeduction (GPT-4), AR-LSAT (GPT-4) |
 

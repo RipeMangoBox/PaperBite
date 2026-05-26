@@ -32,7 +32,7 @@ paradigm: 利用互联网规模无动作视频数据蕴含的丰富物理先验�
 | 英文题名 | Vid2World: Crafting Video Diffusion Models to Interactive World Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=pFyzqbUiF9) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Vid2World |
 | Dataset | Robot Manipulation (RT-1), 3D Game Simulation (CS:GO), 3D Game Simulation (CS:GO), Open-World Navigation (RECON) |
 

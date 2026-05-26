@@ -33,7 +33,7 @@ paradigm: 通过构建包含多样化推理拓扑的高质量逐步标注基准�
 | 英文题名 | MC-Search: Evaluating and Enhancing Multimodal Agentic Search with Structured Long Reasoning Chains |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=JEGDp1E4OH) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SEARCH-ALIGN |
 | Dataset | MC-SEARCH (Image-Initiated Chain), MC-SEARCH (Image-Initiated Chain), MC-SEARCH (Parallel Image-Text Fork) |
 

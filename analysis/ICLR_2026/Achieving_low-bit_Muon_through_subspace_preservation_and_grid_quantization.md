@@ -10,6 +10,7 @@ aliases:
 - ALBMTSPGQ
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 core_operator: 将矩矩阵分解为顶部奇异子空间（使用8比特温和压缩）和残差奇异子空间（使用4比特积极压缩），并引入网格量化对双向离群值进行精细化归一化。
@@ -33,7 +34,7 @@ paradigm: NS迭代对量化误差的放大主要集中在顶部奇异子空间�
 | 英文题名 | Achieving low-bit Muon through subspace preservation and grid quantization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=g2l9bg9DWx) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | 4-bit-Muon-GRASP (GRid And Subspace Preserving) |
 | Dataset | LLaMA-350M 预训练下游任务平均准确率, LLaMA-1.1B 预训练验证困惑度, Qwen2.5-7B-Math 微调数学推理任务, 训练内存总占用量 (1.1B 模型) |
 

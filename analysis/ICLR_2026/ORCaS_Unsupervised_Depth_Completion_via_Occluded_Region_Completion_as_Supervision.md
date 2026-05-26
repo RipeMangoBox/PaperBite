@@ -10,6 +10,7 @@ aliases:
 - ORCaS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 openreview_forum_id: v2skNLbrfF
 core_operator: 在隐空间中对遮挡区域的特征进行补全（Contextual eXtrapolation），并将该过程作为额外的训练监督信号。
@@ -33,7 +34,7 @@ paradigm: 强制网络预测输入视图中不可见的遮挡区域特征，促�
 | 英文题名 | ORCaS: Unsupervised Depth Completion via Occluded Region Completion as Supervision |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=v2skNLbrfF) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | ORCaS (Occluded Region Completion as Supervision) |
 | Dataset | VOID1500, NYUv2, KITTI DC |
 

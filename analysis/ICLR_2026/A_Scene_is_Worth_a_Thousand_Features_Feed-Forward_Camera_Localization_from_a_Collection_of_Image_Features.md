@@ -10,6 +10,7 @@ aliases:
 - FastForward
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/3d_rendering_reconstruction
 core_operator: 将场景表示为一组锚定在3D空间中的稀疏图像特征集合，并通过单次前馈传递直接预测查询图像的3D坐标，从而消除场景特定训练和全局对齐步骤。
@@ -33,7 +34,7 @@ paradigm: 仅需数百个从多张映射图像中随机采样的特征，配合�
 | 英文题名 | A Scene is Worth a Thousand Features: Feed-Forward Camera Localization from a Collection of Image Features |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rmDA02o8MV) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | FastForward |
 | Dataset | Wayspots, Wayspots, Wayspots, Indoor6 |
 

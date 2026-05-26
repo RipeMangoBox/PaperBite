@@ -10,6 +10,7 @@ aliases:
 - TFCETGMI
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/alignment_preference
 core_operator: 在滑动时间窗口内，通过移除历史边（反事实操作）改变 TGNN 输出，利用结合独立级联模型（ICM）、时间电阻距离（TRD）和指数衰减的时间影响力评分，选择并验证关键节点。
@@ -33,7 +34,7 @@ paradigm: 通过将独立级联模型、时间电阻距离和指数衰减统一�
 | 英文题名 | Training-free Counterfactual Explanation for Temporal Graph Model Inference |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NqtYz3A8tQ) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/alignment_preference |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/alignment_preference |
 | Method | TemGX (TEMporal Graph eXplainer) |
 | Dataset | UCIM (Link Prediction), UCIM (Link Prediction), UCIM (Link Prediction), METR-LA (Regression) |
 

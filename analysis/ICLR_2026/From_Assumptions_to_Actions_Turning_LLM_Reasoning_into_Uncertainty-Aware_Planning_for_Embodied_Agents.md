@@ -33,7 +33,7 @@ paradigm: 将 LLM 推理中潜在、非结构化的环境假设转化为结构�
 | 英文题名 | From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning for Embodied Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GODFBZhFcX) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | PCE (Planner-Composer-Evaluator) |
 | Dataset | C-WAH, C-WAH, TDW-MAT, TDW-MAT |
 

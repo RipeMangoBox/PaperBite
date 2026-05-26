@@ -33,7 +33,7 @@ paradigm: 将3D物体体积（NOV）上的密集高斯特征转化为稀疏、�
 | 英文题名 | Interpretable 3D Neural Object Volumes for Robust Conceptual Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VSPLa2Sito) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | CAVE (Concept Aware Volumes for Explanations) |
 | Dataset | Pascal3D+ (in-distribution), ImageNet3D (in-distribution), OccludedP3D+ (OOD), OOD-CV (OOD) |
 

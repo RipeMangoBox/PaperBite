@@ -9,6 +9,7 @@ aliases:
 - QeRL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: NVFP4量化固有的噪声作为隐式探索机制，结合自适应量化噪声（AQN）动态调整策略熵，从而影响探索与利用平衡。
@@ -32,7 +33,7 @@ paradigm: 量化噪声在RL训练中并非有害，反而通过增加策略熵�
 | 英文题名 | QeRL: Beyond Efficiency - Quantization-enhanced Reinforcement Learning for LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zw8zxMJJlm) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | QeRL |
 | Dataset | GSM8K (Qwen2.5-7B-Instruct), MATH500 (Qwen2.5-7B-Instruct), Average over 4 math benchmarks (AIME24, AIME25, MATH500, AMC23) on Qwen2.5-7B, GSM8K (Qwen2.5-3B-Instruct) |
 

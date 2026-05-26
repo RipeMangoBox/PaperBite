@@ -33,7 +33,7 @@ paradigm: 将生物医学数据科学任务转化为可验证的代码生成问�
 | 英文题名 | MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=jHDZEUgS4r) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MedAgentGym (训练环境) + Med-Copilot (训练智能体) |
 | Dataset | MedAgentGym (In-Distribution, 8 datasets), MedAgentGym (In-Distribution, 8 datasets), EHRSHOT (ML coding, In-Distribution), MedAgentGym (Out-of-Distribution, 4 datasets) |
 

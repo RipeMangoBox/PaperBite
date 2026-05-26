@@ -10,6 +10,7 @@ aliases:
 - SELLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 openreview_forum_id: EXFKk4Y3yc
@@ -34,7 +35,7 @@ paradigm: 将LLM的softmax分类器重新解释为能量基模型（EBM），利
 | 英文题名 | Spilled Energy in Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EXFKk4Y3yc) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | Spilled Energy (溢出能量) |
 | Dataset | 合成算术 (Math Sums, 13-digit), 9 个标准基准 (HotpotQA, TriviaQA, Movies 等), MNLI (LLaMA 模型) |
 

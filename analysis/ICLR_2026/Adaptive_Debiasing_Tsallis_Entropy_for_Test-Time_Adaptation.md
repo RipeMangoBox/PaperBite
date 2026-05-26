@@ -9,8 +9,16 @@ aliases:
 - ADTEA
 - ADTETTA
 acceptance: accepted
+core_operator: 用类别自适应Tsallis熵替代统一Shannon熵进行测试时视图选择。
+primary_logic: ADTE先估计类别先验偏差并归一化为类别特定q值，再用ADTE筛选高置信视图并集成预测。
+claims:
+- Tsallis熵在q小于1时能缓解VLM头尾类别预测偏差，Shannon熵可视为其极限形式。
+- 类别特定q值使ADTE比SE和固定q的TE更精确地选择高置信度增强视图。
+- ADTE在ImageNet变体和跨域数据集上稳定优于Zero、Frolic等TTA方法。
+- 尾部类别分析显示ADTE显著提升低置信类别的准确率和预测置信度。
 paradigm: Tsallis熵（TE）是Shannon熵（SE）的广义形式，当q<1时，TE能自然缓解VLM的预测偏差，且SE的性能是TE的下界；进一步地，通过为每个类别自适应地学习一个q^l参数（基于估计的标签偏差进行min-max归一化），ADTE能更精确地选择高置信度视图，并与logit调整策略无缝集成以增强适应性能。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=dHj8hC081K) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Adaptive Debiasing Tsallis Entropy (ADTE) |
 | Dataset | ImageNet, ImageNet, ImageNet-V2, ImageNet-K |
 

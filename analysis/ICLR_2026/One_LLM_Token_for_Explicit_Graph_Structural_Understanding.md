@@ -10,6 +10,7 @@ aliases:
 - OLTEGSU
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 core_operator: 引入一个特殊的离散结构标记<SOGk>，通过拓扑感知的标记化器将图拓扑映射为单个离散标记，并与文本标记共享同一嵌入空间。
@@ -33,7 +34,7 @@ paradigm: 通过自监督拓扑重建将连续图表示离散化为一个高度�
 | 英文题名 | : One LLM Token for Explicit Graph Structural Understanding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eXidGkRUFt) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | <SOGk> (Structure Of Graph token) |
 | Dataset | BBBP, Tox21, ClinTox, HIV |
 

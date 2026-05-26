@@ -32,7 +32,7 @@ paradigm: 工具集成推理（TIR）框架允许LLM在推理过程中调用统�
 | 英文题名 | How Far Are LLMs from Professional Poker Players? Revisiting Game-Theoretic Reasoning with Agentic Tool Use |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vV54ShHvGi) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ToolPoker |
 | Dataset | Leduc Hold’em, Limit Texas Hold’em, Leduc Hold’em |
 

@@ -12,11 +12,14 @@ acceptance: accepted
 tags:
 - topic/iclr_2026
 openreview_forum_id: eWe8zqGvs5
-core_operator: Cortical Policy
-primary_logic: Cortical Policy
+core_operator: 用静态几何一致流和动态腕部视角流增强RVT-2机器人操作策略。
+primary_logic: Cortical Policy先用VGGT监督静态多视角特征几何一致，再用预训练GLC从腕部视角生成动作热力图并融合动作预测。
 claims:
-- Cortical Policy
-paradigm: Cortical Policy
+- 静态视图流通过SmoothAP和循环几何一致性损失对齐不同相机中同一3D位置的特征。
+- 动态视图流把腕部相机输入建模为末端执行器位置热力图，为动作推理提供自我中心线索。
+- 仅加入双流会降低性能，几何一致性损失和冻结的位置感知预训练是双流生效的关键。
+- Cortical Policy在RLBench 18任务和COLOSSEUM鲁棒性基准上均超过RVT-2等基线。
+paradigm: 通过静态多视角几何一致性和动态腕部位置感知两条互补视觉流，Cortical Policy在RVT-2框架内同时增强3D空间结构理解和面向动作的局部定位，从而提升机器人操作任务的成功率与扰动鲁棒性。
 ---
 
 # Cortical Policy: A Dual-Stream View Transformer for Robotic Manipulation
@@ -30,7 +33,7 @@ paradigm: Cortical Policy
 | 英文题名 | Cortical Policy: A Dual-Stream View Transformer for Robotic Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eWe8zqGvs5) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method |  |
 | Dataset |  |
 

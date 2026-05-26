@@ -33,7 +33,7 @@ paradigm: 通过同时去噪多个未来观测并引入基于逆变换采样的�
 | 英文题名 | Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Obefq4k8iG) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Horizon Imagination (HI) |
 | Dataset | Atari 100K and Craftium, Craftium |
 

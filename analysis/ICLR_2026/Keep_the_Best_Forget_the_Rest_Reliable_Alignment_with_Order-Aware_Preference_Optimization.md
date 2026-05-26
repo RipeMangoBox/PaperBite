@@ -9,6 +9,7 @@ aliases:
 - KBFRRAOAPO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/batch_offline
 core_operator: 通过在每批中根据参考对齐得分和即时损失筛选掉最高损失的部分未对齐样本，控制梯度方差并收紧泛化界。
@@ -32,7 +33,7 @@ paradigm: 通过参考策略的对齐程度识别和暂时排除最模糊的训�
 | 英文题名 | Keep the Best, Forget the Rest: Reliable Alignment with Order-Aware Preference Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LrHfYPFTtg) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/batch_offline |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/batch_offline |
 | Method | RAPPO |
 | Dataset | IMDB Sentiment Control, Real-Toxicity-Prompts, Text Summarization (GPT-4 evaluation), PKU-SafeRLHF |
 

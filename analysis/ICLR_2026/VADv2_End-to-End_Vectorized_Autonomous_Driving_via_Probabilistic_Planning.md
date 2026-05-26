@@ -32,7 +32,7 @@ paradigm: 通过离散化动作空间并学习场景条件下的概率分布，�
 | 英文题名 | VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0a4dA6eUHN) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VADv2 |
 | Dataset | CARLA Town05 Long, CARLA Town05 Long, NAVSIM navtest, 3DGS Closed-loop |
 

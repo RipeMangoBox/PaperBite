@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: ImageNet 256×256
@@ -33,3 +33,8 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: DUal-Path condition Alignment (DUPA)
 	- datasets: ImageNet 256×256
+- [[analysis/ICLR_2026/Partition_Generative_Modeling_Masked_Modeling_Without_Masks.md|Partition Generative Modeling: Masked Modeling Without Masks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Partition_Generative_Modeling_Masked_Modeling_Without_Masks.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- methods: Partition Generative Model (PGM) / Partition Transformer
+	- datasets: OpenWebText, LM1B, ImageNet 256×256

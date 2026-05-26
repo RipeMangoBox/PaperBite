@@ -10,6 +10,7 @@ aliases:
 - SARIUASG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 将群约束编码为傅里叶系数之间的线性关系，并通过预计算的路由矩阵 M_G 一次性施加所有对称性，使Transformer主体参数可在所有群间共享。
@@ -33,7 +34,7 @@ paradigm: 晶格对称性对傅里叶系数的约束可表示为倒易格点上�
 | 英文题名 | A Single Architecture for Representing Invariance Under Any Space Group |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8LZrXh9hhL) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Crystal Fourier Transformer (CFT) |
 | Dataset | Materials Project, Materials Project, Materials Project, Materials Project |
 

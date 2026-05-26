@@ -10,6 +10,7 @@ aliases:
 - LDCGUPUPCE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 core_operator: 将每个因果边强度建模为可测量参数向量ξ的函数，并通过多项式混沌展开（PCE）将其转化为有限维系数向量进行学习。
@@ -33,7 +34,7 @@ paradigm: 将因果边表示为系统参数的L2可积函数，通过PCE将其�
 | 英文题名 | Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=4bnCXOtHTm) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | PCT-CD |
 | Dataset | 化工过程数据集（9变量，10,000样本）, 化工过程数据集（9变量，10,000样本） |
 

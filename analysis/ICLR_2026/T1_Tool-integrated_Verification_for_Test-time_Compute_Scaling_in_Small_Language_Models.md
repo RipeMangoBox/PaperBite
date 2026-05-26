@@ -9,8 +9,15 @@ aliases:
 - TIVT
 - T1
 acceptance: accepted
+core_operator: T1用工具验证器先过滤候选解，再由奖励模型验证器为小语言模型测试时扩展排序。
+primary_logic: 候选答案先转化为代码或检索式工具检查，只有通过工具过滤的解才进入RM或GenRM最终选择。
+claims:
+- 小语言模型在数值计算和事实核查等记忆密集型验证中受参数容量限制。
+- 工具集成可把记忆需求从模型参数转移到代码解释器或检索器。
+- T1在MATH500和GSM8K的Best-of-N设置中提升多个小模型验证性能。
 paradigm: 将外部工具集成到验证流程中，可以显著降低小语言模型在验证时的记忆需求，使其在测试时计算扩展中达到与更大模型相当的性能，而无需增加模型参数。
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 ---
 
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=tBkLWfmugI) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Tool-integrated Verification (T1) |
 | Dataset | MATH500, MATH500, GSM8K, MATH500 |
 

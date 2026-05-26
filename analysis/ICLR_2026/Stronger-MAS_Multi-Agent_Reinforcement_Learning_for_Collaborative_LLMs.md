@@ -33,7 +33,7 @@ paradigm: 通过将GRPO的组归一化从单智能体扩展到多智能体，并
 | 英文题名 | Stronger-MAS: Multi-Agent Reinforcement Learning for Collaborative LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IdF6JqXWzx) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AT-GRPO (Agent- and Turn-wise Grouped Relative Policy Optimization) |
 | Dataset | Sudoku (4×4) – Qwen3-1.7B, Sokoban (6×6) – Qwen3-8B, Plan-Path (10×10) – Qwen3-1.7B, LiveCodeBench-v6 – Qwen3-8B |
 

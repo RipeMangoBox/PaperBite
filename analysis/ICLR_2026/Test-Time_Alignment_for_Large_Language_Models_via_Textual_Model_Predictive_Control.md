@@ -9,8 +9,16 @@ aliases:
 - TMPCT
 - TTALLMTMPC
 acceptance: accepted
+core_operator: 用文本模型预测控制在测试时滚动搜索高奖励子目标。
+primary_logic: TMPC从冻结LLM rollout中事后识别高奖励文本片段写入缓冲，再以子目标条件化重生成来稳定改进输出。
+claims:
+- TMPC把测试时对齐建模为轨迹优化，平衡token级引导的horizon诅咒和整段重写的维度诅咒。
+- 事后子目标识别和子目标条件重生成两个原则的消融都会明显降低奖励。
+- TMPC无需微调参数，在翻译、长回复和MBPP程序合成任务上优于多种测试时基线。
+- 方法对缓冲大小、段长、奖励噪声和阈值变化表现出较强鲁棒性。
 paradigm: 将测试时对齐重新建模为轨迹优化问题，并借鉴控制理论中的模型预测控制（MPC），通过滚动时域控制和子目标缓冲来平衡horizon诅咒与维度诅咒，无需微调模型参数。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/planning
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Test-Time Alignment for Large Language Models via Textual Model Predictive Control |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=DsS3xRPSs5) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/planning |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/planning |
 | Method | Textual Model Predictive Control (TMPC) |
 | Dataset | WMT'24 Discourse-Level Literary Translation (zh→en), WMT'24 Discourse-Level Literary Translation (zh→de), WMT'24 Discourse-Level Literary Translation (zh→ru), MBPP Program Synthesis |
 

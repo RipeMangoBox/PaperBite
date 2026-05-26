@@ -10,6 +10,7 @@ aliases:
 - PPFLCMRMIUM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: 7KluEfmiXG
@@ -34,7 +35,7 @@ paradigm: 模态之间的支配关系可以在频域中被有效识别和量化�
 | 英文题名 | Plug, Play, and Fortify: A Low-Cost Module for Robust Multimodal Image Understanding Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7KluEfmiXG) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Multimodal Weight Allocation Module (MWAM) |
 | Dataset | BRATS2020 (脑肿瘤分割), NYU-Depth V2 (语义分割), CASIA-SURF (多模态分类), DroneVehicle (多模态检测) |
 

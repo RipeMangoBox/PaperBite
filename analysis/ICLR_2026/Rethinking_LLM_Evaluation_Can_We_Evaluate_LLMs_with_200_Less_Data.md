@@ -9,6 +9,7 @@ aliases:
 - RLECWEL2LD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 通过选择同时移除文本相似性和模型排名相似性的关键代表性子集，可以大幅度压缩基准规模，同时保持模型排序稳定性。
 primary_logic: 基准压缩应联合考虑语义重叠与跨模型行为一致性，采用粗到细的三阶段框架：先基于文本与排名冗余过滤近似重复样本，再利用遗传算法与固定代理模型选择分数重建最优子集，最后通过归因引导的分组细化提升覆盖度，从而在极高压缩比下维持评估可靠性。
@@ -31,7 +32,7 @@ paradigm: 基准压缩应联合考虑语义重叠与跨模型行为一致性，�
 | 英文题名 | Rethinking LLM Evaluation: Can We Evaluate LLMs with 200× Less Data? |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=lZlZjSxdio) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | EssenceBench |
 | Dataset | HellaSwag (10,003 instances), ARC, GSM8K, HellaSwag (ranking preservation) |
 

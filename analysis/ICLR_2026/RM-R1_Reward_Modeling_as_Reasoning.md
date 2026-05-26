@@ -33,7 +33,7 @@ paradigm: 让奖励模型在评分前先进行长链推理（生成评分标准�
 | 英文题名 | RM-R1: Reward Modeling as Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1ZqJ6jj75q) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RM-R1 (Reasoning Reward Model) |
 | Dataset | 平均 (RewardBench, RM-Bench, RMB), RM-Bench, 平均 (三个基准) |
 

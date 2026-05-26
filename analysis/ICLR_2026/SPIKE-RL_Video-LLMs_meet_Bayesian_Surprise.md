@@ -33,7 +33,7 @@ paradigm: 将视频理解建模为动态信念更新过程：根据历史与近�
 | 英文题名 | SPIKE-RL: Video-LLMs meet Bayesian Surprise |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=QLiXtWEAkq) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SPIKE / SPIKE-RL |
 | Dataset | Oops!, Oops!, FunQA, Mr. Bean |
 

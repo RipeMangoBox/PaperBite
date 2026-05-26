@@ -10,6 +10,7 @@ aliases:
 - ActiveCQ
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 core_operator: 框架将多种因果量统一为回归函数在特定目标分布上的积分，通过高斯过程（GP）建模回归函数，并用条件均值嵌入（CME）表示目标分布，从而将因果量后验不确定性自动化为关于积分操作的可公式化量，并以此驱动信息增益（IG）和总方差减少（TVR）两种CQ感知的采集函数设计。
@@ -33,7 +34,7 @@ paradigm: 利用条件均值嵌入将目标子分布嵌入GP所在再生核希�
 | 英文题名 | ActiveCQ: Active Estimation of Causal Quantities |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CWpQsAubxy) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method | ActiveCQ (GP–CME 框架) |
 | Dataset | LaLonde (CATE), LaLonde (ATEDS), Simulation (CATE, DS etc.), IHDP (CATE, ATT, DS) |
 

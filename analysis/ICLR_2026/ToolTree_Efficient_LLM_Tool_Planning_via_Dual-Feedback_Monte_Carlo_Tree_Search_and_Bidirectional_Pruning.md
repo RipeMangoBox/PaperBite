@@ -32,7 +32,7 @@ paradigm: 将工具规划形式化为搜索问题，利用预评估分数在展�
 | 英文题名 | ToolTree: Efficient LLM Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Ef5O9gNNLE) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ToolTree |
 | Dataset | GTA (GPT-4o-mini), m&m (GPT-4o-mini), GTA (GPT-4o), m&m (GPT-4o) |
 

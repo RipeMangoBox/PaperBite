@@ -11,6 +11,7 @@ aliases:
 - AdamW-GS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/3d_rendering_reconstruction
 core_operator: 通过解耦优化过程，将Sparse Adam、Re-State Regularization (RSR) 和 Decoupled Attribute Regularization (DAR) 三个组件分离并重新组合，形成AdamW-GS优化器。
@@ -34,7 +35,7 @@ paradigm: 3DGS优化中的耦合可以被解耦并重新组合：Sparse Adam实�
 | 英文题名 | A Step to Decouple Optimization in 3DGS |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oapTMDy2Yh) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/3d_rendering_reconstruction |
 | Method | AdamW-GS |
 | Dataset | MipNerf360, MipNerf360, MipNerf360, MipNerf360 |
 

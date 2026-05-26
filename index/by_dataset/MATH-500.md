@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: MATH-500
@@ -17,10 +17,24 @@ generated: 2026-05-23T23:39
 	- datasets: MATH-500, AMC
 - [[analysis/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md|Adaptive Thinking: Large Language Models Know When to Think in Latent Space (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Sonata (Self-Consistency-Guided Adapter for Thinking Allocation)
 	- datasets: AIME25, MATH-500, GSM8K
+- [[analysis/ICLR_2026/Incentivizing_LLM_Reasoning_via_Reinforcement_Learning_with_Functional_Monte_Carlo_Tree_Search.md|Incentivizing LLM Reasoning via Reinforcement Learning with Functional Monte Carlo Tree Search (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Incentivizing_LLM_Reasoning_via_Reinforcement_Learning_with_Functional_Monte_Carlo_Tree_Search.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: RFTT (Reinforced Functional Token Tuning)
+	- datasets: MATH-500, GSM8K
+- [[analysis/ICLR_2026/Jackpot_Align_Actor-Policy_Distribution_for_scalable_and_stable_RL_for_LLM.md|Jackpot: Align Actor-Policy Distribution for scalable and stable RL for LLM (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Jackpot_Align_Actor-Policy_Distribution_for_scalable_and_stable_RL_for_LLM.pdf|PDF]]
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: JACKPOT
+	- datasets: GSM8K, MATH-500, AMC22 & AMC23
+- [[analysis/ICLR_2026/Temperature_as_a_Meta-Policy_Adaptive_Temperature_in_LLM_Reinforcement_Learning.md|Temperature as a Meta-Policy: Adaptive Temperature in LLM Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Temperature_as_a_Meta-Policy_Adaptive_Temperature_in_LLM_Reinforcement_Learning.pdf|PDF]]
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- methods: TAMPO (Temperature Adaptive Meta Policy Optimization)
+	- datasets: Avg. over AIME24, MATH-500, AMC23
 - [[analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -29,7 +43,6 @@ generated: 2026-05-23T23:39
 	- datasets: AIME2024, GSM8K, MATH-500
 - [[analysis/ICLR_2026/Tricks_or_Traps_A_Deep_Dive_into_RL_for_LLM_Reasoning.md|Tricks or Traps? A Deep Dive into RL for LLM Reasoning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Tricks_or_Traps_A_Deep_Dive_into_RL_for_LLM_Reasoning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: Lite PPO
 	- datasets: MATH-500, AMC23, AIME25

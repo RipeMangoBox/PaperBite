@@ -10,6 +10,7 @@ aliases:
 - TSLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: "通过特殊令牌（[SEP]、[FAIL]、[GOAL]等）将树结构化搜索线索序列化为线性标记序列，使标准自回归语言模型能够在单个前向传递中生成多个分支并标记其可行性与目标。"
 primary_logic: 通过监督学习完整的、包含成功与失败路径的树结构迹线，可以教会语言模型内部化系统探索能力，从而无需外部搜索算法即可实现高效推理，并展现出超越训练分布的外推能力。
@@ -32,7 +33,7 @@ paradigm: 通过监督学习完整的、包含成功与失败路径的树结构�
 | 英文题名 | TSLM: Tree-Structured Language Modeling for Divergent Thinking |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=PV5Dy4lW3t) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | TSLM (Tree-Structured Language Modeling) |
 | Dataset | Game of 24, Gridworld (10×10), Gridworld (20×20 OOD), ProntoQA |
 

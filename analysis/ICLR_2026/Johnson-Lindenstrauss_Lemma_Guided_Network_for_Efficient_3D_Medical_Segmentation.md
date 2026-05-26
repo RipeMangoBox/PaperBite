@@ -10,6 +10,7 @@ aliases:
 - JLLGNE3MS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/segmentation
 openreview_forum_id: fmWlDfCFMR
@@ -31,7 +32,7 @@ paradigm: Johnson-Lindenstrauss
 | 英文题名 | Johnson-Lindenstrauss Lemma Guided Network for Efficient 3D Medical Segmentation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fmWlDfCFMR) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/segmentation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/segmentation |
 | Method |  |
 | Dataset |  |
 

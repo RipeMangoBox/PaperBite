@@ -10,6 +10,7 @@ aliases:
 - BGBMLEMGE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning
 core_operator: 截断展开阶数 L（控制二项式展开中保留的 Hessian 乘积项数目）。L 越大，估计误差越小，但计算复杂度为 O(Ld)。BinomGBML 通过并行 Hessian-向量积（HVP），在相同 L 下比截断反向传播保留更多二阶信息，从而用更小的 L 获得更优的误差-效率权衡。
@@ -33,7 +34,7 @@ paradigm: 利用二项式定理将 MAML 元梯度的矩阵乘积累加为 Hessia
 | 英文题名 | Binomial Gradient-Based Meta-Learning for Enhanced Meta-Gradient Estimation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=mKgUAO41zf) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
 | Method | BinomMAML (BinomGBML applied to MAML) |
 | Dataset | Synthetic sinusoid regression, Synthetic sinusoid regression (ablation over L), miniImageNet 5-way 1-shot, miniImageNet 5-way 5-shot |
 

@@ -11,11 +11,13 @@ acceptance: accepted
 tags:
 - topic/iclr_2026
 openreview_forum_id: cK35kNVm5r
-core_operator: MedVR
-primary_logic: MedVR
+core_operator: MedVR用熵引导视觉重定位和共识信用分配训练医学VLM主动调用视觉工具。
+primary_logic: 高不确定token触发多轨迹视觉探索，成功轨迹的共识掩码再为工具调用提供自监督奖励。
 claims:
-- MedVR
-paradigm: MedVR
+- MedVR无需中间定位标注，仅用答案正确性和轨迹共识学习视觉推理行为。
+- EVR在高预测熵节点生成多样化视觉假设，缓解纯文本推理的视觉幻觉。
+- CCA从成功轨迹聚合视觉足迹，为Zoom-in等工具调用分配细粒度奖励。
+paradigm: 通过用模型自身token级不确定性触发视觉工具探索，并从答案正确轨迹的空间共识中生成伪监督奖励，MedVR在无中间标注条件下训练医学VLM执行可验证的视觉推理。
 ---
 
 # MedVR: Annotation-Free Medical Visual Reasoning via Agentic Reinforcement Learning
@@ -29,7 +31,7 @@ paradigm: MedVR
 | 英文题名 | MedVR: Annotation-Free Medical Visual Reasoning via Agentic Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cK35kNVm5r) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method |  |
 | Dataset |  |
 

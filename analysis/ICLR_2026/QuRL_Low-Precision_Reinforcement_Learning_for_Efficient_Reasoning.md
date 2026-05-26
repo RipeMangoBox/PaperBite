@@ -33,7 +33,7 @@ paradigm: 采用解耦PPO目标将行为策略（量化Actor）与近端策略�
 | 英文题名 | QuRL: Low-Precision Reinforcement Learning for Efficient Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eG0bpCwdKn) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | QuRL (Quantized Reinforcement Learning) |
 | Dataset | GSM8K, AIME 2024, DeepScaleR (5 tasks avg), Throughput (Inference Speed) |
 

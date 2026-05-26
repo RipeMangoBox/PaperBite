@@ -10,6 +10,7 @@ aliases:
 - AutoDrive-P³
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 核心调控杠杆是提出一种统一的、分阶段监督的强化学习算法（P³-GRPO），该算法通过层次化、渐进式的奖励机制，显式地对感知、预测和规划三个模块进行联合优化，并利用P³-CoT数据集进行冷启动监督微调，从而建立三者之间的因果协同关系。
@@ -33,7 +34,7 @@ paradigm: 核心洞见在于：自动驾驶的规划性能根本上依赖于准�
 | 英文题名 | $AutoDrive\text{-}P^3$: Unified Chain of Perception–Prediction–Planning Thought via Reinforcement Fine-Tuning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CMU8GxwpUL) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | AutoDrive-P³ |
 | Dataset | nuScenes, nuScenes, NAVSIMv1, NAVSIMv2 |
 

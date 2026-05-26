@@ -9,8 +9,15 @@ aliases:
 - LSPLS
 - BSAFCIDLSP
 acceptance: accepted
+core_operator: 在扩散语言模型推理中识别并原子提交最长连续稳定前缀，用前缀优先拓扑替代分散 token 接受。
+primary_logic: |
+  每步前向传播计算活动后缀 token 的 logit margin，通过自适应阈值找出连续稳定前缀，再用结构边界对齐确定提交长度并整体吸收到冻结前缀，使活动后缀单调缩短、KV 缓存连续追加并降低 token 翻转率。
+claims:
+- DLM 中间去噪步骤常已包含最终正确答案片段，前缀级稳定提交可减少碎片化修复成本。
+- LSP 在多个 DLM 基准上保持或略升质量，同时通过前缀吸收实现显著推理加速。
 paradigm: 核心洞见在于：DLM在中间步骤的预测中，正确的最终答案往往已经出现（早期答案收敛）。通过利用这一特性，LSP调度器在单次前向传播中识别并原子化地提交最长的连续稳定前缀，并利用自适应阈值和结构边界对齐（structural snapping）来确保提交块的自然性和连贯性。这种前缀优先的拓扑结构使得KV缓存可以连续追加，活动后缀长度呈几何级数衰减，从而大幅减少...
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zvw9Hiwa0i) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Longest Stable Prefix (LSP) Scheduler |
 | Dataset | GSM8K, GSM8K, HumanEval, HumanEval |
 
@@ -35,11 +42,13 @@ tags:
 > - GSM8K 上，Speedup 为 1.51×，对比 1.0×，变化 +0.51×。
 > - HumanEval 上，pass@1 (%) 为 29.3，对比 30.5，变化 -1.2。
 
+## 概述
+
 本文提出了一种名为**最长稳定前缀（Longest Stable Prefix, LSP）调度器**的训练无关、模型无关的推理加速方法，用于扩散语言模型（Diffusion Language Models, DLMs）。LSP的核心思想是摒弃现有DLM中广泛采用的“分散接受”（Scattered Acceptance）策略——即独立地基于局部置信度提交分散的token——转而采用**整体前缀吸收**（Monolithic Prefix Absorption）范式：在单次前向传播中，识别并原子化地提交当前活动序列中最长的连续稳定前缀。
 
 实验表明，LSP在LLaDA-8B和Dream-7B上实现了高达**3.4倍**的推理加速，同时匹配或略微提升了输出质量。在GSM8K上，LSP以77.6%的准确率实现了1.51倍加速；在TruthfulQA上，准确率从34.4%提升至45.8%，同时获得2.29倍加速。消融研究验证了自适应分块、结构边界对齐和前缀优先拓扑等核心组件的关键作用。
 
-# 2. 背景与动机
+## 背景与动机
 
 ## 1 扩散语言模型（DLM）的推理瓶颈
 
@@ -54,7 +63,7 @@ tags:
 
 本文的核心洞见在于：DLM在中间步骤的预测中，正确的最终答案往往已经出现（早期答案收敛）。通过利用这一特性，LSP调度器可以在不牺牲质量的情况下进行训练无关的早期提交，从而减少计算量。
 
-# 3. 核心创新
+## 核心创新
 
 LSP的核心创新在于将**提交拓扑结构**（Commitment Topology）作为关键因果旋钮，从根本上改变了计算动态：
 
@@ -65,7 +74,7 @@ LSP的核心创新在于将**提交拓扑结构**（Commitment Topology）作为
 | **提交边界对齐** | 无对齐，提交块可能中断在单词或句子中间 | 结构边界对齐：将候选块的右边界对齐到最近的结构分隔符 |
 | **KV缓存策略** | 碎片化KV缓存，需要昂贵的收集操作或重计算 | 近似KV缓存：将已提交的前缀视为固定上下文，进行连续的KV追加 |
 
-# 4. 整体框架
+## 整体框架
 
 LSP调度器的迭代过程如Figure 1所示。在每个步骤中，LSP执行一次前向传播来评估当前活动后缀的预测稳定性，然后原子化地提交最长的连续稳定前缀，使冻结前缀（绿色）整体增长，活动后缀（白色）收缩。
 
@@ -78,7 +87,7 @@ LSP的整体流程如下：
 3. **结构边界对齐**：将候选块的右边界对齐到最近的结构分隔符。
 4. **原子化提交**：将确定的最长稳定前缀作为一个原子操作提交到冻结前缀，并更新KV缓存。
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
 ## 1 稳定性诊断：Logit Margin
 
@@ -104,7 +113,7 @@ $$\mathcal{L} \triangleq \max \{ L_{\mathrm{min}}, \max \{ j \leq L' : \hat{y}_j
 
 其中 $L_{\mathrm{min}}$ 是最小保证长度，$\mathcal{D}$ 是结构分隔符集合，$W$ 是回看窗口大小。该公式确保提交块在保持自然边界的同时，至少提交一个token以保证单调进展。
 
-# 6. 实验与分析
+## 实验与分析
 
 ## 1 主要结果
 
@@ -171,7 +180,7 @@ Table 4展示了LSP在数学推理中的整体前缀吸收过程：
 
 每个彩色块代表在单步中原子化提交的最长稳定前缀。提交边界与自然语言或数学单元（如从句、计算步骤）对齐，展示了LSP的结构边界对齐在实践中的效果。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 ## 1 与现有方法的关系
 

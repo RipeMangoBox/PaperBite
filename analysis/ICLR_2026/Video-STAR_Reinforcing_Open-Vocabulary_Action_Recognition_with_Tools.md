@@ -10,6 +10,7 @@ aliases:
 - Video-STAR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 上下文子动作分解（将整体动作拆解为具有区分性的子动作原语）与工具增强的强化学习（动态调用姿态估计、人体检测等工具）协同作用，强制模型将推理建立在外部工具提取的视觉事实上，从而纠正文本驱动的推理偏差。
 primary_logic: 将动作识别重新定义为顺序决策过程：先分解动作，再匹配候选，最后通过层次化奖励加权子动作重要性进行评分，使模型从以文本为中心转向以视觉为基础的推理。
@@ -32,7 +33,7 @@ paradigm: 将动作识别重新定义为顺序决策过程：先分解动作，�
 | 英文题名 | Video-STAR: Reinforcing Open-Vocabulary Action Recognition with Tools |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NBOHB6aYZh) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Video-STAR |
 | Dataset | Kinetics-400 (base-to-novel), UCF-101 (full, cross-dataset), Kinetics-600 (split, cross-dataset) |
 

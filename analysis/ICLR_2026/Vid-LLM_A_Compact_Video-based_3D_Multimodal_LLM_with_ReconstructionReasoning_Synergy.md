@@ -10,6 +10,7 @@ aliases:
 - Vid-LLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: l1cLdEjESj
@@ -34,7 +35,7 @@ paradigm: 重建与推理本质上是相互依赖的：几何结构支撑语义�
 | 英文题名 | Vid-LLM: A Compact Video-based 3D Multimodal LLM with Reconstruction–Reasoning Synergy |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=l1cLdEjESj) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Vid-LLM |
 | Dataset | ScanQA (3D Question Answering), SQA3D (3D Question Answering), Scan2Cap (3D Dense Captioning), ScanRefer (3D Visual Grounding) |
 

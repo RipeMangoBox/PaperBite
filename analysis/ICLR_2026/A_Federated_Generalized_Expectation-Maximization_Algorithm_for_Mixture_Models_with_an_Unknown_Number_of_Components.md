@@ -9,6 +9,7 @@ aliases:
 - FGEMAMMUNC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 openreview_forum_id: CELYMnherN
@@ -33,7 +34,7 @@ paradigm: 通过在M步后求解一个保证完整数据对数似然不下降的
 | 英文题名 | A Federated Generalized Expectation-Maximization Algorithm for Mixture Models with an Unknown Number of Components |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CELYMnherN) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | FedGEM |
 | Dataset | MNIST, MNIST, MNIST (image) |
 

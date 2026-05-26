@@ -9,6 +9,7 @@ aliases:
 - AgentMath
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 openreview_forum_id: e2s7YHeVZW
@@ -33,7 +34,7 @@ paradigm: 通过工具化数据合成与Agentic RL，模型能够自主决定何
 | 英文题名 | AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=e2s7YHeVZW) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | AgentMath |
 | Dataset | AIME24, AIME25, HMMT25, AIME24 |
 

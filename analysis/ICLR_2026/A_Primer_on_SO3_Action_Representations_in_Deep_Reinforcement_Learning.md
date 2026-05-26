@@ -10,6 +10,7 @@ aliases:
 - PS3ARDRL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 动作表示的选择（特别是局部切空间增量 vs 全局矩阵/四元数）以及是否对网络输出进行单位旋转居中（unit-rotation centering）和缩放（scaling）。
@@ -33,7 +34,7 @@ paradigm: 将动作表示为局部坐标系中的切向量（tangent vectors in 
 | 英文题名 | A Primer on SO(3) Action Representations in Deep Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=g4ZrpMQL1Z) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | 局部切空间增量动作表示（Local Tangent Vector Delta Action Representation） |
 | Dataset | Idealized Rotation Environment, Idealized Rotation Environment, Idealized Rotation Environment, Idealized Rotation Environment |
 

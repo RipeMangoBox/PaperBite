@@ -10,6 +10,7 @@ aliases:
 - SFRTSM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 通过多预算 rollout 探索最小必要 token 集，并使用 GRPO 联合优化答案正确性与 token 减少率，直接将 token 节省作为端到端优化目标。
 primary_logic: 将 token 节省转化为端到端、推理一致的优化目标，通过对比不同预算的 rollout 奖励来动态确定最小必要 token 集，从而在极低 token 比下仍能保持准确性。
@@ -32,7 +33,7 @@ paradigm: 将 token 节省转化为端到端、推理一致的优化目标，通
 | 英文题名 | Sparsity Forcing: Reinforcing Token Sparsity of MLLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gxNTP2eER3) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Sparsity Forcing |
 | Dataset | 7 Image Benchmarks Average (Qwen2.5-VL-7B), 6 Video Benchmarks Average (Qwen2-VL-7B), MME (Qwen2.5-VL-7B), VideoMME (Qwen2.5-VL-7B) |
 

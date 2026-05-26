@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/Avey-B.pdf
 aliases:
 - AB
 acceptance: accepted
+core_operator: 用双向注意力无关的分片检索和神经压缩替代Transformer自注意力编码。
+primary_logic: Avey-B把长序列切成分片，用ranker检索相关分片，经神经压缩器和解耦静态动态处理器建模上下文。
+claims:
+- 解耦静态和动态参数化避免了Avey原耦合相似度权重的反转效应。
+- 行求和归一化稳定动态层的余弦相似度混合并提升下游表现。
+- 神经压缩模块把目标分片和top-k检索分片压回固定长度，大幅提高吞吐量。
+- Avey-B在句子分类、token分类、问答和检索任务上超过多个Transformer编码器基线。
 paradigm: 通过将序列划分为固定大小的分片（split），利用排序器（ranker）检索最相关的k个分片，再通过神经处理器（neural processor）进行上下文建模，使得计算复杂度与序列长度N呈线性关系（O(N)），而非二次关系。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | Avey-B |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=kQ9j5RY8ff) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Avey-B |
 | Dataset | SC（句子分类）, TC（token分类）, QA（问答）, IR（信息检索） |
 

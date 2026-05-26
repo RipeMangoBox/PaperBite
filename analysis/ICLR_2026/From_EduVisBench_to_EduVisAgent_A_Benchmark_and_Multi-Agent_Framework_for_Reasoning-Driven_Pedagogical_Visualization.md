@@ -32,7 +32,7 @@ paradigm: 将教学认知过程显式编码为多智能体流水线（特别是�
 | 英文题名 | From EduVisBench to EduVisAgent: A Benchmark and Multi-Agent Framework for Reasoning-Driven Pedagogical Visualization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FVCpV04ZRe) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | EduVisAgent |
 | Dataset | EduVisBench (综合三个学科、三个难度), EduVisBench, 非STEM子集 (MMLU Prehistory & Sociology, 100 题) |
 

@@ -9,8 +9,16 @@ aliases:
 - AX
 - Agent-X
 acceptance: accepted
+core_operator: 构建带工具轨迹和细粒度指标的真实多模态智能体评测基准。
+primary_logic: Agent-X收集六类视觉中心任务并标注工具增强推理轨迹，再从步骤、深度推理和结果三种模式评估LMM。
+claims:
+- Agent-X覆盖828个真实世界多模态任务，包含图像、视频、文本和14个可执行工具。
+- 细粒度指标能够区分 grounding、工具选择、事实性、语义正确性和最终目标达成。
+- 即使最佳模型在Agent-X上的Goal Accuracy也低于50%，显示现有LMM仍难完成全链推理。
+- 错误分析显示规划失败、视觉误解、工具幻觉和JSON格式错误是主要瓶颈。
 paradigm: Agent-X是首个将大规模真实世界多模态输入（图像、视频、文本）与工具增强的分步推理评估相结合，覆盖六个不同环境的基准测试。其核心贡献在于提供了一个可解释的、细粒度的评估框架，能够区分真正的逻辑推理与表面上的连贯但实际脱节的推理链，从而揭示当前LMM在规划、适应和工具使用方面的关键局限性。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Agent-X: Evaluating Deep Multimodal Reasoning in Vision-Centric Agentic Tasks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Vjruxvp1Xd) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Agent-X |
 | Dataset | Agent-X, Agent-X, Agent-X, Agent-X |
 

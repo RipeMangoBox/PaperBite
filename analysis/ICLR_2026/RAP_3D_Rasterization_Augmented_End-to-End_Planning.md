@@ -33,7 +33,7 @@ paradigm: 端到端驾驶规划训练不需要照片级真实感；语义准确�
 | 英文题名 | RAP: 3D Rasterization Augmented End-to-End Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=a9bOgeqbdB) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RAP (Rasterization Augmented Planning) |
 | Dataset | NAVSIM v1 (navtest), NAVSIM v2 (navhard), WOD Vision-based E2E Driving, WOD Vision-based E2E Driving |
 

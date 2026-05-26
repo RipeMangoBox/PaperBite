@@ -10,8 +10,15 @@ aliases:
 - BWCache
 - Block-Wise Caching (BWCache)
 acceptance: accepted
+core_operator: BWCache按DiT块缓存相邻时间步高度相似的块输出特征以跳过冗余视频扩散计算。
+primary_logic: 相对L1相似性低于阈值后触发缓存，后续按周期重计算并在最终时间步保护生成质量。
+claims:
+- 视频DiT块特征在扩散中间时间步呈稳定相似的U形变化模式。
+- 块级缓存比时间步级或注意力级缓存更细粒度地利用冗余。
+- BWCache在Open-Sora、Latte、Wan和HunyuanVideo等模型上获得显著加速且基本保持VBench质量。
 paradigm: DiT块特征在扩散时间步上呈现U形变化模式，中间时间步高度相似，因此可以安全地缓存和重用，从而消除冗余计算。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -27,7 +34,7 @@ tags:
 | 英文题名 | BWCache: Accelerating Video Diffusion Transformers through Block-Wise Caching |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5bJZtzTFYy) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Block-Wise Caching (BWCache) |
 | Dataset | Open-Sora (51帧, 480P), Open-Sora (51帧, 480P), Open-Sora-Plan (65帧, 512×512), Open-Sora-Plan (65帧, 512×512) |
 

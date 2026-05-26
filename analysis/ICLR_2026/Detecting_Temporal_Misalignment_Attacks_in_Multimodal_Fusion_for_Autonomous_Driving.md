@@ -9,6 +9,7 @@ aliases:
 - DTMAMFAD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: SWlCJab9gZ
@@ -33,7 +34,7 @@ paradigm: 利用连续性感知对比学习（CACL）迫使共享多模态表示
 | 英文题名 | Detecting Temporal Misalignment Attacks in Multimodal Fusion for Autonomous Driving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=SWlCJab9gZ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AION |
 | Dataset | KITTI, nuScenes |
 

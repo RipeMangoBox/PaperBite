@@ -10,6 +10,7 @@ aliases:
 - RABISCLUD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/probabilistic_methods
 core_operator: 在训练目标中引入基于贝叶斯自一致性的损失函数，对无标签数据（包括真实数据）强制执行后验与似然-先验之间的一致性。该损失函数是严格适当的，能直接优化分析后验，无需真实参数。
@@ -33,7 +34,7 @@ paradigm: 自一致性损失是严格适当的，因此可以与标准模拟损�
 | 英文题名 | Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=E1dANKwo4I) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
 | Method | Semi-supervised Neural Posterior Estimation with Self-Consistency Loss (NPE + SC) |
 | Dataset | Multivariate normal means (10-dimensional, μ_prior=0, μ_obs up to 5), Air passenger traffic forecasting (Eurostat data, 15 countries), Air passenger traffic forecasting (Eurostat data, 15 countries), Hodgkin-Huxley neuron model (200-dim time series, out-of-simulation) |
 

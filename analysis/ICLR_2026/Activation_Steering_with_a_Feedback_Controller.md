@@ -10,6 +10,7 @@ aliases:
 - ASFC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 引入比例-积分-微分（PID）控制器，通过积分项消除稳态误差，微分项抑制过冲，实现闭环控制。
 primary_logic: 将激活引导视为动态系统的反馈控制问题，利用PID控制器对层间误差进行闭环调节，从而系统性地改善引导的稳定性和准确性。
@@ -32,7 +33,7 @@ paradigm: 将激活引导视为动态系统的反馈控制问题，利用PID控�
 | 英文题名 | Activation Steering with a Feedback Controller |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vzkEX2SwFD) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Proportional-Integral-Derivative (PID) Steering |
 | Dataset | Jailbreak Attack (Qwen2.5‑14B), Toxicity Mitigation (Gemma2‑2B), Jailbreak Attack (Llama3.1‑8B) |
 

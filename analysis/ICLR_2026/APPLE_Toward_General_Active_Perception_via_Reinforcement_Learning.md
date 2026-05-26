@@ -9,8 +9,15 @@ aliases:
 - AAPPL
 - APPLE
 acceptance: accepted
+core_operator: APPLE将主动感知建模为POMDP，并把可微预测损失并入强化学习奖励来联合训练策略与预测器。
+primary_logic: 共享Transformer骨干处理观测序列，同时输出控制动作和属性预测，再用SAC或CrossQ优化信息采集与推断。
+claims:
+- APPLE只需POMDP环境和可微损失即可应用到触觉、视觉分类、体积回归与定位任务。
+- 将预测损失写入奖励使策略梯度和监督学习梯度在同一目标下协同优化。
+- APPLE-SAC和APPLE-CrossQ在MHSB、CircleSquare和TactileMNIST等任务上优于HAM或随机探索基线。
 paradigm: 通过将预测损失作为奖励的一部分，策略梯度与监督学习梯度可自然分解，从而在统一框架下同时学习信息采集和属性推断。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | APPLE: Toward General Active Perception via Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hU2gT2Ucua) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | APPLE (Active Perception Policy Learning) |
 | Dataset | MHSB (触觉分类), CircleSquare (视觉分类), TactileMNIST (触觉分类), TactileMNISTVolume (触觉体积回归) |
 

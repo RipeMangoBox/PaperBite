@@ -4,7 +4,7 @@ type: paper-index
 dimension: method
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Method: Generative / Diffusion / Flow
@@ -183,12 +183,6 @@ generated: 2026-05-23T23:39
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: ACTIVATIONREASONING (AR)
 	- datasets: PrOntoQA, Rail2Country Meta, ProverQA
-- [[analysis/ICLR_2026/Active_Learning_of_3D_Gaussian_Splatting_with_Consistent_Region_Partition_and_Robust_Pose_Estimation.md|Active Learning of 3D Gaussian Splatting with Consistent Region Partition and Robust Pose Estimation (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Active_Learning_of_3D_Gaussian_Splatting_with_Consistent_Region_Partition_and_Robust_Pose_Estimation.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: Our Active 3DGS Reconstruction with Region Partition and Semantic Variance
-	- datasets: Blender, Objaverse
 - [[analysis/ICLR_2026/Ada-Diffuser_Latent-Aware_Adaptive_Diffusion_for_Decision-Making.md|Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Ada-Diffuser_Latent-Aware_Adaptive_Diffusion_for_Decision-Making.pdf|PDF]]
 	- topics: Reinforcement Learning / Planning / Agents
@@ -209,20 +203,18 @@ generated: 2026-05-23T23:39
 	- datasets: ImageNet 256×256, ImageNet 256×256 类别条件生成, MS-COCO zero-shot
 - [[analysis/ICLR_2026/Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.md|Adaptive Moments are Surprisingly Effective for Plug-and-Play Diffusion Sampling (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Moments_are_Surprisingly_Effective_for_Plug-and-Play_Diffusion_Sampling.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Generative / Diffusion / Flow
 	- methods: Adaptive Moment Guidance (AdamDPS / AdamCG)
 	- datasets: ImageNet Super Resolution 16×, ImageNet Gaussian Deblur 12, ImageNet Inpainting 90% mask
 - [[analysis/ICLR_2026/AdaViewPlanner_Adapting_Video_Diffusion_Models_for_Viewpoint_Planning_in_4D_Scenes.md|AdaViewPlanner: Adapting Video Diffusion Models for Viewpoint Planning in 4D Scenes (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AdaViewPlanner_Adapting_Video_Diffusion_Models_for_Viewpoint_Planning_in_4D_Scenes.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: AdaViewPlanner
 	- datasets: E.T. Testset, Ours Testset
 - [[analysis/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.md|AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: AlignFlow
 	- datasets: CIFAR-10, ImageNet256
 - [[analysis/ICLR_2026/Aligning_Visual_Foundation_Encoders_to_Tokenizers_for_Diffusion_Models.md|Aligning Visual Foundation Encoders to Tokenizers for Diffusion Models (ICLR 2026)]]
@@ -231,12 +223,22 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: AlignTok
 	- datasets: ImageNet 256×256, COCO Prompt 6K
+- [[analysis/ICLR_2026/AlignSep_Temporally-Aligned_Video-Queried_Sound_Separation_with_Flow_Matching.md|AlignSep: Temporally-Aligned Video-Queried Sound Separation with Flow Matching (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AlignSep_Temporally-Aligned_Video-Queried_Sound_Separation_with_Flow_Matching.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: AlignSep
+	- datasets: VGGSound-Hard, VGGSound-Clean
 - [[analysis/ICLR_2026/AlphaFlow_Understanding_and_Improving_MeanFlow_Models.md|AlphaFlow: Understanding and Improving MeanFlow Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AlphaFlow_Understanding_and_Improving_MeanFlow_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: α-Flow
 	- datasets: ImageNet-1K 256×256
+- [[analysis/ICLR_2026/An_Information-Theoretic_Parameter-Free_Bayesian_Framework_for_Probing_Labeled_Dependency_Trees_from_Attention_Score.md|An Information-Theoretic Parameter-Free Bayesian Framework for Probing Labeled Dependency Trees from Attention Score (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/An_Information-Theoretic_Parameter-Free_Bayesian_Framework_for_Probing_Labeled_Dependency_Trees_from_Attention_Score.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: IPBP (Information-theoretic Parameter-free Bayesian Probing)
+	- datasets: UD 2.9 English, Head-Selection Intrinsic Evaluation
 - [[analysis/ICLR_2026/Analyzing_the_Training_Dynamics_of_Image_Restoration_Transformers_A_Revisit_to_Layer_Normalization.md|Analyzing the Training Dynamics of Image Restoration Transformers: A Revisit to Layer Normalization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Analyzing_the_Training_Dynamics_of_Image_Restoration_Transformers_A_Revisit_to_Layer_Normalization.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -249,12 +251,6 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: Anchor Frame Bridging (AFB)
 	- datasets: 自定义数据集
-- [[analysis/ICLR_2026/Animating_the_Uncaptured_Humanoid_Mesh_Animation_with_Video_Diffusion_Models.md|Animating the Uncaptured: Humanoid Mesh Animation with Video Diffusion Models (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Animating_the_Uncaptured_Humanoid_Mesh_Animation_with_Video_Diffusion_Models.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: Animating the Uncaptured
-	- datasets: CAPE, Mixamo
 - [[analysis/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.md|Antithetic Noise in Diffusion Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -303,12 +299,6 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: AttriCtrl
 	- datasets: 自定义测试集, 用户研究
-- [[analysis/ICLR_2026/AUHead_Realistic_Emotional_Talking_Head_Generation_via_Action_Units_Control.md|AUHead: Realistic Emotional Talking Head Generation via Action Units Control (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/AUHead_Realistic_Emotional_Talking_Head_Generation_via_Action_Units_Control.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: AUHead
-	- datasets: MEAD
 - [[analysis/ICLR_2026/Autoregressive_Image_Generation_with_Randomized_Parallel_Decoding.md|Autoregressive Image Generation with Randomized Parallel Decoding (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Autoregressive_Image_Generation_with_Randomized_Parallel_Decoding.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -324,7 +314,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.md|Autoregressive-based Progressive Coding for Ultra-Low Bitrate Image Compression (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Autoregressive-based_Progressive_Coding_for_Ultra-Low_Bitrate_Image_Compression.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: AutoRegressive-based Progressive Coding (ARPC)
 	- datasets: CLIC2020
 - [[analysis/ICLR_2026/Avey-B.md|Avey-B (ICLR 2026)]]
@@ -336,7 +326,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.md|Avoid Catastrophic Forgetting with Rank-1 Fisher from Diffusion Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Avoid_Catastrophic_Forgetting_with_Rank-1_Fisher_from_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Rank-1 EWC with Generative Distillation
 	- datasets: MNIST, FashionMNIST
 - [[analysis/ICLR_2026/BAR_Refactor_the_Basis_of_Autoregressive_Visual_Generation.md|BAR: Refactor the Basis of Autoregressive Visual Generation (ICLR 2026)]]
@@ -345,6 +335,11 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: Basis Autoregressive (BAR)
 	- datasets: ImageNet 256×256
+- [[analysis/ICLR_2026/Beyond_Fixed_Training-Free_Variable-Length_Denoising_for_Diffusion_Large_Language_Models.md|Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Beyond_Fixed_Training-Free_Variable-Length_Denoising_for_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: DAEDAL
+	- datasets: GSM8K, MATH500, MBPP
 - [[analysis/ICLR_2026/Beyond_Masks_Efficient_Flexible_Diffusion_Language_Models_via_Deletion-Insertion_Processes.md|Beyond Masks: Efficient, Flexible Diffusion Language Models via Deletion-Insertion Processes (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Beyond_Masks_Efficient_Flexible_Diffusion_Language_Models_via_Deletion-Insertion_Processes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -357,12 +352,6 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Longest Stable Prefix (LSP) Scheduler
 	- datasets: GSM8K, HumanEval
-- [[analysis/ICLR_2026/Beyond_Skeletons_Learning_Animation_Directly_from_Driving_Videos_with_Same2X_Training_Strategy.md|Beyond Skeletons: Learning Animation Directly from Driving Videos with Same2X Training Strategy (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Beyond_Skeletons_Learning_Animation_Directly_from_Driving_Videos_with_Same2X_Training_Strategy.pdf|PDF]]
-	- topics: Vision / Multimodal / Applications
-	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
-	- methods: DirectAnimator
-	- datasets: TikTok, Unseen
 - [[analysis/ICLR_2026/Beyond_Text-to-Image_Liberating_Generation_with_a_Unified_Discrete_Diffusion_Model.md|Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Beyond_Text-to-Image_Liberating_Generation_with_a_Unified_Discrete_Diffusion_Model.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -371,26 +360,25 @@ generated: 2026-05-23T23:39
 	- datasets: GenEval, MS-COCO, VQAv2
 - [[analysis/ICLR_2026/Beyond_Visual_Reconstruction_Quality_Object_Perception-aware_3D_Gaussian_Splatting_for_Autonomous_Driving.md|Beyond Visual Reconstruction Quality: Object Perception-aware 3D Gaussian Splatting for Autonomous Driving (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Beyond_Visual_Reconstruction_Quality_Object_Perception-aware_3D_Gaussian_Splatting_for_Autonomous_Driving.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: Perception-aware 3DGS Training with Perception-aligned Loss and Object Zone Quality Loss
 	- datasets: Waymo Open Dataset
-- [[analysis/ICLR_2026/BFM-Zero_A_Promptable_Behavioral_Foundation_Model_for_Humanoid_Control_Using_Unsupervised_Reinforcement_Learning.md|BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/BFM-Zero_A_Promptable_Behavioral_Foundation_Model_for_Humanoid_Control_Using_Unsupervised_Reinforcement_Learning.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
-	- methods: BFM-Zero
-	- datasets: LAFAN1, AMASS, 真实世界6种运动
 - [[analysis/ICLR_2026/BindWeave_Subject-Consistent_Video_Generation_via_Cross-Modal_Integration.md|BindWeave: Subject-Consistent Video Generation via Cross-Modal Integration (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/BindWeave_Subject-Consistent_Video_Generation_via_Cross-Modal_Integration.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: BindWeave
 	- datasets: OpenS2V-Eval
+- [[analysis/ICLR_2026/BLADE_Block-Sparse_Attention_Meets_Step_Distillation_for_Efficient_Video_Generation.md|BLADE: Block-Sparse Attention Meets Step Distillation for Efficient Video Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/BLADE_Block-Sparse_Attention_Meets_Step_Distillation_for_Efficient_Video_Generation.pdf|PDF]]
+	- topics: Vision / Multimodal / Applications
+	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
+	- methods: BLADE (Block-sparse Attention Meets step Distillation for Efficient video generation)
+	- datasets: VBench-2.0, Wan2.1-1.3B, CogVideoX-5B
 - [[analysis/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.md|Boomerang Distillation Enables Zero-Shot Model Size Interpolation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Boomerang_Distillation_Enables_Zero-Shot_Model_Size_Interpolation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: Boomerang Distillation
 	- datasets: WikiText, Qwen3-4B-Base 教师模型
 - [[analysis/ICLR_2026/BranchGRPO_Stable_and_Efficient_GRPO_with_Structured_Branching_in_Diffusion_Models.md|BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models (ICLR 2026)]]
@@ -407,7 +395,6 @@ generated: 2026-05-23T23:39
 	- datasets: CIFAR-10, CIFAR-100, ImageNet
 - [[analysis/ICLR_2026/BridgeDrive_Diffusion_Bridge_Policy_for_Closed-Loop_Trajectory_Planning_in_Autonomous_Driving.md|BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/BridgeDrive_Diffusion_Bridge_Policy_for_Closed-Loop_Trajectory_Planning_in_Autonomous_Driving.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: BridgeDrive
 	- datasets: Bench2Drive, LEAD dataset
@@ -446,18 +433,57 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: FigEdit（面向科学图表编辑的大规模基准）
 	- datasets: Single Edit, Conversational Edit, Multi Edit: ‘Add a new data point’
+- [[analysis/ICLR_2026/Compose_Your_Policies_Improving_Diffusion-based_or_Flow-based_Robot_Policies_via_Test-time_Distribution-level_Composition.md|Compose Your Policies! Improving Diffusion-based or Flow-based Robot Policies via Test-time Distribution-level Composition (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Compose_Your_Policies_Improving_Diffusion-based_or_Flow-based_Robot_Policies_via_Test-time_Distribution-level_Composition.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: General Policy Composition (GPC)
+	- datasets: Robomimic & PushT, RoboTwin 2.0, Real-world Clean Table
 - [[analysis/ICLR_2026/Composition_of_Memory_Experts_for_Diffusion_World_Models.md|Composition of Memory Experts for Diffusion World Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Composition_of_Memory_Experts_for_Diffusion_World_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Composition of Memory Experts (CoME)
 	- datasets: Memory Maze, RECON
+- [[analysis/ICLR_2026/Compositional_Diffusion_with_Guided_search_for_Long-Horizon_Planning.md|Compositional Diffusion with Guided search for Long-Horizon Planning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Compositional_Diffusion_with_Guided_search_for_Long-Horizon_Planning.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: Compositional Diffusion with Guided Search (CDGS)
+	- datasets: OGBench PointMaze, OGBench AntMaze, AntSoccer
 - [[analysis/ICLR_2026/ConsisDrive_Identity-Preserving_Driving_World_Models_for_Video_Generation_by_Instance_Mask.md|ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ConsisDrive_Identity-Preserving_Driving_World_Models_for_Video_Generation_by_Instance_Mask.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: ConsisDrive
 	- datasets: nuScenes2V validation set
+- [[analysis/ICLR_2026/Consolidating_Reinforcement_Learning_for_Multimodal_Discrete_Diffusion_Models.md|Consolidating Reinforcement Learning for Multimodal Discrete Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Consolidating_Reinforcement_Learning_for_Multimodal_Discrete_Diffusion_Models.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: MaskGRPO
+	- datasets: GSM8K, MATH500, MBPP
+- [[analysis/ICLR_2026/Constrained_Decoding_of_Diffusion_LLMs_with_Context-Free_Grammars.md|Constrained Decoding of Diffusion LLMs with Context-Free Grammars (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Constrained_Decoding_of_Diffusion_LLMs_with_Context-Free_Grammars.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Constrained Decoding of Diffusion LLMs with Context-Free Grammars (CFG-guided rejection sampling)
+	- datasets: HumanEval C++, DLM tasks
+- [[analysis/ICLR_2026/DiffuGuard_How_Intrinsic_Safety_is_Lost_and_Found_in_Diffusion_Large_Language_Models.md|DiffuGuard: How Intrinsic Safety is Lost and Found in Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DiffuGuard_How_Intrinsic_Safety_is_Lost_and_Found_in_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: DIFFUGUARD
+	- datasets: 六种越狱攻击综合, WildJailbreak, PAD_AdvBench
+- [[analysis/ICLR_2026/Diffusion_Blend_Inference-Time_Multi-Preference_Alignment_for_Diffusion_Models.md|Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Diffusion_Blend_Inference-Time_Multi-Preference_Alignment_for_Diffusion_Models.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Diffusion Blend（包含DB-MPA、DB-KLA、DB-MPA-LS三个算法）
+	- datasets: Short-DrawBench, GenEval, 推理时间
+- [[analysis/ICLR_2026/Diffusion_Fine-Tuning_via_Reparameterized_Policy_Gradient_of_the_Soft_Q-Function.md|Diffusion Fine-Tuning via Reparameterized Policy Gradient of the Soft Q-Function (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Diffusion_Fine-Tuning_via_Reparameterized_Policy_Gradient_of_the_Soft_Q-Function.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: SQDF (Soft Q-based Diffusion Finetuning)
+	- datasets: Online Black-Box Optimization, SDXL Aesthetic Fine-tuning, Stable Diffusion 1.5 Aesthetic Alignment
+- [[analysis/ICLR_2026/Diffusion_Language_Model_Knows_the_Answer_Before_It_Decodes.md|Diffusion Language Model Knows the Answer Before It Decodes (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Diffusion_Language_Model_Knows_the_Answer_Before_It_Decodes.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Prophet (Early Commit Decoding)
+	- datasets: MMLU, GSM8K
 - [[analysis/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.md|DiffusionBlocks Block-wise Neural Network Training via Diffusion Interpretation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/DiffusionBlocks_Block_wise_Neural_Network_Training_via_Diffusion_Interpretation.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -472,10 +498,24 @@ generated: 2026-05-23T23:39
 	- datasets: GenEval, OCR, PickScore
 - [[analysis/ICLR_2026/Discrete_Diffusion_for_Reflective_Vision-Language-Action_Models_in_Autonomous_Driving.md|Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Discrete_Diffusion_for_Reflective_Vision-Language-Action_Models_in_Autonomous_Driving.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: ReflectDrive
 	- datasets: NAVSIM
+- [[analysis/ICLR_2026/DM4CT_Benchmarking_Diffusion_Models_for_Computed_Tomography_Reconstruction.md|DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DM4CT_Benchmarking_Diffusion_Models_for_Computed_Tomography_Reconstruction.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: DM4CT
+	- datasets: Medical CT, Industrial CT, Real-world Synchrotron CT
+- [[analysis/ICLR_2026/DPad_Efficient_Diffusion_Language_Models_with_Suffix_Dropout.md|DPad: Efficient Diffusion Language Models with Suffix Dropout (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DPad_Efficient_Diffusion_Language_Models_with_Suffix_Dropout.pdf|PDF]]
+	- method groups: Systems / Efficiency / Compression, Generative / Diffusion / Flow
+	- methods: DPad
+	- datasets: GSM8K, HumanEval
+- [[analysis/ICLR_2026/DreamOn_Diffusion_Language_Models_For_Code_Infilling_Beyond_Fixed-size_Canvas.md|DreamOn: Diffusion Language Models For Code Infilling Beyond Fixed-size Canvas (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DreamOn_Diffusion_Language_Models_For_Code_Infilling_Beyond_Fixed-size_Canvas.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: DREAMON
+	- datasets: HumanEval-Infilling single-line, HumanEval-Infilling multi-line, SantaCoder-FIM
 - [[analysis/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.md|Dual-Path Condition Alignment for Diffusion Transformers (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Dual-Path_Condition_Alignment_for_Diffusion_Transformers.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -500,6 +540,21 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: EvA (Evolutionary Attack)
 	- datasets: CoraML, Pubmed, Ogbn-Arxiv
+- [[analysis/ICLR_2026/Exploratory_Diffusion_Model_for_Unsupervised_Reinforcement_Learning.md|Exploratory Diffusion Model for Unsupervised Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Exploratory_Diffusion_Model_for_Unsupervised_Reinforcement_Learning.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Agent / RL / Planning
+	- methods: Exploratory Diffusion Model (ExDM)
+	- datasets: Maze2d, URLB Single-Embodiment, URLB Cross-Embodiment
+- [[analysis/ICLR_2026/Fast-dLLM_v2_Efficient_Block-Diffusion_LLM.md|Fast-dLLM v2: Efficient Block-Diffusion LLM (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Fast-dLLM_v2_Efficient_Block-Diffusion_LLM.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Fast-dLLM v2
+	- datasets: GSM8K, HumanEval Base, Average
+- [[analysis/ICLR_2026/Fast-dLLM_Training-free_Acceleration_of_Diffusion_LLM_by_Enabling_KV_Cache_and_Parallel_Decoding.md|Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Fast-dLLM_Training-free_Acceleration_of_Diffusion_LLM_by_Enabling_KV_Cache_and_Parallel_Decoding.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Fast-dLLM
+	- datasets: GSM8K, MATH, MBPP
 - [[analysis/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.md|FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -515,9 +570,12 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.md|Flock A Knowledge Graph Foundation Model via Learning on Random Walks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: 基于随机游走序列编码的概率性节点-关系等变模型
 	- datasets: PETALS
+- [[analysis/ICLR_2026/Flow_Matching_with_Injected_Noise_for_Offline-to-Online_Reinforcement_Learning.md|Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Flow_Matching_with_Injected_Noise_for_Offline-to-Online_Reinforcement_Learning.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 - [[analysis/ICLR_2026/Foresight_Diffusion_Improving_Sampling_Consistency_in_Predictive_Diffusion_Models.md|Foresight Diffusion: Improving Sampling Consistency in Predictive Diffusion Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Foresight_Diffusion_Improving_Sampling_Consistency_in_Predictive_Diffusion_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -542,9 +600,23 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: GELATO
 	- datasets: AIDS, LINUX
+- [[analysis/ICLR_2026/Generating_metamers_of_human_scene_understanding.md|Generating metamers of human scene understanding (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Generating_metamers_of_human_scene_understanding.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: MetamerGen
+	- datasets: COCO-10k-test, Visual Genome Same-Different Task
+- [[analysis/ICLR_2026/Generative_Human_Geometry_Distribution.md|Generative Human Geometry Distribution (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Generative_Human_Geometry_Distribution.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Generative Human Geometry Distribution (HGD)
+	- datasets: THuman2
+- [[analysis/ICLR_2026/Generative_Universal_Verifier_as_Multimodal_Meta-Reasoner.md|Generative Universal Verifier as Multimodal Meta-Reasoner (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Generative_Universal_Verifier_as_Multimodal_Meta-Reasoner.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: OmniVerifier / OmniVerifier-TTS
+	- datasets: ViVerBench, T2I-ReasonBench, GenEval++
 - [[analysis/ICLR_2026/Geometry_Forcing_Marrying_Video_Diffusion_and_3D_Representation_for_Consistent_World_Modeling.md|Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Geometry_Forcing_Marrying_Video_Diffusion_and_3D_Representation_for_Consistent_World_Modeling.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
 	- methods: Geometry Forcing (GF)
 	- datasets: RealEstate10K
@@ -554,12 +626,22 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: GGBall (Hyperbolic Vector-Quantized Autoencoder + Poincaré Flow Matching)
 	- datasets: Community-small, Ego-small, QM9
+- [[analysis/ICLR_2026/GlobeDiff_State_Diffusion_Process_for_Partial_Observability_in_Multi-Agent_System.md|GlobeDiff: State Diffusion Process for Partial Observability in Multi-Agent System (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/GlobeDiff_State_Diffusion_Process_for_Partial_Observability_in_Multi-Agent_System.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: GlobeDiff (Global State Diffusion Algorithm)
+	- datasets: SMAC-v2 PO zerg 5v5, SMAC-v2 PO protoss 5v5, SMAC-v2 PO terran 5v5
 - [[analysis/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.md|Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: RaLoRA / RaLoRA-Pro
 	- datasets: GLUE, MT-Bench, GSM8K
+- [[analysis/ICLR_2026/Half-order_Fine-Tuning_for_Diffusion_Model_A_Recursive_Likelihood_Ratio_Optimizer.md|Half-order Fine-Tuning for Diffusion Model: A Recursive Likelihood Ratio Optimizer (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Half-order_Fine-Tuning_for_Diffusion_Model_A_Recursive_Likelihood_Ratio_Optimizer.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Recursive Likelihood Ratio (RLR) Optimizer (Half-Order Fine-tuning)
+	- datasets: HPD v2, VBench
 - [[analysis/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.md|HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/HGNet_Scalable_Foundation_Model_for_Automated_Knowledge_Graph_Generation_from_Scientific_Literature.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -568,7 +650,6 @@ generated: 2026-05-23T23:39
 	- datasets: SciERC, SciER, BioRED
 - [[analysis/ICLR_2026/Horizon_Imagination_Efficient_On-Policy_Rollout_in_Diffusion_World_Models.md|Horizon Imagination: Efficient On-Policy Rollout in Diffusion World Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Horizon_Imagination_Efficient_On-Policy_Rollout_in_Diffusion_World_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: Horizon Imagination (HI)
 	- datasets: Atari 100K and Craftium, Craftium
@@ -578,24 +659,48 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: HUME (Human Evaluation Framework for Text Embeddings)
 	- datasets: Overall, Multilingual Sentiment, Emotion Classification
+- [[analysis/ICLR_2026/Improving_2D_Diffusion_Models_for_3D_Medical_Imaging_with_InterSlice_Consistent_Stochasticity.md|Improving 2D Diffusion Models for 3D Medical Imaging with Inter‑Slice Consistent Stochasticity (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Improving_2D_Diffusion_Models_for_3D_Medical_Imaging_with_InterSlice_Consistent_Stochasticity.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Inter-Slice Consistent Stochasticity (ISCS)
+	- datasets: SVCT, LACT, MRI SR
+- [[analysis/ICLR_2026/Improving_Diffusion_Models_for_Class-imbalanced_Training_Data_via_Capacity_Manipulation.md|Improving Diffusion Models for Class-imbalanced Training Data via Capacity Manipulation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Improving_Diffusion_Models_for_Class-imbalanced_Training_Data_via_Capacity_Manipulation.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Capacity Manipulation (CM)
+	- datasets: Imb. CIFAR-100, Imb. CIFAR-10, Imb. CelebA-HQ
 - [[analysis/ICLR_2026/Inpainting-Guided_Policy_Optimization_for_Diffusion_Large_Language_Models.md|Inpainting-Guided Policy Optimization for Diffusion Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Inpainting-Guided_Policy_Optimization_for_Diffusion_Large_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: IGPO (Inpainting Guided Policy Optimization)
 	- datasets: GSM8K, MATH500, AMC
+- [[analysis/ICLR_2026/Internal_Planning_in_Language_Models_Characterizing_Horizon_and_Branch_Awareness.md|Internal Planning in Language Models: Characterizing Horizon and Branch Awareness (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Internal_Planning_in_Language_Models_Characterizing_Horizon_and_Branch_Awareness.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: 基于 VQ-VAE 压缩与互信息估计的规划分析框架
+	- datasets: CFG, PF-Long, PF-Short
 - [[analysis/ICLR_2026/Iterative_Training_of_Physics-Informed_Neural_Networks_with_Fourier-enhanced_Features.md|Iterative Training of Physics-Informed Neural Networks with Fourier-enhanced Features (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Iterative_Training_of_Physics-Informed_Neural_Networks_with_Fourier-enhanced_Features.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow
 	- methods: IFeF-PINN (Iterative training of PINNs with Fourier-enhanced Features)
 	- datasets: Low-frequency Helmholtz, Viscous Burgers, Low-frequency benchmarks
+- [[analysis/ICLR_2026/LaDiR_Latent_Diffusion_Enhances_LLMs_for_Text_Reasoning.md|LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/LaDiR_Latent_Diffusion_Enhances_LLMs_for_Text_Reasoning.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: LaDiR
+	- datasets: Math, Code, Countdown-4
 - [[analysis/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.md|Learning to Interpret Weight Differences in Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Learning_to_Interpret_Weight_Differences_in_Language_Models.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: Diff Interpretation Tuning (DIT)
 	- datasets: Hidden Topic Reporting, News Summarization
+- [[analysis/ICLR_2026/Let_Features_Decide_Their_Own_Solvers_Hybrid_Feature_Caching_for_Diffusion_Transformers.md|Let Features Decide Their Own Solvers: Hybrid Feature Caching for Diffusion Transformers (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Let_Features_Decide_Their_Own_Solvers_Hybrid_Feature_Caching_for_Diffusion_Transformers.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: HyCa
+	- datasets: FLUX.1-dev, Qwen-Image, HunyuanVideo
 - [[analysis/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.md|Light Differentiable Logic Gate Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -616,34 +721,90 @@ generated: 2026-05-23T23:39
 	- datasets: ogbn_products_50k, ogbn_arxiv, Reddit_50k
 - [[analysis/ICLR_2026/Mixture-of-World_Models_Scaling_Multi-Task_Reinforcement_Learning_with_Modular_Latent_Dynamics.md|Mixture-of-World Models: Scaling Multi-Task Reinforcement Learning with Modular Latent Dynamics (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Mixture-of-World_Models_Scaling_Multi-Task_Reinforcement_Learning_with_Modular_Latent_Dynamics.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: Mixture-of-World Models (MoW)
 	- datasets: Atari 100K, Meta-World MT50
+- [[analysis/ICLR_2026/Moving_Beyond_Diffusion_Hierarchy-to-Hierarchy_Autoregression_for_fMRI-to-Image_Reconstruction.md|Moving Beyond Diffusion: Hierarchy-to-Hierarchy Autoregression for fMRI-to-Image Reconstruction (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Moving_Beyond_Diffusion_Hierarchy-to-Hierarchy_Autoregression_for_fMRI-to-Image_Reconstruction.pdf|PDF]]
+	- method groups: Vision / Multimodal / 3D, Generative / Diffusion / Flow
+	- methods: MindHier
+	- datasets: NSD, THINGS-fMRI test set
+- [[analysis/ICLR_2026/Multi-agent_Coordination_via_Flow_Matching.md|Multi-agent Coordination via Flow Matching (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Multi-agent_Coordination_via_Flow_Matching.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: MAC-Flow
+	- datasets: SMACv1 & SMACv2, MA-MuJoCo, MPE Spread
+- [[analysis/ICLR_2026/Neon_Negative_Extrapolation_From_Self-Training_Improves_Image_Generation.md|Neon: Negative Extrapolation From Self-Training Improves Image Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Neon_Negative_Extrapolation_From_Self-Training_Improves_Image_Generation.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Neon (Negative Extrapolation from Self‑Training)
+	- datasets: CIFAR-10, FFHQ-64, ImageNet-256
+- [[analysis/ICLR_2026/NextStep-1_Toward_Autoregressive_Image_Generation_with_Continuous_Tokens_at_Scale.md|NextStep-1: Toward Autoregressive Image Generation with Continuous Tokens at Scale (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/NextStep-1_Toward_Autoregressive_Image_Generation_with_Continuous_Tokens_at_Scale.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: NextStep-1
+	- datasets: OneIG-Bench, GenAI-Bench Basic, GEdit-Bench-EN
+- [[analysis/ICLR_2026/On_the_Reasoning_Abilities_of_Masked_Diffusion_Language_Models.md|On the Reasoning Abilities of Masked Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/On_the_Reasoning_Abilities_of_Masked_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Idealized Masked Diffusion Model (MDM) with Planner and Predictor
+- [[analysis/ICLR_2026/One-Step_Flow_Q-Learning_Addressing_the_Diffusion_Policy_Bottleneck_in_Offline_Reinforcement_Learning.md|One-Step Flow Q-Learning: Addressing the Diffusion Policy Bottleneck in Offline Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/One-Step_Flow_Q-Learning_Addressing_the_Diffusion_Policy_Bottleneck_in_Offline_Reinforcement_Learning.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: One-Step Flow Q-Learning (OFQL)
+	- datasets: D4RL MuJoCo, D4RL AntMaze, D4RL Kitchen
+- [[analysis/ICLR_2026/P-GenRM_Personalized_Generative_Reward_Model_with_Test-time_User-based_Scaling.md|P-GenRM: Personalized Generative Reward Model with Test-time User-based Scaling (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/P-GenRM_Personalized_Generative_Reward_Model_with_Test-time_User-based_Scaling.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: P-GenRM
+	- datasets: Chatbot Arena-Personalized, PRISM-Personalized, LaMP-QA
 - [[analysis/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.md|PALC: Preference Alignment via Logit Calibration (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/PALC_Preference_Alignment_via_Logit_Calibration.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: PALC
 	- datasets: HH-RLHF
+- [[analysis/ICLR_2026/Pareto-Conditioned_Diffusion_Models_for_Offline_Multi-Objective_Optimization.md|Pareto-Conditioned Diffusion Models for Offline Multi-Objective Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Pareto-Conditioned_Diffusion_Models_for_Offline_Multi-Objective_Optimization.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Optimization / Theory
+	- methods: PCD (Pareto-Conditioned Diffusion)
+	- datasets: Overall, Real-World Applications, Synthetic ZDT2
+- [[analysis/ICLR_2026/Partition_Generative_Modeling_Masked_Modeling_Without_Masks.md|Partition Generative Modeling: Masked Modeling Without Masks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Partition_Generative_Modeling_Masked_Modeling_Without_Masks.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- methods: Partition Generative Model (PGM) / Partition Transformer
+	- datasets: OpenWebText, LM1B, ImageNet 256×256
 - [[analysis/ICLR_2026/Planner_Aware_Path_Learning_in_Diffusion_Language_Models_Training.md|Planner Aware Path Learning in Diffusion Language Models Training (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Planner_Aware_Path_Learning_in_Diffusion_Language_Models_Training.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Generative / Diffusion / Flow
 	- methods: Planner Aware Path Learning (PAPL)
 	- datasets: Protein Sequence Generation, Unconditional Text Generation, HumanEval
+- [[analysis/ICLR_2026/Point_Prompting_Counterfactual_Tracking_with_Video_Diffusion_Models.md|Point Prompting: Counterfactual Tracking with Video Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Point_Prompting_Counterfactual_Tracking_with_Video_Diffusion_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Point Prompting for Counterfactual Tracking
+	- datasets: TAP-Vid DAVIS, TAP-Vid Kinetics
 - [[analysis/ICLR_2026/Principled_RL_for_Diffusion_LLMs_Emerges_from_a_Sequence-Level_Perspective.md|Principled RL for Diffusion LLMs Emerges from a Sequence-Level Perspective (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Principled_RL_for_Diffusion_LLMs_Emerges_from_a_Sequence-Level_Perspective.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: ESPO (ELBO-based Sequence-level Policy Optimization)
 	- datasets: GSM8K, MATH, Countdown
+- [[analysis/ICLR_2026/Quant-dLLM_Post-Training_Extreme_Low-Bit_Quantization_for_Diffusion_Large_Language_Models.md|Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Quant-dLLM_Post-Training_Extreme_Low-Bit_Quantization_for_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: Quant-dLLM
+	- datasets: LLaDA-8B-Base, LLaDA-Instruct Math & Science, LLaDA-Instruct Code Generation
 - [[analysis/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.md|Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Query-Aware_Flow_Diffusion_for_Graph-Based_RAG_with_Retrieval_Guarantees.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: Query-Aware Flow Diffusion RAG (QAFD-RAG)
 	- datasets: UltraDomain, Spider 2.0
+- [[analysis/ICLR_2026/Quotient-Space_Diffusion_Models.md|Quotient-Space Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Quotient-Space_Diffusion_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Quotient-Space Diffusion Model
+	- datasets: Protein structure generation, GEOM-QM9
 - [[analysis/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.md|ReLaSH: Reconstructing Joint Latent Spaces for Efficient Generation of Synthetic Hypergraphs with Hyperlink Attributes (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -656,6 +817,11 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow
 	- methods: MU-Mis (Machine Unlearning by Minimizing Input Sensitivity)
 	- datasets: CIFAR-100 full-class, Tiny ImageNet full-class, Overall
+- [[analysis/ICLR_2026/ReSplat_Degradation-agnostic_Feed-forward_Gaussian_Splatting_via_Self-guided_Residual_Diffusion.md|ReSplat: Degradation-agnostic Feed-forward Gaussian Splatting via Self-guided Residual Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ReSplat_Degradation-agnostic_Feed-forward_Gaussian_Splatting_via_Self-guided_Residual_Diffusion.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: ReSplat
+	- datasets: LLFF degradation
 - [[analysis/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.md|Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs? (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Rethinking_the_Gold_Standard_Why_Discrete_Curvature_Fails_to_Fully_Capture_Over-squashing_in_GNNs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -664,7 +830,6 @@ generated: 2026-05-23T23:39
 	- datasets: Cora, Average over 21 datasets, SDRF rewiring
 - [[analysis/ICLR_2026/Revolutionizing_Reinforcement_Learning_Framework_for_Diffusion_Large_Language_Models.md|Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Revolutionizing_Reinforcement_Learning_Framework_for_Diffusion_Large_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 - [[analysis/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.md|Risk Phase Transitions in Spiked Regression: Alignment Driven Benign and Catastrophic Overfitting (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Risk_Phase_Transitions_in_Spiked_Regression_Alignment_Driven_Benign_and_Catastrophic_Overfitting.pdf|PDF]]
@@ -678,36 +843,169 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: ROUTERARENA
 	- datasets: ROUTERARENA数据集
+- [[analysis/ICLR_2026/SafeFlowMatcher_Safe_and_Fast_Planning_using_Flow_Matching_with_Control_Barrier_Functions.md|SafeFlowMatcher: Safe and Fast Planning using Flow Matching with Control Barrier Functions (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SafeFlowMatcher_Safe_and_Fast_Planning_using_Flow_Matching_with_Control_Barrier_Functions.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: SafeFlowMatcher
+	- datasets: Maze2D, Hopper
+- [[analysis/ICLR_2026/SAFETY-GUIDED_FLOW_SGF_A_UNIFIED_FRAMEWORK_FOR_NEGATIVE_GUIDANCE_IN_SAFE_GENERATION.md|SAFETY-GUIDED FLOW (SGF): A UNIFIED FRAMEWORK FOR NEGATIVE GUIDANCE IN SAFE GENERATION (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SAFETY-GUIDED_FLOW_SGF_A_UNIFIED_FRAMEWORK_FOR_NEGATIVE_GUIDANCE_IN_SAFE_GENERATION.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: Safety-Guided Flow (SGF)
+	- datasets: Ring-A-Bell, ImageNet 多样性, ImageNette 记忆化缓解
+- [[analysis/ICLR_2026/SANA-Video_Efficient_Video_Generation_with_Block_Linear_Diffusion_Transformer.md|SANA-Video: Efficient Video Generation with Block Linear Diffusion Transformer (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SANA-Video_Efficient_Video_Generation_with_Block_Linear_Diffusion_Transformer.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: SANA-Video
+	- datasets: VBench
+- [[analysis/ICLR_2026/SASFT_Sparse_Autoencoder-guided_Supervised_Finetuning_to_Mitigate_Unexpected_Code-Switching_in_LLMs.md|SASFT: Sparse Autoencoder-guided Supervised Finetuning to Mitigate Unexpected Code-Switching in LLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SASFT_Sparse_Autoencoder-guided_Supervised_Finetuning_to_Mitigate_Unexpected_Code-Switching_in_LLMs.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: SASFT
+	- datasets: Chinese CS Ratio, Russian CS Ratio, Korean CS Ratio
+- [[analysis/ICLR_2026/Scaling_Atomistic_Protein_Binder_Design_with_Generative_Pretraining_and_Test-Time_Compute.md|Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Scaling_Atomistic_Protein_Binder_Design_with_Generative_Pretraining_and_Test-Time_Compute.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- methods: Proteína-Complexa (Complexa)
+	- datasets: 蛋白质靶点推理时缩放, 酶设计基准
+- [[analysis/ICLR_2026/Scaling_Behavior_of_Discrete_Diffusion_Language_Models.md|Scaling Behavior of Discrete Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Scaling_Behavior_of_Discrete_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Systems / Efficiency / Compression, Generative / Diffusion / Flow
+	- methods: 基于信噪比（SNR）的广义插值离散扩散模型与通用混合噪声分布
+	- datasets: 计算约束缩放定律, 下游任务精度
 - [[analysis/ICLR_2026/Scaling_Laws_Meet_Model_Architecture_Toward_Inference-Efficient_LLMs.md|Scaling Laws Meet Model Architecture: Toward Inference-Efficient LLMs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Scaling_Laws_Meet_Model_Architecture_Toward_Inference-Efficient_LLMs.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Systems / Efficiency / Compression, Generative / Diffusion / Flow
 	- methods: 条件缩放律（Conditional Scaling Law）
 	- datasets: 推理吞吐量
+- [[analysis/ICLR_2026/Soft-Masked_Diffusion_Language_Models.md|Soft-Masked Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Soft-Masked_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: Soft-masking (SM)
+	- datasets: OpenWebText unconstrained generation, HumanEval
 - [[analysis/ICLR_2026/SPG_Sandwiched_Policy_Gradient_for_Masked_Diffusion_Language_Models.md|SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/SPG_Sandwiched_Policy_Gradient_for_Masked_Diffusion_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
 	- methods: SPG (Sandwiched Policy Gradient)
 	- datasets: GSM8K, MATH500, Countdown
+- [[analysis/ICLR_2026/Spherical_Watermark_Encryption-Free_Lossless_Watermarking_for_Diffusion_Models.md|Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Spherical_Watermark_Encryption-Free_Lossless_Watermarking_for_Diffusion_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: Spherical Watermark
+	- datasets: COCO + SD v1.5, SDP + SD v2.1, SDP + SD v1.5
+- [[analysis/ICLR_2026/Stable_Video_Infinity_Infinite-Length_Video_Generation_with_Error_Recycling.md|Stable Video Infinity: Infinite-Length Video Generation with Error Recycling (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Stable_Video_Infinity_Infinite-Length_Video_Generation_with_Error_Recycling.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Stable Video Infinity (SVI) with Error-Recycling Fine-Tuning
+	- datasets: 自建超长一致视频生成基准, VBench 长视频生成, 音频驱动长对话
+- [[analysis/ICLR_2026/Stroke3D_Lifting_2D_strokes_into_rigged_3D_model_via_latent_diffusion_models.md|Stroke3D: Lifting 2D strokes into rigged 3D model via latent diffusion models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Stroke3D_Lifting_2D_strokes_into_rigged_3D_model_via_latent_diffusion_models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Stroke3D
+	- datasets: MagicArticulate test set, SKDream evaluation set
+- [[analysis/ICLR_2026/Structured_Flow_Autoencoders_Learning_Structured_Probabilistic_Representations_with_Flow_Matching.md|Structured Flow Autoencoders: Learning Structured Probabilistic Representations with Flow Matching (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Structured_Flow_Autoencoders_Learning_Structured_Probabilistic_Representations_with_Flow_Matching.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Structured Flow Autoencoders (SFA)
+	- datasets: Pinwheel, MNIST
+- [[analysis/ICLR_2026/Temporal_Concept_Dynamics_in_Diffusion_Models_via_Prompt-Conditioned_Interventions.md|Temporal Concept Dynamics in Diffusion Models via Prompt-Conditioned Interventions (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Temporal_Concept_Dynamics_in_Diffusion_Models_via_Prompt-Conditioned_Interventions.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: Prompt-Conditioned Intervention (PCI)
+	- datasets: Custom editing dataset
+- [[analysis/ICLR_2026/TEST-TIME_SCALING_IN_DIFFUSION_LLMS_VIA_HIDDEN_SEMI-AUTOREGRESSIVE_EXPERTS.md|TEST-TIME SCALING IN DIFFUSION LLMS VIA HIDDEN SEMI-AUTOREGRESSIVE EXPERTS (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TEST-TIME_SCALING_IN_DIFFUSION_LLMS_VIA_HIDDEN_SEMI-AUTOREGRESSIVE_EXPERTS.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: HEX (Hidden semi-autoregressive EXperts)
+	- datasets: GSM8K, MATH, ARC-C
+- [[analysis/ICLR_2026/The_Devil_behind_the_mask_An_emergent_safety_vulnerability_of_Diffusion_LLMs.md|The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/The_Devil_behind_the_mask_An_emergent_safety_vulnerability_of_Diffusion_LLMs.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: DIJA
+	- datasets: JailbreakBench, HarmBench, StrongREJECT
+- [[analysis/ICLR_2026/The_Spacetime_of_Diffusion_Models_An_Information_Geometry_Perspective.md|The Spacetime of Diffusion Models: An Information Geometry Perspective (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/The_Spacetime_of_Diffusion_Models_An_Information_Geometry_Perspective.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: Spacetime Fisher-Rao Geometry in Diffusion Models
+	- datasets: Alanine Dipeptide
 - [[analysis/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.md|Thinking on the Fly: Test-Time Reasoning Enhancement via Latent Thought Policy Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Thinking_on_the_Fly_Test-Time_Reasoning_Enhancement_via_Latent_Thought_Policy_Optimization.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
 	- methods: LTPO (Latent Thought Policy Optimization)
 	- datasets: AIME2024, GSM8K, MATH-500
+- [[analysis/ICLR_2026/Time_Is_a_Feature_Exploiting_Temporal_Dynamics_in_Diffusion_Language_Models.md|Time Is a Feature: Exploiting Temporal Dynamics in Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Time_Is_a_Feature_Exploiting_Temporal_Dynamics_in_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: Temporal Self-Consistency Voting and Temporal Consistency Reinforcement
+	- datasets: GSM8K, MATH500, SVAMP
+- [[analysis/ICLR_2026/TINKER_Diffusions_Gift_to_3D--Multi-View_Consistent_Editing_From_Sparse_Inputs_without_Per-Scene_Optimization.md|TINKER: Diffusion's Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TINKER_Diffusions_Gift_to_3D--Multi-View_Consistent_Editing_From_Sparse_Inputs_without_Per-Scene_Optimization.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: TINKER
+	- datasets: Mip-NeRF-360 / IN2N, OpenVid-1M
+- [[analysis/ICLR_2026/TRACE_Your_Diffusion_Model_is_Secretly_an_Instance_Edge_Detector.md|TRACE: Your Diffusion Model is Secretly an Instance Edge Detector (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TRACE_Your_Diffusion_Model_is_Secretly_an_Instance_Edge_Detector.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: TRACE
+	- datasets: COCO 2014 val, VOC 2012 val, COCO 2014
+- [[analysis/ICLR_2026/TRACEDET_HALLUCINATION_DETECTION_FROM_THE_DECODING_TRACE_OF_DIFFUSION_LARGE_LANGUAGE_MODELS.md|TRACEDET: HALLUCINATION DETECTION FROM THE DECODING TRACE OF DIFFUSION LARGE LANGUAGE MODELS (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TRACEDET_HALLUCINATION_DETECTION_FROM_THE_DECODING_TRACE_OF_DIFFUSION_LARGE_LANGUAGE_MODELS.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: TraceDet
+	- datasets: TriviaQA-128, HotpotQA-128, CommonsenseQA-128
 - [[analysis/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.md|Training-Free Determination of Network Width via Neural Tangent Kernel (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Training-Free_Determination_of_Network_Width_via_Neural_Tangent_Kernel.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: 基于NTK最小特征值的训练无关cardinal width选择
 	- datasets: DNN on Diabetes / California Housing, CNN / ResNet on CIFAR-10 / MNIST, DNN on MNIST / XOR
+- [[analysis/ICLR_2026/TreeGRPO_Tree-Advantage_GRPO_for_Online_RL_Post-Training_of_Diffusion_Models.md|TreeGRPO: Tree-Advantage GRPO for Online RL Post-Training of Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TreeGRPO_Tree-Advantage_GRPO_for_Online_RL_Post-Training_of_Diffusion_Models.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: TreeGRPO
+	- datasets: HPS-v2.1训练, HPS-v2.1+ClipScore训练
+- [[analysis/ICLR_2026/UltraLLaDA_Scaling_the_Context_Length_to_128K_for_Diffusion_Large_Language_Models.md|UltraLLaDA: Scaling the Context Length to 128K for Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/UltraLLaDA_Scaling_the_Context_Length_to_128K_for_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: UltraLLaDA
+	- datasets: PPL-128K, NIAH-128K, LongBench-16K
+- [[analysis/ICLR_2026/Universal_Inverse_Distillation_for_Matching_Models_with_Real-Data_Supervision_No_GANs.md|Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs) (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Universal_Inverse_Distillation_for_Matching_Models_with_Real-Data_Supervision_No_GANs.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: RealUID (Universal Inverse Distillation with Real Data)
+	- datasets: CIFAR-10, CelebA
+- [[analysis/ICLR_2026/VFScale_Intrinsic_Reasoning_through_Verifier-Free_Test-time_Scalable_Diffusion_Model.md|VFScale: Intrinsic Reasoning through Verifier-Free Test-time Scalable Diffusion Model (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/VFScale_Intrinsic_Reasoning_through_Verifier-Free_Test-time_Scalable_Diffusion_Model.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Generative / Diffusion / Flow
+	- methods: VFScale
+	- datasets: Maze-15×15, Sudoku
+- [[analysis/ICLR_2026/VibeVoice_Expressive_Podcast_Generation_with_Next-Token_Diffusion.md|VibeVoice: Expressive Podcast Generation with Next-Token Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/VibeVoice_Expressive_Podcast_Generation_with_Next-Token_Diffusion.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
+	- methods: VIBEVOICE
+	- datasets: 主观评估, VIBEVOICE-Eval Short, LibriTTS test-clean 音频重建
 - [[analysis/ICLR_2026/Vid2World_Crafting_Video_Diffusion_Models_to_Interactive_World_Models.md|Vid2World: Crafting Video Diffusion Models to Interactive World Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Vid2World_Crafting_Video_Diffusion_Models_to_Interactive_World_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: Vid2World
 	- datasets: Robot Manipulation, Open-World Navigation
+- [[analysis/ICLR_2026/Video-GPT_via_Next_Clip_Diffusion.md|Video-GPT via Next Clip Diffusion (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Video-GPT_via_Next_Clip_Diffusion.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Video-GPT
+	- datasets: Physics-IQ Benchmark, Kinetics-600, UCF-101 Class-to-Video
+- [[analysis/ICLR_2026/VITA_Vision-to-Action_Flow_Matching_Policy.md|VITA: Vision-to-Action Flow Matching Policy (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/VITA_Vision-to-Action_Flow_Matching_Policy.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Generative / Diffusion / Flow
+	- methods: VITA
+	- datasets: Inference Latency, Inference Memory, StoreDrawer OOD
+- [[analysis/ICLR_2026/Watermarking_Diffusion_Language_Models.md|Watermarking Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Watermarking_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: DLM Watermark（基于优化框架的期望增强与预测偏置）
+	- datasets: LLADA-8B, DREAM-7B, LLADA-8B vs Order-Agnostic Watermarks
 - [[analysis/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.md|WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/WATS_Wavelet-Aware_Temperature_Scaling_for_Reliable_Graph_Neural_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -720,9 +1018,3 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: YoNoSplat
 	- datasets: RealEstate10K, ScanNet++, DL3DV
-- [[analysis/ICLR_2026/Zero-shot_Human_Pose_Estimation_using_Diffusion-based_Inverse_solvers.md|Zero-shot Human Pose Estimation using Diffusion-based Inverse solvers (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Zero-shot_Human_Pose_Estimation_using_Diffusion-based_Inverse_solvers.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Generative / Diffusion / Flow
-	- methods: InPose
-	- datasets: AMASS

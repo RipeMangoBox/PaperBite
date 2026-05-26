@@ -10,6 +10,7 @@ aliases:
 - TFDNWNTK
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/theory
 openreview_forum_id: 0elvad3gEu
@@ -34,7 +35,7 @@ paradigm: 训练前通过计算初始化NTK的最小特征值，并监测其随�
 | 英文题名 | Training-Free Determination of Network Width via Neural Tangent Kernel |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0elvad3gEu) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
 | Method | 基于NTK最小特征值的训练无关cardinal width选择 |
 | Dataset | DNN on Diabetes / California Housing, CNN / ResNet on CIFAR-10 / MNIST, DNN on MNIST / XOR (classification) |
 

@@ -10,7 +10,14 @@ aliases:
 - ARES
 acceptance: accepted
 paradigm: 通过将令牌级熵聚合为滑动窗口统计量（窗口熵），可以可靠地识别推理关键时刻；减少HWE令牌对简单问题有益，增加HWE令牌对解决困难问题至关重要。基于此，ARES通过自适应冷启动和自适应熵策略优化（AEPO）动态分配推理努力。
+core_operator: ARES uses window entropy as a difficulty-aware signal and optimizes reasoning length with adaptive cold-start data plus AEPO entropy shaping.
+primary_logic: It first teaches difficulty-conditioned response lengths, then adjusts high-window-entropy exploration and KL strength by online difficulty buckets during RL.
+claims:
+- Window entropy is used to detect key reasoning moments more reliably than single-token entropy.
+- AdaCS and AEPO are designed to shorten easy-question reasoning while increasing exploration on hard questions.
+- The note reports large gains on MathVision, MMMU-Pro, and AIME25 over open-source baselines.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2g945Ngc7l) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | ARES (multimodal Adaptive Reasoning via difficulty-aware token-level Entropy reward Shaping) |
 | Dataset | MathVision, MMMU-Pro, AIME25, MathVerse-V |
 

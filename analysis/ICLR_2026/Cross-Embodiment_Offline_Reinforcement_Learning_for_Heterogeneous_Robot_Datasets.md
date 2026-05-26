@@ -33,7 +33,7 @@ paradigm: 形态学上相似的机器人在策略梯度上高度对齐，而形�
 | 英文题名 | Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GrsoLVNy3Y) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Embodiment Grouping (EG) |
 | Dataset | Cross-Embodiment Locomotion Suite (Average over 6 datasets), 70% Suboptimal datasets (Forward + Backward) |
 

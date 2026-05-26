@@ -10,6 +10,7 @@ aliases:
 - AN11AMCRTSRS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 扩大SFT数据中独特题目的数量（而非每道题的回答数量），以及在RL训练中保持温度调整后的熵约0.3以平衡探索与利用。
@@ -33,7 +34,7 @@ paradigm: 将基于大规模题目扩展的强SFT模型与阶段式RL（先数�
 | 英文题名 | AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IaEqjWXd1d) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | AceReason-Nemotron-1.1 训练方案 |
 | Dataset | AIME 2024, AIME 2025, LiveCodeBench v5, LiveCodeBench v6 |
 

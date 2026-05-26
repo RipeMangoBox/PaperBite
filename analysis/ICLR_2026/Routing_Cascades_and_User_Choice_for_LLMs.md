@@ -10,6 +10,7 @@ aliases:
 - RCUCL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability
 openreview_forum_id: VqAhhF6av8
@@ -34,7 +35,7 @@ paradigm: 在大多数参数区域，提供者的最优路由策略是静态的�
 | 英文题名 | Routing, Cascades, and User Choice for LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VqAhhF6av8) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
 | Method | Stackelberg LLM Routing Game with Endogenous User Response |
 | Dataset |  |
 

@@ -9,6 +9,7 @@ aliases:
 - ExpertLongBench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 openreview_forum_id: nJvgBolRcR
@@ -33,7 +34,7 @@ paradigm: 将专家设计的领域特定细则转化为结构化检查清单，�
 | 英文题名 | ExpertLongBench: Benchmarking Language Models on Expert-Level Long-Form Generation Tasks with Structured Checklists |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=nJvgBolRcR) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | CLEAR |
 | Dataset | ExpertLongBench (average over 11 tasks), Expert-level human agreement (T7, T8), Checklist evaluation alternative (all tasks), T2LegalSFG with detailed rubric prompt |
 

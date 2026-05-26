@@ -32,7 +32,7 @@ paradigm: 模仿人类专家评估习惯，以智能体协同代码生成和视�
 | 英文题名 | ManipEvalAgent: Promptable and Efficient Evaluation Framework for Robotic Manipulation Policies |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3u6AkbWEls) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ManipEvalAgent |
 | Dataset | RoboTwin 2.0 (S.R.评估), LIBERO (S.R.评估), Multi-task Setting (RDT-1B), 代码生成成功率 |
 

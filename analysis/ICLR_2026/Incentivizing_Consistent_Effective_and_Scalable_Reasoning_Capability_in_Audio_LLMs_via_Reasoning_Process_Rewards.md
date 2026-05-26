@@ -32,7 +32,7 @@ paradigm: 真正的推理能力不能仅靠结果奖励自发涌现，而需要�
 | 英文题名 | Incentivizing Consistent, Effective and Scalable Reasoning Capability in Audio LLMs via Reasoning Process Rewards |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=DUr48hxO2h) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | CESAR |
 | Dataset | MMAU Test-mini, MMSU, MMAU-Pro, MMAR |
 

@@ -9,6 +9,7 @@ aliases:
 - TMMADTCIG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 core_operator: Transformer层中AR层与扩散层的比例分配（即扩散深度D）以及图像块的自回归粒度（AR长度L）。
@@ -32,7 +33,7 @@ paradigm: 在推理计算受限时，优先分配更多层给AR建模（AR-heavy
 | 英文题名 | $\textit{MADFormer}$: Mixed Autoregressive and Diffusion Transformers for Continuous Image Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9zUJbyR62q) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | MADFormer |
 | Dataset | FFHQ-1024, ImageNet 256x256, FFHQ-1024 |
 

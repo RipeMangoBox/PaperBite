@@ -32,7 +32,7 @@ paradigm: 真正的挑战不在于人工构造极端复杂的任务，而在于�
 | 英文题名 | Benchmarking LLM Tool-Use in the Wild |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=yz7fL5vfpn) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | WildToolBench |
 | Dataset | WildToolBench, WildToolBench, WildToolBench Tool Orchestration, Cross-benchmark (WildToolBench vs BFCL-v2) |
 

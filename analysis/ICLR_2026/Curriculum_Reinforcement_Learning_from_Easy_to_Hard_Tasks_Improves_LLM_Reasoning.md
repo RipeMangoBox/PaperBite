@@ -33,7 +33,7 @@ paradigm: 从易到难的课程学习能够帮助语言模型逐步学习核心�
 | 英文题名 | Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KJvHnl3kUv) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | E2H Reasoner (E2H) |
 | Dataset | Blocksworld, Countdown, GSM8K, AIME24 |
 

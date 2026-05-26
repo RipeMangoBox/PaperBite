@@ -10,6 +10,7 @@ aliases:
 - ABDSTSLT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/probabilistic_methods
 openreview_forum_id: 5ebDXlue3d
@@ -34,7 +35,7 @@ paradigm: 将 SGD 的长时间动力学建模为多孔介质上的分数阶 Fokk
 | 英文题名 | Almost Bayesian: Dynamics of SGD Through Singular Learning Theory |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5ebDXlue3d) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
 | Method | 基于分数 Fokker-Planck 方程的 SGD 多孔介质扩散模型 |
 | Dataset | TinyStories, TinyLlama, ResNet, VGG, Moons 数据集上的全连接网络集群 |
 

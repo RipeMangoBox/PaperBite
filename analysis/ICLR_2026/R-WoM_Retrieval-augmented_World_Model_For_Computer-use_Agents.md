@@ -33,7 +33,7 @@ paradigm: LLM虽具备广泛的预训练知识，但缺少针对动态数字环�
 | 英文题名 | R-WoM: Retrieval-augmented World Model For Computer-use Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5ZaoXB3MdP) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | R-WoM (Retrieval-augmented World Model) |
 | Dataset | OSWorld (subset of 87 tasks), WebArena (subset of 113 templates), OSWorld (Qwen-2.5-VL-72B), WebArena (Qwen-2.5-VL-72B) |
 

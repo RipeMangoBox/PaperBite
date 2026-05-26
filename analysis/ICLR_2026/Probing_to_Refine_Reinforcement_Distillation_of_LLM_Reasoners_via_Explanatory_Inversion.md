@@ -10,6 +10,7 @@ aliases:
 - PRRDLREI
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 openreview_forum_id: rkIw2GqYEt
 core_operator: 引入认知科学启发的解释性反演（Explanatory Inversion, EI），生成强迫学生阐述答案背后逻辑的“解释性探测问题”，并利用带有对话结构效用奖励（Dialogue Structure Utility Bonus, r_dsu）的强化学习算法（ExGRPO）进行多轮交互训练，从而促使学生内化连贯的推理框架。
@@ -33,7 +34,7 @@ paradigm: 通过系统性的探测题挑战（而不是简单的数据增广）�
 | 英文题名 | Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rkIw2GqYEt) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | ExGRPO (Explanatory GRPO) |
 | Dataset | 8个领域内推理数据集（SQA, CSQA, ARC‑c, MATH, GSM8K, TabMWP, ANLI, Date）平均, 4个分布外（OOD）数据集（BoolQ, OpenbookQA, e‑SNLI, GSM8K‑Rev）平均, 样本效率：SQA和CSQA（10%训练数据）, 平均训练令牌效率对比（8数据集聚合） |
 

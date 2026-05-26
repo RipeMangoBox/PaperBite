@@ -10,6 +10,7 @@ aliases:
 - WARC-Bench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/reinforcement_learning_and_planning
 openreview_forum_id: Hgw56DUFzD
@@ -34,7 +35,7 @@ paradigm: GUI子任务（多步交互但单目标、短时程）是构建强大�
 | 英文题名 | WARC-Bench: Web Archive based Benchmark for GUI Subtask Executions |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Hgw56DUFzD) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/reinforcement_learning_and_planning |
 | Method | WARC-Bench + Subtask Vision Agent (SVA) with SFT+RLVR |
 | Dataset | WARC-Bench (Test), WARC-Bench (Dev[TOTAL]), ScreenSpot V2 (OOD, Desktop/Mobile only), WebArena-Lite (WA-Lite) |
 

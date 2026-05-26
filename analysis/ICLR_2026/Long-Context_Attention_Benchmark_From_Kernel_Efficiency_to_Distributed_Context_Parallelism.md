@@ -10,6 +10,7 @@ aliases:
 - LCABFKEDCP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed
 core_operator: 通过统一基准测试框架，系统性评估注意力掩码模式、分布式规模和内核实现，揭示了影响性能和可扩展性的关键因素。
@@ -33,7 +34,7 @@ paradigm: 掩码模式是决定注意力效率和可扩展性的关键因素，�
 | 英文题名 | Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=W7sVYFJAEp) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
 | Method | LongCA-bench |
 | Dataset | Sparse Kernel Efficiency (MHA 64:64, block 128, SR 0.2), Dense Kernel Efficiency (GQA 64:8, 8K, FULL mask), Context Parallelism (FULL DOCUMENT, 768K GPUs), Dense Kernel Efficiency (GQA 64:8, 8K, CAUSAL mask) |
 

@@ -9,6 +9,7 @@ aliases:
 - ConsisDrive
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 core_operator: 利用从3D边界框投影出的实例掩码，显式地控制注意力交互和损失空间权重的分配：在注意力模块中引入实例身份掩码和轨迹掩码，阻止不同实例间的信息泄露并强化实例内时间一致性；在损失函数中通过前景掩码和概率动态策略，将监督信号集中在实例区域，同时保持背景生成质量。
@@ -32,7 +33,7 @@ paradigm: 将标注3D框与跟踪ID转化为结构化的实例掩码，并将其
 | 英文题名 | ConsisDrive: Identity-Preserving Driving World Models for Video Generation by Instance Mask |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zgqFQM8VNe) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | ConsisDrive |
 | Dataset | nuScenes (T+I)2V validation set, nuScenes (T+I)2V validation set, 3D Detection on generated data (StreamPETR, Gen. only), 3D Perception on generated nuScenes validation (StreamPETR) |
 

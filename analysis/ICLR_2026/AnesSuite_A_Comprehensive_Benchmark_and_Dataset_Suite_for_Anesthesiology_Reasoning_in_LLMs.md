@@ -9,6 +9,7 @@ aliases:
 - AnesSuite
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/health
 openreview_forum_id: iKRQMeC7yO
@@ -33,7 +34,7 @@ paradigm: 通过构建涵盖三层认知需求（System 1/1.x/2）的双语基�
 | 英文题名 | AnesSuite: A Comprehensive Benchmark and Dataset Suite for Anesthesiology Reasoning in LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=iKRQMeC7yO) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
 | Method | Morpheus |
 | Dataset | AnesBench-English (Overall), AnesBench-English System2, MedQA (US) |
 

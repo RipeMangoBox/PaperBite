@@ -9,6 +9,7 @@ aliases:
 - SigmaDock
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 openreview_forum_id: Vgm77U4ojX
@@ -33,7 +34,7 @@ paradigm: 利用结构化学中构象流形的性质，将分子对接转化为�
 | 英文题名 | SigmaDock: Untwisting Molecular Docking with Fragment-Based SE(3) Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Vgm77U4ojX) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | SIGMADOCK |
 | Dataset | PoseBusters, PoseBusters (sequence similarity split) |
 

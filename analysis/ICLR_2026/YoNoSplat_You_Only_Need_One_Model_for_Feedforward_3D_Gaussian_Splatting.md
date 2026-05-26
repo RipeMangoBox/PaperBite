@@ -9,6 +9,7 @@ aliases:
 - YoNoSplat
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 openreview_forum_id: ImRhA9xmay
 core_operator: 采用混合强制（mix-forcing）训练策略：从纯教师强制（真值位姿）开始，逐步以线性概率引入模型预测的位姿参与聚合，从而解耦位姿与几何学习；配合最大成对相机距离归一化的场景归一化方案以及内参条件嵌入（ICE）模块，从根本上消除尺度模糊，使模型在无位姿、无内参条件下仍能稳定收敛。
@@ -32,7 +33,7 @@ paradigm: 通过渐进混合预测位姿与真实位姿，模型既避免了早�
 | 英文题名 | YoNoSplat: You Only Need One Model for Feedforward 3D Gaussian Splatting |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ImRhA9xmay) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | YoNoSplat |
 | Dataset | RealEstate10K (6 views), ScanNet++ (32 views, cross-dataset), RealEstate10K (3 views, sparse), DL3DV (6 views, pose-free) |
 

@@ -9,6 +9,7 @@ aliases:
 - SciNav
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 openreview_forum_id: 8iEsrg51Fs
@@ -33,7 +34,7 @@ paradigm: 相对判断比绝对评分具有更高的区分力和可靠性，将�
 | 英文题名 | SciNav: A General Agent Framework for Scientific Coding Tasks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8iEsrg51Fs) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | SciNav |
 | Dataset | ScienceAgentBench, ScienceAgentBench, DA-Code (Data Manipulation & Stat. Analysis), DA-Code (Hard tasks) |
 

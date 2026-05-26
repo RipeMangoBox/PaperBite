@@ -11,6 +11,7 @@ aliases:
 - Basis Overlap Architecture (BOA)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 core_operator: 采用二次展开（quadratic expansion）表示电子密度，灵感来源于KS-DFT中密度矩阵的自然形式，并通过低秩表示避免显式构造完整的密度矩阵。
@@ -34,7 +35,7 @@ paradigm: 将内部特征解释为在原子中心基组中表示的函数，并�
 | 英文题名 | A Function-Centric Graph Neural Network Approach for Predicting Electron Densities |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HDdkFjFEZd) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | Basis Overlap Architecture (BOA) |
 | Dataset | QM9 VASP, QM9 PySCF, MD - ethanol, MD - benzene |
 

@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: ImageNet-1K
@@ -21,3 +21,8 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow
 	- methods: DiffusionBlocks：将残差网络划分为块, 为每个块分配噪声尺度, 并使用扩散式去噪损失独立训练每个块
 	- datasets: ImageNet-1K, CIFAR-100, Tiny-ImageNet
+- [[analysis/ICLR_2026/DTO-KD_Dynamic_Trade-off_Optimization_for_Effective_Knowledge_Distillation.md|DTO-KD: Dynamic Trade-off Optimization for Effective Knowledge Distillation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DTO-KD_Dynamic_Trade-off_Optimization_for_Effective_Knowledge_Distillation.pdf|PDF]]
+	- method groups: Optimization / Theory, Systems / Efficiency / Compression
+	- methods: DTO-KD
+	- datasets: ImageNet-1K, COCO

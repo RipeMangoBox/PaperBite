@@ -10,6 +10,7 @@ aliases:
 - SDFMGIR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed
 core_operator: 通过IO感知的非GEMM融合内核（复合隐式网格采样器、隐式Parzen窗互信息、高效隐式融合局部归一化互相关）消除中间高带宽内存（HBM）存储，以及通过GridParallel分片和环采样器实现分布式配准，从而将内存开销从O(n)降至O(1)并支持任意规模。
@@ -33,7 +34,7 @@ paradigm: 图像配准中的主要瓶颈是非GEMM操作（网格采样、LNCC�
 | 英文题名 | A Scalable Distributed Framework for Multimodal GigaVoxel Image Registration |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8dLexnao2h) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
 | Method | FFDP (Flash Fused Distributed Primitives) |
 | Dataset | Faux-OASIS (250µm), Faux-OASIS (250µm), Faux-OASIS (250µm), Faux-OASIS (1mm) |
 

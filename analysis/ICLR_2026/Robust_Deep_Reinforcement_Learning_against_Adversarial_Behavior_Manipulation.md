@@ -33,7 +33,7 @@ paradigm: 行为目标攻击可以转化为模仿学习问题，从而在无白�
 | 英文题名 | Robust Deep Reinforcement Learning against Adversarial Behavior Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=AC6lDj5dzl) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Behavior Imitation Attack (BIA) 和 Time-Discounted Robust Training (TDRT) |
 | Dataset | Meta-World (window-close), Meta-World (window-close), Meta-World (全部任务平均), Meta-World (window-close, 攻击者视角) |
 

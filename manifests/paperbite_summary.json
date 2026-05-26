@@ -5,20 +5,22 @@
     "index",
     "manifests"
   ],
-  "generated_at": "2026-05-23T15:41:35.614063+00:00",
-  "index_records": 618,
+  "excluded_records": 31,
+  "excluded_scope": "animation_motion",
+  "generated_at": "2026-05-26T10:30:48.317589+00:00",
+  "index_records": 951,
   "name": "PaperBite",
   "optional_layers": [
     "assets",
     "paperPDFs"
   ],
-  "paper_count": 618,
+  "paper_count": 951,
   "source": "ResearchFlow_Process/obsidian-vault",
   "tagline": "一口一篇论文",
   "venues": {
-    "ICLR": 618
+    "ICLR": 951
   },
   "years": {
-    "2026": 618
+    "2026": 951
   }
 }

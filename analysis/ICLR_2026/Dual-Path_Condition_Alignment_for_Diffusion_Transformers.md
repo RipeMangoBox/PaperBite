@@ -10,6 +10,7 @@ aliases:
 - DPCADT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 openreview_forum_id: ALpn1nQj5R
@@ -34,7 +35,7 @@ paradigm: 同一真实图像的不同噪声版本所携带的低频语义信息�
 | 英文题名 | Dual-Path Condition Alignment for Diffusion Transformers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ALpn1nQj5R) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | DUal-Path condition Alignment (DUPA) |
 | Dataset | ImageNet 256×256, ImageNet 256×256, ImageNet 256×256 |
 

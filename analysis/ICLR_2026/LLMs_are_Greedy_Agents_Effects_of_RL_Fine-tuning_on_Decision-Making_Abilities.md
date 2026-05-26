@@ -33,7 +33,7 @@ paradigm: LLMs' decision-making failures are rooted in behavioral biases (greedi
 | 英文题名 | LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=weUP6H5Ko9) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RLFT (Reinforcement Learning Fine-Tuning on self-generated CoT rationales) |
 | Dataset | Tic-tac-toe vs Random Agent, Tic-tac-toe vs MCTS (optimal), Gaussian MABs (button, 10 arms, medium noise), Gaussian MABs (button, 10 arms) |
 

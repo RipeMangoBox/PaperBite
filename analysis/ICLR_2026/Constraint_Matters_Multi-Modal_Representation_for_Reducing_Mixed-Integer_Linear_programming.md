@@ -10,6 +10,7 @@ aliases:
 - CMMMRRMILP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/non_convex
 openreview_forum_id: vqNg2Vl8o1
@@ -34,7 +35,7 @@ paradigm: 约束类型决定其固定后的信息增益：固定约束强度ρ�
 | 英文题名 | Constraint Matters: Multi-Modal Representation for Reducing Mixed-Integer Linear programming |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vqNg2Vl8o1) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
 | Method | Constraint-based Model Reduction with Multi-Modal Representation (Ours) |
 | Dataset | CA (800s, SCIP), MVC (800s, Gurobi+presolve), Large-scale CA (800s, SCIP), MMCN (real-world, SCIP, 800s) |
 

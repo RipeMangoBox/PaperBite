@@ -10,6 +10,7 @@ aliases:
 - TTTPAPNSVC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 在估计神经元调谐函数时，将反偏好图像（anti-preferred images）与偏好图像（preferred images）同时纳入训练集，以揭示反偏好刺激是否是塑造调谐的必要组成部分。通过数据剪枝实验操控训练集中是否包含反偏好图像，观察对神经元响应预测泛化能力的影响（即R²的变化）。
@@ -33,7 +34,7 @@ paradigm: V4神经元对自然图像的反应并非传统上认为的单尾分�
 | 英文题名 | A tale of two tails: Preferred and anti-preferred natural stimuli in visual cortex |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RZ8esDBqMJ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | Linear-ReLU-Linear (LRL) mapping for two-tailed V4 response prediction |
 | Dataset | V4神经元对自然图像响应分布（n=219）, 实验验证：V4模型神经元选择的偏好和反偏好图像在真实V4记录中的响应, 人类心理物理学任务：预测V4模型神经元响应, 群体特征选择性容量（压缩比） |
 

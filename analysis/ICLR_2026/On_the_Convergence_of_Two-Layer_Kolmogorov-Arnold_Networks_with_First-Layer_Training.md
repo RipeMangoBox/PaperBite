@@ -10,6 +10,7 @@ aliases:
 - CTLKANFLT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/optimization_methods
 core_operator: 仅训练第一层系数并固定第二层，同时增大隐藏层宽度m，可简化分析并确保收敛。
@@ -33,7 +34,7 @@ paradigm: 在足够宽且使用RBF基函数的两层KAN中，梯度下降训练�
 | 英文题名 | On the Convergence of Two-Layer Kolmogorov-Arnold Networks with First-Layer Training |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=buuwRBYfrP) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
 | Method | 第一层训练的两层 Kolmogorov‑Arnold 网络（First‑Layer Training for Two‑Layer KANs） |
 | Dataset | 合成数据 (n=100, d=100), 合成数据 (n=100, d=100), 1D合成数据 (n=50), 理论比较 |
 

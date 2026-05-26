@@ -32,7 +32,7 @@ paradigm: 灵感来源于人类阅读长文本时做笔记并选择性记忆的�
 | 英文题名 | MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=k5nIOvYGCL) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MEMAGENT |
 | Dataset | RULER-HQA, LongBench-QA, NIAH (512K) |
 

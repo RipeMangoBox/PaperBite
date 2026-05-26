@@ -33,7 +33,7 @@ paradigm: 构建一个百万级别的SCoT数据集，将3D任务分为感知、�
 | 英文题名 | SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5Tph6wFMOm) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SCoT (Spatial Chain-of-Thought) 数据集与训练框架 |
 | Dataset | SCoT-Analysis (Implicit Detection), SCoT-Planning (Situated Planning), SCoT-Perception (ScanRefer) |
 

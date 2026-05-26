@@ -10,6 +10,7 @@ aliases:
 - P2DGHPPCDPO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: "The causal knob is the visual input signal: by directly manipulating the image (crop/enhance for winning, erase/degrade/noise for losing), the method creates a Visual Information..."
@@ -33,7 +34,7 @@ paradigm: Hallucination in LVLMs can be categorized into Perception failures (mo
 | 英文题名 | P$^2$-DPO: Grounding Hallucination in Perceptual Processing via Calibration Direct Preference Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ekOwxTn65Y) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Perceptual Processing Direct Preference Optimization (P2-DPO) |
 | Dataset | TextVQA (Attention Focus Ratio), TextVQA (Processing Accuracy), POPE under Gaussian noise (σ=0.20), AMBER (relational reasoning) on Qwen2.5-VL-3B |
 

@@ -10,7 +10,16 @@ aliases:
 - α-Flow
 acceptance: accepted
 paradigm: 将MeanFlow目标分解为L_TFM和L_TC，发现两者梯度冲突。通过引入α-Flow损失族，采用从轨迹流匹配（α=1）平滑退火到MeanFlow（α→0）的课程策略，解耦了冲突目标，实现了更好的收敛，并减少了对边界情况流匹配监督（r=t）的依赖。
+core_operator: |
+  将MeanFlow目标分解为轨迹流匹配L_TFM与轨迹一致性L_TC，提出α-Flow损失族和从α=1退火到α→0的课程训练来缓解梯度冲突。
+primary_logic: |
+  先用损失分解和梯度余弦相似度定位MeanFlow训练中的目标冲突，再用α参数统一轨迹流匹配、Shortcut Model和MeanFlow，并通过三阶段退火训练逐步从流匹配监督过渡到MeanFlow目标。
+claims:
+- AlphaFlow将MeanFlow损失分解为L_TFM和L_TC，并指出两者在训练中梯度高度负相关。
+- α-Flow损失族在α=1、α=1/2和α→0时分别对应轨迹流匹配、Shortcut Model和MeanFlow梯度。
+- 在ImageNet-1K 256×256上，α-Flow-XL/2+达到1-NFE FID 2.58和2-NFE FID 2.15，优于MeanFlow-XL/2*。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 ---
@@ -26,7 +35,7 @@ tags:
 | 英文题名 | AlphaFlow: Understanding and Improving MeanFlow Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=adacb4JTIv) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | α-Flow |
 | Dataset | ImageNet-1K 256×256, ImageNet-1K 256×256, ImageNet-1K 256×256, ImageNet-1K 256×256 |
 
@@ -35,9 +44,11 @@ tags:
 > - ImageNet-1K 256×256 上，FID (2-NFE) 为 2.15，对比 2.46 (MeanFlow-XL/2*)，变化 -0.31 (12.6% improvement)。
 > - ImageNet-1K 256×256 上，FDD (1-NFE) 为 148.4，对比 185.8 (MeanFlow-XL/2*)，变化 -37.4 (20.1% improvement)。
 
+## 概述
+
 本文提出 **α-Flow**，一种用于改进少步流匹配生成模型（MeanFlow）训练的统一框架。核心发现是：MeanFlow的训练目标可分解为**轨迹流匹配（L_TFM）**和**轨迹一致性（L_TC）**两个分量，两者在优化过程中梯度高度负相关（余弦相似度通常低于-0.4），导致优化冲突和收敛缓慢。α-Flow通过引入超参数α，将轨迹流匹配（α=1）、Shortcut Model（α=1/2）和MeanFlow（α→0）统一在一个损失函数族中，并采用从α=1退火到α→0的课程学习策略，有效解耦了冲突目标。在ImageNet-1K 256×256上，α-Flow-XL/2+以1-NFE达到FID 2.58，2-NFE达到FID 2.15，均显著优于MeanFlow基线。
 
-# 2. 背景与动机
+## 背景与动机
 
 ## 1 少步生成模型的发展
 
@@ -60,7 +71,7 @@ $\mathcal{L}_{\mathtt{MF}}(\theta) = \underbrace{\mathbb{E}_{t,r,z_t} \left[ \| 
 
 梯度分析（Figure 3a）显示，L_TFM和L_TC的梯度在训练过程中高度负相关，余弦相似度通常低于-0.4。这种梯度冲突导致MeanFlow训练收敛缓慢，且需要75%的训练计算量用于边界情况监督（r=t），这并非MeanFlow的主要关注点。
 
-# 3. 核心创新
+## 核心创新
 
 ## 1 α-Flow损失函数族
 
@@ -88,7 +99,7 @@ $\mathcal{L}_{\alpha}(\theta) \triangleq \underset{t,r,z_t}{\mathbb{E}} \left[ \
 
 从MeanFlow的自适应损失推导出α-Flow的自适应损失权重：$\bar{\omega} = \bar{\alpha} / (||\bar{\Delta}||_2^2 + c)$。
 
-# 4. 整体框架
+## 整体框架
 
 α-Flow的训练框架包含以下模块：
 
@@ -101,7 +112,7 @@ $\mathcal{L}_{\alpha}(\theta) \triangleq \underset{t,r,z_t}{\mathbb{E}} \left[ \
 
 训练算法（Algorithm 1）在每个迭代中采样t、r，从调度器获取α，然后根据α是否等于0选择使用L_MF或L_α。
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
 ## 1 MeanFlow损失分解
 
@@ -133,7 +144,7 @@ $\left\| \nabla_\theta \mathcal{L}_\alpha(\theta) - \nabla_\theta \mathcal{L}_{\
 
 该上界与α线性相关，当α→0时消失。
 
-# 6. 实验与分析
+## 实验与分析
 
 ## 1 主要结果
 
@@ -178,7 +189,7 @@ $\left\| \nabla_\theta \mathcal{L}_\alpha(\theta) - \nabla_\theta \mathcal{L}_{\
 - 平衡类采样（每类50个样本，共1000类）可将FID降低多达10%，但FDD和FCD几乎不受影响。
 - 论文建议社区从FID转向与人类感知更相关的指标，如FDD和FCD。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 ## 1 与现有方法的关系
 

@@ -9,6 +9,7 @@ aliases:
 - MolLangBench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/chemistry_and_drug_discovery
 core_operator: 改进分子表征与自然语言的对齐，例如通过原子级分词（tokenization）或强化分子‑语言联合预训练，并针对立体化学等专门任务引入结构化推理与符号约束。
@@ -32,7 +33,7 @@ paradigm: 即使是最先进的模型（GPT‑5）在简单的分子识别任务
 | 英文题名 | MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KbXl2jfFRn) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/chemistry_and_drug_discovery |
 | Method | MolLangBench 多任务基准 |
 | Dataset | MolLangBench 分子结构识别, MolLangBench 分子编辑（核心集）, MolLangBench 分子生成（核心集） |
 

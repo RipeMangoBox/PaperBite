@@ -10,6 +10,7 @@ aliases:
 - UDVVLAMJDDDP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 联合离散去噪扩散过程（JD3P）：将未来图像和动作 tokens 在同一个离散扩散轨迹中同步去噪，每一步动作 tokens 因果地关注图像 tokens，通过迭代精炼实现从视觉观察到动作的渐进式映射。
@@ -33,7 +34,7 @@ paradigm: 同步联合去噪使得动作预测在持续、充分的未来视觉�
 | 英文题名 | Unified Diffusion VLA: Vision-Language-Action Model via Joint Discrete Denosing Diffusion Process |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UvQOcw2oCD) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | UD-VLA (Unified Diffusion VLA) |
 | Dataset | CALVIN ABCD→D, LIBERO, SimplerEnv-WidowX, JD3P Decoding Efficiency (CALVIN) |
 

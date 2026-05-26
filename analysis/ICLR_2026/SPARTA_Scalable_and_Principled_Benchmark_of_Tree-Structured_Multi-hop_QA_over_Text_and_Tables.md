@@ -9,7 +9,14 @@ aliases:
 - SPARTA
 acceptance: accepted
 paradigm: 将非结构化文本事实原子化并存储为关系型元组（grounding tables），与结构化源表统一为参考事实数据库，使得所有证据均可通过 SQL 统一寻址；结合后序遍历构建查询树和基于 why-not 溯源的谓词精炼，能够自动生成可执行、语义合理且覆盖多种嵌套模式（Type-N, A, J, JA）的多跳 SQL 查询，从而以极低的标注成本（约为 Hybri...
+core_operator: SPARTA converts text-table evidence into a unified SQL-addressable fact database and generates tree-structured QA through executable query synthesis.
+primary_logic: It atomizes textual facts into grounding tables, builds nested SQL query trees with post-order generation and provenance repair, then verbalizes SQL with AST-ICL.
+claims:
+- SPARTA reduces table-text QA annotation cost by generating executable SQL before natural-language questions.
+- Why-not provenance repair improves query generation by rewriting predicates that cause empty results.
+- The note reports zero audited annotation errors and large F1 drops for strong HybridQA models on SPARTA.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8KE9qvKhM4) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | SPARTA |
 | Dataset | SPARTA (Oracle), SPARTA (Oracle), SPARTA (Retrieval) |
 

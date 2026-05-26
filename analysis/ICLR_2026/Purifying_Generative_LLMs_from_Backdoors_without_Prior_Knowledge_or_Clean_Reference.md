@@ -10,6 +10,7 @@ aliases:
 - PGLFBWPKOCR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 openreview_forum_id: M7eWB695jp
@@ -34,7 +35,7 @@ paradigm: 后门的本质是触发-行为关联在MLP中的冗余编码，可通
 | 英文题名 | Purifying Generative LLMs from Backdoors without Prior Knowledge or Clean Reference |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=M7eWB695jp) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | Immunization-Inspired Purification Framework |
 | Dataset | Sentiment Steering / BadNets / LLaMA-2-7B-Chat (Full), Sentiment Steering / VPI / LLaMA-2-7B-Chat (Full), Sentiment Steering / BadNets / LLaMA-2-13B-Chat (LoRA), Code Injection / BadNets / CodeLLaMA-7B-Instruct (Full) |
 

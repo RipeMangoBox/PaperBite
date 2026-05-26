@@ -33,7 +33,7 @@ paradigm: M3-Agent 通过模仿人类认知的‘记忆-控制’双过程，将
 | 英文题名 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=PMz29A7Muq) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | M3-Agent |
 | Dataset | M3-Bench-robot (All), M3-Bench-web (All), VideoMME-long |
 

@@ -4,14 +4,13 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: Cora
 
 - [[analysis/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.md|AdaSpec: Adaptive Spectrum for Enhanced Node Distinguishability (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AdaSpec_Adaptive_Spectrum_for_Enhanced_Node_Distinguishability.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Graph / Geometric / Structured Data
 	- methods: AdaSpec
 	- datasets: Texas, Minesweeper, Roman_Empire
@@ -27,6 +26,11 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Graph / Geometric / Structured Data
 	- methods: FGL (Forest-based Graph Learning)
 	- datasets: Cora, Pubmed, Cornell
+- [[analysis/ICLR_2026/Modality-free_Graph_In-context_Alignment.md|Modality-free Graph In-context Alignment (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Modality-free_Graph_In-context_Alignment.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: MF-GIA (Modality-Free Graph In-context Alignment)
+	- datasets: Cora, ogbn-Products, Physics
 - [[analysis/ICLR_2026/Relationship_Alignment_for_View-aware_Multi-view_Clustering.md|Relationship Alignment for View-aware Multi-view Clustering (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Relationship_Alignment_for_View-aware_Multi-view_Clustering.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer

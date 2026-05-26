@@ -32,7 +32,7 @@ paradigm: 将专家监督重新定义为相对参考的分布校准基线，使�
 | 英文题名 | Controllable Exploration in Hybrid-Policy RLVR for Multi-Modal Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5wxyCidRsK) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | CalibRL |
 | Dataset | In-domain geometry (平均), Out-of-domain (7个基准平均), GeoEval (个别困难集), MMMU (OOD) |
 

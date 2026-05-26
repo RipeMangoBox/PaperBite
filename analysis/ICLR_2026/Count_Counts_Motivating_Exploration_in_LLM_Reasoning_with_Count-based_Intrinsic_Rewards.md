@@ -32,7 +32,7 @@ paradigm: 在自包含的自回归推理任务（如数学解题）中，状态�
 | 英文题名 | Count Counts: Motivating Exploration in LLM Reasoning with Count-based Intrinsic Rewards |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9xIBbfItGP) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MERCI |
 | Dataset | Math Reasoning (6 benchmarks avg), Math Reasoning (6 benchmarks avg), Bird (SQL generation), Spider (SQL generation, OOD) |
 

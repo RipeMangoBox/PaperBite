@@ -11,6 +11,7 @@ aliases:
 - BIT (BraIn-to-Text)
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 引入跨任务、跨物种的Transformer神经编码器，通过自监督掩码建模在大规模Utah阵列数据（367小时）上预训练，并结合音频大语言模型（audio-LLM）和对比学习实现端到端优化。
@@ -34,7 +35,7 @@ paradigm: 大规模自监督预训练（结合人类和猴子数据）能够学�
 | 英文题名 | A cross-species neural foundation model for end-to-end speech decoding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Lp1noMpMUG) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | BIT (BraIn-to-Text) |
 | Dataset | Brain-to-Text '24, Brain-to-Text '24, Brain-to-Text '25, Brain-to-Text '25 |
 

@@ -10,6 +10,7 @@ aliases:
 - AFDSPCL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning
 core_operator: 激活函数的负半轴导数和死区宽度设计。适度非零的负斜率（Goldilocks区间0.6–0.9）与避免双侧饱和是控制塑性保持的关键。
@@ -33,7 +34,7 @@ paradigm: 通过设计符合三原则（严格非零导数地板、适度负半�
 | 英文题名 | Activation Function Design Sustains Plasticity in Continual Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=XZf6wObHX4) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/domain_adaptation_and_transfer_learning |
 | Method | Smooth-Leaky 与 Randomized Smooth-Leaky（及其扩展 Bo-PReLU、R-SeLU） |
 | Dataset | Permuted MNIST (continual supervised), Split-CIFAR-100 Class-Incremental, Scaling Shock Stress Test (γ=2.0) |
 

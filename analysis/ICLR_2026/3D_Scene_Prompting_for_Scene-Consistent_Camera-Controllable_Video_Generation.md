@@ -10,6 +10,7 @@ aliases:
 - 3DScenePrompt
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 core_operator: 引入双时空滑动窗口策略，在标准时间邻域条件化之外，增加基于3D场景记忆的空间邻域条件化。该记忆仅保留从完整输入视频中提取的静态几何结构，通过动态SLAM和动态掩码策略实现。
@@ -27,13 +28,13 @@ paradigm: 视频中的邻域关系不仅是时间上的，也是空间上的。�
 > [!tip] 核心洞察
 > 视频中的邻域关系不仅是时间上的，也是空间上的。当相机回访相似视角时，生成帧可能与输入序列中很早的帧在空间上相邻。利用这一双重邻域性质，通过静态3D点云投影提供几何一致的空间提示，同时允许动态区域从时间上下文自然演化，从而在不增加计算负担的情况下实现长程空间一致性。
 
-| 字段      | 内容                                                                                                     |
-| ------- | ------------------------------------------------------------------------------------------------------ |
+| 字段 | 内容 |
+|------|------|
 | 中文题名    | 3D场景提示：面向场景一致且相机可控的视频生成                                                                                |
 | 英文题名    | 3D Scene Prompting for Scene-Consistent Camera-Controllable Video Generation                           |
 | 会议/期刊   | ICLR 2026 (accepted)                                                                                   |
 | Links   | [paper](https://openreview.net/forum?id=3XxoBwMusJ)                                                    |
-| Topic   | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic   | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method  | 3DScenePrompt                                                                                          |
 | Dataset | RealEstate10K, RealEstate10K, RealEstate10K, RealEstate10K                                             |
 

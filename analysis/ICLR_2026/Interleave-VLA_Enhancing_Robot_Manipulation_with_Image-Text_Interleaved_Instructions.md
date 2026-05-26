@@ -33,7 +33,7 @@ paradigm: 通过在VLA模型的tokenizer中引入特殊分隔符（<BOI>/<EOI>�
 | 英文题名 | Interleave-VLA: Enhancing Robot Manipulation with Image-Text Interleaved Instructions |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ULTWUuGhC3) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Interleave-VLA |
 | Dataset | SimplerEnv Out-of-Domain (Semantic Generalization Avg.), SimplerEnv Novel Category, Real-robot Out-of-Domain Food Lift (Avg.), Real-robot Out-of-Domain Kitchenware Pick&Place (Avg.) |
 

@@ -10,6 +10,7 @@ aliases:
 - SPSL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning
 core_operator: 通过微调共享预训练模型以拟合条件概率 p(ŷ|x)，将模型能力和任务需求编码为参数向量（PAVE），并利用其余弦相似度衡量对齐程度，从而统一刻画任务语义与模型质量。
@@ -33,7 +34,7 @@ paradigm: 在神经正切核（NTK）机制下，PAVE余弦相似度与基于最
 | 英文题名 | A Study on PAVE Specification for Learnware |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JkKkquv5lw) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
 | Method | Parameter Vector (PAVE) Specification |
 | Dataset | NLP Datasets (beyond original functionality), Computer Vision Datasets (with corrupted learnwares), Medical LLM Benchmarks (PubMedQA) |
 

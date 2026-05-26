@@ -10,6 +10,7 @@ aliases:
 - LIWDLM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/molecular_generation
 openreview_forum_id: 6As4wfTB77
@@ -34,7 +35,7 @@ paradigm: 通过大规模合成带标注的权重差异数据训练模型，使�
 | 英文题名 | Learning to Interpret Weight Differences in Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=6As4wfTB77) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/molecular_generation |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/molecular_generation |
 | Method | Diff Interpretation Tuning (DIT) |
 | Dataset | Hidden Topic Reporting (synthetic rank-1 LoRA weight diffs, 100 held-out topics), News Summarization (rank-8 LoRA weight diffs, 100 test set) |
 

@@ -10,6 +10,7 @@ aliases:
 - CDWVTEA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 openreview_forum_id: WtbPaWO8lH
@@ -34,7 +35,7 @@ paradigm: 将图结构分解为边级子结构，对每个子结构的投票分�
 | 英文题名 | Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=WtbPaWO8lH) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method | Bayes Est.（基于最优传输能力估计的特征级贝叶斯投票聚合） |
 | Dataset | GP-ER (continuous, d=20), MLP-SF (continuous, d=40), Sachs (continuous, d=11) |
 

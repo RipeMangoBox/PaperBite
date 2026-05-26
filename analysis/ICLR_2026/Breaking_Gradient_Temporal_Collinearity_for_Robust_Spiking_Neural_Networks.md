@@ -10,6 +10,7 @@ aliases:
 - BGTCRSNN
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/robustness
 openreview_forum_id: udTDFAshNM
@@ -34,7 +35,7 @@ paradigm: 通过在直接编码的输入层引入带结构化约束的参数化�
 | 英文题名 | Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=udTDFAshNM) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/robustness |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/robustness |
 | Method | Structured Temporal Orthogonal Decorrelation (STOD) |
 | Dataset | CIFAR-10, CIFAR-100, ImageNet |
 

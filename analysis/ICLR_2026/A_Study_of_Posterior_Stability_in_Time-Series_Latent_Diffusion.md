@@ -10,6 +10,7 @@ aliases:
 - SPSTSLD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 移除KL正则化并将扩散过程视为变分推断，同时利用扩散末端模拟后验崩塌来惩罚解码器对潜在变量的不敏感性，从而恢复潜在变量的控制力。
@@ -33,7 +34,7 @@ paradigm: 将扩散过程的前几步解释为变分推断，消除危险的KL�
 | 英文题名 | A Study of Posterior Stability in Time-Series Latent Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UbL2Fo0IvV) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Posterior-Stable Latent Diffusion (PSLD，后验稳定潜在扩散) |
 | Dataset | MIMIC, WARDS, Earthquakes, Retail |
 

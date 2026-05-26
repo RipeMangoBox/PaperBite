@@ -9,6 +9,7 @@ aliases:
 - PHyCLIP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 将单一的嵌入空间替换为多个双曲因子的 ℓ1 乘积，每个因子独立编码一个概念族的层次分类，因子间的 ℓ1 距离支持跨族的组合。
@@ -32,7 +33,7 @@ paradigm: 族内层次关系天然地嵌入双曲空间（树形），跨族组�
 | 英文题名 | PHyCLIP: $\ell_1$-Product of Hyperbolic Factors Unifies Hierarchy and Compositionality in Vision-Language Representation Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=I3Ct1eDmVI) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | PHyCLIP |
 | Dataset | WordNet Hierarchical Classification, WordNet Hierarchical Classification, COCO Text→Image Retrieval, COCO Image→Text Retrieval |
 

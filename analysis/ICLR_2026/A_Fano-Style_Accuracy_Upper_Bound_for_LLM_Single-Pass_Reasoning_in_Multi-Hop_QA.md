@@ -10,6 +10,7 @@ aliases:
 - InfoQA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 任务信息需求β与模型输出容量C之间的比值。β由跳数h、上下文长度L、噪声水平等因素决定；C由模型架构和输出长度决定。
@@ -33,7 +34,7 @@ paradigm: 单次推理范式存在根本性的信息瓶颈，无法可靠地解�
 | 英文题名 | A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=dPAcHrG4rl) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | InfoQA |
 | Dataset | 合成多跳QA基准, 合成多跳QA基准 (Qwen3-14B), 合成多跳QA基准 (Qwen3-8B), 合成多跳QA基准 (Qwen3-8B, 4跳, 8k上下文) |
 

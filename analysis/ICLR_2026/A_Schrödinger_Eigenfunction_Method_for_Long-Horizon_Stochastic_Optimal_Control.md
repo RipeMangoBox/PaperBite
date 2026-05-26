@@ -10,6 +10,7 @@ aliases:
 - SDEMLHSOC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/physics
 core_operator: 将HJB方程线性化后，利用算子L的离散谱展开，将长时域控制问题转化为学习薛定谔算子的基态本征函数及其梯度，从而将复杂度从O(Td)降至O(d)。
@@ -33,7 +34,7 @@ paradigm: 在梯度漂移假设下，线性化HJB算子L与薛定谔算子S = -�
 | 英文题名 | A Schrödinger Eigenfunction Method for Long-Horizon Stochastic Optimal Control |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=lcEw5NcSij) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
 | Method | Schrödinger Eigenfunction Method for Long-Horizon SOC (EIGF+IDO) |
 | Dataset | QUADRATIC (ISOTROPIC), QUADRATIC (REPULSIVE), QUADRATIC (ANISOTROPIC), DOUBLE WELL |
 

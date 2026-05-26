@@ -9,7 +9,14 @@ aliases:
 - SSPIT
 acceptance: accepted
 paradigm: 通过将极地长度信息与最优传输耦合结合，再与内在距离进行卷积，得到等距不变且维度无关的标量表示，从而将跨空间分布比较转化为同一空间上的可解最优传输问题。
+core_operator: SEINT builds an SE(p)-invariant transport metric from polar transport discrepancy and distance-convoluted scalar representations.
+primary_logic: It maps distributions from possibly different spaces into isometry-invariant one-dimensional DcPTD representations and compares them with Wasserstein distance.
+claims:
+- PTD and DcPTD combine norm information, optimal couplings, and intrinsic distances into dimension-independent scalar features.
+- The resulting SEINT distance is described as a true metric on isometry classes.
+- Experiments show strong invariance performance and useful regularization for molecular generation.
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oyxExc7TEl) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | SEINT (SE(p)-Invariant Transport) |
 | Dataset | ModelNet40-SE(3), ModelNet40-SE(3), QM9 (预训练, EDM), QM9 (预训练, EDM) |
 

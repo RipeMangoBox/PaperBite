@@ -33,7 +33,7 @@ paradigm: RL使MLLM学得的推理本质上是一种从视觉到文本的跨域�
 | 英文题名 | Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=DkHt2K1g2Y) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RALI (Reasoning-Aligned Lightweight IQA) |
 | Dataset | 7数据集平均（单域训练）, 4数据集跨域训练（KonIQ+SPAQ+KADID+PIPAL）, 效率对比（Batch size=16） |
 

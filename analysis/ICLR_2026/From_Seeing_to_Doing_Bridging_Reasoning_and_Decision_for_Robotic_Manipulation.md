@@ -33,7 +33,7 @@ paradigm: 将视觉推理与决策分离，通过 VLM 的通用空间推理能�
 | 英文题名 | From Seeing to Doing: Bridging Reasoning and Decision for Robotic Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=yngvAamNQi) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | FSD (From Seeing to Doing) |
 | Dataset | CVBench (5 subtasks avg.), CRPE (4 subtasks avg.), BLINK (Spatial Rel. avg.), RoboRefIt |
 

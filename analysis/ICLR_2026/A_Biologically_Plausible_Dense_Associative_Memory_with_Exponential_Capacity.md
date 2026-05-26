@@ -10,6 +10,7 @@ aliases:
 - BPDAMEC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/neuroscience_cognitive_science
 core_operator: 将隐藏神经元的激活函数从幂律、softmax 或球面归一化等非线性函数替换为简单的阈值函数（Heaviside step function），从而允许分布式表示。
@@ -33,7 +34,7 @@ paradigm: "通过使用阈值激活函数，隐藏神经元可以编码多个记
 | 英文题名 | A Biologically Plausible Dense Associative Memory with Exponential Capacity |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=mRZOayQL1i) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/neuroscience_cognitive_science |
 | Method | Threshold-based Dense Associative Memory (TDAM) |
 | Dataset | MNIST, MNIST, MNIST, MNIST |
 

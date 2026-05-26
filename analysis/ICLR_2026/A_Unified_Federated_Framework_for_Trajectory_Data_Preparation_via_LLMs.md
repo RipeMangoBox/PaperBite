@@ -10,6 +10,7 @@ aliases:
 - FedTDP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning
 core_operator: 通过将轻量级轨迹隐私自编码器、轨迹知识增强器和联邦并行优化三者结合，使大语言模型能够在不共享原始轨迹的情况下，统一执行多种轨迹数据准备任务。
@@ -33,7 +34,7 @@ paradigm: 通过密钥共享的安全聚合保护隐私，并通过轨迹感知�
 | 英文题名 | A Unified Federated Framework for Trajectory Data Preparation via LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=MIelckWrEK) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/transfer_multitask_and_meta_learning |
 | Method | FedTDP |
 | Dataset | GeoLife (few-shot) 异常检测, GeoLife (few-shot) 轨迹补全, 多任务平均 (few-shot/zero-shot), 多任务平均 (few-shot/zero-shot) |
 

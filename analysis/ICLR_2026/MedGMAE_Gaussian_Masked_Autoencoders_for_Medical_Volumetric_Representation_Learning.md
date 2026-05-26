@@ -9,6 +9,7 @@ aliases:
 - MedGMAE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 将预训练重构目标从体素强度预测改为3D高斯原语参数预测，利用连续几何建模使模型学习空间连贯的解剖表征。
 primary_logic: 医学体积中解剖结构呈连续分布但整体稀疏；采用3D高斯原语作为中间表征，能以极少参数量捕捉几何形状、位置与方向，引导掩码自编码器学习具有语义连续性的解剖先验，同时使解码器获得可迁移的零样本重建能力。
@@ -31,7 +32,7 @@ paradigm: 医学体积中解剖结构呈连续分布但整体稀疏；采用3D�
 | 英文题名 | MedGMAE: Gaussian Masked Autoencoders for Medical Volumetric Representation Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Z2XIRLv535) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | MedGMAE |
 | Dataset | AMOS multi-organ segmentation (1% labeled data), AMOS multi-organ segmentation (100% labeled data), FLARE'22 segmentation (1% labeled data), SegTHOR segmentation (100% labeled data) |
 

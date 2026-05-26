@@ -33,7 +33,7 @@ paradigm: 通过引入GAE对LLM推理每一步分配优势值，结合可微分�
 | 英文题名 | PathChat-SegR1: Reasoning Segmentation in Pathology via SO-GRPO |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=DQESI75YrD) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | PathChat-SegR1 |
 | Dataset | PMBT (zero-shot), RD (zero-shot), RDw/E (one-shot), FS-WSI |
 

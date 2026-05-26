@@ -33,7 +33,7 @@ paradigm: 将诊断过程分解为疾病特定的标准化计划与患者特定�
 | 英文题名 | MedAgent-Pro: Towards Evidence-based Multi-modal Medical Diagnosis via Reasoning Agentic Workflow |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZOuU0udyA4) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MedAgent-Pro |
 | Dataset | REFUGE2 (Glaucoma), REFUGE2 (Glaucoma), MITEA (Heart Disease), MITEA (Heart Disease) |
 

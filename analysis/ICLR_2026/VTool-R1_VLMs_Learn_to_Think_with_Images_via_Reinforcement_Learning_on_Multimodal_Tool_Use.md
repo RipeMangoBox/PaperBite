@@ -33,7 +33,7 @@ paradigm: 仅通过最终任务结果的奖励信号，VLMs可以通过GRPO训�
 | 英文题名 | VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Idst6X6gmy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VTool-R1 |
 | Dataset | Chart Split (ChartQA derived), Table Split (VWTQ, VWTQ_syn, VTabFact), Chart Split, Chart Split |
 

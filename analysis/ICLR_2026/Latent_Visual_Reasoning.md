@@ -10,6 +10,7 @@ aliases:
 - LVR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 将推理空间从离散文本token扩展至连续视觉token：让LLM在潜在空间中直接重建与查询相关的视觉语义（即‘潜在视觉推理’），并将重建的视觉信号作为后续文本生成的条件，从根本上打通视觉与语言的联合推理。
 primary_logic: 既然视觉与文本token被映射到同一语义空间，就应当对二者进行联合推理，而非局限在文本一侧。通过让LLM的最后一个隐藏状态去近似问题相关的视觉特征，可在不依赖外部工具的前提下实现更深层的跨模态推理。
@@ -32,7 +33,7 @@ paradigm: 既然视觉与文本token被映射到同一语义空间，就应当�
 | 英文题名 | Latent Visual Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=j84WR5ORsC) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Latent Visual Reasoning (LVR) |
 | Dataset | MMVP (Qwen2.5-VL-7B), V* (Qwen2.5-VL-7B), V*_D.A. (Qwen2.5-VL-7B), V*_R.P. (Qwen2.5-VL-7B) |
 

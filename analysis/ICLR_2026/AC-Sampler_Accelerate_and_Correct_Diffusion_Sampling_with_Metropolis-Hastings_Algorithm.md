@@ -9,6 +9,7 @@ aliases:
 - AC-Sampler
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
 core_operator: 不从纯噪声开始逐步去噪，而是在中间时间步直接构建MALA马尔可夫链，利用Metropolis-Hastings校正使样本逼近该时间步的真实边缘分布，从而跳过大量去噪步骤。
@@ -32,7 +33,7 @@ paradigm: 通过定理4.1将密度比分解为可计算项，并训练时间依�
 | 英文题名 | AC-Sampler: Accelerate and Correct Diffusion Sampling with Metropolis-Hastings Algorithm |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=kWl13kRJTQ) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | AC‑Sampler |
 | Dataset | unconditional CIFAR‑10, unconditional CIFAR‑10, unconditional CIFAR‑10 (EDM Heun), unconditional CIFAR‑10 (EDM Heun) |
 

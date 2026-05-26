@@ -33,7 +33,7 @@ paradigm: 将输入调制与输出调制统一起来，使强化学习能够在�
 | 英文题名 | RFS: Reinforcement learning with Residual flow steering for dexterous manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Kt9tJeOwjy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Residual Flow Steering (RFS) |
 | Dataset | Simulation (6 tasks average), Stacking (simulation), Real-world Pick-and-Place (seen objects) |
 

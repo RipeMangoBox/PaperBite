@@ -10,6 +10,7 @@ aliases:
 - WATS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 openreview_forum_id: ZrrVEMyQeU
@@ -34,7 +35,7 @@ paradigm: 图小波能够高效、可扩缩地提取结构信息，不依赖邻�
 | 英文题名 | WATS: Wavelet-Aware Temperature Scaling for Reliable Graph Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZrrVEMyQeU) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | WATS (Wavelet-Aware Temperature Scaling) |
 | Dataset | 9 个数据集 (Citeseer, Cora, Pubmed, Cora-Full, Computers, Photo, Reddit, Roman, Tolokers) 搭配 3 种 GNN 主干 (GCN, GAT, GCNII), Photo (GCN) |
 

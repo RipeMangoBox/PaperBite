@@ -10,6 +10,7 @@ aliases:
 - FASOEPTU
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/multi_agent
 openreview_forum_id: Mf5AleTUVK
@@ -34,7 +35,7 @@ paradigm: 将多轮强化学习问题转化为一系列单轮策略更新：在�
 | 英文题名 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Mf5AleTUVK) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/multi_agent |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/multi_agent |
 | Method | AGENTFLOW (with Flow-GRPO) |
 | Dataset | Bamboogle (Search Intensive), 2Wiki (Search Intensive), HotpotQA (Search Intensive), Musique (Search Intensive) |
 

@@ -10,6 +10,7 @@ aliases:
 - α-DPO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 core_operator: 将DPO的优化目标从前向KL散度替换为α散度，并通过动态α调度机制根据样本置信度自适应调整α值。
@@ -33,7 +34,7 @@ paradigm: α散度在α<1时具有模式寻求特性，能够抑制离群点的�
 | 英文题名 | $\alpha$-DPO: Robust Preference Alignment for Diffusion Models via $\alpha$ Divergence |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wqbnA6PcKr) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | α-DPO |
 | Dataset | Pick-a-Pic Test (SDXL, 标签翻转率20%), Pick-a-Pic Test (SDXL, 标签翻转率20%), Pick-a-Pic Test (SDXL, 无翻转), Pick-a-Pic Test (SDXL, 无翻转) |
 

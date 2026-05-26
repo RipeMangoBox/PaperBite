@@ -32,7 +32,7 @@ paradigm: 模仿人脑半球分工，解耦语义与空间流；通过缓存经�
 | 英文题名 | JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RnuB0Nlbd5) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | JanusVLN |
 | Dataset | R2R-CE Val-Unseen, R2R-CE Val-Unseen, RxR-CE Val-Unseen, RxR-CE Val-Unseen |
 

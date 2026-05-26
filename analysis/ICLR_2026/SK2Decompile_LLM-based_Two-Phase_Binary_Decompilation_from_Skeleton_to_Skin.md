@@ -32,7 +32,7 @@ paradigm: 通过信息瓶颈原理设计的混淆源代码IR最大化了从二�
 | 英文题名 | SK2Decompile: LLM-based Two-Phase Binary Decompilation from Skeleton to Skin |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jSQPqdoidy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SK2Decompile |
 | Dataset | HumanEval, MBPP, GitHub2025, ExeBench |
 

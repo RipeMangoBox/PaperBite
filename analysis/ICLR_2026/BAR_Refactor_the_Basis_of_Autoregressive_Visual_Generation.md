@@ -10,8 +10,16 @@ aliases:
 - BAR
 - Basis Autoregressive (BAR)
 acceptance: accepted
+core_operator: 学习正交线性变换矩阵重构自回归视觉token基。
+primary_logic: BAR先把潜在token序列变换为可学习基下的序列，再用AR Transformer预测并逆变换回原始空间生成图像。
+claims:
+- BAR把VAR、xAR、RAR、PAR和FAR等自回归变体统一为线性变换y等于Ax的特例。
+- 正交约束保持变换前后欧氏范数与高斯噪声分布，使训练目标与原空间一致。
+- 残差BAR目标鼓励早期token重建全局图像、后期token补充残差细节。
+- BAR在ImageNet 256和512以及MS-COCO文本到图像任务上优于对应xAR和MAR基线。
 paradigm: 将token视为图像向量在子空间上的投影，通过一个端到端可学习的正交变换矩阵A，将固定token序列重构为更适合自回归预测的新序列，从而超越手工设计的归纳偏置。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -27,7 +35,7 @@ tags:
 | 英文题名 | BAR: Refactor the Basis of Autoregressive Visual Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2m9XQq4Dc3) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | Basis Autoregressive (BAR) |
 | Dataset | ImageNet 256×256, ImageNet 256×256, ImageNet 256×256, ImageNet 256×256 |
 

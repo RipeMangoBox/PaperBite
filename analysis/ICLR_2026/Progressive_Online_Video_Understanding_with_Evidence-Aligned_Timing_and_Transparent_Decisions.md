@@ -10,6 +10,7 @@ aliases:
 - POVUEATTD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 将推理控制（决策器）与记忆/集成分离，并引入可量化的进度信号ρ和置信度信号c，使模型能够根据证据的充分性自动确定响应时机，同时通过多层次聚合令牌在深度Transformer中渐进式更新紧凑的全局认知状态。
@@ -33,7 +34,7 @@ paradigm: 将用户查询分解为可观察的子目标，结合在Transformer�
 | 英文题名 | Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oKB0CacHaM) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Thinking-QwenVL |
 | Dataset | StreamingBench (Real-Time Visual Understanding), OVOBench (Overall), RTVBench (Overall), VideoMME (Overall, w/o subs) |
 

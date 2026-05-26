@@ -10,6 +10,7 @@ aliases:
 - AbdCTBench
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/health
 core_operator: 利用腹部外部表面几何形状（2D深度图投影）作为间接观测变量，推断内部体成分生物标志物。
@@ -33,7 +34,7 @@ paradigm: 外部体表几何与内部组织成分具有可学习的预测关联�
 | 英文题名 | AbdCTBench: Learning Clinical Biomarker Representations from Abdominal Surface Geometry |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=dKRAo0a9Gm) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/health |
 | Method | AbdCTBench Benchmark (基于2D腹部表面网格的单目标生物标志物预测基准) |
 | Dataset | Age prediction (regression), Calcium Scoring Abdominal Agatston (binary), Mortality prediction (binary), Type-2 Diabetes (binary) |
 

@@ -10,6 +10,7 @@ aliases:
 - AIMNNQC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/physics
 core_operator: 残差跳跃连接（ResNet 风格）保证了前向传播向量的 ℓ₂ 范数下限，从而使得可以在不依赖 QRAM 的情况下构建全相干多层量子网络，并支持多项式深度的电路实现。
@@ -33,7 +34,7 @@ paradigm: 残差块确保每次归一化前向量的 ℓ₂ 范数可有效下�
 | 英文题名 | Accelerating Inference for Multilayer Neural Networks with Quantum Computers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=QcRto0GjxC) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
 | Method | Quantum-accelerated residual CNN with coherent erf/sigmoid activations, skip connections, and layer normalization |
 | Dataset | Exact classical 2D convolution (N-dim vectorized input, d=2), Exact classical 2D convolution (with QRAM for weights, no input QRAM, d=2), Deep network with k nonlinear layers, full QRAM access |
 
@@ -50,7 +51,7 @@ paradigm: 残差块确保每次归一化前向量的 ℓ₂ 范数可有效下�
 
 在理论加速方面，本文根据量子数据接入假设划分了三种体制（图1）：(1) 输入与权重均通过 QRAM 高效访问，此时可实现推理代价 $O(\mathrm{polylog}(N/\varepsilon)^k)$，相对经典方法获得多对数加速；(2) 仅权重存储于 QRAM 而输入为经典存储，得到 $O(N\log(1/\varepsilon)^{2k})$ 的复杂度，比精确经典实现带来四次方加速；(3) 完全不依赖 QRAM 的输入假设，仍可实现二次方加速。这些结果首次在多层量子网络中结合了相干非线性与范数保持保证，并在对比表（表1）中展示了相对于现有方案在相干多层构造、无 QRAM 操作、$\mathrm{polylog}(1/\varepsilon)$ 误差依赖和输入维度多对数标度等维度上的关键提升。部分证据（如无 QRAM 卷积编码）置信度极高（1.0），而范数保持的理论保证仍需在具体激活缩放细节上稍作人工验证（置信度 0.85）。此外，网络深度的多项式指数增长（如 $O(\log(\sqrt{N}/\varepsilon)^{2k})$）依然对极深网络构成规模化挑战，且 QRAM 假设在真实大规模量子硬件上的可行性尚未解决，这些因素在实际应用中需予以关注。
 
-## 背景與動機
+## 背景与动机
 
 ### 問題背景
 

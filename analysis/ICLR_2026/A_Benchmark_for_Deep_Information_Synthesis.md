@@ -10,6 +10,7 @@ aliases:
 - DEEPSYNTH
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/robustness
 core_operator: 工具增强（尤其是网络搜索和代码解释器）是提升性能的主要可调节变量。提供中间推理步骤（Intermediate Steps）也能显著提升性能，例如Smolagent (GPT-4.1) + Intermediate Step的F1从6.33提升至10.50。
@@ -33,7 +34,7 @@ paradigm: DEEPSYNTH基准测试揭示了当前最先进的LLM和深度研究智�
 | 英文题名 | A Benchmark for Deep Information Synthesis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0Dhpt9aY3n) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/robustness |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/robustness |
 | Method | DEEPSYNTH |
 | Dataset | DEEPSYNTH, DEEPSYNTH, DEEPSYNTH, DEEPSYNTH-Dev |
 

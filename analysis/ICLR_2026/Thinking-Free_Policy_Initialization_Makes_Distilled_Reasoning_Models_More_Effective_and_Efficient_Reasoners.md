@@ -33,7 +33,7 @@ paradigm: 通过在标准RLVR训练前引入一个低成本的多阶段ThinkingF
 | 英文题名 | Thinking-Free Policy Initialization Makes Distilled Reasoning Models More Effective and Efficient Reasoners |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=RKYO6R8Jgb) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | TFPI (Thinking-Free Policy Initialization) |
 | Dataset | Overall Average (6 benchmarks), AIME 25, AIME 24 (Thinking-Free mode), GPQA Diamond |
 

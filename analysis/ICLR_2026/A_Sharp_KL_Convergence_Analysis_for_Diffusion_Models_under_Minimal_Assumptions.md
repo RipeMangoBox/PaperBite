@@ -10,6 +10,7 @@ aliases:
 - SKCADMUMA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/sampling_and_optimization
 core_operator: 将生成过程建模为反向ODE步后接一个较小的前向加噪步的组合，利用ODE步控制Wasserstein型误差，再通过加噪步将其转换为KL误差，从而获得更好的步长依赖。
@@ -33,7 +34,7 @@ paradigm: 通过引入Benton et al. (2023)随机局部化论证的ODE对应物�
 | 英文题名 | A Sharp KL Convergence Analysis for Diffusion Models under Minimal Assumptions |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=c8Ft3246KD) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/sampling_and_optimization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/sampling_and_optimization |
 | Method | ODE-step + noise-step 生成算法（Algorithm 1） |
 | Dataset | 理论分析（无特定数据集）, 理论分析（无特定数据集） |
 

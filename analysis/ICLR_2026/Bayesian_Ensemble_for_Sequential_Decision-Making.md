@@ -10,8 +10,15 @@ aliases:
 - BESDM
 - Bayesian Ensemble (BE)
 acceptance: accepted
+core_operator: 将集成成员索引分布视为内部 bandit 后验，并依据奖励反馈动态更新集成采样权重。
+primary_logic: |
+  智能体维护集成索引 z 的概率分布，采样索引用于动作选择并用经验风险更新集成参数；随后通过 Beta 或高斯等贝叶斯近似把观测奖励反馈回 index distribution，在 bandit 中形成 BEB，在强化学习中形成 BE-DQN。
+claims:
+- 动态更新 index distribution 能比固定均匀或标准高斯索引更充分利用集成成员不确定性。
+- BEB 在 Neural Testbed 和 Mushroom 等 bandit 基准上降低 regret，BE-DQN 在 MiniGrid 等任务上改善集成决策表现。
 paradigm: 将集成成员的选择视为一个内部的bandit问题，利用贝叶斯推断根据观测到的奖励动态更新成员上的采样分布，而非使用固定的均匀采样。
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/bandits_online
 ---
@@ -21,13 +28,13 @@ tags:
 > [!tip] 核心洞察
 > 将集成成员的选择视为一个内部的bandit问题，利用贝叶斯推断根据观测到的奖励动态更新成员上的采样分布，而非使用固定的均匀采样。
 
-| 字段      | 内容                                                                               |
+| 字段 | 内容 |
 | ------- | -------------------------------------------------------------------------------- |
 | 中文题名    | 用于序列决策的贝叶斯集成                                 |
 | 英文题名    | Bayesian Ensemble for Sequential Decision-Making                                 |
 | 会议/期刊   | ICLR 2026 (accepted)                                                             |
 | Links   | [paper](https://openreview.net/forum?id=s2hxd8JghB)                              |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/bandits_online |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/bandits_online |
 | Method  | Bayesian Ensemble (BE)                                                           |
 | Dataset | Neural Testbed d=2, Neural Testbed d=10, Neural Testbed d=50, Neural Testbed d=2 |
 

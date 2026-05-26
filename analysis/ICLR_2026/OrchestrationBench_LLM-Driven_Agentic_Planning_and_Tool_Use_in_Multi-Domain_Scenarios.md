@@ -32,7 +32,7 @@ paradigm: 工具执行性能在不同模型间较为一致，而规划能力差�
 | 英文题名 | OrchestrationBench: LLM-Driven Agentic Planning and Tool Use in Multi-Domain Scenarios |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Oljnxmf4pc) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | OrchestrationBench |
 | Dataset | OrchestrationBench-English, OrchestrationBench-English, OrchestrationBench-English, OrchestrationBench-English |
 

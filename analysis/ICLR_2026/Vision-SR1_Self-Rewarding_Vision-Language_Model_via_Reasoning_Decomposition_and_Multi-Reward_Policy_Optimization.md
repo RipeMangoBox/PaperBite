@@ -33,7 +33,7 @@ paradigm: 通过将视觉感知与语言推理解耦，并利用模型自身作�
 | 英文题名 | Vision-SR1: Self-Rewarding Vision-Language Model via Reasoning Decomposition and Multi-Reward Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=C1M4ETatgM) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Vision-SR1 |
 | Dataset | MMMU-Pro, MMMU, RealWorld QA, HallusionBench |
 

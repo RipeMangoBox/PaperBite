@@ -32,7 +32,7 @@ paradigm: 通过将元认知理论中的“规划-探索-反思-监控”等高�
 | 英文题名 | RLVMR: Reinforcement Learning with Verifiable Meta-Reasoning Rewards for Robust Long-Horizon Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cTbAevdwBE) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | RLVMR |
 | Dataset | ALFWorld, ALFWorld, ScienceWorld, ALFWorld |
 

@@ -11,6 +11,7 @@ aliases:
 - Graph-as-Code
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 将LLM-图交互从静态提示（serialization）转变为生成并迭代执行代码的Graph-as-Code范式，使LLM能够通过可执行的pandas查询灵活、手术式地组合图结构、特征和标签。
@@ -34,7 +35,7 @@ paradigm: LLM作为代码生成器能够通过程序化查询动态切换对结�
 | 英文题名 | Actions Speak Louder than Prompts: A Large-Scale Study of LLMs for Graph Inference |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=MgJUj9Sk3C) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Graph-as-Code |
 | Dataset | cora, pubmed, cornell, texas |
 

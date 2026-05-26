@@ -9,6 +9,7 @@ aliases:
 - AutoQD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 openreview_forum_id: FNnJIf4ymV
@@ -33,7 +34,7 @@ paradigm: 通过随机傅里叶特征将策略的占用度量嵌入到有限维�
 | 英文题名 | AutoQD: Automatic Discovery of Diverse Behaviors with Quality-Diversity Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FNnJIf4ymV) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | AutoQD |
 | Dataset | Ant, Ant, Swimmer, BipedalWalker |
 

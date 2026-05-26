@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: HumanEval
@@ -17,15 +17,29 @@ generated: 2026-05-23T23:39
 	- datasets: GSM8K, GPQA, MMLU-pro
 - [[analysis/ICLR_2026/Adaptive_Collaboration_with_Humans_Metacognitive_Policy_Optimization_for_Multi-Agent_LLMs_with_Continual_Learning.md|Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Collaboration_with_Humans_Metacognitive_Policy_Optimization_for_Multi-Agent_LLMs_with_Continual_Learning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Optimization / Theory
 	- methods: Human-In-the-Loop Multi-Agent Collaboration (HILA) with Dual-Loop Policy Optimization (DLPO)
 	- datasets: GSM8K, AMC, AIME
+- [[analysis/ICLR_2026/Beyond_Fixed_Training-Free_Variable-Length_Denoising_for_Diffusion_Large_Language_Models.md|Beyond Fixed: Training-Free Variable-Length Denoising for Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Beyond_Fixed_Training-Free_Variable-Length_Denoising_for_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow
+	- methods: DAEDAL
+	- datasets: GSM8K, MATH500, MBPP
 - [[analysis/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.md|Beyond Scattered Acceptance: Fast and Coherent Inference for DLMs via Longest Stable Prefixes (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Beyond_Scattered_Acceptance_Fast_and_Coherent_Inference_for_DLMs_via_Longest_Stable_Prefixes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
 	- methods: Longest Stable Prefix (LSP) Scheduler
+	- datasets: GSM8K, HumanEval
+- [[analysis/ICLR_2026/Dont_Settle_Too_Early_Self-Reflective_Remasking_for_Diffusion_Language_Models.md|Don't Settle Too Early: Self-Reflective Remasking for Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Dont_Settle_Too_Early_Self-Reflective_Remasking_for_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: RemeDi (Remasking-enabled Diffusion Language Model)
+	- datasets: GSM8K, MATH, HumanEval
+- [[analysis/ICLR_2026/DPad_Efficient_Diffusion_Language_Models_with_Suffix_Dropout.md|DPad: Efficient Diffusion Language Models with Suffix Dropout (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DPad_Efficient_Diffusion_Language_Models_with_Suffix_Dropout.pdf|PDF]]
+	- method groups: Systems / Efficiency / Compression, Generative / Diffusion / Flow
+	- methods: DPad
 	- datasets: GSM8K, HumanEval
 - [[analysis/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.md|Gradient Intrinsic Dimensionality Alignment：Narrowing The Gap Between Low-Rank Adaptation and Full Fine-Tuning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Gradient_Intrinsic_Dimensionality_AlignmentNarrowing_The_Gap_Between_Low-Rank_Adaptation_and_Full_Fine-Tuning.pdf|PDF]]
@@ -33,15 +47,43 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: RaLoRA / RaLoRA-Pro
 	- datasets: GLUE, MT-Bench, GSM8K
+- [[analysis/ICLR_2026/Invisible_Safety_Threat_Malicious_Finetuning_for_LLM_via_Steganography.md|Invisible Safety Threat: Malicious Finetuning for LLM via Steganography (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Invisible_Safety_Threat_Malicious_Finetuning_for_LLM_via_Steganography.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: 基于不可见字符隐写的恶意微调 (Malicious Finetuning with Invisible-Character Steganography)
+	- datasets: AdvBench, MMLU, GPQA
+- [[analysis/ICLR_2026/Overcoming_Joint_Intractability_with_Lossless_Hierarchical_Speculative_Decoding.md|Overcoming Joint Intractability with Lossless Hierarchical Speculative Decoding (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Overcoming_Joint_Intractability_with_Lossless_Hierarchical_Speculative_Decoding.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment
+	- methods: Hierarchical Speculative Decoding (HSD)
+	- datasets: GSM8K, HumanEval
 - [[analysis/ICLR_2026/Planner_Aware_Path_Learning_in_Diffusion_Language_Models_Training.md|Planner Aware Path Learning in Diffusion Language Models Training (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Planner_Aware_Path_Learning_in_Diffusion_Language_Models_Training.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Generative / Diffusion / Flow
 	- methods: Planner Aware Path Learning (PAPL)
 	- datasets: Protein Sequence Generation, Unconditional Text Generation, HumanEval
+- [[analysis/ICLR_2026/Reasoning_with_Sampling_Your_Base_Model_is_Smarter_Than_You_Think.md|Reasoning with Sampling: Your Base Model is Smarter Than You Think (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Reasoning_with_Sampling_Your_Base_Model_is_Smarter_Than_You_Think.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
+	- methods: Power Sampling (Algorithm 1)
+	- datasets: MATH500, HumanEval, GPQA
 - [[analysis/ICLR_2026/SK2Decompile_LLM-based_Two-Phase_Binary_Decompilation_from_Skeleton_to_Skin.md|SK2Decompile: LLM-based Two-Phase Binary Decompilation from Skeleton to Skin (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/SK2Decompile_LLM-based_Two-Phase_Binary_Decompilation_from_Skeleton_to_Skin.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: SK2Decompile
 	- datasets: HumanEval, MBPP, GitHub2025
+- [[analysis/ICLR_2026/Soft-Masked_Diffusion_Language_Models.md|Soft-Masked Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Soft-Masked_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: Soft-masking (SM)
+	- datasets: OpenWebText unconstrained generation, HumanEval
+- [[analysis/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.md|Token-Importance Guided Direct Preference Optimization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Token-Importance_Guided_Direct_Preference_Optimization.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Optimization / Theory
+	- methods: TI-DPO
+	- datasets: MMLU, GSM8K, GPQA
+- [[analysis/ICLR_2026/WSM_Decay-Free_Learning_Rate_Schedule_via_Checkpoint_Merging_for_LLM_Pre-training.md|WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/WSM_Decay-Free_Learning_Rate_Schedule_via_Checkpoint_Merging_for_LLM_Pre-training.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: Warmup-Stable and Merge (WSM)
+	- datasets: MATH, HumanEval, MMLU-Pro

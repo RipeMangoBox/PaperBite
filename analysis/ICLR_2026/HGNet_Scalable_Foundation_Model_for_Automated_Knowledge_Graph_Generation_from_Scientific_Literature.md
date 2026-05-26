@@ -10,6 +10,7 @@ aliases:
 - HGNet
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 core_operator: 通过正交语义分解（OSD）提取领域不变的语义转折信号；多尺度TCQK注意力强制头部分别捕获不同长度的n-gram模式；层次化三通道消息传递（父、子、对等）显式建模概念间的方向性关系；可微层次损失和连续抽象场损失强制图谱形成有向无环图并沿抽象轴有序排列。
@@ -33,7 +34,7 @@ paradigm: 将自注意力泛化为稀疏实体图上的多通道层次消息传�
 | 英文题名 | HGNet: Scalable Foundation Model for Automated Knowledge Graph Generation from Scientific Literature |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NWd53rltx8) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | HGNet（包含 Z-NERD 零样本实体识别和 HGNet 层次关系抽取） |
 | Dataset | SciERC, SciER, BioRED, SemEval (supervised NER), SPHERE (zero-shot NER), SciERC, SciER, BioRED, SemEval (supervised RE), SPHERE (zero-shot RE) |
 

@@ -9,8 +9,15 @@ aliases:
 - IMAAML
 - WWNNBLIDE
 acceptance: accepted
+core_operator: 该框架用IDR、ME、ASE、ADI和MS构造可归因压力测试来评估LID估计器鲁棒性。
+primary_logic: 已知或真实数据流形经保持维度的域映射和几何变换生成测试集，再比较ESS、NB、LIDL和FLIPD等估计行为。
+claims:
+- 简单合成流形上的高精度不能保证跨域、跨架构或复杂流形上的LID估计鲁棒性。
+- IDR揭示LIDL和FLIPD等神经估计器对网络架构和表征域高度敏感。
+- Arrows等合流形压力测试显示当前所有受测方法都难以处理非光滑复杂几何。
 paradigm: 简单合成流形上的高精度并不能保证跨架构或复杂流形上的鲁棒性；利用保持几何结构的域映射（IDR）将同一流形嵌入不同表征空间，并结合有针对性的压力测试（如边界效应、邻近流形、样本量敏感度），可以揭示当前神经LID估计器的根本弱点，并指出其缺乏网络架构不变性。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Why We Need New Benchmarks for Local Intrinsic Dimension Estimation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZEf03Uunvk) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | 基于IDR、ME、ASE、ADI和MS的LID估计基准测试框架 |
 | Dataset | Gaussians (IDR) - 非均匀密度, Spheres (IDR) - 流形曲率, Spaghetti (IDR) - 高维嵌入, Arrows (MS) - 合流形 |
 

@@ -32,7 +32,7 @@ paradigm: 尽管英语仍是最强的提示和推理语言，但针对性的多�
 | 英文题名 | mR3: Multilingual Rubric-Agnostic Reward Reasoning Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ST0wOB1bdX) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MR3 |
 | Dataset | m-RewardBench (23 languages), RewardBench (English), MM-Eval (18 languages), INCLUDE-base-44 (44 languages) |
 

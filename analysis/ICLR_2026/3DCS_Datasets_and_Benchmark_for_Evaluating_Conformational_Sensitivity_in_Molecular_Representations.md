@@ -10,6 +10,7 @@ aliases:
 - 3DBECSMR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 core_operator: GCE评估框架中的参考对齐（reference alignment）和流形一致性（manifold consistency）两层指标，以及三个专门设计的数据集（松弛扫描、手性药物候选物、AIMD轨迹）。
@@ -33,7 +34,7 @@ paradigm: 现代数据驱动的3D分子表示在几何敏感性上表现良好�
 | 英文题名 | 3DCS: Datasets and Benchmark for Evaluating Conformational Sensitivity in Molecular Representations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JAb0y8lkqL) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | 3DCS (3D Conformational Sensitivity) benchmark with GCE evaluation framework |
 | Dataset | Geometry (Relaxed Scans), Geometry (Relaxed Scans), Geometry (Relaxed Scans), Chirality (ChEMBL) |
 

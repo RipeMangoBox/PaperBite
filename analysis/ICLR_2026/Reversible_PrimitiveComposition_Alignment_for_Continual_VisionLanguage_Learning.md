@@ -10,8 +10,16 @@ aliases:
 - RPCACVLL
 - COMPO-REALIGN
 acceptance: accepted
+core_operator: 用可逆正交组合头保持持续视觉语言学习中的原语组合绑定。
+primary_logic: COMPO-REALIGN冻结编码器，只训练原始塑造器、Cayley正交作曲家和谱信任区域下的多正例对齐头。
+claims:
+- 持续适应会保留属性和物体原始识别，却破坏属性-物体组合绑定关系。
+- 正交Cayley核心使原语到组合嵌入的映射可逆并降低组合结构漂移。
+- 多正例InfoNCE同时对齐文本组合嵌入和由原语组合得到的嵌入。
+- 谱信任区域通过梯度裁剪限制雅可比敏感性，降低遗忘并提升CRR。
 paradigm: 通过一个可逆的原始-组合对齐头（包含正交核心的作曲家、多正例InfoNCE损失和谱信任区域），可以在不依赖大量图像重放的情况下，显式地保持组合结构的可逆性和几何稳定性，从而显著提升组合保留率并降低遗忘。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -27,7 +35,7 @@ tags:
 | 英文题名 | Reversible Primitive–Composition Alignment for Continual Vision–Language Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eiTy6AYeQi) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | COMPO-REALIGN |
 | Dataset | 组合DIL + 多域MTIL（Track A+B）, 组合DIL + 多域MTIL（Track A+B）, 组合DIL + 多域MTIL（Track A+B）, 组合DIL + 多域MTIL（Track A+B） |
 

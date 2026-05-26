@@ -10,6 +10,7 @@ aliases:
 - FPFRMA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/game_theory
 core_operator: SPRM+ 中支持 O(1/T) 收敛速度的步长范围依赖于累积遗憾 1-范数的下界 R。通过自适应地调整决策空间来单调递增 R，可以同时实现无参数性质和 O(1/T) 收敛。
@@ -33,7 +34,7 @@ paradigm: 提出自适应遗憾域（ARD）技术，在每次迭代中动态调�
 | 英文题名 | A Faster Parameter-Free Regret Matching Algorithm |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JLllvi7dsg) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/game_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/game_theory |
 | Method | Monotone Increasing Smooth Predictive Regret Matching+ (MI-SPRM+) |
 | Dataset | 3x3 两人零和 NFG（SPRM+ 原始论文所用）, 随机生成两人零和 NFG（高斯分布，均值 0，标准差 100）, 标准 EFG 基准（Kuhn Poker, Leduc Poker, Liar's Dice, Goofspiel）, HUNL Subgames (Subgame3, Subgame4) |
 

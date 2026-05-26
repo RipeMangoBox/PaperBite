@@ -33,7 +33,7 @@ paradigm: 采用多轮强化学习（DAPO）和多样化奖励（正确性、格
 | 英文题名 | Incentivizing Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=AXNRILww9c) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | TIR-Judge |
 | Dataset | PPE Correctness (Pointwise), PPE Correctness (Pairwise), RewardBench2 (Listwise), BigCodeBench (Best-of-N) |
 

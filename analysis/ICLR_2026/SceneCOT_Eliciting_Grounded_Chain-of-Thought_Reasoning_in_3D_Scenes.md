@@ -32,7 +32,7 @@ paradigm: 通过将复杂的3D场景推理任务分解为可管理的子步骤�
 | 英文题名 | SceneCOT: Eliciting Grounded Chain-of-Thought Reasoning in 3D Scenes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=U9meoc0Sau) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SCENECOT |
 | Dataset | MSQA, Beacon3D, SQA3D-G |
 

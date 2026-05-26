@@ -33,7 +33,7 @@ paradigm: 信念陷阱导致信用分配逆转，截断未提供信息的尾部�
 | 英文题名 | Reducing Belief Deviation in Reinforcement Learning for Active Reasoning of LLM Agents |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=r8hzDA3pUY) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | T3 (Truncating Belief-Trapped Trajectories) |
 | Dataset | CircuitDecoding (CD), SituationPuzzles (SP), SituationPuzzles (SP), GuessNumbers (GN) |
 

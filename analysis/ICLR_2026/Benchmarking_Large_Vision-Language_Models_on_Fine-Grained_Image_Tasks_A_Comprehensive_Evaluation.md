@@ -10,8 +10,16 @@ aliases:
 - BLVLMFGITCE
 - FG-BMK
 acceptance: accepted
+core_operator: 用FG-BMK同时评估LVLM细粒度问答、检索、分类和鲁棒性。
+primary_logic: FG-BMK构建覆盖12个细粒度数据集的人类导向与机器导向任务，再比较训练范式、对齐粒度和特征扰动影响。
+claims:
+- LVLM在细粒度任务上的主要瓶颈是跨模态对齐过程中视觉判别性的退化。
+- 对比学习视觉特征在细粒度检索和分类上显著优于生成式或重建式范式。
+- 细粒度对齐数据比粗粒度对齐更能保留属性和类别判别能力。
+- LVLM在CUB、Stanford Dogs和FGVC Aircraft等任务上仍明显落后于专用细粒度模型。
 paradigm: 对比学习范式（如EVA-CLIP、DINOv2）比生成式或重建式范式更能保持视觉特征的细粒度判别性；视觉-文本对齐若存在粒度不匹配会损害细粒度判别能力；LVLM在细粒度任务上仍落后于专用细粒度模型。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -27,7 +35,7 @@ tags:
 | 英文题名 | Benchmarking Large Vision-Language Models on Fine-Grained Image Tasks: A Comprehensive Evaluation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cVc74MLspe) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | FG-BMK |
 | Dataset | CUB-200-2011, Stanford Dogs, FGVC Aircraft, CUB-200-2011 |
 

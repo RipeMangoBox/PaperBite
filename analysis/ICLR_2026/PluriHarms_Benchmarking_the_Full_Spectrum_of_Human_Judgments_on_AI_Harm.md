@@ -9,6 +9,7 @@ aliases:
 - PluriHarms
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/safety_security
 core_operator: 提示特征（尤其是紧迫、具体的有害行为）和标注者特征（如网络有害内容接触史、教育程度）及其交互作用共同决定了有害性判断的分歧。
@@ -32,7 +33,7 @@ paradigm: 有害性判断的分歧并非随机噪声，而是源于标注者的�
 | 英文题名 | PluriHarms: Benchmarking the Full Spectrum of Human Judgments on AI Harm |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=u7lXflJQX9) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
 | Method | PluriHarms多元有益性基准生成与评估框架 |
 | Dataset | PLURIHARMS, PLURIHARMS, PLURIHARMS |
 

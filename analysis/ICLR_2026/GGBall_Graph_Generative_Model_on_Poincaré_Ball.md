@@ -10,6 +10,7 @@ aliases:
 - GGBall
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 openreview_forum_id: 4zRRnDscqn
@@ -34,7 +35,7 @@ paradigm: 双曲几何因其指数增长的体积天然保持层次结构，将�
 | 英文题名 | GGBall: Graph Generative Model on Poincaré Ball |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=4zRRnDscqn) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | GGBall (Hyperbolic Vector-Quantized Autoencoder + Poincaré Flow Matching) |
 | Dataset | Community-small, Ego-small, QM9, QM9 |
 

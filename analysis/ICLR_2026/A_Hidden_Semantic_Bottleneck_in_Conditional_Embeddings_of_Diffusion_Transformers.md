@@ -10,6 +10,7 @@ aliases:
 - HSBCEDT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/interpretability_and_visualization
 core_operator: 通过剪枝低幅度的尾部维度（最多移除66%的维度），可以在保持甚至提升生成质量的同时，揭示出条件嵌入的过度参数化本质。
@@ -33,7 +34,7 @@ paradigm: 扩散Transformer通过AdaLN全局注入条件，其条件嵌入向量
 | 英文题名 | A Hidden Semantic Bottleneck in Conditional Embeddings of Diffusion Transformers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FetaeuGsEs) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
 | Method | 条件嵌入剪枝（Conditional Embedding Pruning） |
 | Dataset | ImageNet-1K, ImageNet-1K, ImageNet-1K, ImageNet-1K |
 

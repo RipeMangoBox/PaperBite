@@ -10,6 +10,7 @@ aliases:
 - IALFQAIA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 openreview_forum_id: fRCm5c8x0j
@@ -34,7 +35,7 @@ paradigm: 通过强制模型在生成时考虑每个段落和每条引文的功�
 | 英文题名 | Improving Attributed Long-form Question Answering with Intent Awareness |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fRCm5c8x0j) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | Intent-aware Writing Framework |
 | Dataset | SQA-CS-V2, SQA-CS-V2, SQA-CS-V2, DeepScholar Bench |
 

@@ -33,7 +33,7 @@ paradigm: 通过推导规划器感知证据下界（P-ELBO），将任意规划�
 | 英文题名 | Planner Aware Path Learning in Diffusion Language Models Training |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=lAlI5FuIf7) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Planner Aware Path Learning (PAPL) |
 | Dataset | Protein Sequence Generation (foldability), Unconditional Text Generation (MAUVE, T=128), HumanEval (code generation, pass@10), HumanEval (code generation, pass@1) |
 

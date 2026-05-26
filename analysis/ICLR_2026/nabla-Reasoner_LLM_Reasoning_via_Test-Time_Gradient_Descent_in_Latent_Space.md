@@ -10,6 +10,7 @@ aliases:
 - ∇-Reasoner
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 将推理时扩展从零阶搜索范式转变为**一阶优化**范式：利用奖励模型和语言模型自身的可微性，在解码循环中对token logits进行梯度下降优化，从而获得方向性的搜索引导。
 primary_logic: 推理时对样本空间进行梯度下降以最大化奖励，与通过KL正则化强化学习对齐LLM策略是**对偶的**。因此，无需额外训练，即可在测试时通过可微文本优化（DTO）模拟策略优化过程，实现策略的即时改进。
@@ -32,7 +33,7 @@ paradigm: 推理时对样本空间进行梯度下降以最大化奖励，与通�
 | 英文题名 | $\nabla$-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=pEJAja73dk) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | ∇-Reasoner |
 | Dataset | MATH-500, MATH-500, MATH-500, AMC |
 

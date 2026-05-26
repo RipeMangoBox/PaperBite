@@ -33,7 +33,7 @@ paradigm: Existing LLM planners over-allocate attention to plan generation, unde
 | 英文题名 | REI-Bench: Can Embodied Agents Understand Vague Human Instructions in Task Planning? |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vmBIF25KLf) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Task-Oriented Context Cognition (TOCC) |
 | Dataset | REI-Bench, REI-Bench, REI-Bench (Standard Context) |
 

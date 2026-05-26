@@ -8,8 +8,15 @@ pdf_ref: paperPDFs/ICLR_2026/BranchGRPO_Stable_and_Efficient_GRPO_with_Structure
 aliases:
 - BranchGRPO
 acceptance: accepted
+core_operator: BranchGRPO把扩散GRPO的独立顺序rollout改造成共享前缀的树状分支rollout。
+primary_logic: 树叶终端奖励经路径概率融合回传到内部节点，再按深度归一化生成逐步骤优势用于裁剪GRPO更新。
+claims:
+- 树状rollout在保持探索多样性的同时显著摊销去噪前缀计算。
+- 奖励融合和深度归一化缓解了扩散RL中终端奖励稀疏导致的信用分配问题。
+- 深度剪枝和混合ODE-SDE调度在HPSv2.1等指标上提升质量并减少训练时间。
 paradigm: 通过树状rollout结构，在保持探索多样性的同时，利用共享前缀摊销计算成本；通过路径概率融合和深度归一化，将稀疏的终端奖励转化为密集的逐步骤优势信号，实现更稳定、更高效的策略优化。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=T2nP2IQasd) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | BranchGRPO |
 | Dataset | HPSv2.1 (FLUX.1-Dev), HPSv2.1 (FLUX.1-Dev), HPSv2.1 (FLUX.1-Dev), HPSv2.1 (FLUX.1-Dev) |
 

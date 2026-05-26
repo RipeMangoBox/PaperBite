@@ -9,6 +9,7 @@ aliases:
 - CCCFDGC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 通过图扩散矩阵获得全局视图，引入低秩紧凑嵌入以消除冗余噪声，并利用跨视图一致性学习强制局部与全局表示的对齐。
 primary_logic: 从局部邻接和全局PageRank扩散两个视图提取特征后，利用共享的高斯混合模型子空间对两视图表示进行低秩重建，去除噪声和冗余；同时，通过最小化两视图相似度分布的对称KL散度实现知识传递，获得紧凑、语义丰富且对噪声鲁棒的节点表示，显著提升聚类效果。
@@ -31,7 +32,7 @@ paradigm: 从局部邻接和全局PageRank扩散两个视图提取特征后，�
 | 英文题名 | Compactness and Consistency: A Conjoint Framework for Deep Graph Clustering |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9jdQLmPUHW) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | CoCo |
 | Dataset | Cora, Cora, AMAP, BAT |
 

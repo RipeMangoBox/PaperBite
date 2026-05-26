@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: ModelNet40
@@ -21,3 +21,8 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D
 	- methods: 3DSMT (Hybrid Spiking Mamba-Transformer)
 	- datasets: ModelNet40, ScanObjectNN PB_T50_RS, ScanObjectNN OBJ_BG
+- [[analysis/ICLR_2026/Test-Time_Optimization_of_3D_Point_Cloud_LLM_via_Manifold-Aware_In-Context_Guidance_and_Refinement.md|Test-Time Optimization of 3D Point Cloud LLM via Manifold-Aware In-Context Guidance and Refinement (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Test-Time_Optimization_of_3D_Point_Cloud_LLM_via_Manifold-Aware_In-Context_Guidance_and_Refinement.pdf|PDF]]
+	- method groups: Vision / Multimodal / 3D, LLM / Reasoning / Alignment
+	- methods: Point-Graph LLM (PGLLM)
+	- datasets: ModelNet40, ShapeNetCore

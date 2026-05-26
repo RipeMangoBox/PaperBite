@@ -9,6 +9,7 @@ aliases:
 - PALC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
 openreview_forum_id: 0cmuYj3WeG
@@ -33,7 +34,7 @@ paradigm: 将干预点从纠缠的隐藏空间转移到天然解纠缠的词汇�
 | 英文题名 | PALC: Preference Alignment via Logit Calibration |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0cmuYj3WeG) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | PALC |
 | Dataset | HH-RLHF, HH-RLHF, HH-RLHF, HH-RLHF |
 

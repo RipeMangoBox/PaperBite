@@ -10,6 +10,7 @@ aliases:
 - RE-PO
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 通过期望最大化（EM）推断每个偏好标签正确性的后验概率（置信度权重），并将其动态融入训练损失，自适应地强调可靠数据、弱化噪声数据。
@@ -33,7 +34,7 @@ paradigm: 将标签正确性建模为潜在变量，利用 EM 算法联合推断
 | 英文题名 | RE-PO: Robust Enhanced Policy Optimization as a General Framework for LLM Alignment |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jDKpOvTCM8) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | RE-PO (Robust Enhanced Policy Optimization) |
 | Dataset | AlpacaEval 2, AlpacaEval 2, AlpacaEval 2, AlpacaEval 2 |
 

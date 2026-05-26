@@ -32,7 +32,7 @@ paradigm: 三维场景布局生成无单一正确解，强化学习可通过交�
 | 英文题名 | MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EdQzLC0Zra) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MetaSpatial |
 | Dataset | Indoor Scene Layout Generation (curated dataset), Indoor Scene Layout Generation (curated dataset), Indoor Scene Layout Generation (curated dataset), Indoor Scene Layout Generation (curated dataset) |
 

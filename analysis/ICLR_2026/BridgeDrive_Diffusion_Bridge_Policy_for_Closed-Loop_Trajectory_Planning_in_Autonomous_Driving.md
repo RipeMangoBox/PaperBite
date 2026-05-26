@@ -32,7 +32,7 @@ paradigm: 将闭环轨迹规划形式化为条件扩散桥过程：从粗糙锚�
 | 英文题名 | BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=dJKhjK4zpp) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | BridgeDrive |
 | Dataset | Bench2Drive (PDM-Lite expert), Bench2Drive (PDM-Lite expert), LEAD dataset (LEAD expert), LEAD dataset (LEAD expert) |
 

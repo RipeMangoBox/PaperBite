@@ -10,6 +10,7 @@ aliases:
 - BWFMGG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 openreview_forum_id: 5Bl5qf3fON
@@ -34,7 +35,7 @@ paradigm: 通过GraphMRF将图结构转化为具有闭式Bures‑Wasserstein距�
 | 英文题名 | Bures-Wasserstein Flow Matching for Graph Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5Bl5qf3fON) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | BWFlow (Bures-Wasserstein Flow Matching) |
 | Dataset | Plain Graph Generation (Planar), Plain Graph Generation (Planar), Small Sampling Steps (Planar, 50 steps), Small Sampling Steps (SBM, 50 steps) |
 

@@ -10,6 +10,7 @@ aliases:
 - UVGNODMM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 将理解能力显式地嵌入生成过程，把单步生成重构为“推理-反思-提炼”的多步骤循环，使生成过程的优化内在依赖模型的理解能力，从而对齐生成与理解的优化目标。
@@ -33,7 +34,7 @@ paradigm: 通过让模型在生成中主动使用自身的理解能力来评估�
 | 英文题名 | Understanding vs. Generation: Navigating Optimization Dilemma in Multimodal Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1smez00sCm) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | Reason-Reflect-Refine (R3) |
 | Dataset | GenEval++ (生成能力), Image-Text Alignment (ITA, 理解能力), Compositional VQA (理解能力), GenEval (SOTA对比) |
 

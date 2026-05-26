@@ -10,6 +10,7 @@ aliases:
 - NNCEIAML
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/probabilistic_methods
 core_operator: 噪声分布的幅度因子M。通过虚拟放大噪声幅度（M > 1），NCE目标的梯度会向MLE梯度对齐，从而缓解密度鸿沟问题。
@@ -33,7 +34,7 @@ paradigm: 在温和条件下，增大噪声幅度M使得NCE目标的梯度在轨
 | 英文题名 | ``Noisier'’ Noise Contrastive Estimation is (Almost) Maximum Likelihood |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qR59RrG7Om) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
 | Method | Noisier Noise Contrastive Estimation (N²CE) |
 | Dataset | SVHN, CelebA, CIFAR-10, CelebA-HQ |
 

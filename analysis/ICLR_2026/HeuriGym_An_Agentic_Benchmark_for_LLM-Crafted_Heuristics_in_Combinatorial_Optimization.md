@@ -32,7 +32,7 @@ paradigm: 通过构建一个无模板、全自主的启发式生成智能体框�
 | 英文题名 | HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HWxHUO15Yy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | HeuriGym |
 | Dataset | HeuriGym（整体9问题）, HeuriGym（整体加权）, 对比进化框架 |
 

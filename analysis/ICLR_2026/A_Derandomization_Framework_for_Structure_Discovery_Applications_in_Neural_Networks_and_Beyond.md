@@ -10,6 +10,7 @@ aliases:
 - DFSDANNB
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/probabilistic_methods
 core_operator: 使用ρ-二阶驻点（ρ-SOSP）作为解概念，并利用Stein引理将关于偏置b的二阶导数与关于权重W的一阶导数联系起来，从而在极弱正则化下导出W的Frobenius范数上界。
@@ -33,7 +34,7 @@ paradigm: "对于形如f(W,b;θ)=E_x[g_θ(Wx+b)]+λ‖W‖_F^2的目标函数，
 | 英文题名 | A Derandomization Framework for Structure Discovery: Applications in Neural Networks and Beyond |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=dtIf5HsOIn) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/probabilistic_methods |
 | Method | 去随机化框架（Derandomization Framework） |
 | Dataset | 单层NN玩具示例（ReLU³激活，一维输入）, 两层NN教师-学生设定（tanh单索引教师，d=2, h=1000）, MAXCUT（随机图）, Johnson-Lindenstrauss嵌入（k=30, d=500, n=100） |
 

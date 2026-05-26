@@ -32,7 +32,7 @@ paradigm: 将触发器判别建模为偏好学习问题：在相同上下文下�
 | 英文题名 | BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OwinX7PI83) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | BEAT |
 | Dataset | VAB-OmniGibson, VAB-OmniGibson, VAB-OmniGibson, VAB-OmniGibson |
 

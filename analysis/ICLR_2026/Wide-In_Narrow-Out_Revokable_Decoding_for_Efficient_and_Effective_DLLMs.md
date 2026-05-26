@@ -10,8 +10,16 @@ aliases:
 - WNORDEED
 - Wide-In, Narrow-Out (WINO)
 acceptance: accepted
+core_operator: 用可撤销草稿验证机制并行解码扩散大语言模型token。
+primary_logic: WINO先用宽松阈值并行草稿多个token，再用影子块和注意力掩码重新验证并撤销低置信token。
+claims:
+- 标准DLLM解码不可逆，早期错误会被永久固化并限制并行加速质量。
+- WINO通过低阈值Wide-In草稿和高阈值Narrow-Out验证在速度与质量间调节。
+- 影子块共享位置ID但受注意力掩码约束，可无信息泄露地验证当前块token。
+- WINO在GSM8K、ARC和多模态任务上显著减少解码步数，同时保持或提升准确率。
 paradigm: 核心洞察是：通过打破标准DLLM解码的不可逆性，允许模型在后续步骤中利用不断丰富的双向上下文信息来修正早期生成的token，从而在实现大幅加速的同时，甚至能提升生成质量。WINO 通过一个精心设计的影子块（shadow block）和注意力掩码，在不引入信息泄露的前提下，实现了高效的并行草稿与验证。
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 ---
 
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | Wide-In, Narrow-Out: Revokable Decoding for Efficient and Effective DLLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=XtLQHlNLxy) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | Wide-In, Narrow-Out (WINO) |
 | Dataset | GSM8K, GSM8K, GSM8K, ARC-E |
 

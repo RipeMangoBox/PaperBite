@@ -10,6 +10,7 @@ aliases:
 - FormalML
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 openreview_forum_id: wCRZbspSZi
@@ -34,7 +35,7 @@ paradigm: 虽然LLM在竞赛级定理证明中表现卓越，但在填补研究�
 | 英文题名 | FormalML: A Benchmark for Evaluating Formal Subgoal Completion in Machine Learning Theory |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=wCRZbspSZi) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | FormalML基准构建（基于to_theorem策略的子目标提取） |
 | Dataset | FormalML (Overall), FormalML premise utilization |
 

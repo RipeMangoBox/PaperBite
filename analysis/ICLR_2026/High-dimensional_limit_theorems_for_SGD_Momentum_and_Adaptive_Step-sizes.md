@@ -10,6 +10,7 @@ aliases:
 - HDLTSMASS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 openreview_forum_id: 5OJLOwwXV4
@@ -34,7 +35,7 @@ paradigm: SGD-M 与在线 SGD 的临界步长标度相同，但动量强化了�
 | 英文题名 | High-dimensional limit theorems for SGD: Momentum and Adaptive Step-sizes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5OJLOwwXV4) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | SGD with momentum (SGD-M) 及带有梯度单位范数预条件的 SGD（SGD-U）的高维标度极限框架 |
 | Dataset | Spiked Tensor / Matrix PCA, Single Index Model (f(x)=x^7+4x^4 with noise), Matrix PCA (diffusive limit around m=0) |
 

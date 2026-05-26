@@ -10,6 +10,7 @@ aliases:
 - RGSNN
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 将稀疏MLP优化重新表述为结构化线性感知问题，并利用凸松弛和迭代硬阈值（IHT）算法。
@@ -33,7 +34,7 @@ paradigm: 通过枚举或随机采样激活模式，将非凸的稀疏MLP训练�
 | 英文题名 | A Recovery Guarantee for Sparse Neural Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=6UpstNltZ4) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | Iterative Hard Thresholding (IHT) for Sparse MLP Recovery |
 | Dataset | Planted sparse scalar-output MLP (1-hidden-layer), Planted sparse scalar-output MLP (2-hidden-layer), Planted sparse vector-output MLP (1-hidden-layer), Planted sparse vector-output MLP (2-hidden-layer) |
 

@@ -10,6 +10,7 @@ aliases:
 - ADLLMSSTGP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 通过经验发现的三条黄金法则（确定性原理、收敛性原理、位置性原理）揭示了令牌确定性、置信收敛和空间聚类的内在规律，从而可以依据这些规律动态决定采样速度、选择哪些令牌以及何时并行解码。
@@ -33,7 +34,7 @@ paradigm: 采用两阶段策略：先以保守探索定位稳定区域，然后�
 | 英文题名 | Accelerating Diffusion Large Language Models with SlowFast Sampling: The Three Golden Principles |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Uh17FiwF4q) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | SlowFast Sampling |
 | Dataset | GSM8K, GPQA, MMLU-pro, HumanEval |
 

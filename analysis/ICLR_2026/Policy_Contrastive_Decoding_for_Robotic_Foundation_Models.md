@@ -33,7 +33,7 @@ paradigm: 通过一种即插即用、无需训练的对比解码机制，在推�
 | 英文题名 | Policy Contrastive Decoding for Robotic Foundation Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=P9PVdWyM3U) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Policy Contrastive Decoding (PCD) |
 | Dataset | SIMPLER (9 tasks), SIMPLER (9 tasks), SIMPLER (9 tasks), Real-world (6 manipulation tasks) |
 

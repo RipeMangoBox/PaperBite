@@ -9,6 +9,7 @@ aliases:
 - AdAEM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety
 core_operator: 通过自动探测来自不同文化和开发时期的多样化LLMs的价值边界，并以信息论目标指导上下文优化，自适应地生成具有争议性的测试问题，从而最大限度地暴露模型间的价值分歧。
@@ -32,7 +33,7 @@ paradigm: 将价值评估重新构造为一个信息瓶颈问题：在无人工�
 | 英文题名 | AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qNlTH4kYJZ) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
 | Method | AdAEM |
 | Dataset | AdAEM Bench vs. MFQ & ValueBench (Moral Foundations), 控制价值启动实验 (GPT-5 + AdAEM Bench-MFT) |
 

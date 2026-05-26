@@ -8,8 +8,15 @@ pdf_ref: paperPDFs/ICLR_2026/Analytica_Soft_Propositional_Reasoning_for_Robust_a
 aliases:
 - Analytica
 acceptance: accepted
+core_operator: 将复杂分析任务分解为软命题树，由 Grounder 估计叶子软真值，再用线性合成递归聚合根命题概率。
+primary_logic: |
+  Analyzer 将根命题递归分解为可测试子命题，Grounder 通过搜索、工具或 Jupyter Notebook 评估叶子命题的软真值，Synthesizer 用线性加权规则向上聚合，从偏差-方差分解角度降低估计误差并保持噪声传播有界。
+claims:
+- 软命题推理把 LLM 分析从自由文本路径选择转为结构化概率估计，使偏差和方差可以分别被分解与控制。
+- 线性合成规则具有恒定噪声灵敏度，在经济、金融和政治预测任务上提升准确率并降低方差。
 paradigm: 通过将分析问题形式化为软命题推理（SPR），可以将估计误差分解为偏差和方差，并分别通过问题分解（降低偏差）和线性加权平均（降低方差）来系统性地最小化总误差。线性合成规则具有恒定的噪声灵敏度，确保误差传播稳定且有界。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9cFT6u82uh) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | Analytica |
 | Dataset | 经济、金融、政治预测（736个任务）, 经济、金融、政治预测（736个任务）, 经济、金融、政治预测（736个任务）, 经济、金融、政治预测（736个任务） |
 
@@ -34,15 +41,17 @@ tags:
 > - 经济、金融、政治预测（736个任务） 上，方差 为 6.02%，对比 9.28% (Deep Research alone)，变化 -35.1%。
 > - 经济、金融、政治预测（736个任务） 上，平均准确率 为 70.11%，对比 61.96% (Jupyter NB alone)，变化 +13.15%。
 
+## 概述
+
 本文提出 **Analytica**，一种基于**软命题推理（Soft Propositional Reasoning, SPR）**的新型LLM智能体架构。该框架将复杂分析任务重构为对结果命题软真值的结构化估计过程，通过分治策略将问题分解为子命题树，利用工具增强的Grounder智能体降低偏差，再通过鲁棒线性合成模型递归聚合叶子节点以降低方差。在736个真实经济、金融和政治预测任务上，Analytica平均准确率提升15.84%，达到71.06%的准确率，方差仅为6.02%。其Jupyter Notebook Grounder在达到接近最高准确率（70.11%）的同时，成本降低90.35%，时间节省52.85%。此外，Analytica能够处理指数级增长的复杂度（54倍节点数），而计算时间仅呈近线性增长（12倍）。
 
-# 2. 背景与动机
+## 背景与动机
 
 现有LLM推理方法（如Chain-of-Thought、Tree-of-Thoughts、Graph-of-Thoughts、Forest-of-Thought）依赖自由形式的文本推理，缺乏可验证的组合结构，导致随机不稳定性和估计误差（偏差与方差）无法被系统性地控制。这些方法通常通过选择最优推理路径来生成最终答案，但路径选择本身具有随机性，且缺乏对误差传播的理论分析。
 
 本文的核心动机是：**能否将LLM驱动的分析问题形式化为一个可分解、可验证的结构化过程，从而系统性地控制估计误差？** 作者从偏差-方差分解的角度出发，将总估计误差分解为偏差平方和方差，并分别通过问题分解（降低偏差）和线性加权平均（降低方差）来最小化总误差。
 
-# 3. 核心创新
+## 核心创新
 
 Analytica的核心创新在于将分析问题形式化为**软命题推理（SPR）**，并基于此设计了一个三阶段分治架构。具体创新点包括：
 
@@ -52,7 +61,7 @@ Analytica的核心创新在于将分析问题形式化为**软命题推理（SPR
 4. **鲁棒线性合成模型**：递归聚合叶子节点的软真值，通过加权平均消除随机噪声，具有恒定的噪声灵敏度，确保误差传播稳定有界。
 5. **可扩展性与交互性**：支持递归扩展（Analytican）和“what-if”场景分析（Resynthesis）。
 
-# 4. 整体框架
+## 整体框架
 
 Analytica采用高度并行的三阶段分治策略，如Figure 1和Figure 3所示：
 
@@ -66,7 +75,7 @@ Figure 1: 整体流程图
 
 Figure 3: 架构详细说明
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
 ## 1 偏差-方差分解
 
@@ -108,7 +117,7 @@ $$T_P(n) = O\left(n + \frac{K^n}{P} \cdot T_G\right)$$
 
 其中P是并行工作器数量，T_G是Grounder时间。
 
-# 6. 实验与分析
+## 实验与分析
 
 ## 1 主要结果
 
@@ -190,7 +199,7 @@ Analytica-L与Deep Research Grounder的组合与所有基线（包括Deep Resear
 - 科学声明验证实验显示了跨领域适应性，但仅测试了有限的一组模型。
 - Jupyter Notebook Grounder在显著降低成本的同时保持了高准确率，有助于更广泛地使用高级分析能力。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 Analytica在LLM推理方法谱系中占据独特位置：
 

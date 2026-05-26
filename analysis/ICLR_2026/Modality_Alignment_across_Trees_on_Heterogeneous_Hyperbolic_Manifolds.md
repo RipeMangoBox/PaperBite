@@ -10,6 +10,7 @@ aliases:
 - MAATHHM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 openreview_forum_id: F1uJKsaf0M
@@ -34,7 +35,7 @@ paradigm: 利用ViT中间层的类令牌携带粗到细语义，通过文本引�
 | 英文题名 | Modality Alignment across Trees on Heterogeneous Hyperbolic Manifolds |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=F1uJKsaf0M) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Alignment across Trees |
 | Dataset | Cifar100 (1-shot), SUN (1-shot) |
 

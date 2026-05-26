@@ -10,6 +10,7 @@ aliases:
 - DiscoX
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 openreview_forum_id: OTCfZ6h8Pe
@@ -34,7 +35,7 @@ paradigm: 通过构建一个由领域专家精心编纂、长度远超传统基�
 | 英文题名 | DiscoX: Benchmarking Discourse-Level Translation in Expert Domains |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OTCfZ6h8Pe) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | Metric-S |
 | Dataset | DiscoX, DiscoX, DiscoX (zh→en sys-level) |
 

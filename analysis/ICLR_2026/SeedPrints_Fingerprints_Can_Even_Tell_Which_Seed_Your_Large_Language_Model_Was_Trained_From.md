@@ -9,6 +9,7 @@ aliases:
 - SeedPrints
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/trustworthy_machine_learning
 core_operator: 随机初始化种子所诱发的模型内部表示偏差（即哪些输出维度倾向于取得极小值），该偏差在训练过程中持续存在，具有种子特异性和统计可检测性。
@@ -32,7 +33,7 @@ paradigm: 未经训练的模型在随机输入下会产生种子依赖的极端�
 | 英文题名 | SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Kan6Z0zzZi) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/trustworthy_machine_learning |
 | Method | SeedPrints |
 | Dataset | OLMo-2-7B Stage 1预训练检查点（5B → 3.9T tokens）, LLaMA-2-7B微调变体（5M–700B tokens）, LeaFBench（65个模型，6种部署变换）, 持续训练到代码数据集The Stack（base模型 seed 1000） |
 

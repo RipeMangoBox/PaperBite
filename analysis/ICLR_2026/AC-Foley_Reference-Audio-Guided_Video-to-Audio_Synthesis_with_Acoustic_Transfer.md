@@ -10,6 +10,7 @@ aliases:
 - AC-Foley
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 core_operator: 引入参考音频作为直接控制信号，通过预训练VAE编码器保留其完整的频谱/音色特征，而非仅依赖语义级CLAP编码；并采用两阶段训练迫使模型学习将参考声学特性适配到视频时序上下文，避免简单的"复制粘贴"行为。
@@ -33,7 +34,7 @@ paradigm: 以音频自身作为控制条件绕过了文本描述的语义歧义�
 | 英文题名 | AC-Foley: Reference-Audio-Guided Video-to-Audio Synthesis with Acoustic Transfer |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=URPXhnWdBF) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AC-Foley |
 | Dataset | VGGSound test set (curated, 8,676 videos), VGGSound test set, VGGSound test set, Greatest Hits (timbre transfer) |
 

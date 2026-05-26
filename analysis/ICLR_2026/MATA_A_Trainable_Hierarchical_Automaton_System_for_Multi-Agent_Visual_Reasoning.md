@@ -33,7 +33,7 @@ paradigm: 将多智能体视觉推理组织为分层确定性有限状态自动�
 | 英文题名 | MATA: A Trainable Hierarchical Automaton System for Multi-Agent Visual Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fC27SxF4ba) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MATA (Multi-Agent hierarchical Trainable Automaton) |
 | Dataset | GQA, OK-VQA, RefCOCO, RefCOCO+ |
 

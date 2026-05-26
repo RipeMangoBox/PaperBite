@@ -33,7 +33,7 @@ paradigm: 利用大量机器人轨迹预训练的像素级视频生成世界模�
 | 英文题名 | WMPO: World Model-based Policy Optimization for Vision-Language-Action Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qE2FyvRvuF) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | WMPO (World Model-based Policy Optimization) |
 | Dataset | Mimicgen (Coffee, StackThree, ThreePieceAssembly, Square), Mimicgen (Coffee, StackThree, ThreePieceAssembly, Square), Disruption Scenarios (Position, Background, Texture), Real-world Square insertion (5mm clearance) |
 

@@ -32,7 +32,7 @@ paradigm: 将考古描述分解为六个语义维度（质地、技法、器形�
 | 英文题名 | VaseVQA-3D: Benchmarking 3D VLMs on Ancient Greek Pottery |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LcgzZZ921O) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VaseVLM |
 | Dataset | VaseVQA-3D测试集（90模型）, VaseVQA-3D测试集（90模型）, VaseVQA-3D测试集（人类评估）, VaseVQA-3D测试集 |
 

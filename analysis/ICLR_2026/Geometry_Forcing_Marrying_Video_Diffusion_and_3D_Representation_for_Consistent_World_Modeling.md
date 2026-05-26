@@ -33,7 +33,7 @@ paradigm: 通过解耦的角度对齐（保持方向一致性）和尺度对齐�
 | 英文题名 | Geometry Forcing: Marrying Video Diffusion and 3D Representation for Consistent World Modeling |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ULXYZCms41) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Geometry Forcing (GF) |
 | Dataset | RealEstate10K (16帧), RealEstate10K (256帧), RealEstate10K (256帧), RealEstate10K (256帧) |
 

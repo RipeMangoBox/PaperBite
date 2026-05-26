@@ -33,7 +33,7 @@ paradigm: 有效的自动驾驶需要能够自验证的结构化推理过程，�
 | 英文题名 | AutoDrive-R²: Incentivizing Reasoning and Self-Reflection Capacity for VLA Model in Autonomous Driving |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KVWaCzJrrq) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AutoDrive-R² |
 | Dataset | nuScenes, Waymo, NAVSIM (Closed-loop) |
 

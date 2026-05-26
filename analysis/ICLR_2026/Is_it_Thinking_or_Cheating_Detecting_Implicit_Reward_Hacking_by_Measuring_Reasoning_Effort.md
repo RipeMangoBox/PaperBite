@@ -32,7 +32,7 @@ paradigm: TRACE 通过逐步截断 CoT 并测量预期奖励随 CoT 长度的曲
 | 英文题名 | Is it Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort |
 | 会议/期刊 | ICLR 2026 (Oral) |
 | Links | [paper](https://openreview.net/forum?id=Gk7gLAtVDO) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | TRACE (Truncated Reasoning AUC Evaluation) |
 | Dataset | Math reasoning (Big-Math-Verified, hard problems), Coding (APPS), Math reasoning (dataset-level IC loophole), Coding (dataset-level IC loophole) |
 

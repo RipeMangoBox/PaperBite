@@ -33,7 +33,7 @@ paradigm: 通过多任务预测头将检测与推理解耦，同时利用离线�
 | 英文题名 | Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=jr9hGWQioP) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ARMOR (Adaptive Round-based Multi-task mOdel for Robotic failure detection and reasoning) |
 | Dataset | RLBench, RLBench, Sparrow, Maniskill (R→M) |
 

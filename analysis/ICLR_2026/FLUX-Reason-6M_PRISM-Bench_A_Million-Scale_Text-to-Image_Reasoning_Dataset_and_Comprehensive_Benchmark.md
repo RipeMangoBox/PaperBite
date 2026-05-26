@@ -32,7 +32,7 @@ paradigm: 通过 VLM 驱动的合成数据管线构建覆盖六维且包含显�
 | 英文题名 | FLUX-Reason-6M & PRISM-Bench: A Million-Scale Text-to-Image Reasoning Dataset and Comprehensive Benchmark |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cPzgZnpVbN) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | FLUX-Reason-6M (合成数据集) & PRISM-Bench (评估基准) |
 | Dataset | PRISM-Bench (GPT-4.1 judge), PRISM-Bench (GPT-4.1 judge), GenEval |
 

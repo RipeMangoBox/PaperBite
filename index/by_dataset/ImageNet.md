@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: ImageNet
@@ -24,7 +24,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.md|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Adaptive Debiasing Tsallis Entropy (ADTE)
 	- datasets: ImageNet, ImageNet-V2, ImageNet-K
 - [[analysis/ICLR_2026/Breaking_Gradient_Temporal_Collinearity_for_Robust_Spiking_Neural_Networks.md|Breaking Gradient Temporal Collinearity for Robust Spiking Neural Networks (ICLR 2026)]]

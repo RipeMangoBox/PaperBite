@@ -8,8 +8,16 @@ pdf_ref: paperPDFs/ICLR_2026/AnyUp_Universal_Feature_Upsampling.pdf
 aliases:
 - AnyUp
 acceptance: accepted
+core_operator: 用特征无关卷积基和局部窗口注意力实现跨编码器特征上采样。
+primary_logic: AnyUp先把任意维度输入特征映射到规范结构表示，再用图像条件和局部注意力预测高分辨率特征。
+claims:
+- 特征无关层对所有输入通道独立卷积并平均聚合，使输出不依赖具体特征维度。
+- 局部窗口注意力降低全局注意力成本并减少伪影。
+- AnyUp在语义分割、深度估计和法线估计任务上优于或匹配强基线。
+- 在DINOv2上训练的AnyUp能泛化到SigLIP 2、DINOv3等未见特征提取器。
 paradigm: 核心洞察是：上采样任务主要依赖于理解特征图的局部结构变化，而非特征的具体语义内容。因此，可以通过一个与输入特征维度无关的卷积层来捕获这种结构信息，再结合局部窗口注意力机制简化优化目标，从而实现跨编码器的通用上采样。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -25,7 +33,7 @@ tags:
 | 英文题名 | AnyUp: Universal Feature Upsampling |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Y9UAgPehqo) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AnyUp |
 | Dataset | COCO-Stuff, ADE20k, PASCAL-VOC, NYUv2 |
 

@@ -9,6 +9,7 @@ aliases:
 - PIOVRA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/non_convex
 openreview_forum_id: 6BhduwrCp3
@@ -33,7 +34,7 @@ paradigm: 将四次速度惩罚项（受物理学中经典时间晶体和重夸�
 | 英文题名 | A Physics-Inspired Optimizer: Velocity Regularized Adam |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=6BhduwrCp3) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/non_convex |
 | Method | VRAdam |
 | Dataset | WikiText-2 (语言建模), CIFAR-10 (图像分类), GridWorld (流匹配), GPT-2 训练 |
 

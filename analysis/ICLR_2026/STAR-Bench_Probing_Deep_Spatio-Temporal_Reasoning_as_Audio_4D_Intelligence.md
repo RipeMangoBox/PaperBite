@@ -33,7 +33,7 @@ paradigm: 通过程序合成与真人标注的融合，首次系统定义了音�
 | 英文题名 | STAR-Bench: Probing Deep Spatio-Temporal Reasoning as Audio 4D Intelligence |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Ts6j3GoZDE) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | STAR-BENCH |
 | Dataset | STAR-BENCH (Overall), STAR-BENCH (Overall), Foundational Perception, Temporal Reasoning |
 

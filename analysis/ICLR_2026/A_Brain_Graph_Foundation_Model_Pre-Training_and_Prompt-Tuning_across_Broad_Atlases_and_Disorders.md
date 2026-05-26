@@ -10,6 +10,7 @@ aliases:
 - BrainGFM
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 引入图结构表示、多图谱预训练、图提示与语言提示联合调优，以及元学习优化。
 primary_logic: 通过将fMRI数据构建为脑图，并利用图对比学习与图掩码自编码器进行预训练，结合元学习优化的图提示和语言提示，BrainGFM能够在多种图谱、疾病和任务上实现高效的全样本、少样本和零样本迁移。
@@ -32,7 +33,7 @@ paradigm: 通过将fMRI数据构建为脑图，并利用图对比学习与图掩
 | 英文题名 | A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=PeGHkAaRxs) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | BrainGFM |
 | Dataset | ABIDE II (ASD vs. NC), ABIDE II (ASD vs. NC), ADHD200 (ADHD vs. NC), ADNI 2 (AD vs. NC) |
 

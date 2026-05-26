@@ -33,7 +33,7 @@ paradigm: 不依赖外部标注或奖励模型，通过对比视觉输入的信�
 | 英文题名 | Perception-Aware Policy Optimization for Multimodal Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=izbBqTL8vb) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | PAPO (Perception-Aware Policy Optimized) |
 | Dataset | 8个多模态推理基准 (Qwen2.5-VL-3B), 8个多模态推理基准 (Qwen2.5-VL-7B), 强视觉依赖任务子集 (Qwen2.5-VL-7B) |
 

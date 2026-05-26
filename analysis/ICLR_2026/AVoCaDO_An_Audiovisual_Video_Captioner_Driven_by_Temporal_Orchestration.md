@@ -8,8 +8,15 @@ pdf_ref: paperPDFs/ICLR_2026/AVoCaDO_An_Audiovisual_Video_Captioner_Driven_by_Te
 aliases:
 - AVoCaDO
 acceptance: accepted
+core_operator: AVoCaDO用时间对齐视听描述数据进行SFT，并用GRPO奖励优化事件覆盖、对话保真和长度控制。
+primary_logic: 先构建融合视觉与音频的时间连贯描述，再对Qwen2.5-Omni进行两阶段后训练以提升视听视频描述。
+claims:
+- 两阶段描述生成比简单拼接视觉和音频描述更能捕捉视听事件时间对应关系。
+- 检查表、对话和长度奖励共同减少遗漏、重复坍塌与ASR失真。
+- AVoCaDO在video-SALMONN-2、UGC-VideoCap和多项QA评估上优于开源基线。
 paradigm: 通过先分别生成视觉和音频的模态特定描述，再将其与原始视频一起输入大模型进行融合，生成时间上连贯的多模态描述，能够有效避免直接联合生成时出现的信息遗漏，并实现精确的视听事件时间对齐。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | AVoCaDO: An Audiovisual Video Captioner Driven by Temporal Orchestration |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vjEl1PuIDE) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AVoCaDO |
 | Dataset | video-SALMONN-2 testset, UGC-VideoCap, UGC-VideoCap, Daily-Omni |
 

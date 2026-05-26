@@ -10,6 +10,7 @@ aliases:
 - FVVCSRLUVOCL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 openreview_forum_id: bWoT6Z21rH
@@ -34,7 +35,7 @@ paradigm: 将编码器尖锐但噪声大的注意力图与解码器连贯但模�
 | 英文题名 | From Vicious to Virtuous Cycles: Synergistic Representation Learning for Unsupervised Video Object-Centric Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=bWoT6Z21rH) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | Synergistic Representation Learning (SRL) |
 | Dataset | MOVi-C (MSE), MOVi-E (MSE), YouTube-VIS 2021 (MSE), MOVi-C (MAE loss) |
 

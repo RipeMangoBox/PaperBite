@@ -10,6 +10,7 @@ aliases:
 - ACE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/interpretability_and_visualization
 core_operator: "**查询-值神经通路**：在多跳推理中，隐式主语充当查询神经元，依次激活各层的值神经元以累积信息；编辑这些关键通路（尤其是深层值神经元和中级查询神经元）即可恢复正确的多跳推理。"
@@ -33,7 +34,7 @@ paradigm: 大型语言模型通过依次执行"查询-值"相互作用来积累�
 | 英文题名 | ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IuWIzmMvKo) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/interpretability_and_visualization |
 | Method | ACE (Attribution-Controlled Knowledge Editing) |
 | Dataset | MQuAKE-3K, MQuAKE-3K (Efficacy/Paraphrase/Specificity) |
 

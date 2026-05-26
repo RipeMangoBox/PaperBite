@@ -10,6 +10,7 @@ aliases:
 - SGWMORDS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/physics
 core_operator: 将每个动力系统的转移算子表示为其特征值和谱投影子上的联合分布，并利用最优传输和格拉斯曼几何定义Wasserstein距离（SGOT）。
@@ -33,7 +34,7 @@ paradigm: 通过将非自伴算子的谱分解视为离散分布（每个原子�
 | 英文题名 | A Spectral-Grassmann Wasserstein metric for operator representations of dynamical systems |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=B02EqvyiF3) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
 | Method | Spectral–Grassmann Optimal Transport (SGOT) |
 | Dataset | UEA时间序列分类（线性核）, UEA时间序列分类（RBF核）, UEA时间序列分类（深度特征核）, BasicMotions (RBF核) |
 

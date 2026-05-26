@@ -10,6 +10,7 @@ aliases:
 - RFVMORL
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/deep_rl
 core_operator: 通过引入无奖励强化学习的训练目标作为辅助任务，具体包括偏好引导的潜在向量探索（PG-Explore）、基于小批量采样的辅助任务构建，以及基于观测奖励向量的辅助 Q 损失。
@@ -33,7 +34,7 @@ paradigm: RFRL 自然地学习了一组比 MORL 所需更广的策略，这可�
 | 英文题名 | A Reward-Free Viewpoint on Multi-Objective Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=IwiwmY3Mzz) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/deep_rl |
 | Method | MORL-FB (Forward-Backward Multi-Objective Reinforcement Learning) |
 | Dataset | HalfCheetah2d, Hopper3d, Ant3d, Humanoid2d |
 

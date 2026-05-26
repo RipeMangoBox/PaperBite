@@ -4,7 +4,7 @@ type: paper-index
 dimension: method
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Method: Representation / Self-Supervised / Transfer
@@ -180,12 +180,11 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.md|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Debiasing_Tsallis_Entropy_for_Test-Time_Adaptation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Adaptive Debiasing Tsallis Entropy (ADTE)
 	- datasets: ImageNet, ImageNet-V2, ImageNet-K
 - [[analysis/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.md|Adaptive Thinking: Large Language Models Know When to Think in Latent Space (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adaptive_Thinking_Large_Language_Models_Know_When_to_Think_in_Latent_Space.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Sonata (Self-Consistency-Guided Adapter for Thinking Allocation)
 	- datasets: AIME25, MATH-500, GSM8K
@@ -197,10 +196,14 @@ generated: 2026-05-23T23:39
 	- datasets: DoubleMoon, Spiral, SpiralHard
 - [[analysis/ICLR_2026/Addressing_divergent_representations_from_causal_interventions_on_neural_networks.md|Addressing divergent representations from causal interventions on neural networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Addressing_divergent_representations_from_causal_interventions_on_neural_networks.pdf|PDF]]
-	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer
-	- methods: Counterfactual Latent (CL) loss 及其针对因果子空间的改进版本
-	- datasets: Boundless DAS on 7B LLM, 合成数据集
+	- methods: Modified Counterfactual Latent (CL) loss targeting causal subspaces
+	- datasets: Synthetic dataset, Boundless DAS, Synthetic OOD generalization
+- [[analysis/ICLR_2026/ADEPT_Continual_Pretraining_via_Adaptive_Expansion_and_Dynamic_Decoupled_Tuning.md|ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/ADEPT_Continual_Pretraining_via_Adaptive_Expansion_and_Dynamic_Decoupled_Tuning.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: ADEPT
+	- datasets: GSM8K, CMB, MedQA
 - [[analysis/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.md|Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Adversarial_Encoding_Perturbation_and_Synthesis_for_Set_Representation_Auxiliary_Learning.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -213,12 +216,22 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: ARSL-IMVC
 	- datasets: BBCSport, HW
+- [[analysis/ICLR_2026/All_Code_No_Thought_Language_Models_Struggle_to_Reason_in_Ciphered_Language.md|All Code, No Thought: Language Models Struggle to Reason in Ciphered Language (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/All_Code_No_Thought_Language_Models_Struggle_to_Reason_in_Ciphered_Language.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer, Systems / Efficiency / Compression
+	- datasets: MATH 500
 - [[analysis/ICLR_2026/Ambig-SWE_Interactive_Agents_to_Overcome_Underspecificity_in_Software_Engineering.md|Ambig-SWE: Interactive Agents to Overcome Underspecificity in Software Engineering (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Ambig-SWE_Interactive_Agents_to_Overcome_Underspecificity_in_Software_Engineering.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer
+	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: Ambig-SWE
 	- datasets: Ambig-SWE
+- [[analysis/ICLR_2026/AMPED_Adaptive_Multi-objective_Projection_for_balancing_Exploration_and_skill_Diversification.md|AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/AMPED_Adaptive_Multi-objective_Projection_for_balancing_Exploration_and_skill_Diversification.pdf|PDF]]
+	- topics: Reinforcement Learning / Planning / Agents
+	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
+	- methods: AMPED (Adaptive Multi-objective Projection for balancing Exploration and skill Diversification)
+	- datasets: URLB
 - [[analysis/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.md|An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/An_Efficient_SEp-Invariant_Transport_Metric_Driven_by_Polar_Transport_Discrepancy-based_Representation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -228,7 +241,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Anatomy-aware_Representation_Learning_for_Medical_Ultrasound.md|Anatomy-aware Representation Learning for Medical Ultrasound (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Anatomy-aware_Representation_Learning_for_Medical_Ultrasound.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
-	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Anatomy-aware Representation Learning (ARL)
 	- datasets: Breast Cancer, Thyroid Cancer
 - [[analysis/ICLR_2026/Architecture-Agnostic_Test-Time_Adaptation_via_Backprop-Free_Embedding_Alignment.md|Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment (ICLR 2026)]]
@@ -245,7 +258,6 @@ generated: 2026-05-23T23:39
 	- datasets: MADLAD-400
 - [[analysis/ICLR_2026/BEAT_Visual_Backdoor_Attacks_on_VLM-based_Embodied_Agents_via_Contrastive_Trigger_Learning.md|BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/BEAT_Visual_Backdoor_Attacks_on_VLM-based_Embodied_Agents_via_Contrastive_Trigger_Learning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
 	- methods: BEAT
 	- datasets: VAB-OmniGibson
@@ -261,12 +273,22 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer, Optimization / Theory
 	- methods: BinomMAML (BinomGBML applied to MAML)
 	- datasets: Synthetic sinusoid regression, miniImageNet 5-way 1-shot, miniImageNet 5-way 5-shot
+- [[analysis/ICLR_2026/BioX-Bridge_Model_Bridging_for_Unsupervised_Cross-Modal_Knowledge_Transfer_across_Biosignals.md|BioX-Bridge: Model Bridging for Unsupervised Cross-Modal Knowledge Transfer across Biosignals (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/BioX-Bridge_Model_Bridging_for_Unsupervised_Cross-Modal_Knowledge_Transfer_across_Biosignals.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: BioX-Bridge
+	- datasets: ISRUC, FOG
 - [[analysis/ICLR_2026/Causal_Discovery_in_the_Wild_A_Voting-Theoretic_Ensemble_Approach.md|Causal Discovery in the Wild: A Voting-Theoretic Ensemble Approach (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Causal_Discovery_in_the_Wild_A_Voting-Theoretic_Ensemble_Approach.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Bayes Est.（基于最优传输能力估计的特征级贝叶斯投票聚合）
 	- datasets: GP-ER, MLP-SF, Sachs
+- [[analysis/ICLR_2026/Causal_Structure_Learning_in_Hawkes_Processes_with_Complex_Latent_Confounder_Networks.md|Causal Structure Learning in Hawkes Processes with Complex Latent Confounder Networks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Causal_Structure_Learning_in_Hawkes_Processes_with_Complex_Latent_Confounder_Networks.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Two-Phase Iterative Discovery Algorithm
+	- datasets: Metropolitan cellular network sub-dataset, Larger synthetic causal graph
 - [[analysis/ICLR_2026/Characterization_and_Learning_of_Causal_Graphs_with_Latent_Confounders_and_Post-treatment_Selection_from_Interventional_Data.md|Characterization and Learning of Causal Graphs with Latent Confounders and Post-treatment Selection from Interventional Data (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Characterization_and_Learning_of_Causal_Graphs_with_Latent_Confounders_and_Post-treatment_Selection_from_Interventional_Data.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
@@ -275,10 +297,29 @@ generated: 2026-05-23T23:39
 	- datasets: Synthetic graphs with latent confounders and post-treatment selection
 - [[analysis/ICLR_2026/Co-rewarding_Stable_Self-supervised_RL_for_Eliciting_Reasoning_in_Large_Language_Models.md|Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Co-rewarding_Stable_Self-supervised_RL_for_Eliciting_Reasoning_in_Large_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
 	- methods: Co-rewarding
 	- datasets: MATH500, GSM8K, CRUX
+- [[analysis/ICLR_2026/Common_Corpus_The_Largest_Collection_of_Ethical_Data_for_LLM_Pre-Training.md|Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Common_Corpus_The_Largest_Collection_of_Ethical_Data_for_LLM_Pre-Training.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: Common Corpus
+	- datasets: MultiBLiMP
+- [[analysis/ICLR_2026/Depth_Anything_3_Recovering_the_Visual_Space_from_Any_Views.md|Depth Anything 3: Recovering the Visual Space from Any Views (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Depth_Anything_3_Recovering_the_Visual_Space_from_Any_Views.pdf|PDF]]
+	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
+	- methods: Depth Anything 3 (DA3)
+	- datasets: HiRoom, ETH3D, ScanNet++
+- [[analysis/ICLR_2026/Difficult_Examples_Hurt_Unsupervised_Contrastive_Learning_A_Theoretical_Perspective.md|Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Difficult_Examples_Hurt_Unsupervised_Contrastive_Learning_A_Theoretical_Perspective.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer, Systems / Efficiency / Compression
+	- methods: Difficulty-aware Contrastive Learning Framework (Sample Removal, Margin Tuning, Temperature Scaling, and Combined)
+	- datasets: CIFAR-10, CIFAR-100, STL-10
+- [[analysis/ICLR_2026/Distributional_Equivalence_in_Linear_Non-Gaussian_Latent-Variable_Cyclic_Causal_Models_Characterization_and_Learning.md|Distributional Equivalence in Linear Non-Gaussian Latent-Variable Cyclic Causal Models: Characterization and Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Distributional_Equivalence_in_Linear_Non-Gaussian_Latent-Variable_Cyclic_Causal_Models_Characterization_and_Learning.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: glvLiNG
+	- datasets: Erdős-Rényi随机图, l=1, avgdeg=1
 - [[analysis/ICLR_2026/Equivariant_Splitting_Self-supervised_learning_from_incomplete_data.md|Equivariant Splitting: Self-supervised learning from incomplete data (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Equivariant_Splitting_Self-supervised_learning_from_incomplete_data.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -291,18 +332,6 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
 	- methods: CER-GOD
 	- datasets: Email, Amazon, Disney
-- [[analysis/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.md|Flock A Knowledge Graph Foundation Model via Learning on Random Walks (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Flock_A_Knowledge_Graph_Foundation_Model_via_Learning_on_Random_Walks.pdf|PDF]]
-	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
-	- methods: 基于随机游走序列编码的概率性节点-关系等变模型
-	- datasets: PETALS
-- [[analysis/ICLR_2026/From_Language_to_Locomotion_Retargeting-free_Humanoid_Control_via_Motion_Latent_Guidance.md|From Language to Locomotion: Retargeting-free Humanoid Control via Motion Latent Guidance (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/From_Language_to_Locomotion_Retargeting-free_Humanoid_Control_via_Motion_Latent_Guidance.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Representation / Self-Supervised / Transfer
-	- methods: RoboGhost
-	- datasets: HumanML - IsaacGym, HumanML3D, Kungfu - IsaacGym
 - [[analysis/ICLR_2026/From_Vicious_to_Virtuous_Cycles_Synergistic_Representation_Learning_for_Unsupervised_Video_Object-Centric_Learning.md|From Vicious to Virtuous Cycles: Synergistic Representation Learning for Unsupervised Video Object-Centric Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/From_Vicious_to_Virtuous_Cycles_Synergistic_Representation_Learning_for_Unsupervised_Video_Object-Centric_Learning.pdf|PDF]]
 	- topics: Vision / Multimodal / Applications
@@ -323,13 +352,11 @@ generated: 2026-05-23T23:39
 	- datasets: Synthetic Graphon 1, Political Blogs network, Coauthorship network
 - [[analysis/ICLR_2026/GUI-Shift_Enhancing_VLM-Based_GUI_Agents_through_Self-supervised_Reinforcement_Learning.md|GUI-Shift: Enhancing VLM-Based GUI Agents through Self-supervised Reinforcement Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/GUI-Shift_Enhancing_VLM-Based_GUI_Agents_through_Self-supervised_Reinforcement_Learning.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
 	- methods: GUI-Shift
 	- datasets: AndroidControl-High, AndroidControl-Low, ScreenSpot-v2
 - [[analysis/ICLR_2026/HAMLET_A_Hierarchical_and_Adaptive_Multi-Agent_Framework_for_Live_Embodied_Theatrics.md|HAMLET: A Hierarchical and Adaptive Multi-Agent Framework for Live Embodied Theatrics (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/HAMLET_A_Hierarchical_and_Adaptive_Multi-Agent_Framework_for_Live_Embodied_Theatrics.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
 	- methods: HAMLET
 	- datasets: HAMLET在线表演任务完成率, 响应策略综合评估, 人类评估一致性
@@ -339,6 +366,11 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
 	- methods: HARP (HAllucination detection via Reasoning subspace Projection)
 	- datasets: TriviaQA, TruthfulQA, NQ Open
+- [[analysis/ICLR_2026/How_Learning_Rate_Decay_Wastes_Your_Best_Data_in_Curriculum-Based_LLM_Pretraining.md|How Learning Rate Decay Wastes Your Best Data in Curriculum-Based LLM Pretraining (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/How_Learning_Rate_Decay_Wastes_Your_Best_Data_in_Curriculum-Based_LLM_Pretraining.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: Curriculum Model Averaging (CMA) 与 Combined Decay-aware Model Averaging (CDMA)
+	- datasets: Core benchmarks
 - [[analysis/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.md|How NOT to benchmark your SITE metric Beyond Static Leaderboards and Towards Realistic Evaluation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/How_NOT_to_benchmark_your_SITE_metric_Beyond_Static_Leaderboards_and_Towards_Realistic_Evaluation.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -351,6 +383,26 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: LiNGIC (Linear Non-Gaussian Independence Criterion)
 	- datasets: 线性非高斯合成数据, Downstream Direct-LiNGAM on synthetic Sachs data, Varying dependence strength c
+- [[analysis/ICLR_2026/Information_Shapes_Koopman_Representation.md|Information Shapes Koopman Representation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Information_Shapes_Koopman_Representation.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: InformationKoopman
+	- datasets: Lorenz 63, Kármán Vortex, Dam Flow
+- [[analysis/ICLR_2026/Latent_Fourier_Transform.md|Latent Fourier Transform (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Latent_Fourier_Transform.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Latent Fourier Transform (LATENTFT)
+	- datasets: MTG-Jamendo Conditional Generation, MTG-Jamendo Blending, GTZAN Conditional Generation
+- [[analysis/ICLR_2026/Latent_Particle_World_Models_Self-supervised_Object-centric_Stochastic_Dynamics_Modeling.md|Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Latent_Particle_World_Models_Self-supervised_Object-centric_Stochastic_Dynamics_Modeling.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Latent Particle World Models (LPWM)
+	- datasets: Sketchy-U, LanguageTable-A, Bridge-L
+- [[analysis/ICLR_2026/Latent_Speech-Text_Transformer.md|Latent Speech-Text Transformer (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Latent_Speech-Text_Transformer.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: Latent Speech-Text Transformer (LST)
+	- datasets: HellaSwag, LibriSpeech ASR
 - [[analysis/ICLR_2026/MaskCO_Masked_Generation_Drives_Effective_Representation_Learning_and_Exploiting_for_Combinatorial_Optimization.md|MaskCO: Masked Generation Drives Effective Representation Learning and Exploiting for Combinatorial Optimization (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/MaskCO_Masked_Generation_Drives_Effective_Representation_Learning_and_Exploiting_for_Combinatorial_Optimization.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
@@ -369,12 +421,25 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
 	- methods: Alignment across Trees
 	- datasets: Cifar100, SUN
+- [[analysis/ICLR_2026/MrRoPE_Mixed-radix_Rotary_Position_Embedding.md|MrRoPE: Mixed-radix Rotary Position Embedding (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/MrRoPE_Mixed-radix_Rotary_Position_Embedding.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: MrRoPE-Pro (Mixed-radix RoPE Progressive)
+	- datasets: RULER, Infinite-Bench KV Retrieval, Infinite-Bench QA Dialogue
+- [[analysis/ICLR_2026/Navigating_the_Latent_Space_Dynamics_of_Neural_Models.md|Navigating the Latent Space Dynamics of Neural Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Navigating_the_Latent_Space_Dynamics_of_Neural_Models.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
 - [[analysis/ICLR_2026/On_the_Alignment_Between_Supervised_and_Self-Supervised_Contrastive_Learning.md|On the Alignment Between Supervised and Self-Supervised Contrastive Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/On_the_Alignment_Between_Supervised_and_Self-Supervised_Contrastive_Learning.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, LLM / Reasoning / Alignment
 	- methods: 相似性空间耦合分析框架（Similarity-Space Coupling Analysis Framework）
 	- datasets: Tiny-ImageNet, CIFAR-100, Multiple datasets
+- [[analysis/ICLR_2026/Partition_Generative_Modeling_Masked_Modeling_Without_Masks.md|Partition Generative Modeling: Masked Modeling Without Masks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Partition_Generative_Modeling_Masked_Modeling_Without_Masks.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- methods: Partition Generative Model (PGM) / Partition Transformer
+	- datasets: OpenWebText, LM1B, ImageNet 256×256
 - [[analysis/ICLR_2026/PHyCLIP_ell_1-Product_of_Hyperbolic_Factors_Unifies_Hierarchy_and_Compositionality_in_Vision-Language_Representation_Learning.md|PHyCLIP: $\\ell_1$-Product of Hyperbolic Factors Unifies Hierarchy and Compositionality in Vision-Language Representation Learning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/PHyCLIP_ell_1-Product_of_Hyperbolic_Factors_Unifies_Hierarchy_and_Compositionality_in_Vision-Language_Representation_Learning.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -387,6 +452,11 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
 	- methods: PointLearner
 	- datasets: S3DIS, ScanObjectNN
+- [[analysis/ICLR_2026/Pre-training_under_infinite_compute.md|Pre-training under infinite compute (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Pre-training_under_infinite_compute.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: 正则化参数缩放、集成与蒸馏方法
+	- datasets: DCLM 200M validation loss, Data efficiency at 200M tokens, Downstream tasks average error
 - [[analysis/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.md|ReLaSH: Reconstructing Joint Latent Spaces for Efficient Generation of Synthetic Hypergraphs with Hyperlink Attributes (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ReLaSH_Reconstructing_Joint_Latent_Spaces_for_Efficient_Generation_of_Synthetic_Hypergraphs_with_Hyperlink_Attributes.pdf|PDF]]
 	- topics: Generative Models / Diffusion
@@ -405,18 +475,22 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: EWC-LoRA
 	- datasets: CIFAR-100, DomainNet, ImageNet-R
+- [[analysis/ICLR_2026/RL_Grokking_Recipe_How_Does_RL_Unlock_and_Transfer_New_Algorithms_in_LLMs.md|RL Grokking Recipe: How Does RL Unlock and Transfer New Algorithms in LLMs? (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/RL_Grokking_Recipe_How_Does_RL_Unlock_and_Transfer_New_Algorithms_in_LLMs.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
+	- methods: Staged RL with Per-Test Warm-Up (Two-Phase GRPO)
+	- datasets: Manufactoria-HAS, BouncingSim
 - [[analysis/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.md|Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer, Safety / Privacy / Robustness
 	- methods: Semi-supervised Neural Posterior Estimation with Self-Consistency Loss (NPE + SC)
 	- datasets: Multivariate normal means, Air passenger traffic forecasting, Hodgkin-Huxley neuron model
-- [[analysis/ICLR_2026/Sparkle_A_Robust_and_Versatile_Representation_for_Point_Cloud-based_Human_Motion_Capture.md|Sparkle: A Robust and Versatile Representation for Point Cloud-based Human Motion Capture (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/Sparkle_A_Robust_and_Versatile_Representation_for_Point_Cloud-based_Human_Motion_Capture.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
-	- methods: SparkleMotion
-	- datasets: Interhuman, GTA-Human-Point, HuMMan-Point
+- [[analysis/ICLR_2026/Scaling_Atomistic_Protein_Binder_Design_with_Generative_Pretraining_and_Test-Time_Compute.md|Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Scaling_Atomistic_Protein_Binder_Design_with_Generative_Pretraining_and_Test-Time_Compute.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Representation / Self-Supervised / Transfer
+	- methods: Proteína-Complexa (Complexa)
+	- datasets: 蛋白质靶点推理时缩放, 酶设计基准
 - [[analysis/ICLR_2026/Study_of_Training_Dynamics_for_Memory-Constrained_Fine-Tuning.md|Study of Training Dynamics for Memory-Constrained Fine-Tuning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Study_of_Training_Dynamics_for_Memory-Constrained_Fine-Tuning.pdf|PDF]]
 	- topics: Optimization / Theory / Probabilistic ML
@@ -429,12 +503,27 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer, Benchmark / Evaluation
 	- methods: SurvHTE-Bench
 	- datasets: ACTG Semi-synthetic, MIMIC-i Semi-synthetic
+- [[analysis/ICLR_2026/TD-JEPA_Latent-predictive_Representations_for_Zero-Shot_Reinforcement_Learning.md|TD-JEPA: Latent-predictive Representations for Zero-Shot Reinforcement Learning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/TD-JEPA_Latent-predictive_Representations_for_Zero-Shot_Reinforcement_Learning.pdf|PDF]]
+	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
+	- methods: TD-JEPA
+	- datasets: DMCRGB, DMC, OGBenchRGB
+- [[analysis/ICLR_2026/The_Coverage_Principle_How_Pre-Training_Enables_Post-Training.md|The Coverage Principle: How Pre-Training Enables Post-Training (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/The_Coverage_Principle_How_Pre-Training_Enables_Post-Training.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer
+	- methods: 覆盖原理（Coverage Principle）及基于覆盖的算法干预（锦标赛选择、梯度归一化、测试时训练解码）
+	- datasets: 图推理任务
 - [[analysis/ICLR_2026/The_Hot_Mess_of_AI_How_Does_Misalignment_Scale_With_Model_Intelligence_and_Task_Complexity.md|The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity? (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/The_Hot_Mess_of_AI_How_Does_Misalignment_Scale_With_Model_Intelligence_and_Task_Complexity.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: Error-Incoherence Analysis Framework (Bias-Variance Decomposition)
 	- datasets: GPQA, SWE-BENCH, MMLU
+- [[analysis/ICLR_2026/The_Shape_of_Adversarial_Influence_Characterizing_LLM_Latent_Spaces_with_Persistent_Homology.md|The Shape of Adversarial Influence: Characterizing LLM Latent Spaces with Persistent Homology (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/The_Shape_of_Adversarial_Influence_Characterizing_LLM_Latent_Spaces_with_Persistent_Homology.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: Persistent Homology (PH) based topological analysis of LLM latent spaces
+	- datasets: Mistral 7B TaskTracker, Layer 1, Six LLMs
 - [[analysis/ICLR_2026/Theoretical_Guarantees_for_Causal_Discovery_on_Large_Random_Graphs.md|Theoretical Guarantees for Causal Discovery on Large Random Graphs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Theoretical_Guarantees_for_Causal_Discovery_on_Large_Random_Graphs.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -445,6 +534,11 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Representation / Self-Supervised / Transfer
 	- methods: NeRP3D
 	- datasets: nuScenes 3D目标检测, nuScenes 占据预测, nuScenes HD地图构建
+- [[analysis/ICLR_2026/True_Self-Supervised_Novel_View_Synthesis_is_Transferable.md|True Self-Supervised Novel View Synthesis is Transferable (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/True_Self-Supervised_Novel_View_Synthesis_is_Transferable.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer, Vision / Multimodal / 3D
+	- methods: XFactor
+	- datasets: RE10K, DL3DV
 - [[analysis/ICLR_2026/UniCon_Unified_Framework_for_Efficient_Contrastive_Alignment_via_Kernels.md|UniCon: Unified Framework for Efficient Contrastive Alignment via Kernels (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/UniCon_Unified_Framework_for_Efficient_Contrastive_Alignment_via_Kernels.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -467,3 +561,8 @@ generated: 2026-05-23T23:39
 	- method groups: Representation / Self-Supervised / Transfer
 	- methods: 基于IDR、ME、ASE、ADI和MS的LID估计基准测试框架
 	- datasets: Gaussians - 非均匀密度, Spheres - 流形曲率, Spaghetti - 高维嵌入
+- [[analysis/ICLR_2026/WSM_Decay-Free_Learning_Rate_Schedule_via_Checkpoint_Merging_for_LLM_Pre-training.md|WSM: Decay-Free Learning Rate Schedule via Checkpoint Merging for LLM Pre-training (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/WSM_Decay-Free_Learning_Rate_Schedule_via_Checkpoint_Merging_for_LLM_Pre-training.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Representation / Self-Supervised / Transfer
+	- methods: Warmup-Stable and Merge (WSM)
+	- datasets: MATH, HumanEval, MMLU-Pro

@@ -10,6 +10,7 @@ aliases:
 - Si-GT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/physics
 openreview_forum_id: orO5727bSh
@@ -34,7 +35,7 @@ paradigm: 核心洞察是：将互连RC电路分解为每个节点的局部耦�
 | 英文题名 | Si-GT: Fast Interconnect Signal Integrity Analysis for Integrated Circuit Design via Graph Transformers |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=orO5727bSh) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/physics |
 | Method | Si-GT |
 | Dataset | Crosstalk Delay Prediction (Segment, Victim), Crosstalk Glitch Prediction (Segment, t_width) |
 

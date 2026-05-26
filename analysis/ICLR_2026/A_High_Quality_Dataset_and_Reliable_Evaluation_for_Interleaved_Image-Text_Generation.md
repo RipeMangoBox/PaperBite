@@ -11,6 +11,7 @@ aliases:
 - InterSyn + SEIR + SynJudge
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 core_operator: 通过构建大规模（1.8M样本）、高质量（SEIR迭代精炼）、指令丰富（3500主题层次+人工模板）的数据集InterSyn，并配合多维度自动评估器SynJudge，可以系统性地提升模型的文本内容完整性、图像内容完整性、图像质量以及图文协同性。
@@ -34,7 +35,7 @@ paradigm: 核心洞察在于：1）数据质量可通过自评估-迭代精炼�
 | 英文题名 | A High Quality Dataset and Reliable Evaluation for Interleaved Image-Text Generation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qBORZkk28r) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | InterSyn + SEIR + SynJudge |
 | Dataset | InterSyn Evaluation Benchmark (4000 questions), InterSyn Evaluation Benchmark (4000 questions), InterSyn Evaluation Benchmark (4000 questions), InterSyn Evaluation Benchmark (4000 questions) |
 

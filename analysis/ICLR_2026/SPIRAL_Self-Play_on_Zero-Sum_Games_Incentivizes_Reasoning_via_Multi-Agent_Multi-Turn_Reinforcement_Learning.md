@@ -32,7 +32,7 @@ paradigm: 零和博弈的竞争压力促使模型涌现出结构化推理模式�
 | 英文题名 | SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7Yayy5fNLg) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SPIRAL |
 | Dataset | 8个推理基准（MATH500, AIME24/25, Olympiad, AMC-23, Minerva, GPQA-D, MMLU-Pro）, 同上8个基准, 同上（多种子统计）, 6个游戏环境（含OOD） |
 

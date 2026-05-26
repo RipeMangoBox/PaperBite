@@ -10,6 +10,7 @@ aliases:
 - ITLNGDACD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/causality
 openreview_forum_id: Uc1EAICxTD
@@ -34,7 +35,7 @@ paradigm: 在线性非高斯混合模型中，X 与 Y 独立当且仅当条件�
 | 英文题名 | Independence Test for Linear Non-Gaussian Data and Applications in Causal Discovery |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Uc1EAICxTD) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/causality |
 | Method | LiNGIC (Linear Non-Gaussian Independence Criterion) |
 | Dataset | 线性非高斯合成数据 (d=3, Laplace, n=500), 线性非高斯合成数据 (d=3, Student-t, n=500), Downstream Direct-LiNGAM on synthetic Sachs data (10 nodes, Uniform noise), Varying dependence strength c (d=3, Student-t, n=500) |
 

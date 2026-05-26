@@ -4,7 +4,7 @@ type: paper-index
 dimension: method
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Method: Safety / Privacy / Robustness
@@ -113,7 +113,6 @@ generated: 2026-05-23T23:39
 	- datasets: Friendster, LIVEJ, Youshu
 - [[analysis/ICLR_2026/Alignment-Weighted_DPO_A_principled_reasoning_approach_to_improve_safety_alignment.md|Alignment-Weighted DPO: A principled reasoning approach to improve safety alignment (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Alignment-Weighted_DPO_A_principled_reasoning_approach_to_improve_safety_alignment.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
 	- methods: Alignment-Weighted DPO (AW-DPO)
 	- datasets: SorryBench, MMLU
@@ -123,10 +122,15 @@ generated: 2026-05-23T23:39
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: Bayesian-TPNN
 	- datasets: ABALONE, MADELON, CELEBA-HQ
+- [[analysis/ICLR_2026/Benchmarking_Empirical_Privacy_Protection_for_Adaptations_of_Large_Language_Models.md|Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Benchmarking_Empirical_Privacy_Protection_for_Adaptations_of_Large_Language_Models.pdf|PDF]]
+	- method groups: Safety / Privacy / Robustness
+	- methods: 预训练‑适配管道的整体隐私审计框架与基准
+	- datasets: SAMSum, GermanWiki, OOD平均
 - [[analysis/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.md|Benchmarking Stochastic Approximation Algorithms for Fairness-Constrained Training of Deep Neural Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Benchmarking_Stochastic_Approximation_Algorithms_for_Fairness-Constrained_Training_of_Deep_Neural_Networks.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
-	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
+	- method groups: Safety / Privacy / Robustness, Benchmark / Evaluation
 	- methods: Benchmarking framework for fairness-constrained DNN training
 	- datasets: ACSIncome
 - [[analysis/ICLR_2026/Breaking_Safety_Paradox_with_Feasible_Dual_Policy_Iteration.md|Breaking Safety Paradox with Feasible Dual Policy Iteration (ICLR 2026)]]
@@ -135,12 +139,22 @@ generated: 2026-05-23T23:39
 	- method groups: Agent / RL / Planning, Safety / Privacy / Robustness
 	- methods: Feasible Dual Policy Iteration (FDPI)
 	- datasets: Safety-Gymnasium
+- [[analysis/ICLR_2026/Conformal_Robustness_Control_A_New_Strategy_for_Robust_Decision.md|Conformal Robustness Control: A New Strategy for Robust Decision (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Conformal_Robustness_Control_A_New_Strategy_for_Robust_Decision.pdf|PDF]]
+	- method groups: Safety / Privacy / Robustness
+	- methods: Conformal Robustness Control (CRC)
+	- datasets: US Stock Portfolio Optimization
 - [[analysis/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.md|Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Cultivating_Pluralism_In_Algorithmic_Monoculture_The_Community_Alignment_Dataset.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: 负相关候选采样 (Negatively‑Correlated Sampling)
 	- datasets: PRISM prompts + Inglehart-Welzel 价值维度, 同上, PRISM prompts
+- [[analysis/ICLR_2026/DiffuGuard_How_Intrinsic_Safety_is_Lost_and_Found_in_Diffusion_Large_Language_Models.md|DiffuGuard: How Intrinsic Safety is Lost and Found in Diffusion Large Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/DiffuGuard_How_Intrinsic_Safety_is_Lost_and_Found_in_Diffusion_Large_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: DIFFUGUARD
+	- datasets: 六种越狱攻击综合, WildJailbreak, PAD_AdvBench
 - [[analysis/ICLR_2026/Dual-Space_Smoothness_for_Robust_and_Balanced_LLM_Unlearning.md|Dual-Space Smoothness for Robust and Balanced LLM Unlearning (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Dual-Space_Smoothness_for_Robust_and_Balanced_LLM_Unlearning.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
@@ -171,18 +185,22 @@ generated: 2026-05-23T23:39
 	- method groups: Vision / Multimodal / 3D, Safety / Privacy / Robustness
 	- methods: GUIDE
 	- datasets: CIFAR-100-LT, ImageNet-LT, iNaturalist 2018
-- [[analysis/ICLR_2026/HWC-Loco_A_Hierarchical_Whole-Body_Control_Approach_to_Robust_Humanoid_Locomotion.md|HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion (ICLR 2026)]]
-	- [[paperPDFs/ICLR_2026/HWC-Loco_A_Hierarchical_Whole-Body_Control_Approach_to_Robust_Humanoid_Locomotion.pdf|PDF]]
-	- topics: Iclr 2026
-	- method groups: Safety / Privacy / Robustness
-	- methods: HWC-Loco
-	- datasets: Stairs High Speed, Constant External Force/Torque, High-Impulse Perturbation
+- [[analysis/ICLR_2026/Invisible_Safety_Threat_Malicious_Finetuning_for_LLM_via_Steganography.md|Invisible Safety Threat: Malicious Finetuning for LLM via Steganography (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Invisible_Safety_Threat_Malicious_Finetuning_for_LLM_via_Steganography.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: 基于不可见字符隐写的恶意微调 (Malicious Finetuning with Invisible-Character Steganography)
+	- datasets: AdvBench, MMLU, GPQA
 - [[analysis/ICLR_2026/Learning_Dynamic_Causal_Graphs_Under_Parametric_Uncertainty_via_Polynomial_Chaos_Expansions.md|Learning Dynamic Causal Graphs Under Parametric Uncertainty via Polynomial Chaos Expansions (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Learning_Dynamic_Causal_Graphs_Under_Parametric_Uncertainty_via_Polynomial_Chaos_Expansions.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: PCT-CD
 	- datasets: 化工过程数据集
+- [[analysis/ICLR_2026/LLM_Fingerprinting_via_Semantically_Conditioned_Watermarks.md|LLM Fingerprinting via Semantically Conditioned Watermarks (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/LLM_Fingerprinting_via_Semantically_Conditioned_Watermarks.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: Semantically Conditioned Watermark Fingerprinting
+	- datasets: Fingerprint Success Rate, Average Benchmark Accuracy
 - [[analysis/ICLR_2026/Output_Supervision_Can_Obfuscate_the_Chain_of_Thought.md|Output Supervision Can Obfuscate the Chain of Thought (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Output_Supervision_Can_Obfuscate_the_Chain_of_Thought.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
@@ -213,6 +231,11 @@ generated: 2026-05-23T23:39
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: Immunization-Inspired Purification Framework
 	- datasets: Sentiment Steering / BadNets / LLaMA-2-7B-Chat, Sentiment Steering / VPI / LLaMA-2-7B-Chat, Sentiment Steering / BadNets / LLaMA-2-13B-Chat
+- [[analysis/ICLR_2026/RedTeamCUA_Realistic_Adversarial_Testing_of_Computer-Use_Agents_in_Hybrid_Web-OS_Environments.md|RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/RedTeamCUA_Realistic_Adversarial_Testing_of_Computer-Use_Agents_in_Hybrid_Web-OS_Environments.pdf|PDF]]
+	- method groups: Benchmark / Evaluation, Safety / Privacy / Robustness
+	- methods: RedTeamCUA + RTC-BENCH
+	- datasets: RTC-BENCH
 - [[analysis/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.md|Robust Amortized Bayesian Inference with Self-Consistency Losses on Unlabeled Data (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Robust_Amortized_Bayesian_Inference_with_Self-Consistency_Losses_on_Unlabeled_Data.pdf|PDF]]
 	- topics: Representation / Self-Supervised / Transfer
@@ -221,27 +244,51 @@ generated: 2026-05-23T23:39
 	- datasets: Multivariate normal means, Air passenger traffic forecasting, Hodgkin-Huxley neuron model
 - [[analysis/ICLR_2026/Robust_Deep_Reinforcement_Learning_against_Adversarial_Behavior_Manipulation.md|Robust Deep Reinforcement Learning against Adversarial Behavior Manipulation (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Robust_Deep_Reinforcement_Learning_against_Adversarial_Behavior_Manipulation.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Safety / Privacy / Robustness, Agent / RL / Planning
 	- methods: Behavior Imitation Attack (BIA) 和 Time-Discounted Robust Training (TDRT)
 	- datasets: Meta-World
+- [[analysis/ICLR_2026/Robust_Fine-tuning_of_Vision-Language-Action_Robot_Policies_via_Parameter_Merging.md|Robust Fine-tuning of Vision-Language-Action Robot Policies via Parameter Merging (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Robust_Fine-tuning_of_Vision-Language-Action_Robot_Policies_via_Parameter_Merging.pdf|PDF]]
+	- method groups: Vision / Multimodal / 3D, Safety / Privacy / Robustness
+	- methods: RETAIN
+	- datasets: DROID Whiteboard OOD Test Scenes, DROID Plates OOD Test Scenes, LIBERO 3-task Average OOD
 - [[analysis/ICLR_2026/Routing_Cascades_and_User_Choice_for_LLMs.md|Routing, Cascades, and User Choice for LLMs (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Routing_Cascades_and_User_Choice_for_LLMs.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: Stackelberg LLM Routing Game with Endogenous User Response
+- [[analysis/ICLR_2026/SAFETY-GUIDED_FLOW_SGF_A_UNIFIED_FRAMEWORK_FOR_NEGATIVE_GUIDANCE_IN_SAFE_GENERATION.md|SAFETY-GUIDED FLOW (SGF): A UNIFIED FRAMEWORK FOR NEGATIVE GUIDANCE IN SAFE GENERATION (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SAFETY-GUIDED_FLOW_SGF_A_UNIFIED_FRAMEWORK_FOR_NEGATIVE_GUIDANCE_IN_SAFE_GENERATION.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: Safety-Guided Flow (SGF)
+	- datasets: Ring-A-Bell, ImageNet 多样性, ImageNette 记忆化缓解
 - [[analysis/ICLR_2026/SeedPrints_Fingerprints_Can_Even_Tell_Which_Seed_Your_Large_Language_Model_Was_Trained_From.md|SeedPrints: Fingerprints Can Even Tell Which Seed Your Large Language Model Was Trained From (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/SeedPrints_Fingerprints_Can_Even_Tell_Which_Seed_Your_Large_Language_Model_Was_Trained_From.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: SeedPrints
 	- datasets: OLMo-2-7B Stage 1预训练检查点, LLaMA-2-7B微调变体, LeaFBench
+- [[analysis/ICLR_2026/Spherical_Watermark_Encryption-Free_Lossless_Watermarking_for_Diffusion_Models.md|Spherical Watermark: Encryption-Free, Lossless Watermarking for Diffusion Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Spherical_Watermark_Encryption-Free_Lossless_Watermarking_for_Diffusion_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: Spherical Watermark
+	- datasets: COCO + SD v1.5, SDP + SD v2.1, SDP + SD v1.5
 - [[analysis/ICLR_2026/Spilled_Energy_in_Large_Language_Models.md|Spilled Energy in Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Spilled_Energy_in_Large_Language_Models.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: Spilled Energy (溢出能量)
 	- datasets: 合成算术, MNLI
+- [[analysis/ICLR_2026/SWINGARENA_Adversarial_Programming_Arena_for_Long-context_GitHub_Issue_Solving.md|SWINGARENA: Adversarial Programming Arena for Long-context GitHub Issue Solving (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SWINGARENA_Adversarial_Programming_Arena_for_Long-context_GitHub_Issue_Solving.pdf|PDF]]
+	- method groups: Benchmark / Evaluation, Safety / Privacy / Robustness
+	- methods: SWINGARENA
+	- datasets: SWINGARENA Adversarial Battle, SWINGARENA Best@3, Language-specific Best@3
+- [[analysis/ICLR_2026/The_Devil_behind_the_mask_An_emergent_safety_vulnerability_of_Diffusion_LLMs.md|The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/The_Devil_behind_the_mask_An_emergent_safety_vulnerability_of_Diffusion_LLMs.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: DIJA
+	- datasets: JailbreakBench, HarmBench, StrongREJECT
 - [[analysis/ICLR_2026/Training-free_Counterfactual_Explanation_for_Temporal_Graph_Model_Inference.md|Training-free Counterfactual Explanation for Temporal Graph Model Inference (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Training-free_Counterfactual_Explanation_for_Temporal_Graph_Model_Inference.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
@@ -254,6 +301,21 @@ generated: 2026-05-23T23:39
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: TriQDef
 	- datasets: CIFAR-10, ImageNet
+- [[analysis/ICLR_2026/Uncover_Underlying_Correspondence_for_Robust_Multi-view_Clustering.md|Uncover Underlying Correspondence for Robust Multi-view Clustering (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Uncover_Underlying_Correspondence_for_Robust_Multi-view_Clustering.pdf|PDF]]
+	- method groups: Safety / Privacy / Robustness
+	- methods: CorreGen
+	- datasets: Scene15, UMPC-Food101
+- [[analysis/ICLR_2026/Watch_your_steps_Dormant_Adversarial_Behaviors_that_Activate_upon_LLM_Finetuning.md|Watch your steps: Dormant Adversarial Behaviors that Activate upon LLM Finetuning (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Watch_your_steps_Dormant_Adversarial_Behaviors_that_Activate_upon_LLM_Finetuning.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Safety / Privacy / Robustness
+	- methods: FAB (Finetuning-activated Adversarial Behaviors)
+	- datasets: User finetuning on OpenMathInstruct, User finetuning on CodeAlpaca
+- [[analysis/ICLR_2026/Watermarking_Diffusion_Language_Models.md|Watermarking Diffusion Language Models (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Watermarking_Diffusion_Language_Models.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Safety / Privacy / Robustness
+	- methods: DLM Watermark（基于优化框架的期望增强与预测偏置）
+	- datasets: LLADA-8B, DREAM-7B, LLADA-8B vs Order-Agnostic Watermarks
 - [[analysis/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.md|When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy

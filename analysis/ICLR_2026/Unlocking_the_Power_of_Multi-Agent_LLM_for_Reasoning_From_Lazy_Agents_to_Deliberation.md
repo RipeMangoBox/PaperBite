@@ -33,7 +33,7 @@ paradigm: 多智能体LLM推理中的懒惰现象并非能力不足，而是优�
 | 英文题名 | Unlocking the Power of Multi-Agent LLM for Reasoning: From Lazy Agents to Deliberation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=5J6u03ObRZ) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Dr. MAMR (Multi-Agent Meta-Reasoning Done Right) |
 | Dataset | MATH500, GSM8K, AIME24, AMC23 |
 

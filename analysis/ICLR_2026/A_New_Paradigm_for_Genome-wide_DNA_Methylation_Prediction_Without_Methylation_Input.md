@@ -10,6 +10,7 @@ aliases:
 - MethylProphet
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/genetics_cell_biology_health_etc
 core_operator: 利用基因表达谱（约25000个基因）作为全局生物学状态信号，结合局部CpG序列上下文（1kb窗口），通过瓶颈MLP和DNA分词器编码，并由Transformer融合，直接预测位点特异性甲基化水平，无需任何部分测量的DNAm输入。
@@ -33,7 +34,7 @@ paradigm: 基因表达与DNA甲基化之间存在强相关性，通过压缩全�
 | 英文题名 | A New Paradigm for Genome-wide DNA Methylation Prediction Without Methylation Input |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=8wQ7Oc08vo) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
 | Method | MethylProphet |
 | Dataset | ENCODE, ENCODE, ENCODE, ENCODE |
 

@@ -32,7 +32,7 @@ paradigm: 通过冷启动阶段向模型植入正确的工具使用模式，再�
 | 英文题名 | AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=nUGPEmQ2ut) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AdaReasoner |
 | Dataset | VSP, Jigsaw, BLINK-J (Jigsaw from BLINK), GUIChat |
 

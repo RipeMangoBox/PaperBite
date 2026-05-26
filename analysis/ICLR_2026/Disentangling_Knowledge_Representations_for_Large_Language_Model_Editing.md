@@ -9,6 +9,7 @@ aliases:
 - DKRLLME
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 core_operator: 通过知识表征解耦（KRD）模块将主题表征分解为目标知识相关与无关的独立成分，并在编辑时仅更新相关部分，同时显式约束无关部分不变。
@@ -32,7 +33,7 @@ paradigm: 解耦主题表征中不同关系下的语义，将编辑操作限制�
 | 英文题名 | Disentangling Knowledge Representations for Large Language Model Editing |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=PmRBeF2umZ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | DiKE |
 | Dataset | FINE-KED (GPT2-XL), FINE-KED (GPT-J), FINE-KED (LLaMA-3), COUNTERFACT (GPT2-XL) |
 

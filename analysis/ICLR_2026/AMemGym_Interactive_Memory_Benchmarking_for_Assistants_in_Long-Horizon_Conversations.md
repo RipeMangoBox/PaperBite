@@ -9,6 +9,7 @@ aliases:
 - AMemGym
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/benchmarks_datasets_evaluation
 - topic/benchmarks_datasets_evaluation/benchmark_eval
 openreview_forum_id: sfrVLzsmlf
@@ -33,7 +34,7 @@ paradigm: 将结构化状态演化与自由形式交互相融合：利用反向�
 | 英文题名 | AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=sfrVLzsmlf) |
-| Topic | #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
+| Topic | #ICLR_2026 #topic/benchmarks_datasets_evaluation #topic/benchmarks_datasets_evaluation/benchmark_eval |
 | Method | AMemGym |
 | Dataset | AMemGym base (10,2,4), AMemGym base, AMemGym base |
 

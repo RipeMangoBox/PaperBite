@@ -32,7 +32,7 @@ paradigm: 将多种视觉感知任务重新定义为三个基础类别（检测�
 | 英文题名 | VisionReasoner: Unified Reasoning-Integrated Visual Perception via Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=QoDOwjsbAq) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | VisionReasoner |
 | Dataset | COCO val, RefCOCO val, RefCOCO+ val, RefCOCOg test |
 

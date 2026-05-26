@@ -9,6 +9,7 @@ aliases:
 - ACDRTMP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 core_operator: 通过可微分模拟大规模预训练一个形态无关的通用控制器，从而快速评估形态变化并指导进化。
@@ -32,7 +33,7 @@ paradigm: 形态学预训练使零样本进化成为可能，避免了重复的�
 | 英文题名 | Accelerated co-design of robots through morphological pretraining |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=WVliGyFwZv) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | 形态学预训练与零/少样本进化协同设计 |
 | Dataset | Phototaxis task in varied terrains, Morphological Evolution Performance, Cross-Over Success (首次出现), Robustness to sensor/motor failure |
 

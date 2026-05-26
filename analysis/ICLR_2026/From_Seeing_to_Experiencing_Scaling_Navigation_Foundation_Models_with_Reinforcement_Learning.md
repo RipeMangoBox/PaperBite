@@ -33,7 +33,7 @@ paradigm: S2E框架通过锚点引导的高斯混合模型(AGDM)在预训练时�
 | 英文题名 | From Seeing to Experiencing: Scaling Navigation Foundation Models with Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0c7nAZjyr5) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Seeing-to-Experiencing (S2E) learning framework |
 | Dataset | NavBench-GS (Empty场景), NavBench-GS-Obstacle (消融实验), 真实世界轮式机器人 (障碍物+行人) |
 

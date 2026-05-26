@@ -33,7 +33,7 @@ paradigm: 多模态数据驱动科学发现的主要瓶颈在于跨模态对齐�
 | 英文题名 | Towards Multimodal Data-Driven Scientific Discovery Powered by LLM Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=kZHSvETWdi) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MoSciBench (多模态科学发现基准) 及 ReAct + Workflow 增强方案 |
 | Dataset | MoSciBench (总体), MoSciBench (总体), MoSciBench (总体) |
 

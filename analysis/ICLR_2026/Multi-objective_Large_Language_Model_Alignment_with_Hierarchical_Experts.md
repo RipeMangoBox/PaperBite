@@ -10,6 +10,7 @@ aliases:
 - MOLLMAHE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/online
 openreview_forum_id: UhmEdfAk46
@@ -34,7 +35,7 @@ paradigm: 采用分解策略，利用任务向量SVD提取轻量LoRA专家，结
 | 英文题名 | Multi-objective Large Language Model Alignment with Hierarchical Experts |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UhmEdfAk46) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/online |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/online |
 | Method | HoE (Hierarchical Mixture-of-Experts) |
 | Dataset | HelpSteer, HelpSteer, HelpSteer, HelpAssistant, Reddit Summary, BeaverTails (two-objective alignment, Figure 3) |
 

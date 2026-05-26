@@ -33,7 +33,7 @@ paradigm: 通过对比同一问题中正确与错误回答组之间的平均思�
 | 英文题名 | SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0tzvmjMcXC) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SophiaVL-R1 |
 | Dataset | MathVista, MathVerse, MMMU, MME |
 

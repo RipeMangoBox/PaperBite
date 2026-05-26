@@ -4,14 +4,13 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: SQA3D
 
 - [[analysis/ICLR_2026/GPT4Scene_Understand_3D_Scenes_from_Videos_with_Vision-Language_Models.md|GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/GPT4Scene_Understand_3D_Scenes_from_Videos_with_Vision-Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Vision / Multimodal / 3D
 	- methods: GPT4Scene
 	- datasets: ScanQA, SQA3D, ScanRefer

@@ -9,6 +9,7 @@ aliases:
 - ML2FDFEDG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/theory
 core_operator: 权重衰减（weight decay）是触发特征学习的关键旋钮：它使反向传播梯度 $G_F$ 在收敛后保持非零，从而驱动隐藏层独立学习特征。
@@ -32,7 +33,7 @@ paradigm: "Grokking 分为三个阶段：I) 懒惰学习（顶层过拟合）；
 | 英文题名 | $\mathbf{Li_2}$: A Framework on Dynamics of Feature Emergence and Delayed Generalization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ceIBRhJpUr) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/theory |
 | Method | Li2 框架 |
 | Dataset | 模加法任务（Modular Addition）, 模加法任务（M=71, K=2048, 40% 训练数据）, 模加法任务（M=41, 89, 127）, 多层网络模加法任务（M=41, 71） |
 

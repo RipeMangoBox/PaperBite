@@ -10,6 +10,7 @@ aliases:
 - Cross-Timestep
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/segmentation
 openreview_forum_id: TE3asYO8PQ
@@ -34,7 +35,7 @@ paradigm: 通过自适应先验解码策略（APDS）在早期提供强先验并
 | 英文题名 | Cross-Timestep: 3D Diffusion Model with Trans-temporal Memory LSTM and Adaptive Priori Decoding Strategy for Medical Segmentation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=TE3asYO8PQ) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/segmentation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/segmentation |
 | Method | Cross-Timestep |
 | Dataset | LNCTVSeg, OASeg |
 

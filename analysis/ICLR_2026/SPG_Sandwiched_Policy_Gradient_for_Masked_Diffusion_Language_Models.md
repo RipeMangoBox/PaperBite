@@ -33,7 +33,7 @@ paradigm: 将组相对优势加权的对数似然目标替换为夹层目标：�
 | 英文题名 | SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=18j5Q49GwN) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SPG (Sandwiched Policy Gradient) |
 | Dataset | GSM8K (0-shot, length 256), MATH500 (0-shot, length 256), Countdown (0-shot, length 256), Sudoku (3-shot, length 256) |
 

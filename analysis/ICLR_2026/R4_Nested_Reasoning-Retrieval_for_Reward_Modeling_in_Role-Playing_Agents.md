@@ -33,7 +33,7 @@ paradigm: 将奖励建模重新定义为结构化推理任务：奖励模型通�
 | 英文题名 | R4: Nested Reasoning-Retrieval for Reward Modeling in Role-Playing Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=sWQSbVsPEz) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | R4 (Nested Reasoning-Retrieval for Reward Modeling in Role-Playing Agents) |
 | Dataset | CharacterEval, CharacterEval, CharacterEval, CharacterEval |
 

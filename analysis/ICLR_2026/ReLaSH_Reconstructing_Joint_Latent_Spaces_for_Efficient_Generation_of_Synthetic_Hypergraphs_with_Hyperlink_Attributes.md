@@ -9,6 +9,7 @@ aliases:
 - ReLaSH
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: ReLaSH 通过以下设计解决该瓶颈：（1）使用基于似然的模型将超链接和属性联合嵌入到低维连续潜在空间；（2）利用分布自由的得分基生成器重构该潜在空间分布；（3）通过已学习的似然模型将采样得到的潜在表示解码回超链接和属性。这样就将高维离散生成问题转化为低维连续潜在空间生成加结构似然映射。
@@ -32,7 +33,7 @@ paradigm: 核心洞察在于：高维超链接和属性的生成误差可以分�
 | 英文题名 | ReLaSH: Reconstructing Joint Latent Spaces for Efficient Generation of Synthetic Hypergraphs with Hyperlink Attributes |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=SG3kS2h44t) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | ReLaSH |
 | Dataset | MIMIC-III ICU patient profiles (symptom co-occurrence hypergraph), Co-citation hypergraph generation, Recipe hypergraph generation |
 

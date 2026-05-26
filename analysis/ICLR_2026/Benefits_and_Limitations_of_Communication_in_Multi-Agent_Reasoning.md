@@ -32,7 +32,7 @@ paradigm: 通过形式化多智能体推理，证明存在三种不同体制：1
 | 英文题名 | Benefits and Limitations of Communication in Multi-Agent Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0aPIVJUz5T) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Optimal Communication Protocols for Associative Recall, State Tracking (Prefix Sum), and k-hop Reasoning (Iterative Query) |
 | Dataset | Needle-in-a-Haystack (associative recall), PARITY (state tracking), k-hop reasoning (100/500 facts) |
 

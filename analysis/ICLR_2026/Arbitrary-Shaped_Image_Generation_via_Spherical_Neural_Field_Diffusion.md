@@ -10,7 +10,14 @@ aliases:
 - ASIGSNFD
 acceptance: accepted
 paradigm: 通过将图像生成从平面网格扩展到球面网格（L-细分二十面体），并利用接缝感知填充（Seam-Aware Padding）和接缝强制去噪（Seam Enforcement Denoising）保持跨视角的语义和空间一致性，再结合球面神经场实现坐标条件化的失真自由采样，从而在一个统一框架内实现视角、视场角和分辨率的精确控制，支持任意形状的图像生成。
+core_operator: ASIG performs spherical latent diffusion on an icosahedral mesh and renders arbitrary views with a coordinate-conditioned spherical neural field.
+primary_logic: It generates a complete spherical latent scene with seam-aware denoising, decodes cross-patch features consistently, and samples target FOV, viewpoint, and resolution through the neural field.
+claims:
+- Mesh-based spherical latents let one model support perspective, panorama, fisheye, and irregular image shapes.
+- Seam-Aware Padding and Seam Enforcement Denoising reduce cross-patch artifacts.
+- The note reports better FID, KID, and CLIP-FID than specialized baselines on Matterport3D views.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Arbitrary-Shaped Image Generation via Spherical Neural Field Diffusion |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=UNeL5NdLzc) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | ASIG (Arbitrary-Shaped Image Generation) |
 | Dataset | Matterport3D (Perspective), Matterport3D (Perspective), Matterport3D (Perspective), Matterport3D (Perspective) |
 

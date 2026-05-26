@@ -9,8 +9,16 @@ aliases:
 - AAVQASG
 - AQuA
 acceptance: accepted
+core_operator: 将模糊视觉问答划分为四级歧义并为每级绑定对应响应策略。
+primary_logic: AQuA先构建四级歧义数据集，再用SFT和GRPO训练VLM按歧义程度选择直接回答、推断、列举或澄清。
+claims:
+- 四级歧义标签将清晰问题、低指代歧义、多解释问题和高度歧义问题映射到不同最优响应策略。
+- SFT加GRPO使Qwen2.5-VL-3B-Tuned在AQUA上达到86.28%的整体策略准确率。
+- GRPO相比仅SFT进一步提升Level 2和Level 3策略表现，但Level 1存在轻微下降。
+- 失败主要集中在相邻歧义等级边界混淆和显著性驱动的错误降级。
 paradigm: 通过将歧义VQA实例细分为四个等级并定义对应的最优响应策略，结合SFT和GRPO训练，可以使VLM学会根据歧义程度自适应地选择策略（直接回答、推断意图、列出备选、请求澄清），从而显著提升在模糊场景下的响应质量。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -26,7 +34,7 @@ tags:
 | 英文题名 | AQuA: Toward Strategic Response Generation for Ambiguous Visual Questions |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7b1MpD6IF8) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | AQUA (Ambiguous Visual Question Answering) + SFT + GRPO |
 | Dataset | AQUA, AQUA, AQUA, AQUA |
 

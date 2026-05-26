@@ -9,6 +9,7 @@ aliases:
 - CANICSCE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 core_operator: 将对图表编辑的评测从像素相似性转向语义正确性（如数据值一致性、视觉映射保真度），并促使模型显式利用结构化规范（如Vega-Lite）或图形语法进行编辑，而不仅仅是像素生成。
@@ -32,7 +33,7 @@ paradigm: 科学图表编辑的核心挑战在于方法错配：当前模型擅�
 | 英文题名 | Charts Are Not Images: On the Challenges of Scientific Chart Editing |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=259xBeNyDV) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | FigEdit（面向科学图表编辑的大规模基准） |
 | Dataset | Single Edit (整体), Conversational Edit (对话编辑), Multi Edit: ‘Add a new data point’ |
 

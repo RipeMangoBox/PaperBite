@@ -32,7 +32,7 @@ paradigm: LLM可以为任务提供结构化的先验知识（子目标分解、�
 | 英文题名 | MIRA: Memory-Integrated Reinforcement Learning Agent with Limited LLM Guidance |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oWagByDNPc) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MIRA |
 | Dataset | MiniGrid-DOORKEY, MiniGrid-LAVACROSSING, MiniGrid-REDBLUEDOOR, MiniGrid-REDBALL |
 

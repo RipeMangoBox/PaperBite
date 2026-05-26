@@ -33,7 +33,7 @@ paradigm: 利用少样本标注的冻结视频分割模型获取语义丰富的�
 | 英文题名 | Object-Centric World Models from Few-Shot Annotations for Sample-Efficient Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qmEyJadwHA) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | OC-STORM |
 | Dataset | Atari 100k (26 games), Atari 100k (13 object-detectable games), Hollow Knight boss: God Tamer, Atari Boxing |
 

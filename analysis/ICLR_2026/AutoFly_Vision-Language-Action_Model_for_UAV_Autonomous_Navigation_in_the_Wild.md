@@ -32,7 +32,7 @@ paradigm: 伪深度编码器赋予VLA模型三维空间推理能力，使其能�
 | 英文题名 | AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=88RKxlFUNY) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AutoFly |
 | Dataset | Our Dataset (Overall), Our Dataset (Overall), Our Dataset (Overall), Sim-to-Real (Indoor) |
 

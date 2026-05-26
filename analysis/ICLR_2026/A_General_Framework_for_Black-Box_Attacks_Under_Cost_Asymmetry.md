@@ -11,6 +11,7 @@ aliases:
 - Asymmetric Attacks
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/safety_security
 core_operator: 攻击的两个核心操作——边界搜索（binary search）和梯度估计（Monte Carlo采样）——在不对称成本下会产生约一半的高成本查询。通过修改这两个操作的策略，可以主动控制高/低成本查询的比例，从而最小化总成本。
@@ -34,7 +35,7 @@ paradigm: "将边界搜索的区间分割比例从1:1改为1:c*（成本比率�
 | 英文题名 | A General Framework for Black-Box Attacks Under Cost Asymmetry |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=G1fFulgfd8) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/safety_security |
 | Method | Asymmetric Attacks |
 | Dataset | ImageNet, ResNet-50, ImageNet, ResNet-50, ImageNet, ResNet-50, ImageNet, ViT-B/32 |
 

@@ -33,7 +33,7 @@ paradigm: 将视觉生成建模为直接的条件分布（而非逐步生成）�
 | 英文题名 | EVLP: Learning Unified Embodied Vision-Language Planner with Reinforced Supervised Fine-Tuning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=eJcCW9oNfH) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | EVLP (Embodied Vision-Language Planner) |
 | Dataset | LoHoRavens Stacking, LoHoRavens Sort, LoHoRavens Matching, LoHoRavens Letters Shape |
 

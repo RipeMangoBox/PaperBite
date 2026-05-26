@@ -8,8 +8,15 @@ pdf_ref: paperPDFs/ICLR_2026/AttriCtrl_A_Generalizable_Framework_for_Controlling
 aliases:
 - AttriCtrl
 acceptance: accepted
+core_operator: AttriCtrl用属性量化和值编码器把连续美学强度标量注入扩散模型条件序列。
+primary_logic: 属性先归一化到统一标量空间，再编码成可学习词元并与文本嵌入拼接以控制生成强度。
+claims:
+- 文本编码器难以稳定表达连续数值化属性强度。
+- 独立训练的值编码器可组合控制亮度、细节、真实感和安全性等属性。
+- AttriCtrl在控制误差和用户偏好上优于提示增强、嵌入加权和注意力插值基线。
 paradigm: "通过混合量化策略（直接度量+视觉-语言语义相似度）将主观美学属性（亮度、细节、真实感、安全性）映射到统一的[0,1]标量空间，再利用值编码器将该标量转化为模型可解释的连续嵌入，从而在扩散模型的隐空间中学习到解耦的、可导航的属性控制向量，实现平滑、精确且独立于其他因素的强度调节。"
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | AttriCtrl: A Generalizable Framework for Controlling Semantic Attribute Intensity in Diffusion Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oyDe8cNXt6) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | AttriCtrl |
 | Dataset | 自定义测试集（基于FLUX模型）, 自定义测试集（基于FLUX模型）, 自定义测试集（基于FLUX模型）, 用户研究（10位专家，100次比较） |
 

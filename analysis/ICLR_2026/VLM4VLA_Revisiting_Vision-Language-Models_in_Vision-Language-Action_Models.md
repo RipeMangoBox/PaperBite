@@ -9,6 +9,7 @@ aliases:
 - VLM4VLA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 视觉编码器是否在具身数据上进行微调，以及是否接受控制相关的监督，是影响下游VLA性能的关键调节变量。
 primary_logic: 通用VLM的基准能力不能有效预测其在具身控制任务上的表现，当前VLM预训练目标与具身动作规划需求之间存在显著的域差距，增强视觉编码器的具身适应性比追求通用VLM基准分数更为重要。
@@ -31,7 +32,7 @@ paradigm: 通用VLM的基准能力不能有效预测其在具身控制任务上�
 | 英文题名 | VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=tc2UsBeODW) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | VLM4VLA |
 | Dataset | Calvin ABC-D, SimplerEnv-Bridge, Libero‑10 (long) |
 

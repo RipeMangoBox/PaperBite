@@ -33,7 +33,7 @@ paradigm: 利用多粒度原型捕获从局部物体到全局场景的层次化�
 | 英文题名 | Test-Time Mixture of World Models for Embodied Agents in Dynamic Environments |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LQD1MrnbxH) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | TMoW (Test-time Mixture of World Models) |
 | Dataset | VirtualHome (unseen), ALFWorld (unseen), RLBench (unseen), VirtualHome few-shot avg |
 

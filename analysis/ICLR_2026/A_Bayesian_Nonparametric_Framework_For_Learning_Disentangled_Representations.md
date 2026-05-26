@@ -10,6 +10,7 @@ aliases:
 - BNFLDR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_models_and_autoencoders
 core_operator: 采用贝叶斯非参数层次混合先验（Dirichlet Process prior）替代固定容量的离散先验，同时保持因子化的独立结构，并通过嵌套变分推断实现自适应容量扩展。
@@ -33,7 +34,7 @@ paradigm: 非参数先验的无限容量与因子化结构相结合，使得模�
 | 英文题名 | A Bayesian Nonparametric Framework For Learning Disentangled Representations |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GVOLiaENgU) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_models_and_autoencoders |
 | Method | Bayes-QLAE (Bayesian Quantized Latent Autoencoder) |
 | Dataset | 3DShapes, 3DShapes, 3DShapes, MPI3D |
 

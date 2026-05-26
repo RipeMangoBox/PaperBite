@@ -9,6 +9,7 @@ aliases:
 - SBDPSA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 使用离散化Lévy过程作为测试信号，其增量分布（高斯、拉普拉斯、Student-t、伯努利-拉普拉斯）具有稀疏或重尾特性，且后验可通过高效的Gibbs方法精确采样，从而提供黄金标准的后验样本用于分布级比较。
@@ -32,7 +33,7 @@ paradigm: 通过将Lévy过程先验与Gibbs方法结合，可以构建一个统
 | 英文题名 | A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zDI2G8t0of) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | A Statistical Benchmark for Diffusion-Posterior-Sampling Algorithms |
 | Dataset | Denoising, Deconvolution, Imputation, Fourier |
 

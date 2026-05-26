@@ -33,7 +33,7 @@ paradigm: 将长程任务分解为语义子任务，利用数据集平均时间�
 | 英文题名 | SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=aemqAxScl9) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SARM and RA-BC |
 | Dataset | T-shirt folding reward model evaluation, T-shirt folding policy learning (Hard task), Dish unloading reward model evaluation |
 

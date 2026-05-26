@@ -32,7 +32,7 @@ paradigm: 利用MCP统一接口可系统化评估各种LLM智能体，结合微�
 | 英文题名 | Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=H1ncX6O6Yh) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Orak |
 | Dataset | StarCraft II, Super Mario, 2048, Ace Attorney |
 

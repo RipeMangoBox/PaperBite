@@ -9,6 +9,7 @@ aliases:
 - EPEFA3L
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: 22Hh0Vj5Dd
@@ -33,7 +34,7 @@ paradigm: 通过LLM内嵌语义编码与层次几何聚合，无编码器架构�
 | 英文题名 | Exploring the Potential of Encoder-free Architectures in 3D LMMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=22Hh0Vj5Dd) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | ENEL |
 | Dataset | Objaverse, Objaverse, 3D-VQA (3D MM-Vet) |
 

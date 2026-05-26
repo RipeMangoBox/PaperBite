@@ -33,7 +33,7 @@ paradigm: 将长度奖励转化为正样本分布权重，并融入判别式优�
 | 英文题名 | DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GP5RHZnEsw) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | DRPO (Decoupled Reward Policy Optimization) |
 | Dataset | GSM8K, AES (1.5B models), AES (7B models), AES (8B models) |
 

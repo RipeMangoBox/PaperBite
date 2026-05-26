@@ -33,7 +33,7 @@ paradigm: 无奖励、混合质量、多形态的非整理离线数据可以在�
 | 英文题名 | Efficient Reinforcement Learning by Guiding World Models with Non-Curated Data |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oBXfPyi47m) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | NCRL (Non-curated offline data for efficient RL) |
 | Dataset | Meta-World (50任务), DMControl (22任务), Quadruped Walk (DMControl), Shelf Place (Meta-World) |
 

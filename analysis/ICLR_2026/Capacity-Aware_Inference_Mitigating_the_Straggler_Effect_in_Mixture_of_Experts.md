@@ -10,6 +10,7 @@ aliases:
 - CAIMSEME
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 openreview_forum_id: LuYFpySWA2
@@ -34,7 +35,7 @@ paradigm: 对过载专家采用容量感知令牌丢弃（丢弃少量低分令�
 | 英文题名 | Capacity-Aware Inference: Mitigating the Straggler Effect in Mixture of Experts |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LuYFpySWA2) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
 | Method | Capacity-Aware Inference (含 Capacity-Aware Token Drop 和 Capacity-Aware Expanded Drop) |
 | Dataset | 8 benchmarks avg (OBQA, PIQA, RTE, WinoGrande, BoolQ, ARC-C, HellaSwag, MMLU) on OLMoE, MoE single layer speedup (OLMoE, Token Drop), 8 benchmarks avg on Mixtral-8×7B-Instruct, End-to-end inference (Mixtral-8×7B-Instruct, Expanded Drop) |
 

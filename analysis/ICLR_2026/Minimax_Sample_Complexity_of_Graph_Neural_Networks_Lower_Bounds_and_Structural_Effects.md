@@ -10,6 +10,7 @@ aliases:
 - MSCGNNLBSE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 core_operator: 谱同质条件 λ₂ ≤ κ/log n 是迫使模型从 1/√n 模式切换到 d/log n 模式的关键结构因素。
@@ -33,7 +34,7 @@ paradigm: 图拓扑（同质性、谱扩张、混合时间）而非仅仅网络�
 | 英文题名 | Minimax Sample Complexity of Graph Neural Networks: Lower Bounds and Structural Effects |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=P2GIT8LpV2) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | ReLU 消息传递 GNN 的极小极大分析框架 |
 | Dataset | ogbn_products_50k (GAT, GCN, GraphSAGE), ogbn_arxiv, Reddit_50k, Synthetic-FanoWorstCase (Thm-1), WorstCase_Bottleneck_20k |
 

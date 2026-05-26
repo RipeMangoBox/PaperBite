@@ -33,7 +33,7 @@ paradigm: 通过过滤语言可解问题并施加多视角一致性检验，可�
 | 英文题名 | Do 3D Large Language Models Really Understand 3D Spatial Relationships? |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3vlMiJwo8b) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Real-3DQA Benchmark and 3D Reweighted Finetuning (3DR-FT) |
 | Dataset | Real-3DQA (LEO), Real-3DQA (Chat-Scene), Real-ScanQA (LEO), SQA3D vs Real-3DQA (LEO) |
 

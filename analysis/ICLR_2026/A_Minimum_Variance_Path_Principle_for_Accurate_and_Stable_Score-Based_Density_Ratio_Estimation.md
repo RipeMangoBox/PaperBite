@@ -10,6 +10,7 @@ aliases:
 - MVPPASSBDRE
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/probabilistic_methods
 openreview_forum_id: vf16PZJWD1
@@ -34,7 +35,7 @@ paradigm: 将路径方差显式地识别为理想训练目标与实际目标之�
 | 英文题名 | A Minimum Variance Path Principle for Accurate and Stable Score-Based Density Ratio Estimation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=vf16PZJWD1) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/probabilistic_methods |
 | Method | MVP (Minimum Variance Path Principle) |
 | Dataset | 高维互信息估计 (d=160, MI=40), 表格数据密度估计 (BSDS300), Additive Noise 互信息估计 (corr=0.9), Gamma-Exponential 互信息估计 (corr=1.8) |
 

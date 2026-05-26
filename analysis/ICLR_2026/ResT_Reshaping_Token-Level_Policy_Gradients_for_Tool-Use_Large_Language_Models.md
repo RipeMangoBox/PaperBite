@@ -32,7 +32,7 @@ paradigm: 低熵的结构化Token是奖励的核心决定因素；通过熵感�
 | 英文题名 | ResT: Reshaping Token-Level Policy Gradients for Tool-Use Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=gNZlaKRWki) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ResT |
 | Dataset | BFCL Multi-Turn, BFCL Multi-Turn, BFCL Multi-Turn, BFCL Single-Turn |
 

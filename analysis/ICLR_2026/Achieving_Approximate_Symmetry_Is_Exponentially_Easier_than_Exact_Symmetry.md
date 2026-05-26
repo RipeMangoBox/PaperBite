@@ -10,6 +10,7 @@ aliases:
 - AASIEETES
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 平均方案的大小（即平均时使用的群元素数量）
@@ -33,7 +34,7 @@ paradigm: 通过随机采样 O(log|G|/ε) 个群元素构建平均方案，即�
 | 英文题名 | Achieving Approximate Symmetry Is Exponentially Easier than Exact Symmetry |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ncOJYFcleS) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | Random Subset Group Averaging（随机子集群平均） |
 | Dataset | 合成不变回归任务（d=20, G={±1}^d, |G|=2^20）, 合成不变回归任务（d=20, G={±1}^d） |
 

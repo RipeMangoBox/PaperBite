@@ -10,6 +10,7 @@ aliases:
 - LDLGN
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
 core_operator: 逻辑门神经元的参数化方式（从16维simplex改为4维系数建模）。
@@ -33,7 +34,7 @@ paradigm: 将逻辑门直接建模为输入组合的加权和（输入级参数�
 | 英文题名 | Light Differentiable Logic Gate Networks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=EaGQ5luZtf) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | Input-wise parametrization (IWP) of logic gate networks |
 | Dataset | CIFAR-100, CIFAR-10, WMT'14 EN-DE, CDLGN CIFAR-100 (depth scale D=5) |
 

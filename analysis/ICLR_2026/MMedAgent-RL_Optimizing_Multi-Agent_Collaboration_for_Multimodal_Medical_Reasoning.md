@@ -33,7 +33,7 @@ paradigm: 将专家输出准确率作为难度标签构建三阶段课程，并�
 | 英文题名 | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=2awntLXwR6) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MMedAgent-RL |
 | Dataset | VQA-RAD, SLAKE, PathVQA, OmniMedVQA (OOD) |
 

@@ -33,7 +33,7 @@ paradigm: 通过训练一个专门的TRM来评估每个工具调用的必要性�
 | 英文题名 | Empowering LLM Tool Invocation with Tool-call Reward Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=LnBEASInVr) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Tool-call Reward Model (TRM) with Turn-level Credit Assignment |
 | Dataset |  |
 

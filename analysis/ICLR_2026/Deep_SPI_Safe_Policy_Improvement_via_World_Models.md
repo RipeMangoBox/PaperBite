@@ -32,7 +32,7 @@ paradigm: 当新旧策略的重要性比率有界时，局部模型损失可直�
 | 英文题名 | Deep SPI: Safe Policy Improvement via World Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=24C3bSaH3F) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | DeepSPI |
 | Dataset | ALE-57 (stochastic), Illustrative Grid World |
 

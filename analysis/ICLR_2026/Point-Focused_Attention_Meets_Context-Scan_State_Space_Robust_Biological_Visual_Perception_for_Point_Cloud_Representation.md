@@ -9,6 +9,7 @@ aliases:
 - Point-Focused_At
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 openreview_forum_id: KQPoMbxInu
@@ -33,7 +34,7 @@ paradigm: 在单softmax中计算局部邻居和空间下采样特征的注意力
 | 英文题名 | Point-Focused Attention Meets Context-Scan State Space: Robust Biological Visual Perception for Point Cloud Representation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KQPoMbxInu) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | PointLearner |
 | Dataset | S3DIS, ScanObjectNN |
 

@@ -10,6 +10,7 @@ aliases:
 - DSSRBLU
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety
 openreview_forum_id: VIMW3eys6x
@@ -34,7 +35,7 @@ paradigm: 利用最小-最大优化框架，在表示空间通过对抗训练探
 | 英文题名 | Dual-Space Smoothness for Robust and Balanced LLM Unlearning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VIMW3eys6x) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/fairness_equity_justice_and_safety |
 | Method | PRISM (Probe-guided Iterative Smoothness Minimization) |
 | Dataset | MUSE-Books, MUSE-News, WMDP_bio (Llama2-7B), WMDP_bio (Ministral-8B-Instruct) |
 

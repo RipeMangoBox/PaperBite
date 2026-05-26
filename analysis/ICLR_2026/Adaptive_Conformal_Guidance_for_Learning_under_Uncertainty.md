@@ -9,8 +9,15 @@ aliases:
 - ACGA
 - ACGLUU
 acceptance: accepted
+core_operator: AdaConG用分裂共形预测估计引导信号不确定性，并以单调权重重加权引导损失。
+primary_logic: 校准集先生成预测集大小作为不确定性，再把该不确定性映射为权重并合入任务训练目标。
+claims:
+- 共形预测提供分布无关的不确定性信号，用于降低噪声教师、伪标签或模仿策略的影响。
+- AdaConG无需改动模型架构，可嵌入知识蒸馏、半监督学习和模仿引导强化学习。
+- 在CIFAR知识蒸馏、半监督分类、网格世界和转向预测中，AdaConG带来一致性能提升。
 paradigm: 利用分裂共形预测（split conformal prediction）量化引导信号的不确定性，并将不确定性映射为自适应权重，动态调节引导损失在总损失中的贡献。高不确定性对应低权重，从而减少对不可靠引导的依赖，同时保留有用信息。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Adaptive Conformal Guidance for Learning under Uncertainty |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1gxP0WtOoO) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | Adaptive Conformal Guidance (AdaConG) |
 | Dataset | CIFAR-100 (同构结构, 域偏移), CIFAR-10 (40 labels), CIFAR-100 (2500 labels), CIFAR-100 (400 labels) |
 

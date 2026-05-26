@@ -11,11 +11,13 @@ acceptance: accepted
 tags:
 - topic/iclr_2026
 openreview_forum_id: KNAyc9DMe3
-core_operator: Revolutionizing
-primary_logic: Revolutionizing
+core_operator: TraceRL optimizes diffusion LLMs on their own inference trajectories with PPO-style clipped losses and a diffusion-based value model.
+primary_logic: It collects denoising trajectories, aggregates steps with a shrinkage parameter, estimates step values with a diffusion value model, and updates the policy to match actual sampling paths.
 claims:
-- Revolutionizing
-paradigm: Revolutionizing
+- TraceRL aligns training signals with structured diffusion decoding trajectories instead of random masking.
+- The diffusion value model reduces reward variance and supports process rewards along denoising steps.
+- The note reports MATH500 and LiveCodeBench gains for TraDo models over SDAR and several autoregressive baselines.
+paradigm: TraceRL 将扩散语言模型的强化学习目标对齐到模型自身推理轨迹，并用扩散式价值模型降低训练方差，从而缓解随机掩码训练与结构化去噪解码之间的分布失配。
 ---
 
 # Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models
@@ -29,7 +31,7 @@ paradigm: Revolutionizing
 | 英文题名 | Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=KNAyc9DMe3) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method |  |
 | Dataset |  |
 

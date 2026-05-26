@@ -32,7 +32,7 @@ paradigm: 通过将情景记忆建模为时间戳明确的简短事件摘要（g
 | 英文题名 | REMem: Reasoning with Episodic Memory in Language Agent |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fugnQxbvMm) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | REMem |
 | Dataset | LoCoMo, REALTALK, Complex-TR, Test of Time |
 

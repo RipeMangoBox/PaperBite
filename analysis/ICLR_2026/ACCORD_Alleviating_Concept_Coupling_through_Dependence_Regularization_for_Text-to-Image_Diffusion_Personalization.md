@@ -9,6 +9,7 @@ aliases:
 - ACCORD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 core_operator: 两个可量化的依赖偏差：1）去噪依赖偏差（Denoising Dependence Discrepancy），即去噪过程中逐步引入的条件依赖变化；2）先验依赖偏差（Prior Dependence Discrepancy），即个性化概念与其超类之间的先验关系偏离。
@@ -32,7 +33,7 @@ paradigm: 首次将概念耦合形式化为统计依赖问题，并提出一种�
 | 英文题名 | ACCORD: Alleviating Concept Coupling through Dependence Regularization for Text-to-Image Diffusion Personalization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CKYsYlRdCM) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | ACCORD |
 | Dataset | DreamBench, DreamBench, StyleBench, FFHQ |
 

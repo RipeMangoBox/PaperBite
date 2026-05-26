@@ -9,6 +9,7 @@ aliases:
 - Ada-Diffuser
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/reinforcement_learning_planning_agents
 - topic/reinforcement_learning_planning_agents/planning_control
 core_operator: 通过引入基于块的最小充分观测进行潜在识别，并利用因果自回归去噪与交替的之字形采样，将潜在变量一致地集成到扩散生成过程中，从而自适应地调整行为。
@@ -32,7 +33,7 @@ paradigm: 理论上证明只需少量连续观测即可识别潜在因子；据�
 | 英文题名 | Ada-Diffuser: Latent-Aware Adaptive Diffusion for Decision-Making |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=PKifFVXtSR) |
-| Topic | #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/planning_control |
+| Topic | #ICLR_2026 #topic/reinforcement_learning_planning_agents #topic/reinforcement_learning_planning_agents/planning_control |
 | Method | Ada-Diffuser |
 | Dataset | Cheetah-Wind-E (planner), Cheetah-Vel-E (planner), Maze2D-Large, Kitchen-Partial |
 

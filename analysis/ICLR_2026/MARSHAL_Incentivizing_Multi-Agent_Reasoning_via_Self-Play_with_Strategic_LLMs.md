@@ -32,7 +32,7 @@ paradigm: 通过在多样化的合作与竞争策略游戏中进行自我博弈�
 | 英文题名 | MARSHAL: Incentivizing Multi-Agent Reasoning via Self-Play with Strategic LLMs |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=GCd5v3ehmr) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MARSHAL |
 | Dataset | Leduc Hold'em（held-out 测试游戏）, Simple Hanabi（held-out 测试游戏）, AIME（AutoGen 合作框架）, GPQA-Diamond（MAD 竞争框架） |
 

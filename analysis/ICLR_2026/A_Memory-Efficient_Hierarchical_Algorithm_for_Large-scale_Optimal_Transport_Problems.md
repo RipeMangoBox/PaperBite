@@ -10,6 +10,7 @@ aliases:
 - MEHALSOTP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed
 core_operator: HALO通过两个关键设计突破瓶颈：(1) 多尺度层次结构，从粗到细逐步求解，粗层解为细层提供高质量初始化；(2) 基于活动支撑集（active support）的稀疏化策略，利用最优传输计划天然稀疏性（最多m+n个非零元），将求解限制在估计的支撑集上，并通过保守更新（包含历史支撑集）和对偶违规校正保证收敛。
@@ -33,7 +34,7 @@ paradigm: 将多尺度层次结构与GPU友好的无分解一阶LP求解器（�
 | 英文题名 | A Memory-Efficient Hierarchical Algorithm for Large-scale Optimal Transport Problems |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=CkOBcyntGd) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
 | Method | HALO (Hierarchical Algorithm for Large-scale Optimal Transport) |
 | Dataset | DOTmark, DOTmark, ModelNet10 (3D), ModelNet10 (3D) |
 

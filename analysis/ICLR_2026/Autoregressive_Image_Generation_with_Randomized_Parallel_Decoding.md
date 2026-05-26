@@ -10,7 +10,14 @@ aliases:
 - AIGRPD
 acceptance: accepted
 paradigm: "预测一个标记所需的核心信息是已知标记的集合和目标位置，其他未知位置的状态无关紧要。通过将查询仅从[MASK]标记导出、键值仅从内容标记导出，可以实现完全随机顺序的训练和推理，同时支持并行解码和零样本泛化。"
+core_operator: ARPG decouples target-position queries from known-content key values in a two-pass autoregressive image decoder.
+primary_logic: Pass 1 encodes known shuffled content into KV caches, while Pass 2 uses position-aware MASK queries to predict one or more target tokens in arbitrary order.
+claims:
+- The decoupled formulation supports randomized training order, parallel decoding, and zero-shot infilling or extrapolation.
+- Shared KV projection and RoPE encode known content and target positions efficiently.
+- The note reports FID 1.83 on ImageNet-1K 256 with 32 decoding steps and much lower memory than VAR.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/image_and_video_generation
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Autoregressive Image Generation with Randomized Parallel Decoding |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=rJdGst0W8s) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/image_and_video_generation |
 | Method | ARPG (Autoregressive Image Generation with Randomized Parallel Decoding) |
 | Dataset | ImageNet-1K 256×256, ImageNet-1K 256×256, ImageNet-1K 256×256, ImageNet-1K 256×256 |
 

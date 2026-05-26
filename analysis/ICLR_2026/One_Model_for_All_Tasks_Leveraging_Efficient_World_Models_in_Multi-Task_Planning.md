@@ -33,7 +33,7 @@ paradigm: MoE的条件计算机制具有比密集网络更低的梯度冲突理�
 | 英文题名 | One Model for All Tasks: Leveraging Efficient World Models in Multi-Task Planning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=iU026Hr90y) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ScaleZero + Dynamic Parameter Scaling (DPS) |
 | Dataset | Atari 100k (26 games), DMControl (18 tasks), Jericho Zork1, Jericho Detective |
 

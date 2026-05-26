@@ -9,8 +9,15 @@ aliases:
 - SSRAL
 - AEPSSRAL
 acceptance: accepted
+core_operator: SRAL用2-Sliced-Wasserstein集合编码和特征级对抗扰动来学习鲁棒的集合间分布表示。
+primary_logic: 集合先与可学习参考分布比较得到嵌入，再通过对抗InfoNCE辅助目标强化集合间相关性。
+claims:
+- 将集合视为经验分布能显式建模传统池化方法忽略的集合间差异。
+- 对抗性编码扰动迫使编码器学习对最坏情况特征变化稳健的集合表示。
+- SRAL在集合相似性、捆绑推荐、点云分类和主题集扩展任务中优于多类基线。
 paradigm: 将集合视为高维分布，利用2-Sliced-Wasserstein距离度量分布差异，并通过理论证明对抗性扰动目标在期望上等价于优化集合间的Wasserstein距离，从而迫使编码器学习到能够捕捉细粒度集合间相关性的表示。
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | Adversarial Encoding Perturbation and Synthesis for Set Representation Auxiliary Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=13r06yROEZ) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | SRAL (Set Representation Auxiliary Learning) |
 | Dataset | Friendster (Task 1: Set Similarity Learning), Friendster (Task 1: Set Similarity Learning), LIVEJ (Task 1: Set Similarity Learning), Youshu (Task 2: Bundle Recommendation) |
 

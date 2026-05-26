@@ -10,6 +10,7 @@ aliases:
 - TAQSSGAD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 openreview_forum_id: ZURYrJgigi
 core_operator: TAQ-GAD 通过拓扑异常量化模块（TAQ）中的节点边界分数（NBS）与代理隔离分数（PIS）从图拓扑角度定量衡量节点异常程度，并利用拓扑异常增强模块（TAE）动态生成虚拟异常中心及增强拓扑连接，从而系统性地提升伪异常质量。
@@ -33,7 +34,7 @@ paradigm: 利用图拓扑结构信息（边界程度与隔离程度）量化节�
 | 英文题名 | Topological Anomaly Quantification for Semi-supervised Graph Anomaly Detection |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ZURYrJgigi) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | TAQ-GAD |
 | Dataset | Amazon, Amazon, T-Finance, T-Finance |
 

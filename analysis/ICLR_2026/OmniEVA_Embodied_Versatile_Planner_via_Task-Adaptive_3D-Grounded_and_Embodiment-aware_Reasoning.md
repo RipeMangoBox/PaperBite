@@ -32,7 +32,7 @@ paradigm: 通过门控机制选择性注入3D位置编码，避免冗余计算�
 | 英文题名 | OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=tkEmIJv1tB) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | OmniEVA |
 | Dataset | Where2Place, VSI-bench, PACO-LVIS, RoboRefit |
 
@@ -222,7 +222,7 @@ $$r_{i,t} = r_{i}^{\mathrm{format}} + r_{i,t}^{\mathrm{acc}}$$
 *Figure 1: Performance Comparison across 2D and 3D Embodied Reasoning Benchmarks*
 
 ![[assets/figures/papers/paper_list_l2_https_openreview_net_forum_id_tkEmIJv1tB/figures/007_Table_2.jpg]]
-*Table 2: 2D General Reasoning Benchmarks and In-house Benchmarks. [1] Hurst et al. (2024),[2] Team et al. (2025b),[3] Zhang et al. (2024b),[4] Li et al. (2024),[5] Zhu et al. (2025),[6] Bai et al. (2025),[7] Yuan et al. (2024a),[8] Azzolini et al. (2025),[9] Luo et al. (2025),[10] Yang et al. (2025a),[11] Team et al. (2025a)*
+*Table 2: 2D General Reasoning Benchmarks and In-house Benchmarks. Hurst et al. (2024), Team et al. (2025b), Zhang et al. (2024b), Li et al. (2024), Zhu et al. (2025), Bai et al. (2025), Yuan et al. (2024a), Azzolini et al. (2025), Luo et al. (2025), Yang et al. (2025a), Team et al. (2025a)*
 
 ![[assets/figures/papers/paper_list_l2_https_openreview_net_forum_id_tkEmIJv1tB/figures/010_Figure_5.jpg]]
 *Figure 5: Ablation Results of the proposed TE-GRPO Method on Local Mobile-Manipulation Tasks*

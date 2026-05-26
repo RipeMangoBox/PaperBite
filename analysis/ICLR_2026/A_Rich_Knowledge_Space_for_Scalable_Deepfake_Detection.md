@@ -10,6 +10,7 @@ aliases:
 - RKSSDD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/privacy_fairness
 core_operator: 构建大规模、多模态、统一预处理的数据集MMI-DD，并设计多模态视觉-语言学习框架SD²，通过细粒度分类、文本标签分离和双对比学习等目标，使模型能够有效利用大规模异构数据。
@@ -33,7 +34,7 @@ paradigm: 通过将来自多个数据集的图像统一标注为五种类型（R
 | 英文题名 | A Rich Knowledge Space for Scalable Deepfake Detection |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=hNd5L7WnjC) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_fairness |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_fairness |
 | Method | SD² (Scalable Deepfake Detection) |
 | Dataset | 11个数据集的域内检测, 4个跨域数据集 (UADFV, WildDeepFake, DFDC, DF40-Test), GenImage (跨模型AIGC检测) |
 

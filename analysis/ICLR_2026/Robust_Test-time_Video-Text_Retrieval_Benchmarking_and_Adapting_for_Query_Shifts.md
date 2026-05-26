@@ -10,6 +10,7 @@ aliases:
 - RTTVTRBAQS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: FRkJ3ehpNN
@@ -34,7 +35,7 @@ paradigm: 在测试时引入Hubness Suppression Memory (HSM)对相似度矩阵�
 | 英文题名 | Robust Test-time Video-Text Retrieval: Benchmarking and Adapting for Query Shifts |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=FRkJ3ehpNN) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | HAT-VTR (Hubness Alleviation for Test-time Video-Text Retrieval) |
 | Dataset | MSRVTT-1kA (视频扰动, severity=5), ActivityNet (视频扰动, severity=5), MSRVTT-1kA (文本扰动, severity=mean), 跨数据集适应 (QGS: MSRVTT→ActivityNet) |
 

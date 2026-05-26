@@ -32,7 +32,7 @@ paradigm: 多机器人协作导航的核心在于将长程任务并行化，通�
 | 英文题名 | CoNavBench: Collaborative Long-Horizon Vision-Language Navigation Benchmark |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=bMrH2PFMsi) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | NavCraft |
 | Dataset | CoNavBench Step-by-step Subtasks, CoNavBench Step-by-step Subtasks, CoNavBench Step-by-step Subtasks |
 

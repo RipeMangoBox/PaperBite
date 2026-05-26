@@ -10,6 +10,7 @@ aliases:
 - DSICQC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_dialog
 core_operator: 将检索目标从独立项的最大化 MaxSim 分数，转变为最大化一个单调子模的覆盖目标函数 F(S,Q)，该函数衡量子集 S 对查询原子向量的集体覆盖程度。
@@ -33,7 +34,7 @@ paradigm: 通过将边际增益表示为提升向量空间中点积的 hinge 函
 | 英文题名 | A Dense Subset Index for Collective Query Coverage |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cUdODCFjUM) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_dialog |
 | Method | DISCO (Dense Index for Set Coverage) |
 | Dataset | MS-Marco, HotpotQA, HotpotQA, 2WikiMultihopQA |
 

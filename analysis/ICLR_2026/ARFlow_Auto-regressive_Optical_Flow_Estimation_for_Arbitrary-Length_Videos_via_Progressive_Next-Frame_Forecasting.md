@@ -8,8 +8,15 @@ pdf_ref: paperPDFs/ICLR_2026/ARFlow_Auto-regressive_Optical_Flow_Estimation_for_
 aliases:
 - ARFlow
 acceptance: accepted
+core_operator: ARFlow用记忆库和多步长时间Transformer自回归预测下一帧初始光流，并由GRU迭代细化。
+primary_logic: 历史光流序列先生成多尺度时间预测，再与当前帧相关性细化结果融合以处理任意长度视频。
+claims:
+- ARFlow突破固定分组多帧光流方法的短时间感受野限制。
+- 记忆库加滑动更新使长视频光流估计保持线性时间和恒定空间复杂度。
+- ARFlow在MPI-Sintel、KITTI-2015和Spring等基准上取得强性能，并可提升现有光流骨干。
 paradigm: 将光流估计建模为自回归的下一帧预测问题，利用历史光流序列的时序一致性，通过多步长时间建模同时捕获长程和短程运动，从而突破固定分组限制，实现线性时间复杂度和恒定空间复杂度的可扩展多帧光流估计。
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 ---
@@ -25,7 +32,7 @@ tags:
 | 英文题名 | ARFlow: Auto-regressive Optical Flow Estimation for Arbitrary-Length Videos via Progressive Next-Frame Forecasting |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=iJ7cyttpVj) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | ARFlow |
 | Dataset | MPI-Sintel (Clean), MPI-Sintel (Final), KITTI-2015, Spring |
 

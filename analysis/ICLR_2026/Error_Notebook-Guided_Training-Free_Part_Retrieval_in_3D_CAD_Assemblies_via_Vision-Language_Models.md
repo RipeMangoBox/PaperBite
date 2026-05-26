@@ -32,7 +32,7 @@ paradigm: 通过构建错误笔记本（Error Notebook），记录 VLM 自我修
 | 英文题名 | Error Notebook-Guided, Training-Free Part Retrieval in 3D CAD Assemblies via Vision-Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=JMweItBmbx) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Error Notebook + RAG framework for part retrieval |
 | Dataset | Human preference dataset, Self-generated dataset, Human preference dataset, Human preference dataset |
 

@@ -32,7 +32,7 @@ paradigm: 利用解耦自适应熵约束策略，模型能够根据问题难度�
 | 英文题名 | AutoTool: Automatic Scaling of Tool-Use Capabilities in RL via Decoupled Entropy Constraints |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=zFkopTvclB) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | AutoTool |
 | Dataset | BFCL, BFCL, BFCL, ACEBench |
 

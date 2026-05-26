@@ -33,7 +33,7 @@ paradigm: RL训练使LLM推理涌现出层次化结构：模型先巩固低层�
 | 英文题名 | Emergent Hierarchical Reasoning in LLMs through Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=NlkykTqAId) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | HICRA (Hierarchy-Aware Credit Assignment) |
 | Dataset | AIME24, AIME25, Math500, AMC23 |
 

@@ -9,6 +9,7 @@ aliases:
 - RAVAMVC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 openreview_forum_id: uRA9cT4MK6
@@ -33,7 +34,7 @@ paradigm: 关系对齐提供的稳定邻域结构能够更准确地度量视图�
 | 英文题名 | Relationship Alignment for View-aware Multi-view Clustering |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=uRA9cT4MK6) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | RAV |
 | Dataset | NGs, YoutubeVideo, Cora |
 

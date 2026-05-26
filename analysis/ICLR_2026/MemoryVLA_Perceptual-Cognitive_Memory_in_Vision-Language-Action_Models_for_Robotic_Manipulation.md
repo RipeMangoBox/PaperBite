@@ -32,7 +32,7 @@ paradigm: 借鉴人类双重记忆理论，将工作记忆与长时记忆解耦�
 | 英文题名 | MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=54U3XHf7qq) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MemoryVLA |
 | Dataset | SimplerEnv-Bridge, SimplerEnv-Fractal, LIBERO, Mikasa-Robo |
 

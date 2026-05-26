@@ -33,7 +33,7 @@ paradigm: 推理能力应体现超越单次输出正确性的不变性；稳定�
 | 英文题名 | Co-rewarding: Stable Self-supervised RL for Eliciting Reasoning in Large Language Models |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=fDk95XPsCU) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Co-rewarding |
 | Dataset | MATH500, GSM8K, CRUX, IFEval (平均) |
 

@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: CIFAR-10
@@ -48,7 +48,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.md|AlignFlow: Improving Flow-based Generative Models with Semi-Discrete Optimal Transport (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AlignFlow_Improving_Flow-based_Generative_Models_with_Semi-Discrete_Optimal_Transport.pdf|PDF]]
 	- topics: Generative Models / Diffusion
-	- method groups: Generative / Diffusion / Flow
+	- method groups: Generative / Diffusion / Flow, LLM / Reasoning / Alignment
 	- methods: AlignFlow
 	- datasets: CIFAR-10, ImageNet256
 - [[analysis/ICLR_2026/Antithetic_Noise_in_Diffusion_Models.md|Antithetic Noise in Diffusion Models (ICLR 2026)]]
@@ -63,24 +63,44 @@ generated: 2026-05-23T23:39
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: Structured Temporal Orthogonal Decorrelation (STOD)
 	- datasets: CIFAR-10, CIFAR-100, ImageNet
+- [[analysis/ICLR_2026/Difficult_Examples_Hurt_Unsupervised_Contrastive_Learning_A_Theoretical_Perspective.md|Difficult Examples Hurt Unsupervised Contrastive Learning: A Theoretical Perspective (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Difficult_Examples_Hurt_Unsupervised_Contrastive_Learning_A_Theoretical_Perspective.pdf|PDF]]
+	- method groups: Representation / Self-Supervised / Transfer, Systems / Efficiency / Compression
+	- methods: Difficulty-aware Contrastive Learning Framework (Sample Removal, Margin Tuning, Temperature Scaling, and Combined)
+	- datasets: CIFAR-10, CIFAR-100, STL-10
 - [[analysis/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.md|FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/FedDAG_Clustered_Federated_Learning_via_Global_Data_and_Gradient_Integration_for_Heterogeneous_Environments.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Optimization / Theory
 	- methods: FedDAG
 	- datasets: CIFAR-10, FMNIST
+- [[analysis/ICLR_2026/High-dimensional_Analysis_of_Synthetic_Data_Selection.md|High-dimensional Analysis of Synthetic Data Selection (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/High-dimensional_Analysis_of_Synthetic_Data_Selection.pdf|PDF]]
+	- method groups: Data Curation / Synthesis
+	- methods: Covariance Matching
+	- datasets: CIFAR-10
 - [[analysis/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.md|Light Differentiable Logic Gate Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Light_Differentiable_Logic_Gate_Networks.pdf|PDF]]
 	- topics: Generative Models / Diffusion
 	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
 	- methods: Input-wise parametrization (IWP) of logic gate networks
 	- datasets: CIFAR-100, CIFAR-10, WMT'14 EN-DE
+- [[analysis/ICLR_2026/Neon_Negative_Extrapolation_From_Self-Training_Improves_Image_Generation.md|Neon: Negative Extrapolation From Self-Training Improves Image Generation (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Neon_Negative_Extrapolation_From_Self-Training_Improves_Image_Generation.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Vision / Multimodal / 3D
+	- methods: Neon (Negative Extrapolation from Self‑Training)
+	- datasets: CIFAR-10, FFHQ-64, ImageNet-256
 - [[analysis/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.md|TriQDef: Disrupting Semantic and Gradient Alignment to Prevent Adversarial Patch Transferability in Quantized Neural Networks (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/TriQDef_Disrupting_Semantic_and_Gradient_Alignment_to_Prevent_Adversarial_Patch_Transferability_in_Quantized_Neural_Networks.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy
 	- method groups: Safety / Privacy / Robustness, LLM / Reasoning / Alignment
 	- methods: TriQDef
 	- datasets: CIFAR-10, ImageNet
+- [[analysis/ICLR_2026/Universal_Inverse_Distillation_for_Matching_Models_with_Real-Data_Supervision_No_GANs.md|Universal Inverse Distillation for Matching Models with Real-Data Supervision (No GANs) (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/Universal_Inverse_Distillation_for_Matching_Models_with_Real-Data_Supervision_No_GANs.pdf|PDF]]
+	- method groups: Generative / Diffusion / Flow, Systems / Efficiency / Compression
+	- methods: RealUID (Universal Inverse Distillation with Real Data)
+	- datasets: CIFAR-10, CelebA
 - [[analysis/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.md|When Priors Backfire: On the Vulnerability of Unlearnable Examples to Pretraining (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/When_Priors_Backfire_On_the_Vulnerability_of_Unlearnable_Examples_to_Pretraining.pdf|PDF]]
 	- topics: Safety / Alignment / Fairness / Privacy

@@ -10,6 +10,7 @@ aliases:
 - ShockCast
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/other_unclear
 core_operator: 引入一个神经CFL模型，从当前流场状态及其物理特征中预测自适应时间步大小，从而为神经求解器提供动态步长。
 primary_logic: 通过学习一个基于流场状态的Δₜ预测器，并使神经求解器以该步长为条件，能够使一阶训练目标的难度分布更加均匀，减少训练方差，提升在高速流中的稳定性和泛化能力。
@@ -32,7 +33,7 @@ paradigm: 通过学习一个基于流场状态的Δₜ预测器，并使神经�
 | 英文题名 | A Two-Phase Deep Learning Framework for Adaptive Time-Stepping in High-Speed Flow Modeling |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=d4gzLgGl7I) |
-| Topic | #topic/other_unclear |
+| Topic | #ICLR_2026 #topic/other_unclear |
 | Method | ShockCast |
 | Dataset | Circular Blast (evaluation split), Coal Dust Explosion (evaluation split), Coal Dust Explosion (evaluation split), Circular Blast (evaluation split) |
 

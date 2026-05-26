@@ -9,9 +9,10 @@ aliases:
 - NIWDG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
-core_operator: 初始噪声的空间结构（特别是低频成分）
+core_operator: 将采样引导蒸馏为低频结构化初始噪声的NoiseRefine提炼器。
 primary_logic: 通过学习将高斯噪声映射到富含结构化低频信息的“提炼噪声”，可以无需采样引导就生成高质量图像，同时保持扩散管线的完整性和广泛兼容性。
 claims:
 - 初始噪声与反转噪声的差异集中在低频部分，表明存在可学习的结构化映射
@@ -32,7 +33,7 @@ paradigm: 通过学习将高斯噪声映射到富含结构化低频信息的“�
 | 英文题名 | A Noise is Worth Diffusion Guidance |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=xEWooSOgaz) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | NoiseRefine |
 | Dataset | MS-COCO 2014 validation (30K prompts), MS-COCO 2014 validation, ImageNet (class-conditional, SiT-XL/2), MS-COCO validation (SDXL) |
 

@@ -11,6 +11,7 @@ aliases:
 - ℓ1LD-CTGR
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/representation_self_supervised_transfer
 - topic/representation_self_supervised_transfer/representation_learning
 core_operator: 将潜在距离从平方ℓ2距离替换为ℓ1距离，从而获得一个真正的度量空间，并使风险函数的积分成为闭式分段指数积分。
@@ -34,7 +35,7 @@ paradigm: ℓ1距离满足三角不等式，可作为有效的潜在度量；其
 | 英文题名 | $\ell_1$ Latent Distance based Continuous-time Graph Representation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=pW1Kg9CYyw) |
-| Topic | #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
+| Topic | #ICLR_2026 #topic/representation_self_supervised_transfer #topic/representation_self_supervised_transfer/representation_learning |
 | Method | ℓ1LD-CTGR |
 | Dataset | Synthetic-α, Synthetic-α, HyperText, Infectious |
 

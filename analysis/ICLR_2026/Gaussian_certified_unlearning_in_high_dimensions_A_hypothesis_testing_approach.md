@@ -9,6 +9,7 @@ aliases:
 - GCUHDHTA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning
 openreview_forum_id: 0FJYicpOj0
@@ -33,7 +34,7 @@ paradigm: 在高维环境中，高斯认证遗忘是自然的最优认证概念�
 | 英文题名 | Gaussian certified unlearning in high dimensions: A hypothesis testing approach |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0FJYicpOj0) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/privacy_preserving_statistics_and_machine_learning |
 | Method | 基于单步牛顿和高斯噪声的认证遗忘算法 |
 | Dataset | synthetic data with ridge logistic regression, IMDb (real-world high-dimensional text data), p=3161, n=1579 |
 

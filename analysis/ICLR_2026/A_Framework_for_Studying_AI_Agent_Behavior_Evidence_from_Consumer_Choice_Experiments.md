@@ -10,6 +10,7 @@ aliases:
 - ABXLAB
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/safety_alignment_fairness_privacy
 - topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability
 core_operator: 通过ABXLAB框架中的干预引擎（man-in-the-middle），在智能体观察网页内容之前实时修改选项属性（价格、评分）和注入心理暗示（权威、社会证明、稀缺性、负面框架、激励），从而系统性地探测这些因素对智能体决策的因果影响。
@@ -33,7 +34,7 @@ paradigm: LLM智能体即使不受人类认知约束（如有限理性、启发�
 | 英文题名 | A Framework for Studying AI Agent Behavior: Evidence from Consumer Choice Experiments |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=xAPoscV2Bw) |
-| Topic | #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
+| Topic | #ICLR_2026 #topic/safety_alignment_fairness_privacy #topic/safety_alignment_fairness_privacy/accountability_transparency_and_interpretability |
 | Method | ABXLAB |
 | Dataset | ABXLAB / OneStopMarket, ABXLAB / OneStopMarket, ABXLAB / OneStopMarket, ABXLAB / OneStopMarket |
 

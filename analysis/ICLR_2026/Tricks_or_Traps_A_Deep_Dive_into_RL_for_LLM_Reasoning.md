@@ -33,7 +33,7 @@ paradigm: 通过系统性分析和消融各种RL技术，发现仅需结合两�
 | 英文题名 | Tricks or Traps? A Deep Dive into RL for LLM Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=R0JM3BWP7W) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Lite PPO |
 | Dataset | MATH-500 (对齐模型, 简单数据), AMC23 (对齐模型, 简单数据), AMC23 (对齐模型, 困难数据), AIME25 (对齐模型, 困难数据) |
 

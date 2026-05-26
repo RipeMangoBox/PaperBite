@@ -9,6 +9,7 @@ aliases:
 - RFLAGS
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed
 core_operator: 采用平均梯度流(AGS)的服务器聚合取代局部参数平均，通过向量传输将所有局部梯度映射到全局切空间进行线性平均，保留了线性分析特性；同时引入逆概率加权和基于频率的概率估计，纠正了随机部分参与的偏差。
@@ -32,7 +33,7 @@ paradigm: 通过向量传输将各Agent的随机梯度“流”回溯到全局�
 | 英文题名 | Riemannian Federated Learning via Averaging Gradient Streams |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=oEtrDiFOFF) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/large_scale_parallel_and_distributed |
 | Method | RFedAGS |
 | Dataset | PCA (synthetic & CIFAR10), HSP (WordNet), FMC (PATHMNIST), LRMC (MovieLens 1M) |
 

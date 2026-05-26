@@ -33,7 +33,7 @@ paradigm: 构建覆盖四类记忆任务的统一基准MIKASA，包括MIKASA-Bas
 | 英文题名 | Memory, Benchmark & Robots: A Benchmark for Solving Complex Tasks with Reinforcement Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=9cLPurIZMj) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | MIKASA (Memory-Intensive Skills Assessment Suite for Agents) |
 | Dataset | MIKASA-Robo ShellGameTouch-v0 (sparse, RGB), MIKASA-Robo RememberColor3-v0 (sparse, RGB), MIKASA-Robo BunchOfColors7-v0 (sparse, RGB), Real-world RememberColor3-v0 (Task 3) |
 

@@ -4,7 +4,7 @@ type: paper-index
 dimension: dataset
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Dataset: WikiText-2
@@ -21,9 +21,13 @@ generated: 2026-05-23T23:39
 	- method groups: Optimization / Theory, Systems / Efficiency / Compression
 	- methods: LogART (Logarithmic Adaptive Rounding Techniques)
 	- datasets: WikiText-2, ImageNet
+- [[analysis/ICLR_2026/SERQ_Saliency-Aware_Low-Rank_Error_Reconstruction_for_LLM_Quantization.md|SERQ: Saliency-Aware Low-Rank Error Reconstruction for LLM Quantization (ICLR 2026)]]
+	- [[paperPDFs/ICLR_2026/SERQ_Saliency-Aware_Low-Rank_Error_Reconstruction_for_LLM_Quantization.pdf|PDF]]
+	- method groups: LLM / Reasoning / Alignment, Vision / Multimodal / 3D
+	- methods: SERQ
+	- datasets: WikiText-2, WikiText-2 vs. 旋转方法
 - [[analysis/ICLR_2026/ToolWeaver_Weaving_Collaborative_Semantics_for_Scalable_Tool_Use_in_Large_Language_Models.md|ToolWeaver: Weaving Collaborative Semantics for Scalable Tool Use in Large Language Models (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/ToolWeaver_Weaving_Collaborative_Semantics_for_Scalable_Tool_Use_in_Large_Language_Models.pdf|PDF]]
-	- topics: Iclr 2026
 	- method groups: Agent / RL / Planning
 	- methods: ToolWeaver
 	- datasets: ToolBench retrieval, ToolBench end-to-end, WikiText-2

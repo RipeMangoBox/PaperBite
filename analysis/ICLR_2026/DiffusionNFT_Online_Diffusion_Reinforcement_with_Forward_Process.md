@@ -10,6 +10,7 @@ aliases:
 - DiffusionNFT
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/diffusion_image_video
 openreview_forum_id: VJZ477R89F
@@ -34,7 +35,7 @@ paradigm: 在正向过程中通过对比正样本和负样本的隐式策略来�
 | 英文题名 | DiffusionNFT: Online Diffusion Reinforcement with Forward Process |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=VJZ477R89F) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/diffusion_image_video |
 | Method | Diffusion Negative-aware FineTuning (DiffusionNFT) |
 | Dataset | GenEval, GenEval (head‑to‑head single reward), OCR, PickScore |
 

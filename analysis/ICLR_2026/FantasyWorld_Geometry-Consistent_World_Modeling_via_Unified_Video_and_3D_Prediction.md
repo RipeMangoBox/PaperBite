@@ -32,7 +32,7 @@ paradigm: 复用冻结视频扩散模型并从中提取去噪后期语义丰富�
 | 英文题名 | FantasyWorld: Geometry-Consistent World Modeling via Unified Video and 3D Prediction |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=3q9vHEqsNx) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | FANTASYWORLD |
 | Dataset | WorldScore static (Small camera motion), WorldScore static (Small camera motion), WorldScore static (Small camera motion), WorldScore static (Large camera motion) |
 

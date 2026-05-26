@@ -9,6 +9,7 @@ aliases:
 - PixelVLA
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/robotics
 openreview_forum_id: 7M6ryCABIc
@@ -33,7 +34,7 @@ paradigm: 通过两阶段自动标注流水线从现有机架数据中生成包�
 | 英文题名 | PixelVLA: Advancing Pixel-level Understanding in Vision-Language-Action Model |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=7M6ryCABIc) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/robotics |
 | Method | PixelVLA |
 | Dataset | SimplerEnv - Google Robot (VM), SimplerEnv - Google Robot (VA), LIBERO (平均), SimplerEnv - WidowX |
 

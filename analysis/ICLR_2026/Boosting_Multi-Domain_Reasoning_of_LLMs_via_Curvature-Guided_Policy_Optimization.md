@@ -33,7 +33,7 @@ paradigm: 受牛顿法启发，通过随机化领域更新顺序可近似黑塞�
 | 英文题名 | Boosting Multi-Domain Reasoning of LLMs via Curvature-Guided Policy Optimization |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=R2EZtdHWJT) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Curvature-Guided Policy Optimization (CGPO) |
 | Dataset | Multi-domain (Math, Code, Science, Writing) – Qwen2.5-3B, Multi-domain (Math, Code, Science, Writing) – Qwen2.5-7B, Math+Code subset (Qwen2.5-7B), Math+Creative Writing subset (Qwen2.5-7B) |
 

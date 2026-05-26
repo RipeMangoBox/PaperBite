@@ -10,7 +10,14 @@ aliases:
 - ATLAS
 acceptance: accepted
 paradigm: 通过显式建模跨语言迁移（尤其是目标语言与最常共采样的3种语言之间的迁移），ATLAS能够显著提升对未见语言混合的泛化能力（R²(M)从0.70提升至0.82），且模型规模扩展比数据扩展更能有效缓解多语言诅咒。
+core_operator: ATLAS fits multilingual scaling laws with an effective data exposure term that separates target-language, transfer-language, and other-language contributions.
+primary_logic: It models repetition saturation and cross-language transfer weights, then uses the fitted law to predict multilingual loss, curse-of-multilinguality scaling, and pretraining versus fine-tuning tradeoffs.
+claims:
+- ATLAS improves generalization to unseen multilingual mixtures by explicitly modeling cross-language transfer.
+- The law uses saturation functions to capture diminishing returns from repeated language data.
+- Experiments across 774 training runs report higher R² than CSL and MSL in multilingual scaling settings.
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/language_speech_and_dialog
 ---
@@ -26,7 +33,7 @@ tags:
 | 英文题名 | ATLAS: Adaptive Transfer Scaling Laws for Multilingual Pretraining, Finetuning, and Decoding the Curse of Multilinguality |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=0BkvUY61MX) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/language_speech_and_dialog |
 | Method | ADAPTIVE TRANSFER SCALING LAW (ATLAS) |
 | Dataset | MADLAD-400 (多语言), MADLAD-400 (多语言), MADLAD-400 (多语言), MADLAD-400 (单语言) |
 

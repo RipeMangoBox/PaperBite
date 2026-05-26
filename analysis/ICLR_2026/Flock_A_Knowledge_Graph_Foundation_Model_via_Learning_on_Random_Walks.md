@@ -12,7 +12,16 @@ acceptance: accepted
 cited_by: 2
 code_url: "https://github.com/jw9730/flock"
 paradigm: Pretrain on 3 transductive KGs (FB15k-237, WN18RR, CoDEx Medium) with adversarial negative sampling, then zero-shot transfer or finetune on target KGs.
+core_operator: |
+  用无回溯随机游走、匿名化记录函数、双向GRU序列处理器和多头注意力共识协议替代确定性消息传递，从而实现概率性节点-关系等变。
+primary_logic: |
+  先从查询节点采样多条随机游走并匿名化节点与关系ID，再用序列处理器编码局部结构上下文，通过共识协议聚合回原KG节点和关系表示，最后依靠多次随机推理集成打破结构对称但保持分布意义上的等变性。
+claims:
+- FLOCK提出概率性节点-关系等变性，用推理时随机游走打破确定性等变模型的表达瓶颈。
+- FLOCK在PETALS诊断数据集上达到100%准确率，而ULTRA、TRIX、MOTIF基线为50%。
+- 在54个知识图谱的零样本实体预测和关系预测中，FLOCK的平均MRR分别达到0.391和0.881。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 ---
@@ -28,7 +37,7 @@ tags:
 | 英文题名 | Flock A Knowledge Graph Foundation Model via Learning on Random Walks |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=1cGOCIOKQd) / [code](https://github.com/jw9730/flock) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | 基于随机游走序列编码的概率性节点-关系等变模型 |
 | Dataset | 54 KGs, PETALS |
 
@@ -36,6 +45,10 @@ tags:
 > - FLOCK在PETALS诊断数据集上达到100%准确率，而所有基线方法（ULTRA、TRIX、MOTIF）仅达到50%。
 > - 在54个知识图谱的零样本实体预测中，FLOCK平均MRR达0.391，Hits@10达0.560，均超越SOTA。
 > - 在54个知识图谱的零样本关系预测中，FLOCK平均MRR达0.881，Hits@1达0.817，显著领先。
+
+## 概述
+
+FLOCK是一种基于随机游走学习的知识图谱基础模型。它针对确定性节点-关系等变模型难以区分结构同构但语义不同关系的问题，使用随机游走采样、匿名化记录、双向GRU序列编码和注意力共识聚合，在分布意义上保持等变性，同时通过推理时随机性打破对称。论文报告FLOCK在PETALS诊断数据集上达到100%准确率，并在54个知识图谱的零样本实体预测和关系预测中取得领先平均MRR。
 
 ## 背景与动机
 

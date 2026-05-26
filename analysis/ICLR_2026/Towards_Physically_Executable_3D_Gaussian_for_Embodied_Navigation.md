@@ -33,7 +33,7 @@ paradigm: 将高保真渲染（3DGS）与物理仿真（基于网格的碰撞体
 | 英文题名 | Towards Physically Executable 3D Gaussian for Embodied Navigation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=HB6KvsqcAn) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | SAGE-3D (Semantically and Physically Aligned Gaussian Environments for 3D Navigation) |
 | Dataset | SAGE-Bench VLN (高级指令), SAGE-Bench VLN (高级指令), VLN-CE R2R Val-Unseen, 环境渲染速度 (每帧耗时) |
 

@@ -10,6 +10,7 @@ aliases:
 - FlexHiNM-GP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/generative_theory
 openreview_forum_id: YaZraqRsbB
@@ -34,7 +35,7 @@ paradigm: "通过为每个层分配不同稀疏级别的三个区域（密集、
 | 英文题名 | FlexHiNM-GP: Flexible Hierarchical Pruning via Region Allocation and Channel Permutation |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=YaZraqRsbB) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_theory |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/generative_theory |
 | Method | FlexHiNM‑GP |
 | Dataset | QQP, SST‑2, SQuAD v1.1 |
 

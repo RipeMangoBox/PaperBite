@@ -10,6 +10,7 @@ aliases:
 - AGEFCD
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/classification_and_understanding
 core_operator: 将OCD重构为两个子任务：通过软类别置信阈值直接分类已知类别的开集识别，以及基于自适应高斯模型的流式聚类，利用Ledoit-Wolf稳健协方差估计和增量更新发现新类别。
@@ -33,7 +34,7 @@ paradigm: 采用多元高斯分布建模特征概率密度，并自适应扩展�
 | 英文题名 | Adaptive Gaussian Expansion for On-the-fly Category Discovery |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Y59JeAbM3j) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/classification_and_understanding |
 | Method | Adaptive Gaussian Expansion (AGE) |
 | Dataset | CIFAR-100, ImageNet-100, CUB-200, Herbarium19 |
 

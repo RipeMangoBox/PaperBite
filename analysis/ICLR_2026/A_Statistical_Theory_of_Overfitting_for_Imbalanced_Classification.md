@@ -10,6 +10,7 @@ aliases:
 - STOIC
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/learning_theory
 core_operator: 边际重平衡超参数τ（margin-rebalancing hyperparameter），通过调整少数类和多数类的边际权重来平衡两类错误率。
@@ -33,7 +34,7 @@ paradigm: "高维线性可分数据中，训练集logit分布收敛到截断高�
 | 英文题名 | A Statistical Theory of Overfitting for Imbalanced Classification |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=cKthi6QfUr) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/learning_theory |
 | Method | 边际重平衡SVM（Margin-Rebalanced SVM） |
 | Dataset | 2-GMM合成数据, 2-GMM合成数据, 2-GMM合成数据, IFNB单细胞RNA-seq |
 

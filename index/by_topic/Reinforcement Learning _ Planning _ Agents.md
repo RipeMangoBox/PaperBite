@@ -4,7 +4,7 @@ type: paper-index
 dimension: topic
 tags:
   - index
-generated: 2026-05-23T23:39
+generated: 2026-05-26T18:30
 ---
 
 # Topic: Reinforcement Learning / Planning / Agents
@@ -90,13 +90,13 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Agentic_Reinforcement_Learning_with_Implicit_Step_Rewards.md|Agentic Reinforcement Learning with Implicit Step Rewards (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Agentic_Reinforcement_Learning_with_Implicit_Step_Rewards.pdf|PDF]]
 	- topics: Reinforcement Learning / Planning / Agents
-	- method groups: Agent / RL / Planning
+	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
 	- methods: iStar (implicit step rewards for agentic RL)
 	- datasets: WebShop, VisualSokoban, SOTOPIA
 - [[analysis/ICLR_2026/AMPED_Adaptive_Multi-objective_Projection_for_balancing_Exploration_and_skill_Diversification.md|AMPED: Adaptive Multi-objective Projection for balancing Exploration and skill Diversification (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/AMPED_Adaptive_Multi-objective_Projection_for_balancing_Exploration_and_skill_Diversification.pdf|PDF]]
 	- topics: Reinforcement Learning / Planning / Agents
-	- method groups: Agent / RL / Planning
+	- method groups: Agent / RL / Planning, Representation / Self-Supervised / Transfer
 	- methods: AMPED (Adaptive Multi-objective Projection for balancing Exploration and skill Diversification)
 	- datasets: URLB
 - [[analysis/ICLR_2026/APPLE_Toward_General_Active_Perception_via_Reinforcement_Learning.md|APPLE: Toward General Active Perception via Reinforcement Learning (ICLR 2026)]]
@@ -192,7 +192,7 @@ generated: 2026-05-23T23:39
 - [[analysis/ICLR_2026/Test-Time_Alignment_for_Large_Language_Models_via_Textual_Model_Predictive_Control.md|Test-Time Alignment for Large Language Models via Textual Model Predictive Control (ICLR 2026)]]
 	- [[paperPDFs/ICLR_2026/Test-Time_Alignment_for_Large_Language_Models_via_Textual_Model_Predictive_Control.pdf|PDF]]
 	- topics: Reinforcement Learning / Planning / Agents
-	- method groups: Agent / RL / Planning, LLM / Reasoning / Alignment
+	- method groups: LLM / Reasoning / Alignment, Agent / RL / Planning
 	- methods: Textual Model Predictive Control (TMPC)
 	- datasets: WMT'24 Discourse-Level Literary Translation, MBPP Program Synthesis
 - [[analysis/ICLR_2026/Unsupervised_Learning_of_Efficient_Exploration_Pre-training_Adaptive_Policies_via_Self-Imposed_Goals.md|Unsupervised Learning of Efficient Exploration: Pre-training Adaptive Policies via Self-Imposed Goals (ICLR 2026)]]

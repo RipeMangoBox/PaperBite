@@ -32,7 +32,7 @@ paradigm: 化学反应的可靠推荐需要从预测转向推理，通过融合�
 | 英文题名 | From What to Why: A Multi-Agent System for Evidence-based Chemical Reaction Condition Reasoning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=Rh72R0VXPS) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | ChemMAS |
 | Dataset | Private Dataset, Private Dataset, Private Dataset, ChemCoTBench (OOD) |
 

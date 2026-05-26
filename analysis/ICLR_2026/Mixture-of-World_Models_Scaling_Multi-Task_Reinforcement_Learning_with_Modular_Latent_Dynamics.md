@@ -33,7 +33,7 @@ paradigm: 将世界模型分解为任务专用的视觉编码器、共享-专家
 | 英文题名 | Mixture-of-World Models: Scaling Multi-Task Reinforcement Learning with Modular Latent Dynamics |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=qUQARlAx5y) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | Mixture-of-World Models (MoW) |
 | Dataset | Atari 100K (26 games), Meta-World MT50, Meta-World MT50 |
 

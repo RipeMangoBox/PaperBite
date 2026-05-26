@@ -9,6 +9,7 @@ aliases:
 - VTONVTNBPTP
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/vision_models_multimodal
 openreview_forum_id: G0HcRB3s3N
@@ -33,7 +34,7 @@ paradigm: 连续3D表示学习是NeRF预训练发挥潜力的关键；将NeRF网
 | 英文题名 | To View Transform or Not to View Transform: NeRF-based Pre-training Perspective |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=G0HcRB3s3N) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/vision_models_multimodal |
 | Method | NeRP3D |
 | Dataset | nuScenes 3D目标检测, nuScenes 占据预测 (Occ3D), nuScenes HD地图构建, nuScenes 深度估计 |
 

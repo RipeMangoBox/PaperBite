@@ -10,7 +10,16 @@ aliases:
 - SLMMATIEL
 acceptance: accepted
 paradigm: 隐藏大小和MLP与注意力参数比与训练损失呈U形关系，存在内部最优值；GQA对损失的影响非连续且高度波动，因此通过局部搜索而非连续缩放律来调优。基于此，本文提出条件缩放律，将架构因素纳入Chinchilla框架，实现推理高效且准确的模型搜索。
+core_operator: |
+  将隐藏大小、MLP与注意力参数比和GQA等架构因素纳入Chinchilla缩放律，通过条件校准与局部搜索在损失约束下优化推理吞吐量。
+primary_logic: |
+  先训练不同规模和架构的小模型拟合基础Chinchilla最优损失，再用乘法或加法条件项刻画隐藏大小和MLP/attention参数比的U形损失影响，最后在损失阈值内搜索推理高效架构并对GQA做离散局部调优。
+claims:
+- 隐藏大小和MLP与注意力参数比与训练损失呈U形关系，存在内部最优架构配置。
+- GQA对损失的影响非连续且高度波动，因此本文采用枚举可行值和早停的局部搜索。
+- Panda-1B和Panda-3B在9个下游任务平均准确率上分别达到57.0和62.5，高于对应LLaMA-3.2基线。
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/algorithms
 ---
@@ -20,14 +29,14 @@ tags:
 > [!tip] 核心洞察
 > 隐藏大小和MLP与注意力参数比与训练损失呈U形关系，存在内部最优值；GQA对损失的影响非连续且高度波动，因此通过局部搜索而非连续缩放律来调优。基于此，本文提出条件缩放律，将架构因素纳入Chinchilla框架，实现推理高效且准确的模型搜索。
 
-| 字段      | 内容                                                                           |
-| ------- | ---------------------------------------------------------------------------- |
-| 中文题名    | 缩放律遇见模型架构：迈向推理高效的大语言模型                                                       |
-| 英文题名    | Scaling Laws Meet Model Architecture: Toward Inference-Efficient LLMs        |
-| 会议/期刊   | ICLR 2026 (accepted)                                                         |
-| Links   | [paper](https://openreview.net/forum?id=0TmVqOpBbK)                          |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
-| Method  | 条件缩放律（Conditional Scaling Law）                                               |
+| 字段 | 内容 |
+|------|------|
+| 中文题名 | 缩放律遇见模型架构：迈向推理高效的大语言模型 |
+| 英文题名 | Scaling Laws Meet Model Architecture: Toward Inference-Efficient LLMs |
+| 会议/期刊 | ICLR 2026 (accepted) |
+| Links | [paper](https://openreview.net/forum?id=0TmVqOpBbK) |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/algorithms |
+| Method | 条件缩放律（Conditional Scaling Law） |
 | Dataset | 9个下游任务平均准确率, 9个下游任务平均准确率, 推理吞吐量（A100, vLLM, 4k/1k）, 推理吞吐量（A100, vLLM, 4k/1k） |
 
 > [!tip] 效果简介
@@ -35,9 +44,11 @@ tags:
 > - 9个下游任务平均准确率 上，Avg. accuracy 为 62.5 (Panda-3B)，对比 61.9 (LLaMA-3.2-3B)，变化 +0.6%。
 > - 推理吞吐量（A100, vLLM, 4k/1k） 上，tokens/s 为 Surefire-1B > LLaMA-3.2-1B，对比 LLaMA-3.2-1B，变化 Surefire模型持续更高（具体值见图7）。
 
+## 概述
+
 本文提出**条件缩放律（Conditional Scaling Law）**，将架构因素（隐藏大小、MLP与注意力参数比、分组查询注意力）纳入Chinchilla缩放律框架，以同时优化训练损失和推理效率。现有缩放律仅关注训练损失，忽略了大规模部署LLM时的主导开销——推理成本。本文通过训练超过200个模型（参数规模从80M到3B，训练token从8B到100B），系统建模了架构因素对训练损失和推理吞吐量的影响。实验表明，在相同训练预算下，优化后的架构相比LLaMA-3.2实现了高达2.1%的准确率提升和42%的推理吞吐量提升。
 
-# 2. 背景与动机
+## 背景与动机
 
 现有缩放律（如Chinchilla scaling law, Hoffmann et al., 2022）仅考虑参数数量N和训练token数D，忽略了架构因素对推理效率的影响。然而，推理成本是大规模部署LLM时的主导开销。此外，架构因素（隐藏大小、MLP与注意力参数比、分组查询注意力）对推理效率和准确率的影响未被系统建模。
 
@@ -45,7 +56,7 @@ tags:
 
 本文的核心动机是：在固定参数预算下，通过调整隐藏大小d_model、MLP与注意力参数比r_mlp/attn和GQA值，同时优化推理吞吐量和训练损失。
 
-# 3. 核心创新
+## 核心创新
 
 本文的核心创新包括：
 
@@ -57,7 +68,7 @@ tags:
 
 4. **推理高效准确模型搜索框架**：在损失约束下最大化推理效率，得到最优d_model和r_mlp/attn，然后通过局部搜索优化GQA。
 
-# 4. 整体框架
+## 整体框架
 
 本文的整体框架包含以下步骤：
 
@@ -68,7 +79,7 @@ tags:
 
 Figure 1展示了推理吞吐量和缩放律预测的训练损失等高线，随隐藏大小和MLP与注意力参数比变化。Figure 2比较了Qwen2.5-1.5B和Qwen3-0.6B的推理吞吐量，说明架构因素的重要性。
 
-# 5. 核心模块与公式推导
+## 核心模块与公式推导
 
 ## 1 Chinchilla缩放律
 
@@ -112,7 +123,7 @@ $$\mathrm{Total-FLOPs} = n_{\mathrm{layers}} (2 d_{\mathrm{model}} d_q + 2 d_{\m
 
 $$\mathrm{Total-FLOPs} = 2 P_{\mathrm{non-emb}} + 2 n_{\mathrm{layers}} T d_q$$
 
-# 6. 实验与分析
+## 实验与分析
 
 ## 1 主要结果
 
@@ -159,7 +170,7 @@ Surefire-1B在H200 GPU上使用SGLang框架实现了46.9%的吞吐量提升。
 - 推理效率评估使用vLLM和SGLang框架，在相同硬件（NVIDIA A100 40GB或H200）上以相同输入/输出长度（4096/1024 tokens）进行，取5次运行平均值。
 - 下游任务评估采用零样本设置，使用lm-eval-harness框架，涵盖9个标准基准：ARC-Easy、ARC-Challenge、LAMBADA、HellaSwag、OpenBookQA、PIQA、SciQ、WinoGrande、CoQA。
 
-# 7. 方法谱系与知识库定位
+## 方法谱系与知识库定位
 
 本文的方法谱系定位如下：
 

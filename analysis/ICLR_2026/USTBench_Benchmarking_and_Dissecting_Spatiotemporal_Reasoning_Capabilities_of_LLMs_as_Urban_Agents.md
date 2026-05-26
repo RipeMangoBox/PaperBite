@@ -32,7 +32,7 @@ paradigm: 通用推理能力的强化并不总能迁移至城市时空推理；�
 | 英文题名 | USTBench: Benchmarking and Dissecting Spatiotemporal Reasoning Capabilities of LLMs as Urban Agents |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=ETzBStUFJy) |
-| Topic | #topic/iclr_2026 |
+| Topic | #ICLR_2026 |
 | Method | USTBench |
 | Dataset | Spatiotemporal Understanding (Overall), Spatiotemporal Understanding (Connectivity), Socio-economic Prediction |
 

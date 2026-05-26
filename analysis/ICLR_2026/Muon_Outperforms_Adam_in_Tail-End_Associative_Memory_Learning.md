@@ -9,14 +9,17 @@ aliases:
 - MOATEAML
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/optimization_theory_probabilistic
 - topic/optimization_theory_probabilistic/optimization_methods
 openreview_forum_id: twbMFL0DMp
-core_operator: Muon
-primary_logic: Muon
+core_operator: Muon updates associative-memory matrices with the orthogonal factor of the matrix gradient, removing singular-value magnitude bias.
+primary_logic: It applies spectral-normalized updates mainly to VO and FFN matrices, balancing high- and low-frequency fact directions in long-tail learning.
 claims:
-- Muon 通过谱归一化更新平衡高频与低频事实方向，使 VO 与 FFN 这类联想记忆矩阵在长尾学习中优于 Adam。
-paradigm: Muon
+- Muon’s gains concentrate in VO and FFN components that behave like linear associative memories.
+- Spectral normalization produces more isotropic weight spectra than Adam.
+- The note reports lower FineWeb validation loss and better tail-class accuracy than Adam.
+paradigm: Muon 将矩阵梯度替换为正交因子更新，削弱奇异值幅度差异带来的频率偏置；这一谱范数几何与 Transformer 的 VO/FFN 联想记忆结构匹配，因此更利于尾部事实学习。
 ---
 
 # Muon Outperforms Adam in Tail-End Associative Memory Learning
@@ -30,7 +33,7 @@ paradigm: Muon
 | 英文题名 | Muon Outperforms Adam in Tail-End Associative Memory Learning |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=twbMFL0DMp) |
-| Topic | #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
+| Topic | #ICLR_2026 #topic/optimization_theory_probabilistic #topic/optimization_theory_probabilistic/optimization_methods |
 | Method |  |
 | Dataset |  |
 

@@ -10,6 +10,7 @@ aliases:
 - RGSWDCFFCOSG
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/generative_models_diffusion
 - topic/generative_models_diffusion/graph_neural_networks
 openreview_forum_id: QYtmqCoilk
@@ -34,7 +35,7 @@ paradigm: 高负曲率是过挤压的充分但不必要条件；许多过挤压�
 | 英文题名 | Rethinking the Gold Standard: Why Discrete Curvature Fails to Fully Capture Over-squashing in GNNs? |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=QYtmqCoilk) |
-| Topic | #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
+| Topic | #ICLR_2026 #topic/generative_models_diffusion #topic/generative_models_diffusion/graph_neural_networks |
 | Method | Weighted Augmented Forman-3 Curvature (WAF3) |
 | Dataset | Cora (GCN, MOSR), Average over 21 datasets (GCN, MOSR), SDRF rewiring (Texas), GNRF end-to-end (Texas) |
 

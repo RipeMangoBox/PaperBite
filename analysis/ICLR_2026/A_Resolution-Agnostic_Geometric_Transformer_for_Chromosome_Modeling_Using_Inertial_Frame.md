@@ -10,6 +10,7 @@ aliases:
 - InertialGenome
 acceptance: accepted
 tags:
+- topic/iclr_2026
 - topic/vision_multimodal_applications
 - topic/vision_multimodal_applications/genetics_cell_biology_health_etc
 core_operator: 引入惯性框架（Inertial Frame）进行姿态规范化，并结合基于Nyström估计的几何感知位置编码（Geometry-aware Positional Encoding），使Transformer能够学习分辨率无关的鲁棒表示。
@@ -33,7 +34,7 @@ paradigm: 通过惯性框架将任意旋转/平移下的染色体坐标对齐到
 | 英文题名 | A Resolution-Agnostic Geometric Transformer for Chromosome Modeling Using Inertial Frame |
 | 会议/期刊 | ICLR 2026 (accepted) |
 | Links | [paper](https://openreview.net/forum?id=OwLl8Xi6JG) |
-| Topic | #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
+| Topic | #ICLR_2026 #topic/vision_multimodal_applications #topic/vision_multimodal_applications/genetics_cell_biology_health_etc |
 | Method | InertialGenome |
 | Dataset | Frontal cortex cell test set, Frontal cortex cell test set, B-Lymphocyte cell test set, B-Lymphocyte cell test set |
 
