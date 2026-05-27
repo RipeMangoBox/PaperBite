@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/icon/paperbite_icon.png" alt="PaperBite icon" width="180"/>
+  <img src="./assets/icon/paperbite_icon.png" alt="PaperBite icon" width="360"/>
 </p>
 
 <h1 align="center">PaperBite</h1>
