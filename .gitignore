@@ -15,3 +15,13 @@ paperPDFs/
 *.bz2
 *.gz
 *.DS_Store
+
+# === Obsidian local runtime state ===
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/.trash/
+.obsidian/plugins/
+.obsidian/snippets/
+.obsidian/graph.json
