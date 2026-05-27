@@ -7,72 +7,76 @@
 <p align="center"><strong>一口一篇论文 · Bite-sized paper notes</strong></p>
 
 <p align="center">
+  <a href="README.md">中文</a> |
+  <a href="README_EN.md">English</a>
+</p>
+
+<p align="center">
   <img alt="ResearchFlow derived" src="https://img.shields.io/badge/ResearchFlow-derived-1f6feb?style=flat-square"/>
   <img alt="Markdown vault" src="https://img.shields.io/badge/Markdown-evidence%20vault-0f766e?style=flat-square"/>
   <img alt="License CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC--BY--NC--4.0-111827?style=flat-square"/>
 </p>
 
-PaperBite keeps each paper compressed into a readable Markdown bite with source
-anchors, structured metadata, and links back to the original paper.
+PaperBite 是一个面向论文阅读与复用的公开证据仓库。它把每篇论文压缩成可读的 Markdown bite，并保留 source anchors、结构化元数据、原论文回链，以及配套生成的索引和清单，方便按仓库方式分发与增量同步。
 
-This repository is a lightweight local vault derived from
-[ResearchFlow](https://github.com/RipeMangoBox/ResearchFlow) outputs. The
-default checkout is text-first and keeps large binaries optional.
+默认 GitHub checkout 只分发文本层：`analysis/`、`index/` 和 `manifests/` 通过 Git 提供；`assets/` 与 `paperPDFs/` 属于可选大文件层，不随默认仓库一起提供，只能从仓库外部已经存在的目录、本地私有存储或独立媒体镜像同步进来。
 
-## Included by Default
+与 [ResearchFlow](https://github.com/RipeMangoBox/ResearchFlow) 的关系是分层协作：PaperBite 负责对外发布上游公开证据层，主要承载 `L0-L3` 论文资产；ResearchFlow 保留采集、解析、分析、检索和下游研究决策工作流。
 
-- `analysis/ICLR_2026/`: structured paper analysis notes in Obsidian-friendly Markdown.
-- `index/`: generated navigation and index pages.
-- `manifests/paperbite_manifest.jsonl`: one row per Markdown note with title, venue, year, acceptance, OpenReview id, and checksum.
-- `manifests/paperbite_summary.json`: repository-level summary.
+## 默认包含内容
 
-## Optional Layers
+- `analysis/ICLR_2026/`：Obsidian 友好的结构化论文分析笔记。
+- `index/`：生成的导航页与索引页。
+- `manifests/paperbite_manifest.jsonl`：每篇 Markdown 笔记一行，包含 title、venue、year、acceptance、OpenReview id 和 checksum。
+- `manifests/paperbite_summary.json`：仓库级摘要。
 
-- `assets/`: extracted figures and tables referenced by Markdown embeds.
-- `paperPDFs/`: source PDFs referenced by Markdown embeds.
+## 可选层
 
-These layers can be copied in when needed, but they are ignored by git by default so the repository stays small.
+- `assets/`：Markdown 嵌入引用的图表抽取结果。
+- `paperPDFs/`：Markdown 引用的源 PDF。
 
-## Incremental Sync
+这些大文件本地层不包含在 GitHub checkout 中。需要时请从仓库外部已有的本地目录、独立发布的媒体镜像，或你另行下载/再生成的目录同步进来。
 
-Use ResearchFlow as the source of truth. A safe sync updates only the text layers first:
+## 增量同步
+
+以 ResearchFlow 作为 source of truth。安全的同步顺序是先更新文本层：
 
 ```bash
 rsync -a --delete ../obsidian-vault/analysis/ ./analysis/
 rsync -a --delete ../obsidian-vault/index/ ./index/
 ```
 
-Then refresh manifests from the synced Markdown files. Keep `manifests/paperbite_manifest.jsonl` as the text-note manifest and add media manifests for optional payloads when publishing a larger snapshot:
+然后再根据同步后的 Markdown 刷新 manifests。保留 `manifests/paperbite_manifest.jsonl` 作为文本笔记清单；如果要发布更大的快照，再额外维护媒体清单：
 
-- `manifests/paperbite_assets_manifest.jsonl`: one row per exported figure or table under `assets/`, with path, size, checksum, and source note.
-- `manifests/paperbite_pdfs_manifest.jsonl`: one row per PDF under `paperPDFs/`, with path, size, checksum, source URL when available, and source note.
+- `manifests/paperbite_assets_manifest.jsonl`：`assets/` 下每个导出图表一行，记录 path、size、checksum 和 source note。
+- `manifests/paperbite_pdfs_manifest.jsonl`：`paperPDFs/` 下每个 PDF 一行，记录 path、size、checksum、可用时的 source URL，以及 source note。
 
-For local maintenance, sync optional media only for papers you plan to inspect visually:
+本地维护可选媒体层时，只从这个 Git checkout 之外已经存在的目录同步，例如私有 ResearchFlow vault 或单独下载/生成好的媒体镜像：
 
 ```bash
 rsync -a ../obsidian-vault/assets/ ./assets/
 rsync -a ../obsidian-vault/paperPDFs/ ./paperPDFs/
 ```
 
-For public user updates, keep Git as the lightweight text channel and publish large media through a stable media mirror keyed by the two media manifests. The mirror should preserve repository-relative paths, for example:
+对公共用户更新时，继续把 Git 作为轻量文本通道，把大媒体文件发布到由两份媒体 manifests 索引的稳定 mirror。mirror 应保留仓库相对路径，例如：
 
 ```text
 assets/figures/papers/<task_id>/...
 paperPDFs/<Venue_Year>/<Paper>.pdf
 ```
 
-Maintainer flow: generate the media manifests, compare path plus checksum against the previous published manifests, upload only new or changed paths, then publish the new manifests with the text update. User flow: pull Git for Markdown/index changes, compare local media files against the latest manifests, and download only missing or changed paths from the mirror. Do not commit large PDFs or extracted figure folders unless a release explicitly needs a bundled offline snapshot.
+维护者流程：生成媒体 manifests，按 path + checksum 与上一次发布版本比较，只上传新增或变更路径，再随文本更新一起发布新 manifests。用户流程：拉取 Git 获取 Markdown / index 更新，对照最新 manifests 检查本地媒体文件，只下载缺失或发生变化的路径。除非某次 release 明确需要离线完整快照，否则不要提交大 PDF 或抽取出的图表目录。
 
-## Current Snapshot
+## 当前快照
 
-- Venue slice: ICLR 2026
-- Paper count: see `manifests/paperbite_summary.json`
-- Default format: Markdown plus generated indexes
-- Optional media: figures/tables and PDFs
+- Venue slice：ICLR 2026
+- Paper count：见 `manifests/paperbite_summary.json`
+- Default format：Markdown + generated indexes
+- Optional media：figures / tables + PDFs
 
-## Citation
+## 引用
 
-If PaperBite helps your research, please cite the repository directly:
+如果 PaperBite 对你的研究有帮助，请直接引用本仓库：
 
 ```bibtex
 @misc{lin2026paperbite,
@@ -84,15 +88,8 @@ If PaperBite helps your research, please cite the repository directly:
 }
 ```
 
-## License
+## 许可
 
-PaperBite is a knowledge-content repository, not a software framework. Its
-original Markdown notes, generated indexes, manifests, prompts, repository
-documentation, and other text artifacts are licensed under
-[Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md).
+PaperBite 是知识内容仓库，不是软件框架。仓库中的原创 Markdown 笔记、生成索引、manifests、prompts、仓库文档及其他文本产物采用 [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md) 许可。
 
-The upstream ResearchFlow software remains MIT licensed. This split is
-intentional: ResearchFlow is the reusable workflow and tooling layer, while
-PaperBite is a generated evidence vault. Paper PDFs, paper figures, publisher
-content, OpenReview metadata, and other third-party materials are not relicensed
-by this repository.
+上游 ResearchFlow 软件本身仍使用 MIT 许可。这样的划分是刻意的：ResearchFlow 是可复用的工作流与工具层，PaperBite 是公开发布的证据与解析论文资产层。论文 PDF、论文图像、出版社内容、OpenReview 元数据及其他第三方材料并未被本仓库重新授权。
