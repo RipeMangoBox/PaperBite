@@ -19,10 +19,11 @@ PaperBite 的公开证据层（Markdown 分析笔记、图表、索引、manifes
 git clone https://github.com/RipeMangoBox/BITE.git
 cd BITE
 
-# 从 HuggingFace 增量同步 PaperBite 资产
+# 按需从 HuggingFace 同步
 pip install huggingface_hub
-python scripts/sync_assets_from_hf.py --dry-run   # 检查需要下载的内容
-python scripts/sync_assets_from_hf.py              # 增量下载并解压
+python scripts/sync_assets_from_hf.py --mode text    # 只下载分析笔记（~43 MB）
+python scripts/sync_assets_from_hf.py --mode assets  # 只下载图表（~1.8 GB）
+python scripts/sync_assets_from_hf.py                # 下载全部
 ```
 
 ### 了解更多

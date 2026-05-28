@@ -19,10 +19,11 @@ PaperBite's public evidence layer (Markdown analysis notes, figures, indexes, ma
 git clone https://github.com/RipeMangoBox/BITE.git
 cd BITE
 
-# Incrementally sync PaperBite assets from HuggingFace
+# Sync from HuggingFace by layer
 pip install huggingface_hub
-python scripts/sync_assets_from_hf.py --dry-run   # check what needs downloading
-python scripts/sync_assets_from_hf.py              # incrementally download and extract
+python scripts/sync_assets_from_hf.py --mode text    # analysis notes only (~43 MB)
+python scripts/sync_assets_from_hf.py --mode assets  # figures only (~1.8 GB)
+python scripts/sync_assets_from_hf.py                # everything
 ```
 
 ### Learn More
