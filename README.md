@@ -90,6 +90,4 @@ paperPDFs/<Venue_Year>/<Paper>.pdf
 
 ## 许可
 
-PaperBite 是知识内容仓库，不是软件框架。仓库中的原创 Markdown 笔记、生成索引、manifests、prompts、仓库文档及其他文本产物采用 [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md) 许可。
-
-上游 ResearchFlow 软件本身仍使用 MIT 许可。这样的划分是刻意的：ResearchFlow 是可复用的工作流与工具层，PaperBite 是公开发布的证据与解析论文资产层。论文 PDF、论文图像、出版社内容、OpenReview 元数据及其他第三方材料并未被本仓库重新授权。
+[Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md)

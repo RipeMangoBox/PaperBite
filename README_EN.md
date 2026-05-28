@@ -90,6 +90,4 @@ If PaperBite helps your research, please cite the repository directly:
 
 ## License
 
-PaperBite is a knowledge-content repository, not a software framework. Its original Markdown notes, generated indexes, manifests, prompts, repository documentation, and other text artifacts are licensed under [Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md).
-
-The upstream ResearchFlow software remains MIT licensed. This split is intentional: ResearchFlow is the reusable workflow and tooling layer, while PaperBite is the public evidence and parsed paper asset layer. Paper PDFs, paper figures, publisher content, OpenReview metadata, and other third-party materials are not relicensed by this repository.
+[Creative Commons Attribution-NonCommercial 4.0 International](LICENSE.md).
