@@ -21,7 +21,8 @@ cd BITE
 
 # 从 HuggingFace 增量同步 PaperBite 资产
 pip install huggingface_hub
-python scripts/sync_assets_from_hf.py --local-dir .
+python scripts/sync_assets_from_hf.py --dry-run   # 检查需要下载的内容
+python scripts/sync_assets_from_hf.py              # 增量下载并解压
 ```
 
 ### 了解更多

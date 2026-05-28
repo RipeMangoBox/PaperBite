@@ -21,7 +21,8 @@ cd BITE
 
 # Incrementally sync PaperBite assets from HuggingFace
 pip install huggingface_hub
-python scripts/sync_assets_from_hf.py --local-dir .
+python scripts/sync_assets_from_hf.py --dry-run   # check what needs downloading
+python scripts/sync_assets_from_hf.py              # incrementally download and extract
 ```
 
 ### Learn More
